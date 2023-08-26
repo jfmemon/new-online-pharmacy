@@ -1,8 +1,29 @@
 // import { Outlet } from "react-router-dom";
 
+import { useContext } from 'react';
 import { FaHandHoldingMedical } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
+import { AuthContext } from '../../../Context/AuthProvider';
+import Swal from 'sweetalert2';
 const Header = () => {
+    const { user, logOut } = useContext(AuthContext);
+
+    const handleLogout = () => {
+        logOut()
+            .then(() => {
+                Swal.fire({
+                    title: 'Logout successful..!',
+                    showClass: {
+                        popup: 'animate__animated animate__fadeInDown'
+                    },
+                    hideClass: {
+                        popup: 'animate__animated animate__fadeOutUp'
+                    }
+                })
+            })
+            .catch(error => console.log(error))
+    }
+
     return (
         <div className="navbar fixed top-0 left-0 z-20" style={{ backgroundColor: "#76D7C4" }}>
             <div className="navbar-start w-1/3">
@@ -23,7 +44,14 @@ const Header = () => {
             </div>
             <div className="navbar-end w-1/3">
                 <span className='text-white mx-2 btn btn-ghost p-3' title='Upload prescription'><ion-icon name="cloud-upload" size="small"></ion-icon></span>
-                <Link to="/login"><span className='text-white mx-2 btn btn-ghost p-3' title='Login/Sign Up'><ion-icon name="person" size="small"></ion-icon></span></Link>
+                {
+                    user ?
+                        <><span className='text-white mx-2 btn btn-ghost p-3' title='Logout' onClick={handleLogout}><ion-icon name="log-out" size="small"></ion-icon></span>
+                        </> :
+                        <>
+                            <Link to="/login"><span className='text-white mx-2 btn btn-ghost p-3' title='Login/Sign Up'><ion-icon name="person" size="small"></ion-icon></span></Link>
+                        </>
+                }
                 <div className="dropdown dropdown-end flex justify-center">
                     <label tabIndex={0} className="btn btn-ghost mr-5 text-white" title='See cart list'>
                         <div className="indicator">

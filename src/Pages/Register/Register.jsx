@@ -1,30 +1,33 @@
-// import { useContext } from "react";
 import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
-// import { AuthContext } from "../../Context/AuthProvider";
 import { useForm } from "react-hook-form";
+import { useContext } from "react";
+import { AuthContext } from "../../Context/AuthProvider";
+import Swal from "sweetalert2";
 
 const Register = () => {
-    const { register, handleSubmit, formState: { errors } } = useForm();
+    const { createUser } = useContext(AuthContext);
+    const { register, handleSubmit, reset, formState: { errors } } = useForm();
     const onSubmit = (data) => {
         console.log(data);
+        createUser(data.email, data.password)
+            .then((result) => {
+                const newUser = result.user;
+                console.log(newUser);
+                Swal.fire({
+                    title: 'Registration successful..!',
+                    showClass: {
+                        popup: 'animate__animated animate__fadeInDown'
+                    },
+                    hideClass: {
+                        popup: 'animate__animated animate__fadeOutUp'
+                    }
+                })
+            })
+            .catch(error => console.log(error))
+
+        reset();
     }
-
-    // const { createUser } = useContext(AuthContext);
-
-    // const handleRegistration = (event) => {
-    //     event.preventDefault();
-    //     const form = event.target;
-    //     const name = form.name.value;
-    //     const email = form.email.value;
-    //     const phoneNumber = form.phone.value;
-    //     const presentAddress = form.address.value;
-    //     const password = form.password.value;
-    //     console.log(name, email, phoneNumber, presentAddress, password);
-    //     form.reset();
-    //     createUser(email, password)
-    //         .then()
-    // }
 
     return (
         <div className="mt-16">
@@ -34,7 +37,7 @@ const Register = () => {
             <div className="hero bg-base-200">
                 <div className="hero-content flex-col">
                     <div className="text-center lg:text-center">
-                        <h1 className="text-4xl font-bold py-4">Registration!</h1>
+                        <h1 className="text-4xl font-bold py-4">Registration first!</h1>
                     </div>
                     <div className="card flex-shrink-0 md:w-96 shadow-2xl bg-base-100">
                         <form className="card-body" onSubmit={handleSubmit(onSubmit)}>
@@ -85,7 +88,7 @@ const Register = () => {
                                 </label>
                             </div>
                             <div className="form-control mt-6">
-                                <button className="btn text-white" style={{ backgroundColor: "#76D7C4" }}>Register</button>
+                                <input type="submit" value="Register" className="btn text-white" style={{ backgroundColor: "#76D7C4" }} />
                             </div>
                         </form>
                     </div>
