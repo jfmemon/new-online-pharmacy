@@ -10,7 +10,7 @@ const Login = () => {
             <div className="hero bg-base-200">
                 <div className="hero-content flex-col my-10">
                     <div className="text-center lg:text-center">
-                        <h1 className="text-4xl font-bold py-4">Login now!</h1>
+                        <h1 className="text-4xl font-bold py-4">Login!</h1>
                     </div>
                     <div className="card flex-shrink-0 md:w-96 shadow-2xl bg-base-100">
                         <div className="card-body">
@@ -18,13 +18,13 @@ const Login = () => {
                                 <label className="label">
                                     <span className="label-text">Email</span>
                                 </label>
-                                <input type="text" placeholder="email" className="input input-bordered" />
+                                <input type="email" placeholder="Eg: john@gmail.com" className="input input-bordered" />
                             </div>
                             <div className="form-control">
                                 <label className="label">
                                     <span className="label-text">Password</span>
                                 </label>
-                                <input type="text" placeholder="password" className="input input-bordered" />
+                                <input type="password" placeholder="password" className="input input-bordered" />
                                 <label className="label">
                                     <small className="label-text-alt">New to SHEFA? Please <Link to='/register' className="text-orange-400 font-semibold">Register</Link> first.</small>
                                 </label>

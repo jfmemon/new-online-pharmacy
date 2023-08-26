@@ -46,36 +46,3 @@ const Header = () => {
     );
 }
 export default Header;
-
-
-{/* <div className="shadow-md w-full fixed top-0 left-0">
-            <div className="md:flex justify-between py-4 px-7 md:px-10 items-center" style={{ backgroundColor: "#76D7C4" }}>
-                <div className='flex font-bold items-center text-2xl cursor-pointer text-white'>
-                    <span className='mr-1'><FaHandHoldingMedical></FaHandHoldingMedical></span>
-                    Shefa
-                </div>
-                <div className='flex items-center text-white'>
-                    <ion-icon name="location"></ion-icon>
-                    Deliver to<span className='font-bold ml-1'>Bangladesh</span>
-                </div>
-                <div className='text-white text-xl absolute right-7 top-5 md:hidden'>
-                    <span className='cursor-pointer'><ion-icon name="menu"></ion-icon></span>
-                </div>
-                <div className='flex items-center border bg-white mt-4 md:mt-0'>
-                    <input type="text" placeholder='Search health products' className='w-96 border-none px-2 focus:outline-gray-200 text-gray-500' />
-                    <span className='md:px-3 pl-8 cursor-pointer text-gray-500'><ion-icon name="search"></ion-icon></span>
-                </div>
-                <div className='text-white font-semibold cursor-pointer'>
-                    <span className='text-white'><ion-icon name="document"></ion-icon></span>
-                    Upload prescription
-                </div>
-                <div className='flex items-center text-white font-semibold cursor-pointer'>
-                    <span className='text-white text-xl font-bold'><ion-icon name="cart">
-                    </ion-icon></span>
-                    Cart
-                </div>
-                <div className='text-white font-semibold flex items-center'>
-                    <button>Login</button>
-                </div>
-            </div>
-        </div> */}
