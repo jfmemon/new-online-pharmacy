@@ -1,6 +1,6 @@
 module.exports = {
   root: true,
-  env: { 
+  env: {
     browser: true,
     es2020: true,
     node: true
@@ -14,11 +14,12 @@ module.exports = {
   ignorePatterns: ['dist', '.eslintrc.cjs'],
   parserOptions: { ecmaVersion: 'latest', sourceType: 'module' },
   settings: { react: { version: '18.2' } },
-  plugins: ['react-refresh'],
+  plugins: ['react', 'react-refresh', 'react-hooks'],
   rules: {
     'react-refresh/only-export-components': [
       'warn',
-      { allowConstantExport: true },
+      { allowConstantExport: true, 'react/prop-types': ['off'] },
+
     ],
   },
 }

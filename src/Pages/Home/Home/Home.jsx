@@ -1,4 +1,5 @@
 import { Helmet } from "react-helmet-async";
+import Carousel from '../Carousel/Carousel';
 
 const Home = () => {
     return (
@@ -6,7 +7,7 @@ const Home = () => {
             <Helmet>
                 <title>SHEFA</title>
             </Helmet>
-            <h3>This is home.</h3>
+            <Carousel></Carousel>
         </div>
     );
 };

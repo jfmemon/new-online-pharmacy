@@ -1,33 +1,40 @@
 import { Helmet } from "react-helmet-async";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useForm } from "react-hook-form";
 import { useContext } from "react";
 import { AuthContext } from "../../Context/AuthProvider";
 import Swal from "sweetalert2";
 
 const Register = () => {
-    const { createUser } = useContext(AuthContext);
+    const { createUser, updateUserProfile } = useContext(AuthContext);
     const { register, handleSubmit, reset, formState: { errors } } = useForm();
-    const onSubmit = (data) => {
-        console.log(data);
-        createUser(data.email, data.password)
-            .then((result) => {
-                const newUser = result.user;
-                console.log(newUser);
-                Swal.fire({
-                    title: 'Registration successful..!',
-                    showClass: {
-                        popup: 'animate__animated animate__fadeInDown'
-                    },
-                    hideClass: {
-                        popup: 'animate__animated animate__fadeOutUp'
-                    }
-                })
-            })
-            .catch(error => console.log(error))
+    const navigate = useNavigate();
 
-        reset();
-    }
+    const onSubmit = async (data) => {
+        console.log(data);
+        try {
+            const result = await createUser(data.email, data.password);
+            const newUser = result.user;
+
+            await updateUserProfile(data.name, data.photoURL);
+            console.log('New user created done.');
+            reset();
+
+            Swal.fire({
+                title: 'Registration successful..!',
+                showClass: {
+                    popup: 'animate__animated animate__fadeInDown'
+                },
+                hideClass: {
+                    popup: 'animate__animated animate__fadeOutUp'
+                }
+            });
+            navigate('/');
+        } catch (error) {
+            console.error(error);
+        }
+    };
+
 
     return (
         <div className="mt-16">
@@ -45,35 +52,42 @@ const Register = () => {
                                 <label className="label">
                                     <span className="label-text">Name</span>
                                 </label>
-                                <input name="name" {...register("name", { required: true })} type="text" placeholder="Eg: John Wick" className="input input-bordered" />
+                                <input {...register("name", { required: true })} type="text" placeholder="Eg: John Wick" className="input input-bordered" />
                                 {errors.name && <span className="text-red-500">*This field is required</span>}
+                            </div>
+                            <div className="form-control">
+                                <label className="label">
+                                    <span className="label-text">Photo URL</span>
+                                </label>
+                                <input {...register("photoURL", { required: true })} type="text" placeholder="Eg: photoURL.com" className="input input-bordered" />
+                                {errors.photoURL && <span className="text-red-500">*This field is required</span>}
                             </div>
                             <div className="form-control">
                                 <label className="label">
                                     <span className="label-text">Email</span>
                                 </label>
-                                <input name="email" {...register("email", { required: true })} type="email" placeholder="Eg: john@gmail.com" className="input input-bordered" />
+                                <input {...register("email", { required: true })} type="email" placeholder="Eg: john@gmail.com" className="input input-bordered" />
                                 {errors.email && <span className="text-red-500">*This field is required</span>}
                             </div>
                             <div className="form-control">
                                 <label className="label">
                                     <span className="label-text">Phone number</span>
                                 </label>
-                                <input name="phone" {...register("phone", { required: true })} type="number" placeholder="+880" className="input input-bordered" />
-                                {errors.phone && <span className="text-red-500">*This field is required</span>}
+                                <input {...register("phoneNumber", { required: true })} type="number" placeholder="+880" className="input input-bordered" />
+                                {errors.phoneNumber && <span className="text-red-500">*This field is required</span>}
                             </div>
                             <div className="form-control">
                                 <label className="label">
                                     <span className="label-text">Present address</span>
                                 </label>
-                                <input name="address" {...register("address", { required: true })} type="text" placeholder="Eg: New York, USA" className="input input-bordered" />
+                                <input {...register("address", { required: true })} type="text" placeholder="Eg: New York, USA" className="input input-bordered" />
                                 {errors.address && <span className="text-red-500">*This field is required</span>}
                             </div>
                             <div className="form-control">
                                 <label className="label">
                                     <span className="label-text">Password</span>
                                 </label>
-                                <input name="password" {...register("password", {
+                                <input {...register("password", {
                                     required: true,
                                     minLength: 8,
                                     maxLength: 20,
