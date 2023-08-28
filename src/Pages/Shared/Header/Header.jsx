@@ -1,10 +1,21 @@
-import { useContext } from 'react';
+import { useContext, useState } from 'react';
 import { FaHandHoldingMedical } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
+import { Link, useSearchParams } from 'react-router-dom';
 import { AuthContext } from '../../../Context/AuthProvider';
 import Swal from 'sweetalert2';
+
+import img1 from '../../../assets/Category-logos/shopByCondition.png';
+import img2 from '../../../assets/Category-logos/sexualWellness.png';
+import img3 from '../../../assets/Category-logos/birthControl.png';
+import img4 from '../../../assets/Category-logos/vitaminsSupplement.png';
+import img5 from '../../../assets/Category-logos/medicalDevice.png';
+import img6 from '../../../assets/Category-logos/personalCare.png';
+import img7 from '../../../assets/Category-logos/healthAndWellness.png';
+import img8 from '../../../assets/Category-logos/babyCare.png';
+
 const Header = () => {
     const { user, logOut } = useContext(AuthContext);
+    const [open, setOpen] = useState(false);
 
     const handleLogout = () => {
         logOut()
@@ -32,14 +43,23 @@ const Header = () => {
         <div className="navbar fixed top-0 left-0 z-20" style={{ backgroundColor: "#76D7C4" }}>
             <div className="navbar-start w-1/3">
                 <div className="dropdown">
-                    <label tabIndex={0} htmlFor="my-drawer" className="btn btn-ghost btn-square">
+                    <label tabIndex={0} className="btn btn-ghost btn-square" onClick={() => setOpen(!open)}>
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-white font-bold" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
                     </label>
-                    <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                        <li><a>Homepage</a></li>
-                        <li><a>Portfolio</a></li>
-                        <li><a>About</a></li>
-                    </ul>
+                    {
+                        open && (
+                            <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 w-52 gap-3">
+                                <li><Link><img className='w-5' src={img1} alt="Shop by condition" /> Shop by condition</Link></li>
+                                <li><Link><img className='w-5' src={img2} alt="Sexual wellness" /> Sexual wellness</Link></li>
+                                <li><Link><img className='w-5' src={img3} alt="Birth control" /> Birth control</Link></li>
+                                <li><Link><img className='w-5' src={img4} alt="Vitamins and supplements" /> Vitamins and supplements</Link></li>
+                                <li><Link><img className='w-5' src={img5} alt="Medical devices" /> Medical devices</Link></li>
+                                <li><Link><img className='w-5' src={img6} alt="Personal care" /> Personal care</Link></li>
+                                <li><Link><img className='w-5' src={img7} alt="Health and wellness" /> Health and wellness</Link></li>
+                                <li><Link><img className='w-5' src={img8} alt="Baby care" /> Baby care</Link></li>
+                            </ul>
+                        )
+                    }
                 </div>
                 <Link to='/' className="btn btn-ghost pl-0 md:px-5 normal-case text-xl text-white font-bold"><FaHandHoldingMedical></FaHandHoldingMedical> SHEFA</Link>
             </div>
