@@ -31,7 +31,11 @@ const Register = () => {
             });
             navigate('/');
         } catch (error) {
-            console.error(error);
+            Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: `${error}`
+            })
         }
     };
 

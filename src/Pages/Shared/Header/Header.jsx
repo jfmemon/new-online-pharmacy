@@ -19,7 +19,13 @@ const Header = () => {
                     }
                 })
             })
-            .catch(error => console.log(error))
+            .catch(error => {
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: `${error}`
+                })
+            })
     }
 
     return (
