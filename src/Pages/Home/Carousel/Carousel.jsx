@@ -40,7 +40,7 @@ const Carousel = () => {
                     clickable: true,
                 }}
                 modules={[EffectCoverflow, Pagination, Navigation]}
-                className='container my-24 flex flex-col'
+                className='md:container my-24 flex flex-col'
                 breakpoints={{
                     0: {
                         spaceBetween: 50,
