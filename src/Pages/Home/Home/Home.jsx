@@ -3,7 +3,7 @@ import Carousel from '../Carousel/Carousel';
 
 const Home = () => {
     return (
-        <div className="mt-16 w-full">
+        <div className="w-full">
             <Helmet>
                 <title>SHEFA</title>
             </Helmet>

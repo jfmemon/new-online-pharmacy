@@ -70,8 +70,8 @@ const Carousel = () => {
                     <div className="overlay">
                         <img className='w-full h-96 rounded-lg' src={img1} alt="slide_image" />
                         <div className="content">
-                            <h3 className='text-3xl font-bold text-white mb-12 uppercase'>Shop By Category</h3>
-                            <Link to='/prescription' className='btn btn-outline btn-warning uppercase'>See more</Link>
+                            <h3 className='text-3xl font-bold text-white mb-12 uppercase'>Shop By Condition</h3>
+                            <Link to='/shopByCondition' className='btn btn-outline btn-warning uppercase'>See more</Link>
                         </div>
                     </div>
                 </SwiperSlide>
@@ -80,7 +80,7 @@ const Carousel = () => {
                         <img className='w-full h-96 rounded-lg' src={img2} alt="slide_image" />
                         <div className="content">
                             <h3 className='text-3xl font-bold text-white mb-12 uppercase'>Sexual Wellness</h3>
-                            <Link to='/prescription' className='btn btn-outline btn-warning uppercase'>See more</Link>
+                            <Link to='/sexualWellness' className='btn btn-outline btn-warning uppercase'>See more</Link>
                         </div>
                     </div>
                 </SwiperSlide>
@@ -89,7 +89,7 @@ const Carousel = () => {
                         <img className='w-full h-96 rounded-lg' src={img3} alt="slide_image" />
                         <div className="content">
                             <h3 className='text-3xl font-bold text-white mb-12 uppercase'>Birth Control</h3>
-                            <Link to='/prescription' className='btn btn-outline btn-warning uppercase'>See more</Link>
+                            <Link to='/birthControl' className='btn btn-outline btn-warning uppercase'>See more</Link>
                         </div>
                     </div>
                 </SwiperSlide>
@@ -98,7 +98,7 @@ const Carousel = () => {
                         <img className='w-full h-96 rounded-lg' src={img4} alt="slide_image" />
                         <div className="content">
                             <h3 className='text-3xl font-bold text-white mb-12 uppercase'>Vitamins and supplements</h3>
-                            <Link to='/prescription' className='btn btn-outline btn-warning uppercase'>See more</Link>
+                            <Link to='/vitaminsAndSupplements' className='btn btn-outline btn-warning uppercase'>See more</Link>
                         </div>
                     </div>
                 </SwiperSlide>
@@ -107,7 +107,7 @@ const Carousel = () => {
                         <img className='w-full h-96 rounded-lg' src={img5} alt="slide_image" />
                         <div className="content">
                             <h3 className='text-3xl font-bold text-white mb-12 uppercase'>Medical devices</h3>
-                            <Link to='/prescription' className='btn btn-outline btn-warning uppercase'>See more</Link>
+                            <Link to='/medicalDevices' className='btn btn-outline btn-warning uppercase'>See more</Link>
                         </div>
                     </div>
                 </SwiperSlide>
@@ -116,7 +116,7 @@ const Carousel = () => {
                         <img className='w-full h-96 rounded-lg' src={img6} alt="slide_image" />
                         <div className="content">
                             <h3 className='text-3xl font-bold text-white mb-12 uppercase'>Personal care</h3>
-                            <Link to='/prescription' className='btn btn-outline btn-warning uppercase'>See more</Link>
+                            <Link to='/personalCare' className='btn btn-outline btn-warning uppercase'>See more</Link>
                         </div>
                     </div>
                 </SwiperSlide>
@@ -125,7 +125,7 @@ const Carousel = () => {
                         <img className='w-full h-96 rounded-lg' src={img7} alt="slide_image" />
                         <div className="content">
                             <h3 className='text-3xl font-bold text-white mb-12 uppercase'>Health and wellness</h3>
-                            <Link to='/prescription' className='btn btn-outline btn-warning uppercase'>See more</Link>
+                            <Link to='/healthAndWellness' className='btn btn-outline btn-warning uppercase'>See more</Link>
                         </div>
                     </div>
                 </SwiperSlide>
@@ -134,7 +134,7 @@ const Carousel = () => {
                         <img className='w-full h-96 rounded-lg' src={img8} alt="slide_image" />
                         <div className="content">
                             <h3 className='text-3xl font-bold text-white mb-12 uppercase'>Baby care</h3>
-                            <Link to='/prescription' className='btn btn-outline btn-warning uppercase'>See more</Link>
+                            <Link to='/babyCare' className='btn btn-outline btn-warning uppercase'>See more</Link>
                         </div>
                     </div>
                 </SwiperSlide>
