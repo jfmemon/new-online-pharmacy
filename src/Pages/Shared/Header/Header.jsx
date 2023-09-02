@@ -65,7 +65,12 @@ const Header = () => {
                 <Link to='/' className="btn btn-ghost pl-0 md:px-5 normal-case text-xl text-white font-bold"><FaHandHoldingMedical></FaHandHoldingMedical> SHEFA</Link>
             </div>
             <div className="navbar-center invisible md:visible w-1/3">
-                <input type="text" placeholder="Search for health products" className="input input-sm input-bordered w-full md:w-96 " />
+                <div className='relative'>
+                    <input type="text" placeholder="Search for health products" className="input input-sm input-bordered w-full md:w-96 rounded-none" />
+                    <div className='absolute right-0 top-1 px-2 py-1 bg-white mr-1'>
+                        <Link to='/' className='flex items-center text-cyan-500'><ion-icon name="search"></ion-icon></Link>
+                    </div>
+                </div>
             </div>
             <div className="navbar-end w-1/3 md:gap-5">
                 <Link to='/prescription'><span className='text-white mx-2 btn btn-ghost p-3' title='Upload prescription'><ion-icon name="cloud-upload" size="small"></ion-icon></span></Link>
