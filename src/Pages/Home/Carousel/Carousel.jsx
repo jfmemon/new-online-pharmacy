@@ -9,6 +9,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/navigation';
+import '../../../index.css';
 
 import img1 from '../../../assets/Carousel-images/shopByCategory.jpg';
 import img2 from '../../../assets/Carousel-images/sexualWellness.jpg';
@@ -18,6 +19,7 @@ import img5 from '../../../assets/Carousel-images/medicalDevice.jpg';
 import img6 from '../../../assets/Carousel-images/personalCare.jpg';
 import img7 from '../../../assets/Carousel-images/healthAndWellness.jpg';
 import img8 from '../../../assets/Carousel-images/babyCare.jpg';
+import { Link } from 'react-router-dom';
 
 const Carousel = () => {
     return (
@@ -65,28 +67,76 @@ const Carousel = () => {
                 }}
             >
                 <SwiperSlide>
-                    <img className='w-full h-96 rounded-lg' src={img1} alt="slide_image" />
+                    <div className="overlay">
+                        <img className='w-full h-96 rounded-lg' src={img1} alt="slide_image" />
+                        <div className="content">
+                            <h3 className='text-3xl font-bold text-white mb-12 uppercase'>Shop By Category</h3>
+                            <Link to='/prescription' className='btn btn-outline btn-warning uppercase'>See more</Link>
+                        </div>
+                    </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img className='w-full h-96 rounded-lg' src={img2} alt="slide_image" />
+                    <div className="overlay">
+                        <img className='w-full h-96 rounded-lg' src={img2} alt="slide_image" />
+                        <div className="content">
+                            <h3 className='text-3xl font-bold text-white mb-12 uppercase'>Sexual Wellness</h3>
+                            <Link to='/prescription' className='btn btn-outline btn-warning uppercase'>See more</Link>
+                        </div>
+                    </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img className='w-full h-96 rounded-lg' src={img3} alt="slide_image" />
+                    <div className="overlay">
+                        <img className='w-full h-96 rounded-lg' src={img3} alt="slide_image" />
+                        <div className="content">
+                            <h3 className='text-3xl font-bold text-white mb-12 uppercase'>Birth Control</h3>
+                            <Link to='/prescription' className='btn btn-outline btn-warning uppercase'>See more</Link>
+                        </div>
+                    </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img className='w-full h-96 rounded-lg' src={img4} alt="slide_image" />
+                    <div className="overlay">
+                        <img className='w-full h-96 rounded-lg' src={img4} alt="slide_image" />
+                        <div className="content">
+                            <h3 className='text-3xl font-bold text-white mb-12 uppercase'>Vitamins and supplements</h3>
+                            <Link to='/prescription' className='btn btn-outline btn-warning uppercase'>See more</Link>
+                        </div>
+                    </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img className='w-full h-96 rounded-lg' src={img5} alt="slide_image" />
+                    <div className="overlay">
+                        <img className='w-full h-96 rounded-lg' src={img5} alt="slide_image" />
+                        <div className="content">
+                            <h3 className='text-3xl font-bold text-white mb-12 uppercase'>Medical devices</h3>
+                            <Link to='/prescription' className='btn btn-outline btn-warning uppercase'>See more</Link>
+                        </div>
+                    </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img className='w-full h-96 rounded-lg' src={img6} alt="slide_image" />
+                    <div className="overlay">
+                        <img className='w-full h-96 rounded-lg' src={img6} alt="slide_image" />
+                        <div className="content">
+                            <h3 className='text-3xl font-bold text-white mb-12 uppercase'>Personal care</h3>
+                            <Link to='/prescription' className='btn btn-outline btn-warning uppercase'>See more</Link>
+                        </div>
+                    </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img className='w-full h-96 rounded-lg' src={img7} alt="slide_image" />
+                    <div className="overlay">
+                        <img className='w-full h-96 rounded-lg' src={img7} alt="slide_image" />
+                        <div className="content">
+                            <h3 className='text-3xl font-bold text-white mb-12 uppercase'>Health and wellness</h3>
+                            <Link to='/prescription' className='btn btn-outline btn-warning uppercase'>See more</Link>
+                        </div>
+                    </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img className='w-full h-96 rounded-lg' src={img8} alt="slide_image" />
+                    <div className="overlay">
+                        <img className='w-full h-96 rounded-lg' src={img8} alt="slide_image" />
+                        <div className="content">
+                            <h3 className='text-3xl font-bold text-white mb-12 uppercase'>Baby care</h3>
+                            <Link to='/prescription' className='btn btn-outline btn-warning uppercase'>See more</Link>
+                        </div>
+                    </div>
                 </SwiperSlide>
 
                 <div className="slider-controler">
