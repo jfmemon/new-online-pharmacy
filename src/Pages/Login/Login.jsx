@@ -24,6 +24,7 @@ const Login = () => {
                 console.log(user);
                 Swal.fire({
                     title: 'Login successful..!',
+                    position: 'top',
                     showClass: {
                         popup: 'animate__animated animate__fadeInDown'
                     },
@@ -37,7 +38,8 @@ const Login = () => {
                 Swal.fire({
                     icon: 'error',
                     title: 'Oops...',
-                    text: `${error}`
+                    text: `${error}`,
+                    position: 'top'
                   })
             })
 
@@ -45,7 +47,7 @@ const Login = () => {
     }
 
     return (
-        <div className="mt-16">
+        <div>
             <Helmet>
                 <title>SHEFA | Login</title>
             </Helmet>

@@ -1,5 +1,6 @@
 import { Helmet } from "react-helmet-async";
 import Carousel from '../Carousel/Carousel';
+import FirstGrid from "../FirstGrid/FirstGrid";
 
 const Home = () => {
     return (
@@ -7,6 +8,7 @@ const Home = () => {
             <Helmet>
                 <title>SHEFA</title>
             </Helmet>
+            <FirstGrid></FirstGrid>
             <Carousel></Carousel>
         </div>
     );

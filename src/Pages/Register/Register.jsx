@@ -22,6 +22,7 @@ const Register = () => {
 
             Swal.fire({
                 title: 'Registration successful..!',
+                position: 'top',
                 showClass: {
                     popup: 'animate__animated animate__fadeInDown'
                 },
@@ -34,7 +35,8 @@ const Register = () => {
             Swal.fire({
                 icon: 'error',
                 title: 'Oops...',
-                text: `${error}`
+                text: `${error}`,
+                position: 'top'
             })
         }
     };
