@@ -24,6 +24,9 @@ import { Link } from 'react-router-dom';
 const Carousel = () => {
     return (
         <div>
+            <div className='flex justify-center md:pt-10 pt-5'>
+                <div className="divider md:w-[300px] w-60 mb-0 md:mb-5">Shop by category</div>
+            </div>
             <Swiper
                 effect={'coverflow'}
                 grabCursor={true}
@@ -42,7 +45,7 @@ const Carousel = () => {
                     clickable: true,
                 }}
                 modules={[EffectCoverflow, Pagination, Navigation]}
-                className='md:container my-24 flex flex-col'
+                className='md:container my-10 flex flex-col group'
                 breakpoints={{
                     0: {
                         spaceBetween: 50,
@@ -68,7 +71,7 @@ const Carousel = () => {
             >
                 <SwiperSlide>
                     <div className="overlay">
-                        <img className='w-full h-96 rounded-lg' src={img1} alt="slide_image" />
+                        <img className='w-full h-96 md:rounded-lg' src={img1} alt="slide_image" />
                         <div className="content">
                             <h3 className='text-3xl font-bold text-white mb-12 uppercase'>Shop By Condition</h3>
                             <Link to='/shopByCondition' className='btn btn-outline btn-warning uppercase'>See more</Link>
@@ -77,7 +80,7 @@ const Carousel = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="overlay">
-                        <img className='w-full h-96 rounded-lg' src={img2} alt="slide_image" />
+                        <img className='w-full h-96 md:rounded-lg' src={img2} alt="slide_image" />
                         <div className="content">
                             <h3 className='text-3xl font-bold text-white mb-12 uppercase'>Sexual Wellness</h3>
                             <Link to='/sexualWellness' className='btn btn-outline btn-warning uppercase'>See more</Link>
@@ -86,7 +89,7 @@ const Carousel = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="overlay">
-                        <img className='w-full h-96 rounded-lg' src={img3} alt="slide_image" />
+                        <img className='w-full h-96 md:rounded-lg' src={img3} alt="slide_image" />
                         <div className="content">
                             <h3 className='text-3xl font-bold text-white mb-12 uppercase'>Birth Control</h3>
                             <Link to='/birthControl' className='btn btn-outline btn-warning uppercase'>See more</Link>
@@ -95,7 +98,7 @@ const Carousel = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="overlay">
-                        <img className='w-full h-96 rounded-lg' src={img4} alt="slide_image" />
+                        <img className='w-full h-96 md:rounded-lg' src={img4} alt="slide_image" />
                         <div className="content">
                             <h3 className='text-3xl font-bold text-white mb-12 uppercase'>Vitamins and supplements</h3>
                             <Link to='/vitaminsAndSupplements' className='btn btn-outline btn-warning uppercase'>See more</Link>
@@ -104,7 +107,7 @@ const Carousel = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="overlay">
-                        <img className='w-full h-96 rounded-lg' src={img5} alt="slide_image" />
+                        <img className='w-full h-96 md:rounded-lg' src={img5} alt="slide_image" />
                         <div className="content">
                             <h3 className='text-3xl font-bold text-white mb-12 uppercase'>Medical devices</h3>
                             <Link to='/medicalDevices' className='btn btn-outline btn-warning uppercase'>See more</Link>
@@ -113,7 +116,7 @@ const Carousel = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="overlay">
-                        <img className='w-full h-96 rounded-lg' src={img6} alt="slide_image" />
+                        <img className='w-full h-96 md:rounded-lg' src={img6} alt="slide_image" />
                         <div className="content">
                             <h3 className='text-3xl font-bold text-white mb-12 uppercase'>Personal care</h3>
                             <Link to='/personalCare' className='btn btn-outline btn-warning uppercase'>See more</Link>
@@ -122,7 +125,7 @@ const Carousel = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="overlay">
-                        <img className='w-full h-96 rounded-lg' src={img7} alt="slide_image" />
+                        <img className='w-full h-96 md:rounded-lg' src={img7} alt="slide_image" />
                         <div className="content">
                             <h3 className='text-3xl font-bold text-white mb-12 uppercase'>Health and wellness</h3>
                             <Link to='/healthAndWellness' className='btn btn-outline btn-warning uppercase'>See more</Link>
@@ -131,7 +134,7 @@ const Carousel = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="overlay">
-                        <img className='w-full h-96 rounded-lg' src={img8} alt="slide_image" />
+                        <img className='w-full h-96 md:rounded-lg' src={img8} alt="slide_image" />
                         <div className="content">
                             <h3 className='text-3xl font-bold text-white mb-12 uppercase'>Baby care</h3>
                             <Link to='/babyCare' className='btn btn-outline btn-warning uppercase'>See more</Link>
@@ -139,7 +142,7 @@ const Carousel = () => {
                     </div>
                 </SwiperSlide>
 
-                <div className="slider-controler">
+                <div className="slider-controler invisible group-hover:visible">
                     <div className="swiper-button-prev slider-arrow">
                         <ion-icon name="arrow-back-outline"></ion-icon>
                     </div>

@@ -1,9 +1,9 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import img1 from '../../../assets/First-grid-images/image1.jpg';
 import img2 from '../../../assets/First-grid-images/image2.jpg';
 import img3 from '../../../assets/First-grid-images/image3.jpg';
-import { Link } from 'react-router-dom';
 
 const FirstGrid = () => {
     return (
