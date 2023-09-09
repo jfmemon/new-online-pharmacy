@@ -421,7 +421,7 @@
                     "preparation": "Each plastic bottle contains 200 ml syrup."
                 },
                 "price": 287,
-                "brand": "UniMed UniHealth Pharmaceuticals Limited"
+                "brand": "Unimed Unihealth Pharmaceuticals Limited"
             },
             {
                 "id": "64fac2f3da150c6dcbd106ef",
@@ -506,7 +506,7 @@
                     "preparation": "Protide 25/125 HFA: Each canister contains 120 metered dose. Protide 25/250 HFA: Each canister contains 120 metered dose."
                 },
                 "price": 795,
-                "brand": "UniMed UniHealth Pharmaceuticals Limited"
+                "brand": "Unimed Unihealth Pharmaceuticals Limited"
             }
         ]
     },
@@ -517,43 +517,68 @@
         "products": [
             {
                 "id": "64fac2f31a21ac7aff582e29",
-                "img": "<ReferenceError: image is not defined>",
-                "title": "<ReferenceError: title is not defined>",
-                "quantity": "<ReferenceError: quantity is not defined>",
-                "details": "",
-                "price": 0
+                "img": "https://i.ibb.co/9hFRTyJ/Kg-QTz-ZAg0y3x-Gp-MAAQNu195.webp",
+                "title": "Selomet Tablet 50mg",
+                "quantity": "10 tablets",
+                "details": {
+                    "indication": "In the management of hypertension and angina pectoris. Cardiac arrhythmias, especially supraventricular tachyarrhythmias. Adjunct to the treatment of hyperthyroidism. Early intervention with Metoprolol in acute myocardial infarction reduces infarct size and the incidence of ventricular fibrillation. Pain relief may also decrease the need for opiate analgesics. Metoprolol has been shown to reduce mortality when administered to patients with acute myocardial infarction.",
+                    "dosage&Administration": "Hypertension: Total daily dosage Metoprolol 100 - 400 mg to be given as a single or twice daily dose. The starting dose is 100 mg (two Selomet-50 tablets) per day. This may be increased by 100 mg per day at weekly intervals. lf full control is not achieved using a single daily dose, a b.i.d. regimen should be initiated Combination therapy with a diuretic or other anti-hypertensive agent may also be considered.",
+                    "preparation": "Selomet-25 tablet: Cartons containing 30 tablets in blister. Selomet-50 tablet: Cartons containing 30 tablets in blister."
+                },
+                "price": 20,
+                "brand": "Unimed Unihealth Pharmaceuticals Limited"
             },
             {
                 "id": "64fac2f3788e733073944e42",
-                "img": "<ReferenceError: image is not defined>",
-                "title": "<ReferenceError: title is not defined>",
-                "quantity": "<ReferenceError: quantity is not defined>",
-                "details": "",
-                "price": 6
+                "img": "https://i.ibb.co/7rGH2jz/4-F0e5st-J5eoxrb8b79a3193.webp",
+                "title": "Telamlo 40/5mg",
+                "quantity": "10 tablets",
+                "details": {
+                    "indication": "TelAmlo is indicated for the treatment of hypertension alone or with other antihypertensive agents. TelAmlo tablets are indicated as initial therapy in patients likely to need multiple antihypertensive agents to achieve their blood pressure goals.",
+                    "dosage&Administration": "The usual starting dose is TelAmlo 40/5 mg once daily. Patients requiring larger blood pressure reductions may be started on TelAmlo 80/5 mg once daily. Initial therapy with TelAmlo is not recommended in patients =75 years old or with hepatic impairment. Correct imbalances of intravascular volume or salt-depletion, before initiating therapy with TelAmlo tablets. Dosage must be individualized and may be increased after at least 2 weeks. Most of the antihypertensive effect is apparent within 2 weeks and maximal reduction is generally attained after 4 weeks.",
+                    "preparation": "TelAmlo 40/5 tablet: Pink, shield shaped, scored on one side, logo on other side; each tablet contains Telmisartan USP 40mg & Amlodipine Besilate BP equivalent to Amlodipine 5mg. TelAmlo 80/5 tablet: Pink, diamond shaped, scored on one side,   logo Amlodipine Besilate BP equivalent to Amlodipine 5mg."
+                },
+                "price": 125,
+                "brand": "Unimed Unihealth Pharmaceuticals Limited"
             },
             {
                 "id": "64fac2f31ccf9652e17afc31",
-                "img": "<ReferenceError: image is not defined>",
-                "title": "<ReferenceError: title is not defined>",
-                "quantity": "<ReferenceError: quantity is not defined>",
-                "details": "",
-                "price": 7
+                "img": "https://i.ibb.co/XFVBjJZ/UUH59li2q-Qo4l0-KLd-KJ2192.webp",
+                "title": "Telcardis Plus Tablet 40mg",
+                "quantity": "7 tablets",
+                "details": {
+                    "indication": "To treat hypertension and lower blood pressure, telmisartan and hydrochlorothiazide are combined. The risk of both fatal and nonfatal cardiovascular events, such as strokes and heart attacks, is reduced by lowering blood pressure. These benefits have been demonstrated in controlled trials for antihypertensive drugs from a wide range of pharmacologic classes, including those to which this drug primarily belongs. There are no controlled studies demonstrating a risk reduction with telmisartan and hydrochlorothiazide.",
+                    "dosage&Administration": "Start telmisartan monotherapy (80 mg) for a patient whose blood pressure cannot be sufficiently controlled with telmisartan and hydrochlorothiazide (80 mg/12.5 mg) once daily. If necessary, the dose can be increased after two to four weeks to a maximum of 160 mg/25 mg.",
+                    "preparation": "In one box, there have 3 strips."
+                },
+                "price": 125,
+                "brand": "Unimed Unihealth Pharmaceuticals Limited"
             },
             {
                 "id": "64fac2f3ec38fcac274bfdee",
-                "img": "<ReferenceError: image is not defined>",
-                "title": "<ReferenceError: title is not defined>",
-                "quantity": "<ReferenceError: quantity is not defined>",
-                "details": "",
-                "price": 6
+                "img": "https://i.ibb.co/kxW93rm/l4z4-DDHx-D0-PCy-He8-H8n-T189.webp",
+                "title": "Telcardis Tablet 40mg",
+                "quantity": "10 tablets",
+                "details": {
+                    "indication": "Telcardis is an angiotensin II receptor blocker (ARB) indicated for treatment of hypertension and Cardiovascular (CV) risk reduction in patients who are indicated for ACE inhibitors.",
+                    "dosage&Administration": "In case of hypertension usually 40mg once daily. Increased if necessary after at least 4 weeks to maximum 80mg once daily. Prevention of cardiovascular events 80mg once daily.",
+                    "preparation": "Telcardis 40mg tablet: Each pack contains 14 tablets. Telcardis 80mg tablet: Each pack contains 14 tablets."
+                },
+                "price": 125,
+                "brand": "Unimed Unihealth Pharmaceuticals Limited"
             },
             {
                 "id": "64fac2f3a72f790ddf7a4fb8",
-                "img": "<ReferenceError: image is not defined>",
-                "title": "<ReferenceError: title is not defined>",
-                "quantity": "<ReferenceError: quantity is not defined>",
-                "details": "",
-                "price": 3
+                "img": "https://i.ibb.co/HhJYdKh/Za3-Qrho2v-Ntxv-Sa-YKaa-E190.webp",
+                "title": "Telcardis Tablet 80mg",
+                "quantity": "10 tablets",
+                "details": {
+                    "indication": "Telcardis is an angiotensin II receptor blocker (ARB) indicated for treatment of hypertension and Cardiovascular (CV) risk reduction in patients who are indicated for ACE inhibitors.",
+                    "dosage&Administration": "In case of hypertension usually 40mg once daily. Increased if necessary after at least 4 weeks to maximum 80mg once daily. Prevention of cardiovascular events 80mg once daily.",
+                    "preparation": "Telcardis 40mg tablet: Each pack contains 14 tablets. Telcardis 80mg tablet: Each pack contains 14 tablets."
+                },
+                "price": 200,
+                "brand": "Unimed Unihealth Pharmaceuticals Limited"
             }
         ]
     },
@@ -564,43 +589,68 @@
         "products": [
             {
                 "id": "64fac2f328b360f21589ebae",
-                "img": "<ReferenceError: image is not defined>",
-                "title": "<ReferenceError: title is not defined>",
-                "quantity": "<ReferenceError: quantity is not defined>",
-                "details": "",
-                "price": 3
+                "img": "https://i.ibb.co/qyjbB5p/betaburn-ointment-25gm.webp",
+                "title": "Betaburn Ointment 25gm",
+                "quantity": "1 pc",
+                "details": {
+                    "indication": "Burn, Leg ulcer, Surgical wound, Obstetric wound, Cracked nipple",
+                    "dosage&Administration": "A thin layer of Betaburn™ ointment should be applied to the whole burn/affected area 3-4 times daily.",
+                    "preparation": "Betaburn™ ointment is available 25 gm in Lami tube."
+                },
+                "price": 100,
+                "brand": "Square Pharmaceuticals LTD, Bangladesh"
             },
             {
                 "id": "64fac2f3464655e17ad7080a",
-                "img": "<ReferenceError: image is not defined>",
-                "title": "<ReferenceError: title is not defined>",
-                "quantity": "<ReferenceError: quantity is not defined>",
-                "details": "",
-                "price": 9
+                "img": "https://i.ibb.co/SKsp8tk/nebanol-powder-5mg250iu-1-pc.webp",
+                "title": "Nebanol Powder 5mg+250IU",
+                "quantity": "1 pc",
+                "details": {
+                    "indication": "Topical bacterial infections, atopic or contact stasis and infections, eczematoid dermatitis, neurodermatitis, eczema, anogenital pruritus etc.",
+                    "dosage&Administration": "A thin film to be applied 2 to 4 times daily.",
+                    "preparation": "Nebanol® Ointment : 10 gm tube containing 10 gm ointment 20 gm tube containing 20 gm ointment. Nebanol® Powder : Plastic bottle containing 5 gm powder."
+                },
+                "price": 20,
+                "brand": "Square Pharmaceuticals LTD, Bangladesh"
             },
             {
                 "id": "64fac2f33de448220a4d519a",
-                "img": "<ReferenceError: image is not defined>",
-                "title": "<ReferenceError: title is not defined>",
-                "quantity": "<ReferenceError: quantity is not defined>",
-                "details": "",
-                "price": 5
+                "img": "https://i.ibb.co/n6gqJBF/xenovate-ointment-30gm-1-pc.webp",
+                "title": "Xenovate Ointment 30gm",
+                "quantity": "1 pc",
+                "details": {
+                    "indication": "Xenovate (Clobetasol Propionate) ointment and cream are indicated for the topical therapy of recalcitrant corticosteroid responsive dermatoses, including severe cases of psoriasis (excluding widespread plaque psoriasis) and eczematous dermatitis. Xenovate (Clobetasol Propionate) ointment is generally chosen for dry, lichenified or scaly lesions or where a more occlusive effect is required. Xenovate (Clobetasol Propionate) cream is suitable for moist or weeping lesions.",
+                    "dosage&Administration": "Xenovate (Clobetasol Propionate) ointment and cream are applied sparingly to cover the affected area, and gently rubbed into the skin. Frequency of application is two to three times daily according to the severity of the condition. The total dose of Clobetasol Propionate cream and ointment applied should not exceed 50grams weekly. Therapy should be discontinued if no response is noted after a week or as soon as the lesion heals. It is advisable to use Clobetasol Propionate (Xenovate) cream and ointment for brief periods only.",
+                    "preparation": "Xenovate 10gm ointment : Cartons containing 10gm ointment in tube. Xenovate 30gm ointment : Cartons containing 30gm ointment in tube.Xenovate 10gm cream: Cartons containing 10gm cream in tube."
+                },
+                "price": 150,
+                "brand": "Unimed Unihealth Pharmaceuticals Limited"
             },
             {
                 "id": "64fac2f3680a4e3c93c26ddb",
-                "img": "<ReferenceError: image is not defined>",
-                "title": "<ReferenceError: title is not defined>",
-                "quantity": "<ReferenceError: quantity is not defined>",
-                "details": "",
-                "price": 5
+                "img": "https://i.ibb.co/xsMh7NH/nyclobate-nn-cream-05mg5mg1laciu10gm-1-pc.webp",
+                "title": "Nyclobate NN Cream (0.5mg+5mg+1LacIU)/10gm",
+                "quantity": "1 pc",
+                "details": {
+                    "indication": "Any inflammatory skin disorders like eczema & psoriasis where secondary bacterial or fungal infection is present, suspected or likely to occur.",
+                    "dosage&Administration": "Adults and children over 2 years: Apply sparingly to the affected area once or twice daily until improvement occurs. As with other highly active topical steroid preparations therapy should be discontinued when control is achieved.",
+                    "preparation": "Nyclobate NN Cream: Each tube contains 10 gm or 20 gm cream."
+                },
+                "price": 60,
+                "brand": "Incepta Pharmaceuticals Ltd."
             },
             {
                 "id": "64fac2f30857ac25b76eca2a",
-                "img": "<ReferenceError: image is not defined>",
-                "title": "<ReferenceError: title is not defined>",
-                "quantity": "<ReferenceError: quantity is not defined>",
-                "details": "",
-                "price": 9
+                "img": "https://i.ibb.co/1MX1mPH/xenosal-ointment-30gm-1-pc.webp",
+                "title": "Xenosal Ointment 30gm",
+                "quantity": "1 pc",
+                "details": {
+                    "indication": "Xenosal Ointment is indicated for the relief of the inflammatory manifestations of hyperkeratotic and dry corticosteroid responsive dermatoses such as, psoriasis, chronic atopic dermatitis, neurodermatitis (licehen Simplex, Chronicus), lichen planus, eczema (including nummular eczema, hand eczema, eczematous dermatitis), seborrheic dermatitis of the scalp, ichthyosis vulgaris and other ichthyotic conditions.",
+                    "dosage&Administration": "Apply a thin layer of this ointment to the affected skin areas twice daily and rub in gently & completely. For some patients, adequate maintenance therapy may be achieved with less frequent application. As with other higher active corticosteroids, therapy should be discontinued when control has been achieved. If no improvement is seen within 2 weeks, reassessment of diagnosis may be necessary. It should not be used with occlusive dressing. Treatment beyond 2 consecutive weeks is not exceeding 50gm/week because of the potential for the drug to suppress the hypothalamic pituitary adrenal axis. Children: Use in pediatric patients under 12 years of age is not recommended.",
+                    "preparation": "Xenosal ointment : Carton containing 30gm ointment in alu tube."
+                },
+                "price": 150,
+                "brand": "Unimed Unihealth Pharmaceuticals Limited"
             }
         ]
     },
@@ -611,43 +661,68 @@
         "products": [
             {
                 "id": "64fac2f3abc497ebe0710c8b",
-                "img": "<ReferenceError: image is not defined>",
-                "title": "<ReferenceError: title is not defined>",
-                "quantity": "<ReferenceError: quantity is not defined>",
-                "details": "",
-                "price": 0
+                "img": "https://i.ibb.co/NVpcSfz/omg-3-1629180748663.webp",
+                "title": "OMG-3 1000mg",
+                "quantity": "10 capsul",
+                "details": {
+                    "indication": "Omega-3 Corrosive Ethyl Esters is demonstrated as an aide to slim down to decrease exceptionally tall (>500mg/dl) triglyceride (TG) levels in grown-up patients and as an aide in auxiliary avoidance in those who have had a myocardial dead tissue within the preceding 3 months. It is additionally demonstrated to assist decrease the joint aggravation related with mellow joint pain, disposition clutters & motivation control, age-related macular degeneration.",
+                    "dosage&Administration": "In hypertriglyceridaemia: it can be taken as a single measurements of 4 capsules (4 gm) or 2 capsules (2 gm) twice daily. In already myocardial dead tissue patients: It can be taken 1 capsule (1 gm ) day by day with nourishment. Patients ought to be set on an fitting lipid bringing down eat less some time recently getting Omega-3 Corrosive Ethyl Esters and ought to proceed this count calories amid treatment. In joint irritation related with gentle joint pain: The dosage is 2.7 gm daily. In disposition disarranges & motivation control and age-related macular degeneration: The dosage is 1 capsule (1 gm) per day. Or, as coordinated by the enrolled doctor.",
+                    "preparation": "OMG-3 : 6 x 5's soft capsules in blister pack."
+                },
+                "price": 70,
+                "brand": "Drug International Limited."
             },
             {
                 "id": "64fac2f32dbbbdb6c9ce1263",
-                "img": "<ReferenceError: image is not defined>",
-                "title": "<ReferenceError: title is not defined>",
-                "quantity": "<ReferenceError: quantity is not defined>",
-                "details": "",
-                "price": 7
+                "img": "https://i.ibb.co/gM9YBLJ/clopid-tablet-75mg-14-tablets.webp",
+                "title": "Clopid Tablet 75mg",
+                "quantity": "14 tablets",
+                "details": {
+                    "indication": " Clopid is indicated for the reduction of atherosclerotic (myocardial infarction stroke and vascular death) in patients with ather documented by recent stroke, recent myocardial infarction or established thera.",
+                    "dosage&Administration": "The recommended dose of Clopid is 75mg once arterial disease",
+                    "preparation": "Each box contains 2 x 14's tablets in blister pack."
+                },
+                "price": 168,
+                "brand": "Drug International Limited."
             },
             {
                 "id": "64fac2f35646e36068ecb796",
-                "img": "<ReferenceError: image is not defined>",
-                "title": "<ReferenceError: title is not defined>",
-                "quantity": "<ReferenceError: quantity is not defined>",
-                "details": "",
-                "price": 0
+                "img": "https://i.ibb.co/7JYgwjd/dicaltrol-capsule-025mcg-15-capsules.webp",
+                "title": "Dicaltrol Capsule 0.25mcg",
+                "quantity": "15 tablets",
+                "details": {
+                    "indication": "Predialysis patients : Dicaltrol is indicated in the management of secondary hyperparathyroidism and resultant metabolic bone disease in patients with moderate to severe chronic renal failure not yet on dialysis. In children, the creatinine clearance value must be corrected for a surface area of 1.73 square meters",
+                    "dosage&Administration": "Predialysis Patients : The recommended initial dosage of Dicaltrol is 0.25 mcg/day in adults and pediatric patients 3 years of age and older. This dosage may be increased if necessary to 0.5 mcg/day.",
+                    "preparation": "Each box contains 60's capsule in blister pack."
+                },
+                "price": 180,
+                "brand": "Drug International Limited."
             },
             {
                 "id": "64fac2f34bac252e03e595b8",
-                "img": "<ReferenceError: image is not defined>",
-                "title": "<ReferenceError: title is not defined>",
-                "quantity": "<ReferenceError: quantity is not defined>",
-                "details": "",
-                "price": 9
+                "img": "https://i.ibb.co/kSHfL8j/dimerol-tablet-80mg-14-tablets.webp",
+                "title": "Dimerol Tablet 80mg",
+                "quantity": "14 tablets",
+                "details": {
+                    "indication": "For the treatment of maturity onset diabetes in patients who cannot be controlled on diet alone.",
+                    "dosage&Administration": "The usual initial dose by mouth in the treatment of non-insulin-dependent diabetes mellitus, is initially 40mg (1/2 tablet) to 80mg (1 tablet) daily, adjusted according to response up to 160mg (2 tablets) as a single dose, with breakfast. If necessary up to 320mg can be given daily. It is suggested that doses of more than 160mg should be given in 2 divided doses or as directed by a registered physician.",
+                    "preparation": "Dimerol : 4 x 14's tablets per box."
+                },
+                "price": 112,
+                "brand": "Drug International Limited."
             },
             {
                 "id": "64fac2f38601396eca0537e7",
-                "img": "<ReferenceError: image is not defined>",
-                "title": "<ReferenceError: title is not defined>",
-                "quantity": "<ReferenceError: quantity is not defined>",
-                "details": "",
-                "price": 5
+                "img": "https://i.ibb.co/W0WG5g0/penvik-ds-tablet-500mg-10-tablets.webp",
+                "title": "Penvik DS Tablet 500mg",
+                "quantity": "10 tablets",
+                "details": {
+                    "indication": "Streptococcal infections, scarlet fever, mild erysipelas, Bacterial endocarditis, lobar pneumonia.",
+                    "dosage&Administration": "250 to 500 mg 6 hourly",
+                    "preparation": "Penvik® Tablet :Each box containing 10x10 tablets in strip pack. Penvik® DS Tablet :Each box containing 10x10 tablets in strip pack. Penvik® Forte Dry Syrup : Each bottle containing dry powder to make 100ml syrup and a measuring spoon."
+                },
+                "price": 55,
+                "brand": "Square Pharmaceuticals LTD, Bangladesh"
             }
         ]
     },
