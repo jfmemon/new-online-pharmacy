@@ -155,48 +155,68 @@
                 "drugs": [
                     {
                         "id": "64fb49f18069a3852b01a9bb",
-                        "img": "",
-                        "title": "",
-                        "quantity": "",
-                        "details": "",
-                        "price": "",
-                        "brand": ""
+                        "img": "https://i.ibb.co/yS58g5c/DRyn-Ev-UXBw2-JTa-V5c-RPX40.webp",
+                        "title": "Tolfem Tablet 200mg",
+                        "quantity": "10 tablets",
+                        "details": {
+                            "indication": "Treatment of acute migraine pain.",
+                            "dosage&Administration": "One Tolfem Tablet should be taken as soon as migraine pain appears. The treatment can be repeated once after 1-2 hours if needed.",
+                            "preparation": "Each box contains 30 tablets in Alu-alu blister pack."
+                        },
+                        "price": 100,
+                        "brand": "Square Pharmaceuticals LTD, Bangladesh"
                     },
                     {
                         "id": "64fb49f1d17da1806e4189c6",
-                        "img": "",
-                        "title": "",
-                        "quantity": "",
-                        "details": "",
-                        "price": "",
-                        "brand": ""
+                        "img": "https://i.ibb.co/9rymqJt/3-LHigv-K5-MEx-CUmd-Enu-Bi39.webp",
+                        "title": "Torax Tablet 10mg",
+                        "quantity": "10 tablets",
+                        "details": {
+                            "indication": "Short-term management of moderate to severe acute post-operative pain and acute pain of other origins.",
+                            "dosage&Administration": " Injection: For adults (65 years): Initial dose is 60 mg IM (Single). The maintenance dose is 30 mg IM/IV 6 hourly. Maximum dose is 120 mg/day. For adults (>65 years): Initial dose is 30 mg IM. Maintenance dose is 10-15 mg IM/IV 6 hourly. The maximum duration of treatment should not exceed two days. Tablets: 10 mg every 6 hours as required up to 7 days. ",
+                            "preparation": "Torax® 10 tablet: Each box contains 50 tablets in Alu-Alu pack. \nTorax® 30 injection: Each box contains 5 ampoules in a blister pack with sterile disposable syringe.\nTorax® 60 injection: Each box contains 1 ampoule in a blister pack with sterile disposable syringe"
+                        },
+                        "price": 120,
+                        "brand": "Square Pharmaceuticals LTD, Bangladesh"
                     },
                     {
                         "id": "64fb49f1d06477817ea0b6c3",
-                        "img": "",
-                        "title": "",
-                        "quantity": "",
-                        "details": "",
-                        "price": "",
-                        "brand": ""
+                        "img": "https://i.ibb.co/VYPzJ65/3-Dv7gy1z-CQg-Qo-YAh-Bpnx38.webp",
+                        "title": "Torel Muscle Rub",
+                        "quantity": "1 pc",
+                        "details": {
+                            "indication": "Muscle pain, Sprains, strains and sports injuries, Headache, Bruising, Fibrositis, Neuralgia, Pain due to herpes zoster, Osteoarthritis",
+                            "dosage&Administration": "Adult: Clean the affected area. Apply a small amount of TorelTM muscle rub (an amount equal to the surface area of the tip of a finger) 3 to 4 times daily or as directed by the physician. Children under 6 years of age: Not to be used.",
+                            "preparation": "Each lami tube contains 20 gm TorelTM muscle rub."
+                        },
+                        "price": 70,
+                        "brand": "Square Pharmaceuticals LTD, Bangladesh"
                     },
                     {
                         "id": "64fb49f1e2d9ffdd375bafd5",
-                        "img": "",
-                        "title": "",
-                        "quantity": "",
-                        "details": "",
-                        "price": "",
-                        "brand": ""
+                        "img": "https://i.ibb.co/DG9WvXS/Zjwh-Km2z-Ep-FKet-MZa-GMD37.webp",
+                        "title": "Tory Tablet 60mg",
+                        "quantity": "10 tablets",
+                        "details": {
+                            "indication": "Relief of pain and inflammation in - osteoarthritis, rheumatoid arthritis, other chronic musculoskeletal disorders, acute gout, dysmenorrhoea, & following dental surgery.",
+                            "dosage&Administration": "Adult and adolescent over 16 years: osteoarthritis, chronic musculoskeletal disorders  dysmenorrhoea: 60 mg, once daily,rheumatoid arthritis: 90 mg, once daily, pain following dental surgery & acute gout: 120 mg, once daily.",
+                            "preparation": "Tory ® 60 Tablet : Box containing 6 x 5 tablets in blister pack. Tory ® 90 Tablet : Box containing 6 x 5 tablets in blister pack. Tory ® 120 Tablet : Box containing 4x5 tablets in blister pack."
+                        },
+                        "price": 70,
+                        "brand": "Square Pharmaceuticals LTD, Bangladesh"
                     },
                     {
                         "id": "64fb49f192851331603351ff",
-                        "img": "",
-                        "title": "",
-                        "quantity": "",
-                        "details": "",
-                        "price": "",
-                        "brand": ""
+                        "img": "https://i.ibb.co/sjd4z0y/8ozt09-Igho71-Wfm-GNBJg36.webp",
+                        "title": "Tory Tablet 90mg",
+                        "quantity": "10 tablets",
+                        "details": {
+                            "indication": "Relief of pain and inflammation in - osteoarthritis, rheumatoid arthritis, other chronic musculoskeletal disorders, acute gout,dysmenorrhoea, & following dental surgery.",
+                            "dosage&Administration": "Adult and adolescent over 16 years: osteoarthritis, chronic musculoskeletal disorders dysmenorrhoea: 60 mg, once daily, rheumatoid arthritis: 90 mg, once daily, pain following dental surgery & acute gout: 120 mg, once daily.",
+                            "preparation": "Tory ® 60 Tablet : Box containing 6 x 5 tablets in blister pack. Tory ® 90 Tablet : Box containing 6 x 5 tablets in blister pack. Tory ® 120 Tablet : Box containing 4x5 tablets in blister pack."
+                        },
+                        "price": 120,
+                        "brand": "Square Pharmaceuticals LTD, Bangladesh"
                     }
                 ]
             }
@@ -209,43 +229,68 @@
         "products": [
             {
                 "id": "64fac2f3b5805cdedd6d6662",
-                "img": "<ReferenceError: image is not defined>",
-                "title": "<ReferenceError: title is not defined>",
-                "quantity": "<ReferenceError: quantity is not defined>",
-                "details": "",
-                "price": 10
+                "img": "https://i.ibb.co/Qc9ZBBb/H1-Qw-Nj1-JZJvqr-N1y-Xpui175.webp",
+                "title": "Siglimet XR Tablet 100mg+1000mg",
+                "quantity": "6 tablets",
+                "details": {
+                    "indication": "Management of type 2 diabetes mellitus.",
+                    "dosage&Administration": "Dose of this combination should be individualized on the basis of the patient’s current regimen effectiveness, and tolerability while not exceeding the maximum recommended daily dose of 100 mg Sitagliptin and 2000 mg Metformin.Administer once daily with meal preferably in the evening. Gradually escalate the dose to reduce the gastrointestinal side effectsdue to Metformin. May adjust the dosing based on effectiveness & tolerability while not exceeding the maximum daily dose of 100 mg Sitagliptin & and 2000 mg Metformin extended-release. Maintain the same total daily dose when changing between Siglimet™ & Siglimet™ XR without exceeding the maximum recommended daily dose of 2000 mg Metformin extended-release. Patients using two Siglimet™ XR tablets (such as two Siglimet XR 50/500 or two Siglimet™ XR 50/1000 tablets) should take the two tablets together once daily. 100 mg Sitagliptin/2000 mg Metformin HCl XR tablets should be taken as a single tablet once daily.",
+                    "preparation": "Siglimet™ 50/500 Tablet: Each box contains 30 tablets in blister pack.Siglimet™ 50/1000 Tablet: Each box contains 20 tablets in blister pack.Siglimet™ XR 50/500 Tablet: Each box contains 18 tablets in blister pack. Siglimet™ XR 50/1000 Tablet: Each box contains 18 tablets in blister pack. Siglimet™ XR 100/1000 Tablet: Each box contains 12 tablets in blister pack."
+                },
+                "price": 180,
+                "brand": "Square Pharmaceuticals LTD, Bangladesh"
             },
             {
                 "id": "64fac2f364381109c62695e9",
-                "img": "<ReferenceError: image is not defined>",
-                "title": "<ReferenceError: title is not defined>",
-                "quantity": "<ReferenceError: quantity is not defined>",
-                "details": "",
-                "price": 6
+                "img": "https://i.ibb.co/mJdvFd7/ae5-TFgvl8la-Sb-IHg-TG5h174.webp",
+                "title": "Siglita Tablet 50mg",
+                "quantity": "10 tablets",
+                "details": {
+                    "indication": "Management of type 2 diabetes mellitus.",
+                    "dosage&Administration": "The recommended dose of Siglita™ is 100 mg once daily. Siglita™ can be taken with or without food. For patients with mild renal insufficiency (creatinine clearance [CrCl] 50 mL/min) no dosage adjustment for Siglita™ is required. For patients with moderate renal insufficiency (CrCl 30 to <50 mL/min), the dose of Siglita™ is 50 mg once daily. For patients with severe renal insufficiency (CrCl <30 mL/min) or with end-stage renal disease (ESRD) requiring hemodialysis or peritoneal dialysis, the dose of Siglita™ is 25 mg once daily. Siglita™ may be administered without regard to the timing of hemodialysis.",
+                    "preparation": "Siglita™ Tablet: Box containing 20 tablets in blister pack."
+                },
+                "price": 130,
+                "brand": "Square Pharmaceuticals LTD, Bangladesh"
             },
             {
                 "id": "64fac2f3cc1673aeda9e4967",
-                "img": "<ReferenceError: image is not defined>",
-                "title": "<ReferenceError: title is not defined>",
-                "quantity": "<ReferenceError: quantity is not defined>",
-                "details": "",
-                "price": 6
+                "img": "https://i.ibb.co/Q9vqN89/f-L7p-Ey-Ptbx-ZZD57i-Qc2-F173.webp",
+                "title": "Viglimet Tablet 50mg+500mg",
+                "quantity": "6 tablets",
+                "details": {
+                    "indication": "Management of type 2 diabetes mellitus.",
+                    "dosage&Administration": "Adults: Based on the patient's current dose of Metformin, Combination of Vildagliptin & Metformin may be initiated at either 50 mg/500 mg or 50 mg/850 mg twice daily, 1 tab in the morning and the other in the evening. The recommended daily dose is 100 mg Vildagliptin plus 2000 mg Metformin HCl. Patients receiving Vildagliptin and Metformin from separate tablets may be switched to Combination of Vildagliptin & Metformin containing the same doses of each component. Doses higher than 100 mg of Vildagliptin are not recommended. There is no clinical experience of Vildagliptin and Metformin in triple combination with other antidiabetic agents. Taking Combination of Vildagliptin & Metformin with or just after food may reduce gastrointestinal symptoms associated  with Metformin.",
+                    "preparation": "ViglimetTM 50/500 Tablet: Each box contains 30 tablets in blister pack. ViglimetTM 50/850 Tablet: Each box contains 30 tablets in blister pack."
+                },
+                "price": 120,
+                "brand": "Square Pharmaceuticals LTD, Bangladesh"
             },
             {
                 "id": "64fac2f3a2a505c8afa78faa",
-                "img": "<ReferenceError: image is not defined>",
-                "title": "<ReferenceError: title is not defined>",
-                "quantity": "<ReferenceError: quantity is not defined>",
-                "details": "",
-                "price": 4
+                "img": "https://i.ibb.co/ZW0vwTn/RWAi-OLUN7fivp-JTUsh-TD172.webp",
+                "title": "Viglimet Tablet 50mg+850mg",
+                "quantity": "6 tablets",
+                "details": {
+                    "indication": "Management of type 2 diabetes mellitus.",
+                    "dosage&Administration": "Adults: Based on the patient's current dose of Metformin, Combination of Vildagliptin & Metformin may be initiated at either 50 mg/500 mg or 50 mg/850 mg twice daily, 1 tab in the morning and the other in the evening. The recommended daily dose is 100 mg Vildagliptin plus 2000 mg Metformin HCl. Patients receiving Vildagliptin and Metformin from separate tablets may be switched to Combination of Vildagliptin & Metformin containing the same doses of each component. Doses higher than 100 mg of Vildagliptin are not recommended. There is no clinical experience of Vildagliptin and Metformin in triple combination with other antidiabetic agents. Taking Combination of Vildagliptin & Metformin with or just after food may reduce gastrointestinal symptoms associated with Metformin.",
+                    "preparation": "ViglimetTM 50/500 Tablet: Each box contains 30 tablets in blister pack. ViglimetTM 50/850 Tablet: Each box contains 30 tablets in blister pack."
+                },
+                "price": 132,
+                "brand": "Square Pharmaceuticals LTD, Bangladesh"
             },
             {
                 "id": "64fac2f3c97e1a1e04751ae3",
-                "img": "<ReferenceError: image is not defined>",
-                "title": "<ReferenceError: title is not defined>",
-                "quantity": "<ReferenceError: quantity is not defined>",
-                "details": "",
-                "price": 10
+                "img": "https://i.ibb.co/hY5LxqX/cb4k-P7-LVe0-SJ6kaz-XZMr171.webp",
+                "title": "Viglita Tablet 50mg",
+                "quantity": "10 tablets",
+                "details": {
+                    "indication": "ViglitaTM is indicated as an adjunct to diet and exercise to improve glycemic control in patients with type 2 diabetes mellitus.",
+                    "dosage&Administration": "The recommended dose of ViglitaTM is 50 mg or 100 mg daily for monotherapy; 50 mg twice daily (morning and evening) when used in dual combination with Metformin or a Thiazolidinedione; 50 mg once daily in the morning when used in dual combination with a Sulphonylurea.",
+                    "preparation": "ViglitaTM 50 Tablet: Each box contains 20 tablets in blister pack."
+                },
+                "price": 160,
+                "brand": "Square Pharmaceuticals LTD, Bangladesh"
             }
         ]
     },
@@ -256,43 +301,68 @@
         "products": [
             {
                 "id": "64fac2f3d52a39af58fc62d7",
-                "img": "<ReferenceError: image is not defined>",
-                "title": "<ReferenceError: title is not defined>",
-                "quantity": "<ReferenceError: quantity is not defined>",
-                "details": "",
-                "price": 10
+                "img": "https://i.ibb.co/vVqY3Hm/ciprocin-eye-drop-035ml-1-pc.webp",
+                "title": "Ciprocin Eye Drop 0.3%/5ml",
+                "quantity": "1 pc",
+                "details": {
+                    "indication": "Eye : Corneal ulcer, bacterial Conjunctivitis. Ear : Otitis externa, acute otitis media, chronic suppurative otitis media.",
+                    "dosage&Administration": "Eye : The recommended dosage regimen for the treatment of corneal ulcers is two drops into the affected eye every 15 minutes for the first 6 hours and then two drops into the affected eye every 30 minutes for the remainder of the first day. On the second day, instill 2 drops in the affected eye hourly. On the third to fourteenth day, place two drops in the affected eye every four hours. Treatment may be continued after 14 days if corneal re-epithelization has not been occurred. Ear : For all infections, 2 - 3 drops every 2 - 3 hours initially.",
+                    "preparation": "Ciprocin™ Eye Drops : As a sterile ophthalmic solution 5 ml in plastic dropper bottle."
+                },
+                "price": 50,
+                "brand": "Square Pharmaceuticals LTD, Bangladesh"
             },
             {
                 "id": "64fac2f330261a0c6cbcd786",
-                "img": "<ReferenceError: image is not defined>",
-                "title": "<ReferenceError: title is not defined>",
-                "quantity": "<ReferenceError: quantity is not defined>",
-                "details": "",
-                "price": 10
+                "img": "https://i.ibb.co/dc91zHW/alacot-max-eye-drop-075ml-1-pc.webp",
+                "title": "Alacot Max Eye Drop 0.7%/5ml",
+                "quantity": "1 pc",
+                "details": {
+                    "indication": "Indicated for the treatment of the signs and symptoms of allergic conjunctivitis",
+                    "dosage&Administration": "One drop in each affected eye once a day",
+                    "preparation": "0.7% Eye Drops"
+                },
+                "price": 245,
+                "brand": "Square Pharmaceuticals LTD, Bangladesh"
             },
             {
                 "id": "64fac2f3d0f0d0cf2e36973a",
-                "img": "<ReferenceError: image is not defined>",
-                "title": "<ReferenceError: title is not defined>",
-                "quantity": "<ReferenceError: quantity is not defined>",
-                "details": "",
-                "price": 2
+                "img": "https://i.ibb.co/BNSWCZV/alacot-eye-drop-015ml-1-pc.webp",
+                "title": "Alacot Eye Drop 0.1%/5ml",
+                "quantity": "1 pc",
+                "details": {
+                    "indication": "Indicated for the treatment of the signs and symptoms of allergic conjunctivitis.",
+                    "dosage&Administration": "One drop in each affected eye two times per day at an interval of 6 to 8 hours.",
+                    "preparation": "0.1% Eye Drops."
+                },
+                "price": 110,
+                "brand": "Square Pharmaceuticals LTD, Bangladesh"
             },
             {
                 "id": "64fac2f344ecaa69d0cada6c",
-                "img": "<ReferenceError: image is not defined>",
-                "title": "<ReferenceError: title is not defined>",
-                "quantity": "<ReferenceError: quantity is not defined>",
-                "details": "",
-                "price": 3
+                "img": "https://i.ibb.co/Vw2YmY5/clarizol-ear-drop-110ml-1-pc.webp",
+                "title": "Clarizol Ear Drop 1%/10ml",
+                "quantity": "1 pc",
+                "details": {
+                    "indication": "Clarizol Ear Drop is indicated for the treatment of fungal infections of the ear.",
+                    "dosage&Administration": "Instill 2-3 drops of Clarizol Ear Drops in the affected ear two or three times daily.The treatment should be continued for at least two weeks after the disappearance of all signs of infection to prevent re-infection.",
+                    "preparation": "Each plastic dropper bottle contains 10 ml Ear Drops."
+                },
+                "price": 80,
+                "brand": "Incepta Pharmaceuticals Ltd."
             },
             {
                 "id": "64fac2f36e42da2e75c2a300",
-                "img": "<ReferenceError: image is not defined>",
-                "title": "<ReferenceError: title is not defined>",
-                "quantity": "<ReferenceError: quantity is not defined>",
-                "details": "",
-                "price": 6
+                "img": "https://i.ibb.co/Wt4nYJt/x-Puzuioim3ctq-RUk-OMAx185.webp",
+                "title": "Mexlo Eye Drop 0.3%",
+                "quantity": "1 pc",
+                "details": {
+                    "indication": "Conjunctivitis, blepharitis, blepharo-conjunctivitis, Staphylococcus aureus - induced corneal ulcers.",
+                    "dosage&Administration": "Adults and children (above 1 year of age): Insert 2-3 times daily 1 drop into the lower conjunctival sac. At the beginning of the treatment applications should be more frequent, apply 5 drops within 20 minutes or 1 drop every hour during 6-10 hours. Duration of the treatment: 7 to 9 days.",
+                    "preparation": "Mexlo® Eye Drops: Dropper bottle containing 5 ml of sterile solution."
+                },
+                "price": 70,
+                "brand": "Square Pharmaceuticals LTD, Bangladesh"
             }
         ]
     },
@@ -303,43 +373,68 @@
         "products": [
             {
                 "id": "64fac2f36aa35123f7d2d6c5",
-                "img": "<ReferenceError: image is not defined>",
-                "title": "<ReferenceError: title is not defined>",
-                "quantity": "<ReferenceError: quantity is not defined>",
-                "details": "",
-                "price": 2
+                "img": "https://i.ibb.co/wgVC5Bx/H0-Wv-Mm-AQap7-T3x-Sw-Bab-B183.webp",
+                "title": "Exium MUPS Tablet 40mg",
+                "quantity": "10 tablets",
+                "details": {
+                    "indication": "Gastroesophageal Reflux Disease (GERD), Risk reduction in NSAID associated gastric ulcer, H. pylori eradication (Triple therapy), Zollinger-Ellison syndrome and idiopathic hypersecretion",
+                    "dosage&Administration": "Esomeprazole MUPS tablets should be swallowed whole with liquid. The tablets should not be chewed or crushed. If required, the tablets can also be dispersed in half a glass of non-carbonated water (mineral water is not suitable). No other liquids should be used. Stir until the tablets disintegrate and drink the liquid with the pellets immediately or within 30 minutes. Rinse the glass with half a glass of water and drink. The pellets must not be chewed or crushed.",
+                    "preparation": "Exium 20 mg capsule: Each box contains 100 capsules (10 x 10's) in Alu-Alu blister pack. Exium 40 mg capsule: Each box contains 60 capsules (10 x 6's) in Alu-Alu blister pack. Exium 40 mg IV Injection: Each box contains 1 vial and 1 ampoule for intravenous injection."
+                },
+                "price": 150,
+                "brand": "Radiant Pharmaceuticals Ltd."
             },
             {
                 "id": "64fac2f3ca13bb2a1797ba03",
-                "img": "<ReferenceError: image is not defined>",
-                "title": "<ReferenceError: title is not defined>",
-                "quantity": "<ReferenceError: quantity is not defined>",
-                "details": "",
-                "price": 1
+                "img": "https://i.ibb.co/T4x3cD4/s-Qy8-ZIY948t-FLMYgn0o-X181.webp",
+                "title": "Exium MUPS Tablet 20mg",
+                "quantity": "10 tablets",
+                "details": {
+                    "indication": "Gastroesophageal Reflux Disease (GERD), Risk reduction in NSAID associated gastric ulcer, H. pylori eradication (Triple therapy), Zollinger-Ellison syndrome and idiopathic hypersecretion",
+                    "dosage&Administration": "Exium MUPS tablets should be swallowed whole with liquid. The tablets should not be chewed or crushed. If required, the tablets can also be dispersed in half a glass of non-carbonated water (mineral water is not suitable). No other liquids should be used. Stir until the tablets disintegrate and drink the liquid with the pellets immediately or within 30 minutes. Rinse the glass with half a glass of water and drink. The pellets must not be chewed or crushed.",
+                    "preparation": "Exium 20 mg capsule: Each box contains 100 capsules (10 x 10's) in Alu-Alu blister pack. Exium 40 mg capsule: Each box contains 60 capsules (10 x 6's) in Alu-Alu blister pack. Exium 40 mg IV Injection: Each box contains 1 vial and 1 ampoule for intravenous injection."
+                },
+                "price": 110,
+                "brand": "Radiant Pharmaceuticals Ltd."
             },
             {
                 "id": "64fac2f3a1c7ddbeb8bae678",
-                "img": "<ReferenceError: image is not defined>",
-                "title": "<ReferenceError: title is not defined>",
-                "quantity": "<ReferenceError: quantity is not defined>",
-                "details": "",
-                "price": 10
+                "img": "https://i.ibb.co/QDGjkpV/TZZtk4-JT8o4-Zztn3-OTSa179.webp",
+                "title": "Seclo 40mg/vial",
+                "quantity": "1 pc",
+                "details": {
+                    "indication": "Seclo® capsule and tablet is indicated for gastroesophageal reflux disease including reflux esophagitis, acid reflux disease, duodenal and benign gastric ulcers, Helicobacter pylori eradication regimens in peptic ulcer disease, prophylaxis of acid aspiration, Zollinger-Ellison Syndrome (ZES) and for the treatment of NSAID-associated gastric ulcers, duodenal ulcers or gastroduodenal erosions. Seclo® IV is indicated primarily for the treatment of Zollinger-Ellison syndrome, and may also be used for the treatment of gastric ulcer, duodenal ulcer and reflux esophagitis.",
+                    "dosage&Administration": "Benign gastric and duodenal ulcer: 20 mg once daily for 4 weeks in duodenal ulceration, 8 weeks in gastric ulceration; in severe or recurrent cases, dose to be increased to 40 mg daily; maintenance dose for recurrent duodenal ulcer, 20 mg once daily; in prevention of relapse in duodenal ulcer, 10-20 mg daily.",
+                    "preparation": "Seclo® 20 Capsule: Box containing 12 x 10 capsules in Alu-Alu blister pack Seclo® 40 capsule: Box containing 5 X 6 capsules in Alu-Alu blister pack. Seclo® 40 IV Injection: Box containing one vial of lyophilized Omeprazole 40 mg, one ampule of water for injection BP 10 ml and one sterile disposable syringe (10ml)."
+                },
+                "price": 79,
+                "brand": "Square Pharmaceuticals LTD, Bangladesh"
             },
             {
                 "id": "64fac2f3cde702bce1e74c38",
-                "img": "<ReferenceError: image is not defined>",
-                "title": "<ReferenceError: title is not defined>",
-                "quantity": "<ReferenceError: quantity is not defined>",
-                "details": "",
-                "price": 1
+                "img": "https://i.ibb.co/VVn3jd9/ow-Yqvg-Dae-BCnz-DZtc4r-H164.webp",
+                "title": "Gastrocon-DA Suspension 200ml",
+                "quantity": "1 pc",
+                "details": {
+                    "indication": "Treatment of symptoms of gastroesophageal reflux such as acid regurgitation, heartburn and indigestion (related to reflux), for example, following meals, or during pregnancy, or in patients with symptoms related to reflux oesophagitis.",
+                    "dosage&Administration": "Tablet: Adult and child over 12 years: 1-2 tablets daily 4 times, after meals and at bed time. Child 6-12 years: 1 tablet daily 4 times, after meals and at bed time. Suspension: Adult and child over 12 years: 5-10 ml daily 4 times, after meals and at bedtime.",
+                    "preparation": "Each plastic bottle contains 200 ml syrup."
+                },
+                "price": 287,
+                "brand": "UniMed UniHealth Pharmaceuticals Limited"
             },
             {
                 "id": "64fac2f3da150c6dcbd106ef",
-                "img": "<ReferenceError: image is not defined>",
-                "title": "<ReferenceError: title is not defined>",
-                "quantity": "<ReferenceError: quantity is not defined>",
-                "details": "",
-                "price": 5
+                "img": "https://i.ibb.co/z8m8dfZ/ZIPx-MDAFYEooz6j-LXXFK21.webp",
+                "title": "Sergel Tablet 20mg",
+                "quantity": "10 tablets",
+                "details": {
+                    "indication": "To relieve from chronic heartburn symptoms and other symptoms associated with GERD. For the healing of erosive esophagitis. For maintenance of healing of erosive esophagitis. In combination with amoxicillin and clarithromycin for eradication of Helicobacter pylori infection in-patients with duodenal ulcer disease. Zollinger-Ellison Syndrome Acid related Dyspepsia Duodenal & Gastric ulcer",
+                    "dosage&Administration": "Healing of Erosive Esophagitis: 20 mg or 40 mg Once Daily for 4-8 Weeks. The majority of patients are healed within 4 to 8 weeks. For patients who don't heal after 4-8 weeks, an additional 4-8 weeks of treatment may be considered. Maintenance of Healing of Erosive",
+                    "preparation": "Box containing 3x10 tablets in Alu-Alu blister pack."
+                },
+                "price": 68,
+                "brand": "Healthcare Pharmaceuticals Ltd."
             }
         ]
     },
@@ -350,43 +445,68 @@
         "products": [
             {
                 "id": "64fac2f309ad52ebb11936a8",
-                "img": "<ReferenceError: image is not defined>",
-                "title": "<ReferenceError: title is not defined>",
-                "quantity": "<ReferenceError: quantity is not defined>",
-                "details": "",
-                "price": 7
+                "img": "https://i.ibb.co/X27tdqW/fexo-tablet-120mg-10-tablets.webp",
+                "title": "Fexo Tablet 120mg",
+                "quantity": "10 tablets",
+                "details": {
+                    "indication": "adults and children 5 years of age and older shinontes y se alate Chion idophic car significantly reden pru and the number of wheal",
+                    "dosage&Administration": "120 mg once day or 180 mg once daily with Seasonal Allergic at Children 20 11 years The recommended dose of Fra sulpension i 30 mg 15 ml twice daily A dose of 30 mg 13 m once daily is recommended as the starting dose in pediatric patients with decreased renal function Chronic idiopathic Urticaria Children 2 to 11 years: 30 mg 15 m Fexo oral suspension twice daily Children months to less than 2 years of age 15 mg (25 m Fexo oral suspension twice daily For pediatric patients with decreased renal function, the recommended starting doses of Fess oral suspension are 30 mg 15 ml once daily for patients 2 to 11 years of age and 15 mg 12.5 m once daily for patients & months to less than 2 years of age DOSES IN RENAL IMPAIRMENT This drug is known to be substantially excreted by the kidney and the risk of tox reactions to this drug may be greater in patients with impaired renal function Because elderly patents are more likely to have decreased renal function, care should be taken in dose selection and it may be useful to monnor renal function intual doses of Fexofenadine Hydrochlonde in patients with renal impairment should be reduced to 60 mg once daily",
+                    "preparation": "Fexo 60 Tablet Box containing 50 tablets in blister pack Fexo 120 Tablet Box containing 50 tablets in blister pack Fexo 180 Tablet Box containing 30 tablets in blister pack Fexo Suspension Each borrie contains 50 ml suspension and measuring cup."
+                },
+                "price": 90,
+                "brand": "Square Pharmaceuticals LTD, Bangladesh"
             },
             {
                 "id": "64fac2f36c8b8ca751d5792e",
-                "img": "<ReferenceError: image is not defined>",
-                "title": "<ReferenceError: title is not defined>",
-                "quantity": "<ReferenceError: quantity is not defined>",
-                "details": "",
-                "price": 0
+                "img": "https://i.ibb.co/JCfZsNk/montene-tablet-10mg-10-tablets.webp",
+                "title": "Montene Tablet 10mg",
+                "quantity": "10 tablets",
+                "details": {
+                    "indication": "For the prophylaxis and chronic treatment of asthma in adults and pediatric patients 2 years of age and older.",
+                    "dosage&Administration": "Adolescents and adults 15 years of age and older: One 10 mg tablet daily to be taken in the evening. Paediatric patients 6-14 years of age: The dosage for paediatric patients 6-14 years of age is 5 mg daily to be taken in the evening. The dosage for paediatric patients 2-5 years of age is 4 mg daily to be taken in the evening.",
+                    "preparation": "Montene® 10 tablet: Box containing 30 tablets in Alu-Alu blisterpack. Montene® 5 tablet: Box containing 20 tablets in Alu-Alublisterpack. Montene® 4 tablet: Box containing 20 tablets in Alu-Alublisterpack."
+                },
+                "price": 160,
+                "brand": "Square Pharmaceuticals LTD, Bangladesh"
             },
             {
                 "id": "64fac2f35642e3f4d0395756",
-                "img": "<ReferenceError: image is not defined>",
-                "title": "<ReferenceError: title is not defined>",
-                "quantity": "<ReferenceError: quantity is not defined>",
-                "details": "",
-                "price": 2
+                "img": "https://i.ibb.co/5rR4tq0/alatrol-tablet-10mg-10-tablets.webp",
+                "title": "Alatrol Tablet 10mg",
+                "quantity": "10 tablets",
+                "details": {
+                    "indication": "Alatrol® is indicated for the relief of symptoms associated with seasonal allergic rhinitis due to allergen. Symptoms treated effectively include sneezing, rhinorrhea, pruritus, ocular pruritus, tearing and redness of the eyes. Alatrol® is indicated for the relief of symptoms associated with perennial allergic rhinitis due to allergens. Symptoms treated effectively include sneezing, rhinorrhea, post-nasal discharge, nasal pruritus, ocular pruritus and tearing. Alatrol® is indicated for the treatment of the uncomplicated skin manifestations of chronic idiopathic urticaria. It is also used in allergen induced asthma.",
+                    "dosage&Administration": "Alatrol® is administered with or without food. Adults and Children 6 years and older",
+                    "preparation": "Alatrol® Table : Each box contains 100's tablets. Alatrol®Syrup : Each bottle contains 60 ml syrup and a measuring cup.Alatrol® Paediatric Drops : Each bottle contains 15 ml paediatric drops and a calibrated dropper."
+                },
+                "price": 30,
+                "brand": "Square Pharmaceuticals LTD, Bangladesh"
             },
             {
                 "id": "64fac2f3ac71665a29057820",
-                "img": "<ReferenceError: image is not defined>",
-                "title": "<ReferenceError: title is not defined>",
-                "quantity": "<ReferenceError: quantity is not defined>",
-                "details": "",
-                "price": 5
+                "img": "https://i.ibb.co/f4m4NmQ/monas-tablet-10mg-15-tablets.webp",
+                "title": "Monas Tablet 10mg",
+                "quantity": "15 tablets",
+                "details": {
+                    "indication": "Monas in indicated for the prophylaxis and chronic treatment of Asthma & for the symptomatic relief of Allergic Rhinitis",
+                    "dosage&Administration": "AgeDose6 months- 6 years4 mg/day, in the evening6 years- 15 years5 mg/day, in the evening15 years and older10 mg/day, in the evening",
+                    "preparation": "Monas ® 10: Each film coated tablet contains Montelukast Sodium USP equivalent to 10 mg Montelukast. Monas ® 5 OFT: Each Oroflash tablet contains Montelukast Sodium USP equivalent to 5 mg Montelukast. Monas ® 4 OFT: Each Oroflash tablet contains Montelukast Sodium USP equivalent to 4 mg Montelukast. Monas ® 5: Each Chewable tablet contains Montelukast Sodium USP equivalent to 5 mg Montelukast. Monas ® 4: Each Chewable tablet contains Montelukast Sodium USP equivalent to 4 mg Montelukast."
+                },
+                "price": 262,
+                "brand": "ACME Laboratories Ltd."
             },
             {
                 "id": "64fac2f36eb46d5b285ec586",
-                "img": "<ReferenceError: image is not defined>",
-                "title": "<ReferenceError: title is not defined>",
-                "quantity": "<ReferenceError: quantity is not defined>",
-                "details": "",
-                "price": 10
+                "img": "https://i.ibb.co/ctCskbL/protide-inhaler-25mcg250mcg-1-pc.webp",
+                "title": "Protide Inhaler 25mcg+250mcg",
+                "quantity": "1 pc",
+                "details": {
+                    "indication": "Protide is indicated in the regular treatment of asthma where use of a combination product (long-acting beta 2 agonist and inhaled corticosteroid) is appropriate: patients not adequately controlled with inhaled corticosteroids and 'as needed' inhaled short- acting beta 2 agonist or patients already adequately controlled on both inhaled corticosteroid and long-acting beta 2 agonist",
+                    "dosage&Administration": "Posology Route of administration: Inhalation use. Patients should be made aware that Protide HFA must be used daily for optimum benefit, even when asymptomatic. Patients should be regularly reassessed by a doctor, so that the strength of Protide HFA they are receiving remains optimal and is only changed on medical advice. The dose should be titrated to the lowest dose at which effective control of symptoms is maintained.",
+                    "preparation": "Protide 25/125 HFA: Each canister contains 120 metered dose. Protide 25/250 HFA: Each canister contains 120 metered dose."
+                },
+                "price": 795,
+                "brand": "UniMed UniHealth Pharmaceuticals Limited"
             }
         ]
     },
