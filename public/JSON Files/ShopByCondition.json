@@ -733,43 +733,68 @@
         "products": [
             {
                 "id": "64fac2f3d2bad38dd8603b17",
-                "img": "<ReferenceError: image is not defined>",
-                "title": "<ReferenceError: title is not defined>",
-                "quantity": "<ReferenceError: quantity is not defined>",
-                "details": "",
-                "price": 0
+                "img": "https://i.ibb.co/L6XHpYL/indever-tablet-10mg-10-tablets.webp",
+                "title": "Indever Tablet 10mg",
+                "quantity": "10 tablets",
+                "details": {
+                    "indication": "Indever 10 belongs to a class of drugs known as beta-blockers. It reduces anxiety and relieves tremors. It is also used to treat migraines, heart-related chest pain (angina), and stomach bleeding caused by high blood pressure in the liver (portal hypertension). Indever 10 may also be used to treat high blood pressure and irregular heartbeats (arrhythmia). The dose will be determined by the condition being treated and how you respond to the medication. Always take it exactly as prescribed by your doctor.",
+                    "dosage&Administration": "Adult (above 18 years): Hypertension: Start with 80 mg twice daily, then increase at weekly intervals to a maintenance dose of 160-320 mg daily.Angina pectoris: 40 mg 2-3 times daily at first, followed by a maintenance dose of 120-240 mg daily.Thyrotoxicosis: 10-40 mg, 3-4 times per day. Anxiety: 40 mg once daily, up to three times per day. Migraine prophylaxis: 40 mg 2-3 times daily at first, followed by a maintenance dose of 80-160 mg daily. Hypertension in children (from birth to 18 years):0.25-0.5 mg/kg 3 times daily, adjusted based on response.1 month to 12 years: 0.25-1 mg/kg 3 times daily, with a maximum dose of 5 mg/kg daily in divided doses.Child 12-18 years: 80 mg twice daily at first, then 160-320 mg daily.",
+                    "preparation": "Each tablet contains Propranolol Hydrochloride BP 10mg."
+                },
+                "price": 5,
+                "brand": "ACI Pharmaceuticals"
             },
             {
                 "id": "64fac2f383a1d9ef47682dc8",
-                "img": "<ReferenceError: image is not defined>",
-                "title": "<ReferenceError: title is not defined>",
-                "quantity": "<ReferenceError: quantity is not defined>",
-                "details": "",
-                "price": 10
+                "img": "https://i.ibb.co/3CBhFSq/dormicum-tablet-75mg-10-tablets.webp",
+                "title": "Dormicum Tablet 7.5mg",
+                "quantity": "10 tablets",
+                "details": {
+                    "indication": "Short-term treatment of insomnia. Sedation in premedication before surgical or diagnostic procedures.",
+                    "dosage&Administration": "Oral dosage: For adults: 7.5-15 mg daily. In elderly and debilitated patients: The recommended dose is 7.5 mg. In premedication: 15 mg of Midazolam should be given 30-60 minutes before the procedure. Intravenous administration: Endoscopic or Cardiovascular Procedures: In healthy adults, the initial dose is approximately 2.5 mg. In cases of severe illness and in elderly patients, the initial dose must be reduced to 1 to 1.5 mg. Induction of Anesthesia: The dose is 10-15 mg. Intramuscular administration: Adult: 0.07-0.1 mg/kg body weight. The usual dose is about 5 mg.Children: 0.15-0.20 mg/kg. Elderly and debilitated patients: 0.025-0.05 mg/kg Rectal administration in children: For preoperative sedation: Rectal administration of the ampoule solution (0.35-0.45 mg/kg) 20-30 min. before induction of general anesthesia.",
+                    "preparation": "Dormicum 7.5 mg tablet: Each box contains 30 tablets (3 x 10's) in Alu-PVC blister pack."
+                },
+                "price": 220,
+                "brand": "Radiant Pharmaceuticals Ltd."
             },
             {
                 "id": "64fac2f370fb12e4baa5c458",
-                "img": "<ReferenceError: image is not defined>",
-                "title": "<ReferenceError: title is not defined>",
-                "quantity": "<ReferenceError: quantity is not defined>",
-                "details": "",
-                "price": 5
+                "img": "https://i.ibb.co/Wz1jvx8/rivotril-tablet-05mg-10-tablets.webp",
+                "title": "Rivotril Tablet 0.5mg",
+                "quantity": "10 tablets",
+                "details": {
+                    "indication": "Epilepsy, Anxiety disorders, Panic disorder, Status epilepticus, Social phobia, Migraines, Parasomnia, Restless legs syndrome, Rapid eye movement, Behavior disorder, Spasticity, Resistant depression, Trigeminal neuralgia, Nocturnal myoclonus, Post traumatic stress disorder, Insomnia and sleep disturbances, Burning Mouth Syndrome",
+                    "dosage&Administration": "May be taken with or without food. Adult Dose: Oral Epilepsy Adult: Initially, 1 mg given at night for 4 days, gradually increased over 2-4 wk. Maintenance: 4-8 mg/day. Max: 20 mg/day. Elderly: Initially, 0.5 mg at night for 4 days. Panic disorder Adult: Initially, 0.25 mg bid, increased after 3 days up to 1 mg/day. Max: 4 mg/day. Intravenous Emergency management of status epilepticus Adult: 1 mg by slow IV inj over at least 2 min or by infusion, repeated if necessary. Max: 20 mg. Hepatic impairment: Dosage adjustment may be needed. Child Dose: Oral Epilepsy Child: <10 yr or <30 kg: Initially, 0.01-0.03 mg/kg/day but not to exceed 0.05 mg/kg/day given in 2 or 3 divided doses. May be increased by no more than 0.25-0.5 mg every 3rd day until seizure control is achieved. Maintenance: 0.1-0.2 mg/kg/day divided 3 times daily. Max: 0.2 mg/kg/day. Intravenous Emergency management of status epilepticus Child: 500 mcg by slow IV inj or by infusion.",
+                    "preparation": "Rivotril 0.5 mg tablet: Each box contains 80 tablets (8 x 10's) in Alu-PVC / PVDC blister pack."
+                },
+                "price": 90,
+                "brand": "Radiant Pharmaceuticals Ltd."
             },
             {
                 "id": "64fac2f3e87051ae4997d02e",
-                "img": "<ReferenceError: image is not defined>",
-                "title": "<ReferenceError: title is not defined>",
-                "quantity": "<ReferenceError: quantity is not defined>",
-                "details": "",
-                "price": 6
+                "img": "https://i.ibb.co/c8Nj61v/sedil-tablet-5mg-20-tablets.webp",
+                "title": "Sedil Tablet 5mg",
+                "quantity": "20 tablets",
+                "details": {
+                    "indication": "Anxiety pain from apprehension and depression, acute and chronic stress of life, skeletal muscle spasm and strychnine poisoning. For surgical measures, Sedil® is a useful premedication (I.M. route recommended).",
+                    "dosage&Administration": "Sedil® 15 to 30 mg daily in divided doses.",
+                    "preparation": "Sedil® Tablet : Box containing 25 x 20 tablets in blister pack. Sedil® Injection : Box containing 2 x 5 ampoules in blister pack."
+                },
+                "price": 14,
+                "brand": "Square Pharmaceuticals LTD, Bangladesh"
             },
             {
                 "id": "64fac2f37fafb03d46595b4c",
-                "img": "<ReferenceError: image is not defined>",
-                "title": "<ReferenceError: title is not defined>",
-                "quantity": "<ReferenceError: quantity is not defined>",
-                "details": "",
-                "price": 8
+                "img": "https://i.ibb.co/Y2wG4nQ/zolium-tablet-05mg-10-tablets.webp",
+                "title": "Zolium Tablet 0.5mg",
+                "quantity": "10 tablets",
+                "details": {
+                    "indication": "Anxiety disorder Short term relief of anxiety Anxiety associated with depression",
+                    "dosage&Administration": "Zolum Tablets (0.25 mg & 0.5 mg) Treatment should be initiated with a dose of 0.25 to 0.5 mg three times daily. Depending on the response, dose may be increased at intervals of 3 to 4 days in increments of no more than 1 mg per day. The maximum dose should not exceed 4 mg/day Occasional Panic disorder, with or without agoraphobia. patients with panic disorder may need as much as 10 mg a day to achieve a successful response and in these cases periodic reassessment and consideration of dosage adjustment is required.",
+                    "preparation": "Zolium 0.25. Each box contains 10 blister strips of 10 tablets. Zolium 0.5: Each box contains 10 blister strips of 10 tablets. Zolium XR 1: Each box contains 3 blister strips of 10 tablets. Zolium XR 2: Each box contains 3 blister strips of 10 tablets."
+                },
+                "price": 34,
+                "brand": "Incepta Pharmaceuticals Ltd."
             }
         ]
     },
@@ -780,43 +805,68 @@
         "products": [
             {
                 "id": "64fac2f351a06fa1712942af",
-                "img": "<ReferenceError: image is not defined>",
-                "title": "<ReferenceError: title is not defined>",
-                "quantity": "<ReferenceError: quantity is not defined>",
-                "details": "",
-                "price": 7
+                "img": "https://i.ibb.co/GkPT79q/j-GO3-WK1j44ue1f-Rf-ZUyj166.webp",
+                "title": "Dysnov Syrup 100ml",
+                "quantity": "1 pc",
+                "details": {
+                    "indication": "1. The dyspeptic symptom complex that is often associated with delayed gastric emptying, gastrooesophageal  reflux and oesophagitis: epigastric sense of fullness, early satiety, feeling of abdominal distension, upper abdominal pain;bloating, eructation, flatulence; nausea and vomiting; heartburn with or without regurgitations of gastric contents in the mouth. 2. Nausea and vomiting of functional, organic, infectious or dietetic origin or induced by radiotherapy or drug therapy. A specific indication is nausea and vomiting induced by dopamine agonists, as used in Parkinson's disease (such as L-dopa and bromocriptine).",
+                    "dosage&Administration": "1. Chronic dyspepsia Adults: 10mg (1 tablet or 10ml suspension) 3 times daily, 15-30 minutes before meals and, if necessary, once more before retiring.Children: 2.5mg (2.5ml suspension or 0.5ml drops) per 10kg body weight, 3 times daily before meals and, if necessary, once more in the evening. When results are not satisfactory, the above dosage may be doubled in adults and children over 1 year of age. 2. Acute and subacute conditions (particularly nausea and vomiting) Adults: 20mg (2 tablets or 20ml suspension) 3-4 times daily before meals and before bedtime. Children: 5mg (5ml suspension or 1ml drops) per 10kg body weight, 3-4 times daily before meals and before bedtime. Remarks: Domperidone is recommended to be taken before meals. If taken after meals, absorption of the drug is somewhat delayed. The tablets are not intended to be administered to children below the age of 5 years. In patients with renal insufficiency, the dosing frequency should be reduced. Contra-indications, warnings, etc.",
+                    "preparation": "Dysnov suspension: Cartons containing 60ml and 100ml suspension in bottle."
+                },
+                "price": 38,
+                "brand": "Unimed Unihealth Pharmaceuticals Limited"
             },
             {
                 "id": "64fac2f3f362a848155d7b5a",
-                "img": "<ReferenceError: image is not defined>",
-                "title": "<ReferenceError: title is not defined>",
-                "quantity": "<ReferenceError: quantity is not defined>",
-                "details": "",
-                "price": 2
+                "img": "https://i.ibb.co/4VZh8kF/kx-B2yrgr-OJhj-MYm-ITJdr165.webp",
+                "title": "Dysnov Tablet 10mg",
+                "quantity": "10 tablets",
+                "details": {
+                    "indication": "1. The dyspeptic symptom complex that is often associated with delayed gastric emptying, gastrooesophageal  reflux and oesophagitis: epigastric sense of fullness, early satiety, feeling of abdominal distension, upper abdominal pain; bloating, eructation, flatulence; nausea and vomiting; heartburn with or without regurgitations of gastric contents in the mouth. 2. Nausea and vomiting of functional, organic, infectious or dietetic origin or induced by radiotherapy or drug therapy. A specific indication is nausea and vomiting induced by dopamine agonists, as used in Parkinson’s disease (such as L-dopa and bromocriptine).",
+                    "dosage&Administration": "1. Chronic dyspepsia Adults: 10mg (1 tablet or 10ml suspension) 3 times daily, 15-30 minutes before meals and, if necessary, once more before retiring. Children: 2.5mg (2.5ml suspension or 0.5ml drops) per 10kg body weight, 3 times daily before meals and, if necessary, once more in the evening. When results are not satisfactory, the above dosage may be doubled in adults and children over 1 year of age. 2. Acute and subacute conditions (particularly nausea and vomiting)Adults: 20mg (2 tablets or 20ml suspension) 3-4 times daily before meals and before bedtime. Children: 5mg (5ml suspension or 1ml drops) per 10kg body weight, 3-4 times daily before meals and before bedtime. Remarks: Domperidone is recommended to be taken before meals. If taken after meals, absorption of the drug is somewhat delayed. The tablets are not intended to be administered to children below the age of 5 years. In patients with renal insufficiency, the dosing frequency should be reduced. Contra-indications, warnings, etc.",
+                    "preparation": "Dysnov tablet: Cartons containing 100 tablets in blister."
+                },
+                "price": 25,
+                "brand": "Unimed Unihealth Pharmaceuticals Limited"
             },
             {
                 "id": "64fac2f3fcb7146a1ca291bc",
-                "img": "<ReferenceError: image is not defined>",
-                "title": "<ReferenceError: title is not defined>",
-                "quantity": "<ReferenceError: quantity is not defined>",
-                "details": "",
-                "price": 0
+                "img": "https://i.ibb.co/6g0fqGL/9-Xi-NCXEKklg-Fa-Rkag-A1-D163.webp",
+                "title": "NexCap Capsule Delayed 20mg",
+                "quantity": "10 tablets",
+                "details": {
+                    "indication": "Gastroesophageal reflux disease (GERD) Healing of erosive esophagitis Maintenance of healing of erosive esophagitis Symptomatic gastroesophageal reflux disease Risk reduction of NSAID-associated gastric ulcer H. pylori eradication to reduce the risk of duodenal ulcer recurrence Peptic ulcer",
+                    "dosage&Administration": "Gastroesophageal reflux disease (GERD) Healing of erosive esophagitis: Esomeprazole 20 mg (one NexCap-20 capsule) or Esomeprazole 40 mg (one NexCap-40 capsule) once daily for 4 to 8 weeks. (The majority of patients are healed within 4 to 8 weeks. For patients who do not heal after 4-8 weeks, an additional 4-8 weeks of treatment may be considered). Maintenance of healing of erosive esophagitis: Esomeprazole 20 mg (one NexCap- 20 capsule) once daily is recommended. (Controlled studies did not extend beyond six months).",
+                    "preparation": "NexCap-20 capsule: Cartons of 56 capsules in alu-alu blister."
+                },
+                "price": 70,
+                "brand": "Unimed Unihealth Pharmaceuticals Limited"
             },
             {
                 "id": "64fac2f3008c36640c61cbc1",
-                "img": "<ReferenceError: image is not defined>",
-                "title": "<ReferenceError: title is not defined>",
-                "quantity": "<ReferenceError: quantity is not defined>",
-                "details": "",
-                "price": 9
+                "img": "https://i.ibb.co/Bzfv2ny/ZMEZRk1-Gwfj8cltz-VXKE158.webp",
+                "title": "Maxpro Capsule 40mg",
+                "quantity": "10 tablets",
+                "details": {
+                    "indication": "To relieve from chronic heartburn symptoms and other symptoms associated with GERD For the healing of erosive esophagitis For maintenance of healing of erosive esophagitis In combination with amoxicillin and clarithromycin for eradication of Helicobacter pylori infection in patients with duodenal ulcer disease. Zollinger-Ellison Syndrome Acid related Dyspepsia Duodenal & Gastric ulcer",
+                    "dosage&Administration": "Healing of Erosive Esophagitis: 20 mg or 40 mg Once Daily for 4-8 Weeks. The majority of patients are healed within 4 to 8 weeks. For patients who don't heal after 4-8 weeks, an additional 4-8 weeks of treatment may be considered. Maintenance of Healing of Erosive Esophagitis: 20 mg Once Daily (Clinical studies did not extend 6 months). Symptomatic GERD: 20 mg Once Daily for 4 Weeks. If symptoms do not resolve completely after 4 weeks, an additional 4 weeks of treatment may be considered.",
+                    "preparation": "Maxpro-40 capsule: Cartons of 56 capsules in alu-alu blister."
+                },
+                "price": 100,
+                "brand": "Renata Limited"
             },
             {
                 "id": "64fac2f3cd7c58b237f3c121",
-                "img": "<ReferenceError: image is not defined>",
-                "title": "<ReferenceError: title is not defined>",
-                "quantity": "<ReferenceError: quantity is not defined>",
-                "details": "",
-                "price": 10
+                "img": "https://i.ibb.co/bWC9sJV/kp-Qs-Qou3af-Ds-Bo9d68-U5161.webp",
+                "title": "Maxpro Capsule 20mg",
+                "quantity": "14 tablets",
+                "details": {
+                    "indication": "Esomeprazole is endorsed to treat persistent acid. In order to treat erosive esophagitis, For the support of erosive esophagitis healing. In patients with duodenal ulcer sickness, in conjunction with amoxicillin and clarithromycin, for the disposal of Helicobacter pylori infection. Syndrome of Zollinger-Ellison Duodenal and gastric ulcers due to corrosive dyspepsia",
+                    "dosage&Administration": " 20 mg or 40 mg Once Daily for 4-8 Weeks. The majority of patients are healed within 4 to 8 weeks. For patients who don't heal after 4-8 weeks, an additional 4-8 weeks of treatment may be considered. Maintenance of Healing of Erosive",
+                    "preparation": "Maxpro® tablet 20mg : Box containing 10 x14's tablets in Alu-Alu blister pack."
+                },
+                "price": 98,
+                "brand": "Renata Limited"
             }
         ]
     }
