@@ -12,6 +12,7 @@ import MedicalDevices from "../Pages/MedicalDevices/MedicalDevices";
 import PersonalCare from "../Pages/PersonalCare/PersonalCare";
 import HealthAndWellness from "../Pages/HealthAndWellness/HealthAndWellness";
 import BabyCare from "../Pages/BabyCare/BabyCare";
+import ShowConditionalItems from "../Pages/ShowConditionalItems/ShowConditionalItems";
 
 export const router = createBrowserRouter([
     {
@@ -35,35 +36,39 @@ export const router = createBrowserRouter([
                 element: <UploadPrescription></UploadPrescription>
             },
             {
-                path: "shopByCondition",
+                path: "category/shopByCondition",
                 element: <ShopByCondition></ShopByCondition>
             },
             {
-                path: "sexualWellness",
+                path: "category/shopByCondition/:content",
+                element: <ShowConditionalItems></ShowConditionalItems>
+            },
+            {
+                path: "category/sexualWellness",
                 element: <SexualWellness></SexualWellness>
             },
             {
-                path: "birthControl",
+                path: "category/birthControl",
                 element: <BirthControl></BirthControl>
             },
             {
-                path: "vitaminsAndSupplements",
+                path: "category/vitaminsAndSupplements",
                 element: <VitaminsAndSupplements></VitaminsAndSupplements>
             },
             {
-                path: "medicalDevices",
+                path: "category/medicalDevices",
                 element: <MedicalDevices></MedicalDevices>
             },
             {
-                path: "personalCare",
+                path: "category/personalCare",
                 element: <PersonalCare></PersonalCare>
             },
             {
-                path: "healthAndWellness",
+                path: "category/healthAndWellness",
                 element: <HealthAndWellness></HealthAndWellness>
             },
             {
-                path: "babyCare",
+                path: "category/babyCare",
                 element: <BabyCare></BabyCare>
             }
         ]

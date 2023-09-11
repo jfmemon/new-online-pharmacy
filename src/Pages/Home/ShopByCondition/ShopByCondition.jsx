@@ -1,27 +1,33 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React, { useEffect, useState } from 'react';
 import '../../../index.css';
-
-import img1 from '../../../assets/ShopByConditionImages/image1.jpg'
-import img2 from '../../../assets/ShopByConditionImages/image2.jpg'
-import img3 from '../../../assets/ShopByConditionImages/image3.jpg'
-import img4 from '../../../assets/ShopByConditionImages/image4.jpg'
-import img5 from '../../../assets/ShopByConditionImages/image5.jpg'
-import img6 from '../../../assets/ShopByConditionImages/image6.jpg'
-import img7 from '../../../assets/ShopByConditionImages/image7.jpg'
-import img8 from '../../../assets/ShopByConditionImages/image8.jpg'
-import img9 from '../../../assets/ShopByConditionImages/image9.jpg'
-import img10 from '../../../assets/ShopByConditionImages/image10.jpg'
-import img11 from '../../../assets/ShopByConditionImages/image11.jpg'
+import ShopByConditionMenu from '../ShopByConditionMenu/ShopByConditionMenu';
 
 const ShopByCondition = () => {
+    const [condition, setCondition] = useState([]);
+
+    useEffect(() => {
+        fetch("http://localhost:5000/shopByCondition")
+            .then(res => res.json())
+            .then(data => {
+                setCondition(data);
+            })
+    }, []);
+
+
     return (
-        <div>
+        <section>
             <div className='flex justify-center'>
                 <div className="divider md:w-[300px] w-60 mb-5">Shop by condition</div>
             </div>
             <div className='flex justify-center flex-wrap gap-5 md:gap-2 mb-10'>
-                <Link>
+                {
+                    condition.map(menu => <ShopByConditionMenu
+                    key={menu._id}
+                    menu={menu}
+                    ></ShopByConditionMenu>)
+                }
+
+                {/* <Link>
                     <div className='group'>
                         <img className='md:w-64 w-40' src={img1} alt="" />
                         <div className='text-center group-hover:underline'>Cough, Cold & Flue</div>
@@ -86,9 +92,9 @@ const ShopByCondition = () => {
                         <img className='md:w-64 w-40' src={img11} alt="" />
                         <div className='text-center group-hover:underline'>All Medicine</div>
                     </div>
-                </Link>
+                </Link> */}
             </div>
-        </div>
+        </section>
     );
 };
 

@@ -16,7 +16,7 @@ import img8 from '../../../assets/Category-logos/babyCare.png';
 const Header = () => {
     const { user, logOut } = useContext(AuthContext);
     const [open, setOpen] = useState(false);
-    console.log(user?.photoURL);
+    // console.log(user?.photoURL);
 
     const handleLogout = () => {
         logOut()
@@ -59,14 +59,14 @@ const Header = () => {
                                     </Link>
                                 </li>
                                 <div className="divider my-0 h-[1px]"></div>
-                                <li><Link to="/shopByCondition" className='rounded-none'><img className='w-5' src={img1} alt="Shop by condition" /> Shop by condition</Link></li>
-                                <li><Link to="/sexualWellness" className='rounded-none'><img className='w-5' src={img2} alt="Sexual wellness" /> Sexual wellness</Link></li>
-                                <li><Link to="/birthControl" className='rounded-none'><img className='w-5' src={img3} alt="Birth control" /> Birth control</Link></li>
-                                <li><Link to="/vitaminsAndSupplements" className='rounded-none'><img className='w-5' src={img4} alt="Vitamins and supplements" /> Vitamins and supplements</Link></li>
-                                <li><Link to="/medicalDevices" className='rounded-none'><img className='w-5' src={img5} alt="Medical devices" /> Medical devices</Link></li>
-                                <li><Link to="/personalCare" className='rounded-none'><img className='w-5' src={img6} alt="Personal care" /> Personal care</Link></li>
-                                <li><Link to="/healthAndWellness" className='rounded-none'><img className='w-5' src={img7} alt="Health and wellness" /> Health and wellness</Link></li>
-                                <li><Link to="/babyCare" className='rounded-none'><img className='w-5' src={img8} alt="Baby care" /> Baby care</Link></li>
+                                <li><Link to="/category/shopByCondition" className='rounded-none'><img className='w-5' src={img1} alt="Shop by condition" /> Shop by condition</Link></li>
+                                <li><Link to="/category/sexualWellness" className='rounded-none'><img className='w-5' src={img2} alt="Sexual wellness" /> Sexual wellness</Link></li>
+                                <li><Link to="/category/birthControl" className='rounded-none'><img className='w-5' src={img3} alt="Birth control" /> Birth control</Link></li>
+                                <li><Link to="/category/vitaminsAndSupplements" className='rounded-none'><img className='w-5' src={img4} alt="Vitamins and supplements" /> Vitamins and supplements</Link></li>
+                                <li><Link to="/category/medicalDevices" className='rounded-none'><img className='w-5' src={img5} alt="Medical devices" /> Medical devices</Link></li>
+                                <li><Link to="/category/personalCare" className='rounded-none'><img className='w-5' src={img6} alt="Personal care" /> Personal care</Link></li>
+                                <li><Link to="/category/healthAndWellness" className='rounded-none'><img className='w-5' src={img7} alt="Health and wellness" /> Health and wellness</Link></li>
+                                <li><Link to="/category/babyCare" className='rounded-none'><img className='w-5' src={img8} alt="Baby care" /> Baby care</Link></li>
                             </ul>
                         )
                     }

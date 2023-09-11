@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ShopByCategory = () => {
+const ShopByCondition = () => {
     return (
         <div>
             <h3>Shop by condition</h3>
@@ -8,4 +8,4 @@ const ShopByCategory = () => {
     );
 };
 
-export default ShopByCategory;
+export default ShopByCondition;
