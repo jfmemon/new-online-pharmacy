@@ -16,7 +16,6 @@ import img8 from '../../../assets/Category-logos/babyCare.png';
 const Header = () => {
     const { user, logOut } = useContext(AuthContext);
     const [open, setOpen] = useState(false);
-    // console.log(user?.photoURL);
 
     const handleLogout = () => {
         logOut()

@@ -21,7 +21,7 @@ const FirstGrid = () => {
             <div className='flex flex-col gap-5'>
                 <div className='relative'>
                     <img className='h-40 w-full' src={img2} alt="" srcset="" />
-                    <Link to='/prescription' className='btn btn-sm border-warning bg-inherit hover:bg-warning hover:text-white text-warning absolute top-28 md:left-5 left-4'>Click Here</Link>
+                    <Link to='/uploadPrescription' className='btn btn-sm border-warning bg-inherit hover:bg-warning hover:text-white text-warning absolute top-28 md:left-5 left-4'>Click Here</Link>
                 </div>
                 <div className='relative'>
                     <img className='h-40 w-full' src={img3} alt="" srcset="" />

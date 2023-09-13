@@ -5,10 +5,11 @@ const ShopByConditionMenu = ({ menu }) => {
     const navigate = useNavigate();
     // console.log(menu);
     const { _id, name, image, products, urlPath } = menu;
+    console.log(name);
 
     const handleGetProducts = (e) => {
         e.preventDefault();
-        navigate(`/category/shopByCondition/${urlPath}`, { state: { products: products } })
+        navigate(`/category/shopByCondition/${urlPath}`, { state: { products: products, name: name } })
     }
 
     return (

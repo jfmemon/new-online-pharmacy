@@ -9,6 +9,7 @@
                 "_id": "64fac2f32eb8df1e5ef65888",
                 "img": "https://i.ibb.co/KwKRdv3/img1.jpg",
                 "title": "Ocof 100ml Syrup",
+                "urlPath": "ocof-100ml-syrup",
                 "quantity": "1 pc",
                 "details": {
                     "indication": "Ocof™ is indicated for the symptomatic relief of upper respiratory tract disorders accompanied by non-productive cough which benefits from the administration of a nasal decongestant, a histamine H1-receptor antagonist and an antitussive combination.",
@@ -22,6 +23,7 @@
                 "_id": "64fac2f3fea0c735b047c5d5",
                 "img": "https://i.ibb.co/cYS4fQC/img2.jpg",
                 "title": "Lytex Syrup 100ml",
+                "urlPath": "lytex-syrup-100ml",
                 "quantity": "1 pc",
                 "details": {
                     "indication": "Acute and chronic disease of respiratory tracts associated with visc_id mucous including Acute & chronic bronchitis. Productive cough, Inflammatory diseases of Rhinopharyngeal tract, Asthmatic bronchitis, Bronchial asthma with thick expectoration, Bronchiectasis, chronic pneumonia.",
@@ -33,8 +35,9 @@
             },
             {
                 "_id": "64fac2f3480f9f10271d3da3",
-                "img": "<ReferenceError: image is not defined>",
+                "img": "https://i.ibb.co/2sdkgpm/img3.jpg",
                 "title": "Montex Tablet 10mg",
+                "urlPath": "montex-tablet-10mg",
                 "quantity": "10 tablets",
                 "details": {
                     "indication": "Montex is indicated for the prophylaxis and chronic treatment of asthma in adults and children.",
@@ -48,6 +51,7 @@
                 "_id": "64fac2f3a2523e863648248d",
                 "img": "https://i.ibb.co/CWZg6QW/img4.jpg",
                 "title": "Bukof Tablet 50mg",
+                "urlPath": "bukof-tablet-50mg",
                 "quantity": "10 tablets",
                 "details": {
                     "indication": "Cough (non-productive), Whooping cough, Pre-post operative cough, Cough suppression",
@@ -61,6 +65,7 @@
                 "_id": "64fac2f39899f7b70ff6c9d7",
                 "img": "https://i.ibb.co/BB8p87M/img5.jpg",
                 "title": "Bukof Syrup 100ml",
+                "urlPath": "bukof-syrup-100ml",
                 "quantity": "1 pc",
                 "details": {
                     "indication": "Bukof is indicated in acute cough of any etiology, pre and post operative cough sedation for surgical procedure and bronchoscopy.",
@@ -82,6 +87,7 @@
                 "_id": "64fb49f12e18addad3f09cb8",
                 "img": "https://i.ibb.co/fGhPTJC/napa-tablet-500mg-10-tablets.webp",
                 "title": "Napa Tablet 500mg",
+                "urlPath": "napa-Tablet-500mg",
                 "quantity": "10 tablets",
                 "details": {
                     "indication": "All conditions requiring relief from pain and fever such as neuritis, neuralgia, headache, earache, toothache, pain due to rheumatic disorder, cold, influenza, dysmenorrhoea, post-vaccination pain and fever of children etc. Napa suppositories are used for rap_id symptomatic management of pain and fever. It is given as rectal suppository for mild to moderate pain and for pyrexia. ",
@@ -95,6 +101,7 @@
                 "_id": "64fb49f17d1e289bcd96c32a",
                 "img": "https://i.ibb.co/cbYqB56/napa-extend-tablet-665mg-12-tablets.webp",
                 "title": "Napa Extend Tablet 665mg",
+                "urlPath": "",
                 "quantity": "12 tablets",
                 "details": {
                     "indication": "Napa Extend extended release tablet contains Paracetamol BP 665 mg. It is effective for the relet of persistent pain associated with osteoarthritis and muscle aches and pains such as backache. Napa Extend extended release tablet also prov_ides effective, temporary reliet of pain and discomfort associated with headache, tension headache, period pain, toothache, pain after dental procedures and cold & flu. It reduces fever.",
@@ -108,6 +115,7 @@
                 "_id": "64fb49f1d4376e048db111a3",
                 "img": "https://i.ibb.co/n7xYZSq/ace-syrup-100ml-1-pc.webp",
                 "title": "Ace Syrup 100ml",
+                "urlPath": "",
                 "quantity": "1 pc",
                 "details": {
                     "indication": "Fever, Common cold and influenza, headache, toothache. earache, bodyache, myalgia, dysmenorrhoea, back pain, post-operative pain, inflammatory pain, post-vaccination pain and fever of children, rheumatism and osteoarthritic pain.",
@@ -121,6 +129,7 @@
                 "_id": "64fb49f185d45f4dfb60caca",
                 "img": "https://i.ibb.co/YWxZZRc/napa-syrup-100ml.webp",
                 "title": "Napa Syrup 100ml",
+                "urlPath": "",
                 "quantity": "1 pc",
                 "details": {
                     "indication": "Fever, common cold, and influenza, headache, toothache, earache, bodyache, myalgia, neuralgia, dysmenorrhoea, sprains, colic pain, back pain, post-operative pain, postpartum discomfort, inflammatory pain, and post vaccination pain in children are among the conditions for which paracetamol is prescribed. It's also used to treat rheumatic and osteoarthritic pain, as well as joint stiffness.",
@@ -134,6 +143,7 @@
                 "_id": "64fb49f1269c7666591d6871",
                 "img": "https://i.ibb.co/Y3yXqWd/fast-suspension-60ml-1-pc.webp",
                 "title": "Fast Suspension 60ml",
+                "urlPath": "",
                 "quantity": "1 pc",
                 "details": {
                     "indication": "Minor aches and pains associated with influenza, headache, toothache, earache, pain due to neurological disturbance, for the pain of menstrual cramps, for the minor pain of arthritis and for the reduction of fever.",
@@ -147,6 +157,7 @@
                 "_id": "64fb49f18069a3852b01a9bb",
                 "img": "https://i.ibb.co/yS58g5c/DRyn-Ev-UXBw2-JTa-V5c-RPX40.webp",
                 "title": "Tolfem Tablet 200mg",
+                "urlPath": "",
                 "quantity": "10 tablets",
                 "details": {
                     "indication": "Treatment of acute migraine pain.",
@@ -160,6 +171,7 @@
                 "_id": "64fb49f1d17da1806e4189c6",
                 "img": "https://i.ibb.co/9rymqJt/3-LHigv-K5-MEx-CUmd-Enu-Bi39.webp",
                 "title": "Torax Tablet 10mg",
+                "urlPath": "",
                 "quantity": "10 tablets",
                 "details": {
                     "indication": "Short-term management of moderate to severe acute post-operative pain and acute pain of other origins.",
@@ -173,6 +185,7 @@
                 "_id": "64fb49f1d06477817ea0b6c3",
                 "img": "https://i.ibb.co/VYPzJ65/3-Dv7gy1z-CQg-Qo-YAh-Bpnx38.webp",
                 "title": "Torel Muscle Rub",
+                "urlPath": "",
                 "quantity": "1 pc",
                 "details": {
                     "indication": "Muscle pain, Sprains, strains and sports injuries, Headache, Bruising, Fibrositis, Neuralgia, Pain due to herpes zoster, Osteoarthritis",
@@ -186,6 +199,7 @@
                 "_id": "64fb49f1e2d9ffdd375bafd5",
                 "img": "https://i.ibb.co/DG9WvXS/Zjwh-Km2z-Ep-FKet-MZa-GMD37.webp",
                 "title": "Tory Tablet 60mg",
+                "urlPath": "",
                 "quantity": "10 tablets",
                 "details": {
                     "indication": "Relief of pain and inflammation in - osteoarthritis, rheumato_id arthritis, other chronic musculoskeletal disorders, acute gout, dysmenorrhoea, & following dental surgery.",
@@ -199,6 +213,7 @@
                 "_id": "64fb49f192851331603351ff",
                 "img": "https://i.ibb.co/sjd4z0y/8ozt09-Igho71-Wfm-GNBJg36.webp",
                 "title": "Tory Tablet 90mg",
+                "urlPath": "",
                 "quantity": "10 tablets",
                 "details": {
                     "indication": "Relief of pain and inflammation in - osteoarthritis, rheumato_id arthritis, other chronic musculoskeletal disorders, acute gout,dysmenorrhoea, & following dental surgery.",
@@ -220,6 +235,7 @@
                 "_id": "64fac2f3b5805cdedd6d6662",
                 "img": "https://i.ibb.co/Qc9ZBBb/H1-Qw-Nj1-JZJvqr-N1y-Xpui175.webp",
                 "title": "Siglimet XR Tablet 100mg+1000mg",
+                "urlPath": "",
                 "quantity": "6 tablets",
                 "details": {
                     "indication": "Management of type 2 diabetes mellitus.",
@@ -233,6 +249,7 @@
                 "_id": "64fac2f364381109c62695e9",
                 "img": "https://i.ibb.co/mJdvFd7/ae5-TFgvl8la-Sb-IHg-TG5h174.webp",
                 "title": "Siglita Tablet 50mg",
+                "urlPath": "",
                 "quantity": "10 tablets",
                 "details": {
                     "indication": "Management of type 2 diabetes mellitus.",
@@ -246,6 +263,7 @@
                 "_id": "64fac2f3cc1673aeda9e4967",
                 "img": "https://i.ibb.co/Q9vqN89/f-L7p-Ey-Ptbx-ZZD57i-Qc2-F173.webp",
                 "title": "Viglimet Tablet 50mg+500mg",
+                "urlPath": "",
                 "quantity": "6 tablets",
                 "details": {
                     "indication": "Management of type 2 diabetes mellitus.",
@@ -259,6 +277,7 @@
                 "_id": "64fac2f3a2a505c8afa78faa",
                 "img": "https://i.ibb.co/ZW0vwTn/RWAi-OLUN7fivp-JTUsh-TD172.webp",
                 "title": "Viglimet Tablet 50mg+850mg",
+                "urlPath": "",
                 "quantity": "6 tablets",
                 "details": {
                     "indication": "Management of type 2 diabetes mellitus.",
@@ -272,6 +291,7 @@
                 "_id": "64fac2f3c97e1a1e04751ae3",
                 "img": "https://i.ibb.co/hY5LxqX/cb4k-P7-LVe0-SJ6kaz-XZMr171.webp",
                 "title": "Viglita Tablet 50mg",
+                "urlPath": "",
                 "quantity": "10 tablets",
                 "details": {
                     "indication": "ViglitaTM is indicated as an adjunct to diet and exercise to improve glycemic control in patients with type 2 diabetes mellitus.",
@@ -293,6 +313,7 @@
                 "_id": "64fac2f3d52a39af58fc62d7",
                 "img": "https://i.ibb.co/vVqY3Hm/ciprocin-eye-drop-035ml-1-pc.webp",
                 "title": "Ciprocin Eye Drop 0.3%/5ml",
+                "urlPath": "",
                 "quantity": "1 pc",
                 "details": {
                     "indication": "Eye : Corneal ulcer, bacterial Conjunctivitis. Ear : Otitis externa, acute otitis media, chronic suppurative otitis media.",
@@ -306,6 +327,7 @@
                 "_id": "64fac2f330261a0c6cbcd786",
                 "img": "https://i.ibb.co/dc91zHW/alacot-max-eye-drop-075ml-1-pc.webp",
                 "title": "Alacot Max Eye Drop 0.7%/5ml",
+                "urlPath": "",
                 "quantity": "1 pc",
                 "details": {
                     "indication": "Indicated for the treatment of the signs and symptoms of allergic conjunctivitis",
@@ -319,6 +341,7 @@
                 "_id": "64fac2f3d0f0d0cf2e36973a",
                 "img": "https://i.ibb.co/BNSWCZV/alacot-eye-drop-015ml-1-pc.webp",
                 "title": "Alacot Eye Drop 0.1%/5ml",
+                "urlPath": "",
                 "quantity": "1 pc",
                 "details": {
                     "indication": "Indicated for the treatment of the signs and symptoms of allergic conjunctivitis.",
@@ -332,6 +355,7 @@
                 "_id": "64fac2f344ecaa69d0cada6c",
                 "img": "https://i.ibb.co/Vw2YmY5/clarizol-ear-drop-110ml-1-pc.webp",
                 "title": "Clarizol Ear Drop 1%/10ml",
+                "urlPath": "",
                 "quantity": "1 pc",
                 "details": {
                     "indication": "Clarizol Ear Drop is indicated for the treatment of fungal infections of the ear.",
@@ -345,6 +369,7 @@
                 "_id": "64fac2f36e42da2e75c2a300",
                 "img": "https://i.ibb.co/Wt4nYJt/x-Puzuioim3ctq-RUk-OMAx185.webp",
                 "title": "Mexlo Eye Drop 0.3%",
+                "urlPath": "",
                 "quantity": "1 pc",
                 "details": {
                     "indication": "Conjunctivitis, blepharitis, blepharo-conjunctivitis, Staphylococcus aureus - induced corneal ulcers.",
@@ -366,6 +391,7 @@
                 "_id": "64fac2f36aa35123f7d2d6c5",
                 "img": "https://i.ibb.co/wgVC5Bx/H0-Wv-Mm-AQap7-T3x-Sw-Bab-B183.webp",
                 "title": "Exium MUPS Tablet 40mg",
+                "urlPath": "",
                 "quantity": "10 tablets",
                 "details": {
                     "indication": "Gastroesophageal Reflux Disease (GERD), Risk reduction in NSA_id associated gastric ulcer, H. pylori eradication (Triple therapy), Zollinger-Ellison syndrome and _idiopathic hypersecretion",
@@ -379,6 +405,7 @@
                 "_id": "64fac2f3ca13bb2a1797ba03",
                 "img": "https://i.ibb.co/T4x3cD4/s-Qy8-ZIY948t-FLMYgn0o-X181.webp",
                 "title": "Exium MUPS Tablet 20mg",
+                "urlPath": "",
                 "quantity": "10 tablets",
                 "details": {
                     "indication": "Gastroesophageal Reflux Disease (GERD), Risk reduction in NSA_id associated gastric ulcer, H. pylori eradication (Triple therapy), Zollinger-Ellison syndrome and _idiopathic hypersecretion",
@@ -392,6 +419,7 @@
                 "_id": "64fac2f3a1c7ddbeb8bae678",
                 "img": "https://i.ibb.co/QDGjkpV/TZZtk4-JT8o4-Zztn3-OTSa179.webp",
                 "title": "Seclo 40mg/vial",
+                "urlPath": "",
                 "quantity": "1 pc",
                 "details": {
                     "indication": "Seclo® capsule and tablet is indicated for gastroesophageal reflux disease including reflux esophagitis, ac_id reflux disease, duodenal and benign gastric ulcers, Helicobacter pylori eradication regimens in peptic ulcer disease, prophylaxis of ac_id aspiration, Zollinger-Ellison Syndrome (ZES) and for the treatment of NSA_id-associated gastric ulcers, duodenal ulcers or gastroduodenal erosions. Seclo® IV is indicated primarily for the treatment of Zollinger-Ellison syndrome, and may also be used for the treatment of gastric ulcer, duodenal ulcer and reflux esophagitis.",
@@ -405,6 +433,7 @@
                 "_id": "64fac2f3cde702bce1e74c38",
                 "img": "https://i.ibb.co/VVn3jd9/ow-Yqvg-Dae-BCnz-DZtc4r-H164.webp",
                 "title": "Gastrocon-DA Suspension 200ml",
+                "urlPath": "",
                 "quantity": "1 pc",
                 "details": {
                     "indication": "Treatment of symptoms of gastroesophageal reflux such as ac_id regurgitation, heartburn and indigestion (related to reflux), for example, following meals, or during pregnancy, or in patients with symptoms related to reflux oesophagitis.",
@@ -418,6 +447,7 @@
                 "_id": "64fac2f3da150c6dcbd106ef",
                 "img": "https://i.ibb.co/z8m8dfZ/ZIPx-MDAFYEooz6j-LXXFK21.webp",
                 "title": "Sergel Tablet 20mg",
+                "urlPath": "",
                 "quantity": "10 tablets",
                 "details": {
                     "indication": "To relieve from chronic heartburn symptoms and other symptoms associated with GERD. For the healing of erosive esophagitis. For maintenance of healing of erosive esophagitis. In combination with amoxicillin and clarithromycin for eradication of Helicobacter pylori infection in-patients with duodenal ulcer disease. Zollinger-Ellison Syndrome Ac_id related Dyspepsia Duodenal & Gastric ulcer",
@@ -439,6 +469,7 @@
                 "_id": "64fac2f309ad52ebb11936a8",
                 "img": "https://i.ibb.co/X27tdqW/fexo-tablet-120mg-10-tablets.webp",
                 "title": "Fexo Tablet 120mg",
+                "urlPath": "",
                 "quantity": "10 tablets",
                 "details": {
                     "indication": "adults and children 5 years of age and older shinontes y se alate Chion _idophic car significantly reden pru and the number of wheal",
@@ -452,6 +483,7 @@
                 "_id": "64fac2f36c8b8ca751d5792e",
                 "img": "https://i.ibb.co/JCfZsNk/montene-tablet-10mg-10-tablets.webp",
                 "title": "Montene Tablet 10mg",
+                "urlPath": "",
                 "quantity": "10 tablets",
                 "details": {
                     "indication": "For the prophylaxis and chronic treatment of asthma in adults and pediatric patients 2 years of age and older.",
@@ -465,6 +497,7 @@
                 "_id": "64fac2f35642e3f4d0395756",
                 "img": "https://i.ibb.co/5rR4tq0/alatrol-tablet-10mg-10-tablets.webp",
                 "title": "Alatrol Tablet 10mg",
+                "urlPath": "",
                 "quantity": "10 tablets",
                 "details": {
                     "indication": "Alatrol® is indicated for the relief of symptoms associated with seasonal allergic rhinitis due to allergen. Symptoms treated effectively include sneezing, rhinorrhea, pruritus, ocular pruritus, tearing and redness of the eyes. Alatrol® is indicated for the relief of symptoms associated with perennial allergic rhinitis due to allergens. Symptoms treated effectively include sneezing, rhinorrhea, post-nasal discharge, nasal pruritus, ocular pruritus and tearing. Alatrol® is indicated for the treatment of the uncomplicated skin manifestations of chronic _idiopathic urticaria. It is also used in allergen induced asthma.",
@@ -478,6 +511,7 @@
                 "_id": "64fac2f3ac71665a29057820",
                 "img": "https://i.ibb.co/f4m4NmQ/monas-tablet-10mg-15-tablets.webp",
                 "title": "Monas Tablet 10mg",
+                "urlPath": "",
                 "quantity": "15 tablets",
                 "details": {
                     "indication": "Monas in indicated for the prophylaxis and chronic treatment of Asthma & for the symptomatic relief of Allergic Rhinitis",
@@ -491,6 +525,7 @@
                 "_id": "64fac2f36eb46d5b285ec586",
                 "img": "https://i.ibb.co/ctCskbL/prot_ide-inhaler-25mcg250mcg-1-pc.webp",
                 "title": "Prot_ide Inhaler 25mcg+250mcg",
+                "urlPath": "",
                 "quantity": "1 pc",
                 "details": {
                     "indication": "Prot_ide is indicated in the regular treatment of asthma where use of a combination product (long-acting beta 2 agonist and inhaled corticostero_id) is appropriate: patients not adequately controlled with inhaled corticostero_ids and 'as needed' inhaled short- acting beta 2 agonist or patients already adequately controlled on both inhaled corticostero_id and long-acting beta 2 agonist",
@@ -512,6 +547,7 @@
                 "_id": "64fac2f31a21ac7aff582e29",
                 "img": "https://i.ibb.co/9hFRTyJ/Kg-QTz-ZAg0y3x-Gp-MAAQNu195.webp",
                 "title": "Selomet Tablet 50mg",
+                "urlPath": "",
                 "quantity": "10 tablets",
                 "details": {
                     "indication": "In the management of hypertension and angina pectoris. Cardiac arrhythmias, especially supraventricular tachyarrhythmias. Adjunct to the treatment of hyperthyro_idism. Early intervention with Metoprolol in acute myocardial infarction reduces infarct size and the inc_idence of ventricular fibrillation. Pain relief may also decrease the need for opiate analgesics. Metoprolol has been shown to reduce mortality when administered to patients with acute myocardial infarction.",
@@ -525,6 +561,7 @@
                 "_id": "64fac2f3788e733073944e42",
                 "img": "https://i.ibb.co/7rGH2jz/4-F0e5st-J5eoxrb8b79a3193.webp",
                 "title": "Telamlo 40/5mg",
+                "urlPath": "",
                 "quantity": "10 tablets",
                 "details": {
                     "indication": "TelAmlo is indicated for the treatment of hypertension alone or with other antihypertensive agents. TelAmlo tablets are indicated as initial therapy in patients likely to need multiple antihypertensive agents to achieve their blood pressure goals.",
@@ -538,6 +575,7 @@
                 "_id": "64fac2f31ccf9652e17afc31",
                 "img": "https://i.ibb.co/XFVBjJZ/UUH59li2q-Qo4l0-KLd-KJ2192.webp",
                 "title": "Telcardis Plus Tablet 40mg",
+                "urlPath": "",
                 "quantity": "7 tablets",
                 "details": {
                     "indication": "To treat hypertension and lower blood pressure, telmisartan and hydrochlorothiaz_ide are combined. The risk of both fatal and nonfatal cardiovascular events, such as strokes and heart attacks, is reduced by lowering blood pressure. These benefits have been demonstrated in controlled trials for antihypertensive drugs from a w_ide range of pharmacologic classes, including those to which this drug primarily belongs. There are no controlled studies demonstrating a risk reduction with telmisartan and hydrochlorothiaz_ide.",
@@ -551,6 +589,7 @@
                 "_id": "64fac2f3ec38fcac274bfdee",
                 "img": "https://i.ibb.co/kxW93rm/l4z4-DDHx-D0-PCy-He8-H8n-T189.webp",
                 "title": "Telcardis Tablet 40mg",
+                "urlPath": "",
                 "quantity": "10 tablets",
                 "details": {
                     "indication": "Telcardis is an angiotensin II receptor blocker (ARB) indicated for treatment of hypertension and Cardiovascular (CV) risk reduction in patients who are indicated for ACE inhibitors.",
@@ -564,6 +603,7 @@
                 "_id": "64fac2f3a72f790ddf7a4fb8",
                 "img": "https://i.ibb.co/HhJYdKh/Za3-Qrho2v-Ntxv-Sa-YKaa-E190.webp",
                 "title": "Telcardis Tablet 80mg",
+                "urlPath": "",
                 "quantity": "10 tablets",
                 "details": {
                     "indication": "Telcardis is an angiotensin II receptor blocker (ARB) indicated for treatment of hypertension and Cardiovascular (CV) risk reduction in patients who are indicated for ACE inhibitors.",
@@ -585,6 +625,7 @@
                 "_id": "64fac2f328b360f21589ebae",
                 "img": "https://i.ibb.co/qyjbB5p/betaburn-ointment-25gm.webp",
                 "title": "Betaburn Ointment 25gm",
+                "urlPath": "",
                 "quantity": "1 pc",
                 "details": {
                     "indication": "Burn, Leg ulcer, Surgical wound, Obstetric wound, Cracked nipple",
@@ -598,6 +639,7 @@
                 "_id": "64fac2f3464655e17ad7080a",
                 "img": "https://i.ibb.co/SKsp8tk/nebanol-powder-5mg250iu-1-pc.webp",
                 "title": "Nebanol Powder 5mg+250IU",
+                "urlPath": "",
                 "quantity": "1 pc",
                 "details": {
                     "indication": "Topical bacterial infections, atopic or contact stasis and infections, eczemato_id dermatitis, neurodermatitis, eczema, anogenital pruritus etc.",
@@ -611,6 +653,7 @@
                 "_id": "64fac2f33de448220a4d519a",
                 "img": "https://i.ibb.co/n6gqJBF/xenovate-ointment-30gm-1-pc.webp",
                 "title": "Xenovate Ointment 30gm",
+                "urlPath": "",
                 "quantity": "1 pc",
                 "details": {
                     "indication": "Xenovate (Clobetasol Propionate) ointment and cream are indicated for the topical therapy of recalcitrant corticostero_id responsive dermatoses, including severe cases of psoriasis (excluding w_idespread plaque psoriasis) and eczematous dermatitis. Xenovate (Clobetasol Propionate) ointment is generally chosen for dry, lichenified or scaly lesions or where a more occlusive effect is required. Xenovate (Clobetasol Propionate) cream is suitable for moist or weeping lesions.",
@@ -624,6 +667,7 @@
                 "_id": "64fac2f3680a4e3c93c26ddb",
                 "img": "https://i.ibb.co/xsMh7NH/nyclobate-nn-cream-05mg5mg1laciu10gm-1-pc.webp",
                 "title": "Nyclobate NN Cream (0.5mg+5mg+1LacIU)/10gm",
+                "urlPath": "",
                 "quantity": "1 pc",
                 "details": {
                     "indication": "Any inflammatory skin disorders like eczema & psoriasis where secondary bacterial or fungal infection is present, suspected or likely to occur.",
@@ -637,6 +681,7 @@
                 "_id": "64fac2f30857ac25b76eca2a",
                 "img": "https://i.ibb.co/1MX1mPH/xenosal-ointment-30gm-1-pc.webp",
                 "title": "Xenosal Ointment 30gm",
+                "urlPath": "",
                 "quantity": "1 pc",
                 "details": {
                     "indication": "Xenosal Ointment is indicated for the relief of the inflammatory manifestations of hyperkeratotic and dry corticostero_id responsive dermatoses such as, psoriasis, chronic atopic dermatitis, neurodermatitis (licehen Simplex, Chronicus), lichen planus, eczema (including nummular eczema, hand eczema, eczematous dermatitis), seborrheic dermatitis of the scalp, ichthyosis vulgaris and other ichthyotic conditions.",
@@ -658,6 +703,7 @@
                 "_id": "64fac2f3abc497ebe0710c8b",
                 "img": "https://i.ibb.co/NVpcSfz/omg-3-1629180748663.webp",
                 "title": "OMG-3 1000mg",
+                "urlPath": "",
                 "quantity": "10 capsul",
                 "details": {
                     "indication": "Omega-3 Corrosive Ethyl Esters is demonstrated as an a_ide to slim down to decrease exceptionally tall (>500mg/dl) triglycer_ide (TG) levels in grown-up patients and as an a_ide in auxiliary avo_idance in those who have had a myocardial dead tissue within the preceding 3 months. It is additionally demonstrated to assist decrease the joint aggravation related with mellow joint pain, disposition clutters & motivation control, age-related macular degeneration.",
@@ -671,6 +717,7 @@
                 "_id": "64fac2f32dbbbdb6c9ce1263",
                 "img": "https://i.ibb.co/gM9YBLJ/clop_id-tablet-75mg-14-tablets.webp",
                 "title": "Clop_id Tablet 75mg",
+                "urlPath": "",
                 "quantity": "14 tablets",
                 "details": {
                     "indication": " Clop_id is indicated for the reduction of atherosclerotic (myocardial infarction stroke and vascular death) in patients with ather documented by recent stroke, recent myocardial infarction or established thera.",
@@ -684,6 +731,7 @@
                 "_id": "64fac2f35646e36068ecb796",
                 "img": "https://i.ibb.co/7JYgwjd/dicaltrol-capsule-025mcg-15-capsules.webp",
                 "title": "Dicaltrol Capsule 0.25mcg",
+                "urlPath": "",
                 "quantity": "15 tablets",
                 "details": {
                     "indication": "Predialysis patients : Dicaltrol is indicated in the management of secondary hyperparathyro_idism and resultant metabolic bone disease in patients with moderate to severe chronic renal failure not yet on dialysis. In children, the creatinine clearance value must be corrected for a surface area of 1.73 square meters",
@@ -697,6 +745,7 @@
                 "_id": "64fac2f34bac252e03e595b8",
                 "img": "https://i.ibb.co/kSHfL8j/dimerol-tablet-80mg-14-tablets.webp",
                 "title": "Dimerol Tablet 80mg",
+                "urlPath": "",
                 "quantity": "14 tablets",
                 "details": {
                     "indication": "For the treatment of maturity onset diabetes in patients who cannot be controlled on diet alone.",
@@ -710,6 +759,7 @@
                 "_id": "64fac2f38601396eca0537e7",
                 "img": "https://i.ibb.co/W0WG5g0/penvik-ds-tablet-500mg-10-tablets.webp",
                 "title": "Penvik DS Tablet 500mg",
+                "urlPath": "",
                 "quantity": "10 tablets",
                 "details": {
                     "indication": "Streptococcal infections, scarlet fever, mild erysipelas, Bacterial endocarditis, lobar pneumonia.",
@@ -731,6 +781,7 @@
                 "_id": "64fac2f3d2bad38dd8603b17",
                 "img": "https://i.ibb.co/L6XHpYL/indever-tablet-10mg-10-tablets.webp",
                 "title": "Indever Tablet 10mg",
+                "urlPath": "",
                 "quantity": "10 tablets",
                 "details": {
                     "indication": "Indever 10 belongs to a class of drugs known as beta-blockers. It reduces anxiety and relieves tremors. It is also used to treat migraines, heart-related chest pain (angina), and stomach bleeding caused by high blood pressure in the liver (portal hypertension). Indever 10 may also be used to treat high blood pressure and irregular heartbeats (arrhythmia). The dose will be determined by the condition being treated and how you respond to the medication. Always take it exactly as prescribed by your doctor.",
@@ -744,6 +795,7 @@
                 "_id": "64fac2f383a1d9ef47682dc8",
                 "img": "https://i.ibb.co/3CBhFSq/dormicum-tablet-75mg-10-tablets.webp",
                 "title": "Dormicum Tablet 7.5mg",
+                "urlPath": "",
                 "quantity": "10 tablets",
                 "details": {
                     "indication": "Short-term treatment of insomnia. Sedation in premedication before surgical or diagnostic procedures.",
@@ -757,6 +809,7 @@
                 "_id": "64fac2f370fb12e4baa5c458",
                 "img": "https://i.ibb.co/Wz1jvx8/rivotril-tablet-05mg-10-tablets.webp",
                 "title": "Rivotril Tablet 0.5mg",
+                "urlPath": "",
                 "quantity": "10 tablets",
                 "details": {
                     "indication": "Epilepsy, Anxiety disorders, Panic disorder, Status epilepticus, Social phobia, Migraines, Parasomnia, Restless legs syndrome, Rap_id eye movement, Behavior disorder, Spasticity, Resistant depression, Trigeminal neuralgia, Nocturnal myoclonus, Post traumatic stress disorder, Insomnia and sleep disturbances, Burning Mouth Syndrome",
@@ -770,6 +823,7 @@
                 "_id": "64fac2f3e87051ae4997d02e",
                 "img": "https://i.ibb.co/c8Nj61v/sedil-tablet-5mg-20-tablets.webp",
                 "title": "Sedil Tablet 5mg",
+                "urlPath": "",
                 "quantity": "20 tablets",
                 "details": {
                     "indication": "Anxiety pain from apprehension and depression, acute and chronic stress of life, skeletal muscle spasm and strychnine poisoning. For surgical measures, Sedil® is a useful premedication (I.M. route recommended).",
@@ -783,6 +837,7 @@
                 "_id": "64fac2f37fafb03d46595b4c",
                 "img": "https://i.ibb.co/Y2wG4nQ/zolium-tablet-05mg-10-tablets.webp",
                 "title": "Zolium Tablet 0.5mg",
+                "urlPath": "",
                 "quantity": "10 tablets",
                 "details": {
                     "indication": "Anxiety disorder Short term relief of anxiety Anxiety associated with depression",
@@ -804,6 +859,7 @@
                 "_id": "64fac2f351a06fa1712942af",
                 "img": "https://i.ibb.co/GkPT79q/j-GO3-WK1j44ue1f-Rf-ZUyj166.webp",
                 "title": "Dysnov Syrup 100ml",
+                "urlPath": "",
                 "quantity": "1 pc",
                 "details": {
                     "indication": "1. The dyspeptic symptom complex that is often associated with delayed gastric emptying, gastrooesophageal  reflux and oesophagitis: epigastric sense of fullness, early satiety, feeling of abdominal distension, upper abdominal pain;bloating, eructation, flatulence; nausea and vomiting; heartburn with or without regurgitations of gastric contents in the mouth. 2. Nausea and vomiting of functional, organic, infectious or dietetic origin or induced by radiotherapy or drug therapy. A specific indication is nausea and vomiting induced by dopamine agonists, as used in Parkinson's disease (such as L-dopa and bromocriptine).",
@@ -817,6 +873,7 @@
                 "_id": "64fac2f3f362a848155d7b5a",
                 "img": "https://i.ibb.co/4VZh8kF/kx-B2yrgr-OJhj-MYm-ITJdr165.webp",
                 "title": "Dysnov Tablet 10mg",
+                "urlPath": "",
                 "quantity": "10 tablets",
                 "details": {
                     "indication": "1. The dyspeptic symptom complex that is often associated with delayed gastric emptying, gastrooesophageal  reflux and oesophagitis: epigastric sense of fullness, early satiety, feeling of abdominal distension, upper abdominal pain; bloating, eructation, flatulence; nausea and vomiting; heartburn with or without regurgitations of gastric contents in the mouth. 2. Nausea and vomiting of functional, organic, infectious or dietetic origin or induced by radiotherapy or drug therapy. A specific indication is nausea and vomiting induced by dopamine agonists, as used in Parkinson’s disease (such as L-dopa and bromocriptine).",
@@ -830,6 +887,7 @@
                 "_id": "64fac2f3fcb7146a1ca291bc",
                 "img": "https://i.ibb.co/6g0fqGL/9-Xi-NCXEKklg-Fa-Rkag-A1-D163.webp",
                 "title": "NexCap Capsule Delayed 20mg",
+                "urlPath": "",
                 "quantity": "10 tablets",
                 "details": {
                     "indication": "Gastroesophageal reflux disease (GERD) Healing of erosive esophagitis Maintenance of healing of erosive esophagitis Symptomatic gastroesophageal reflux disease Risk reduction of NSA_id-associated gastric ulcer H. pylori eradication to reduce the risk of duodenal ulcer recurrence Peptic ulcer",
@@ -843,6 +901,7 @@
                 "_id": "64fac2f3008c36640c61cbc1",
                 "img": "https://i.ibb.co/Bzfv2ny/ZMEZRk1-Gwfj8cltz-VXKE158.webp",
                 "title": "Maxpro Capsule 40mg",
+                "urlPath": "",
                 "quantity": "10 tablets",
                 "details": {
                     "indication": "To relieve from chronic heartburn symptoms and other symptoms associated with GERD For the healing of erosive esophagitis For maintenance of healing of erosive esophagitis In combination with amoxicillin and clarithromycin for eradication of Helicobacter pylori infection in patients with duodenal ulcer disease. Zollinger-Ellison Syndrome Ac_id related Dyspepsia Duodenal & Gastric ulcer",
@@ -856,6 +915,7 @@
                 "_id": "64fac2f3cd7c58b237f3c121",
                 "img": "https://i.ibb.co/bWC9sJV/kp-Qs-Qou3af-Ds-Bo9d68-U5161.webp",
                 "title": "Maxpro Capsule 20mg",
+                "urlPath": "",
                 "quantity": "14 tablets",
                 "details": {
                     "indication": "Esomeprazole is endorsed to treat persistent ac_id. In order to treat erosive esophagitis, For the support of erosive esophagitis healing. In patients with duodenal ulcer sickness, in conjunction with amoxicillin and clarithromycin, for the disposal of Helicobacter pylori infection. Syndrome of Zollinger-Ellison Duodenal and gastric ulcers due to corrosive dyspepsia",

@@ -32,7 +32,7 @@ export const router = createBrowserRouter([
                 element: <Register></Register>
             },
             {
-                path: "prescription",
+                path: "uploadPrescription",
                 element: <UploadPrescription></UploadPrescription>
             },
             {
