@@ -13,6 +13,7 @@ import PersonalCare from "../Pages/PersonalCare/PersonalCare";
 import HealthAndWellness from "../Pages/HealthAndWellness/HealthAndWellness";
 import BabyCare from "../Pages/BabyCare/BabyCare";
 import ShowConditionalItems from "../Pages/ShowConditionalItems/ShowConditionalItems";
+import CardDetails from "../Pages/CardDetails/CardDetails";
 
 export const router = createBrowserRouter([
     {
@@ -42,6 +43,10 @@ export const router = createBrowserRouter([
             {
                 path: "category/shopByCondition/:content",
                 element: <ShowConditionalItems></ShowConditionalItems>
+            },
+            {
+                path: "category/shopByCondition/cardDetails",
+                element: <CardDetails></CardDetails>
             },
             {
                 path: "category/sexualWellness",

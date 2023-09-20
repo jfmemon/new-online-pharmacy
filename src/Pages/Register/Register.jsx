@@ -50,7 +50,7 @@ const Register = () => {
             <div className="hero bg-base-200">
                 <div className="hero-content flex-col">
                     <div className="text-center lg:text-center">
-                        <h1 className="text-4xl font-bold py-4">Registration first!</h1>
+                        <h1 className="text-4xl font-bold py-4" style={{color:"#76D7C4"}}>Create your account!</h1>
                     </div>
                     <div className="card flex-shrink-0 md:w-96 shadow-2xl bg-base-100">
                         <form className="card-body" onSubmit={handleSubmit(onSubmit)}>
@@ -65,7 +65,7 @@ const Register = () => {
                                 <label className="label">
                                     <span className="label-text">Photo URL</span>
                                 </label>
-                                <input {...register("photoURL", { required: true })} type="text" placeholder="Eg: photoURL.com" className="input input-bordered" />
+                                <input {...register("photoURL", { required: true })} type="text" placeholder="Eg: photoURL.com (Public link)" className="input input-bordered" />
                                 {errors.photoURL && <span className="text-red-500">*This field is required</span>}
                             </div>
                             <div className="form-control">

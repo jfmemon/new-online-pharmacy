@@ -4,13 +4,13 @@ import ShowItemsByCard from './ShowItemsByCard';
 
 const ShowConditionalItems = () => {
     const location = useLocation();
-    console.log(location.state);
+    // console.log(location.state);
 
     const productItems = location.state.products;
     const name = location.state.name;
     // console.log(name);
     
-    // console.log(productItems);
+    console.log(productItems);
 
     return (
         <div className='p-5'>

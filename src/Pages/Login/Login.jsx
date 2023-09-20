@@ -54,7 +54,7 @@ const Login = () => {
             <div className="hero bg-base-200">
                 <div className="hero-content flex-col my-10">
                     <div className="text-center lg:text-center">
-                        <h1 className="text-4xl font-bold py-4">Login now!</h1>
+                        <h1 className="text-4xl font-bold py-4" style={{color: "#76D7C4"}}>Login now!</h1>
                     </div>
                     <div className="card flex-shrink-0 md:w-96 shadow-2xl bg-base-100">
                         <form className="card-body" onSubmit={handleLogin}>
@@ -70,7 +70,7 @@ const Login = () => {
                                 </label>
                                 <input type="password" name="password" placeholder="password" className="input input-bordered" required />
                                 <label className="label">
-                                    <small className="label-text-alt">New to SHEFA? Please <Link to='/register' className="text-orange-400 font-semibold">Register</Link> first.</small>
+                                    <small className="label-text-alt">New to SHEFA? Please <Link to='/register' className="text-orange-400 font-semibold">Create</Link> your account first.</small>
                                 </label>
                             </div>
                             <div className="form-control mt-6">
