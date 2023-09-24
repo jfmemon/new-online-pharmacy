@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { Link, json, useNavigate } from 'react-router-dom';
+import { Link, json, useLocation, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../Context/AuthProvider';
 import Swal from 'sweetalert2';
 
@@ -7,10 +7,11 @@ const ShowItemsByCard = ({ items }) => {
     const { _id, img, title, quantity, price, details, brand } = items;
     const { user } = useContext(AuthContext);
     const navigate = useNavigate();
+    // const location = useLocation();
     console.log(items);
 
     const handleItemDetails = (item) => {
-        console.log(item)
+        // console.log(item)
         if (user && user.email) {
             const cartItem = { itemId: _id, img, title, quantity, price, details, brand, userEmail: user.email };
 
