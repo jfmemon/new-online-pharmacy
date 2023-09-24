@@ -13,7 +13,7 @@
                 "quantity": "1 pc",
                 "details": {
                     "indication": "Ocof™ is indicated for the symptomatic relief of upper respiratory tract disorders accompanied by non-productive cough which benefits from the administration of a nasal decongestant, a histamine H1-receptor antagonist and an antitussive combination.",
-                    "dosage&Administration": "Adults & Children over 12 years: 1 teaspoonful 4 times a day.\n6-12 years : 1/2 teaspoonful 4 times a day.\nA physician's advice should be obtained before administering this combination to children less than 6 years.",
+                    "dosageAdministration": "Adults & Children over 12 years: 1 teaspoonful 4 times a day.\n6-12 years : 1/2 teaspoonful 4 times a day.\nA physician's advice should be obtained before administering this combination to children less than 6 years.",
                     "preparation": "Each PET bottle contains 100 ml syrup with a measuring cup."
                 },
                 "price": 110,
@@ -27,7 +27,7 @@
                 "quantity": "1 pc",
                 "details": {
                     "indication": "Acute and chronic disease of respiratory tracts associated with visc_id mucous including Acute & chronic bronchitis. Productive cough, Inflammatory diseases of Rhinopharyngeal tract, Asthmatic bronchitis, Bronchial asthma with thick expectoration, Bronchiectasis, chronic pneumonia.",
-                    "dosage&Administration": "Lytex Syrup: Age 2-5 years old 2.5 ml (1/2 teaspoonful) 2-3 times a day, \n5-10 years old 5 ml (1teaspoonful) 2-3 times a day, \n10 years old and adults 10 ml (2 teaspoonful) 3 times a day.",
+                    "dosageAdministration": "Lytex Syrup: Age 2-5 years old 2.5 ml (1/2 teaspoonful) 2-3 times a day, \n5-10 years old 5 ml (1teaspoonful) 2-3 times a day, \n10 years old and adults 10 ml (2 teaspoonful) 3 times a day.",
                     "preparation": "Each bottle contains 100 ml syrup with a measuring spoon."
                 },
                 "price": 50,
@@ -41,7 +41,7 @@
                 "quantity": "10 tablets",
                 "details": {
                     "indication": "Montex is indicated for the prophylaxis and chronic treatment of asthma in adults and children.",
-                    "dosage&Administration": "Adults 15 years of age: One tablet (lOmg) once daily at bed time. \nChildren 6-14 years of age: One chewable tablet (Smg) once daily at bed time. \nChildren 2-6 years of age: One chewable tablet (4mg) once daily at bed time. \nMontex may be taken with or without food or as directed by physician. Safety and effectiveness in children younger than 2 years of age have not been established.",
+                    "dosageAdministration": "Adults 15 years of age: One tablet (lOmg) once daily at bed time. \nChildren 6-14 years of age: One chewable tablet (Smg) once daily at bed time. \nChildren 2-6 years of age: One chewable tablet (4mg) once daily at bed time. \nMontex may be taken with or without food or as directed by physician. Safety and effectiveness in children younger than 2 years of age have not been established.",
                     "preparation": "Each box contains 2x10 tablets in blister pack."
                 },
                 "price": 160,
@@ -55,7 +55,7 @@
                 "quantity": "10 tablets",
                 "details": {
                     "indication": "Cough (non-productive), Whooping cough, Pre-post operative cough, Cough suppression",
-                    "dosage&Administration": "12 years age: 1 to 2 tablets daily. \nAdolescents over Adults: 2 to 3 tablets daily at 8 to 12 hours intervals.",
+                    "dosageAdministration": "12 years age: 1 to 2 tablets daily. \nAdolescents over Adults: 2 to 3 tablets daily at 8 to 12 hours intervals.",
                     "preparation": "Each box contains 3x10 tablets in blister pack."
                 },
                 "price": 110,
@@ -69,7 +69,7 @@
                 "quantity": "1 pc",
                 "details": {
                     "indication": "Bukof is indicated in acute cough of any etiology, pre and post operative cough sedation for surgical procedure and bronchoscopy.",
-                    "dosage&Administration": "Children 3 to 6 years of age : 5 mL syrup 3 times daily. \n6 to 12 years Adolescents over 12 years ago",
+                    "dosageAdministration": "Children 3 to 6 years of age : 5 mL syrup 3 times daily. \n6 to 12 years Adolescents over 12 years ago",
                     "preparation": "Each commercial box contains a PET bottle containing 100 ml syrup and a measuring cup."
                 },
                 "price": 80.24,
@@ -91,7 +91,7 @@
                 "quantity": "10 tablets",
                 "details": {
                     "indication": "All conditions requiring relief from pain and fever such as neuritis, neuralgia, headache, earache, toothache, pain due to rheumatic disorder, cold, influenza, dysmenorrhoea, post-vaccination pain and fever of children etc. Napa suppositories are used for rap_id symptomatic management of pain and fever. It is given as rectal suppository for mild to moderate pain and for pyrexia. ",
-                    "dosage&Administration": "Adult: 1-2 tablets every 4 to 6 hours up to a maximum of 4 gm (8 tablets) daily. \nChildren (6-12 years): ½ to 1 tablet 3 to 4 times daily. For long term treatment it is wise not to exceed the dose beyond 2.6 gm/day.",
+                    "dosageAdministration": "Adult: 1-2 tablets every 4 to 6 hours up to a maximum of 4 gm (8 tablets) daily. \nChildren (6-12 years): ½ to 1 tablet 3 to 4 times daily. For long term treatment it is wise not to exceed the dose beyond 2.6 gm/day.",
                     "preparation": "Box containing 50 blister strips of 10 tablets, each containing 500 mg Paracetamol BP."
                 },
                 "price": 12,
@@ -105,7 +105,7 @@
                 "quantity": "12 tablets",
                 "details": {
                     "indication": "Napa Extend extended release tablet contains Paracetamol BP 665 mg. It is effective for the relet of persistent pain associated with osteoarthritis and muscle aches and pains such as backache. Napa Extend extended release tablet also prov_ides effective, temporary reliet of pain and discomfort associated with headache, tension headache, period pain, toothache, pain after dental procedures and cold & flu. It reduces fever.",
-                    "dosage&Administration": "Napa Extend extended release tablets are to be administered orally, with or without food. \nAdults and children over 12 years: Two tablets, swallowed whole, every 6 to 8 hours (maximum of 6 tablets in any 24 hours). \nThe tablets must not be crushed.",
+                    "dosageAdministration": "Napa Extend extended release tablets are to be administered orally, with or without food. \nAdults and children over 12 years: Two tablets, swallowed whole, every 6 to 8 hours (maximum of 6 tablets in any 24 hours). \nThe tablets must not be crushed.",
                     "preparation": "Box containing 120 extended release tablets in 12X10's blister strips. Each extended release tablet contains Paracetamol BP 665 mg."
                 },
                 "price": 24,
@@ -119,7 +119,7 @@
                 "quantity": "1 pc",
                 "details": {
                     "indication": "Fever, Common cold and influenza, headache, toothache. earache, bodyache, myalgia, dysmenorrhoea, back pain, post-operative pain, inflammatory pain, post-vaccination pain and fever of children, rheumatism and osteoarthritic pain.",
-                    "dosage&Administration": "Suppository should be administered rectally. \nChildren 3 months to 1 year: 1-2 suppositories (60-120 mg). \nThe dosage should be based on based on age & weight i.e. \n3 months (5kg)-60 mg (1 suppository), \n1 year (10kg)- 120 mg (2 suppositories of 60 mg). \nChildren below 5 years: 125-250 mg, 2-3 times daily. \nChildren 6-12 years: 250-500 mg 2-3 times daily.\nAdults & children over 12 years: 500-1000 mg. 2-3 times daily.",
+                    "dosageAdministration": "Suppository should be administered rectally. \nChildren 3 months to 1 year: 1-2 suppositories (60-120 mg). \nThe dosage should be based on based on age & weight i.e. \n3 months (5kg)-60 mg (1 suppository), \n1 year (10kg)- 120 mg (2 suppositories of 60 mg). \nChildren below 5 years: 125-250 mg, 2-3 times daily. \nChildren 6-12 years: 250-500 mg 2-3 times daily.\nAdults & children over 12 years: 500-1000 mg. 2-3 times daily.",
                     "preparation": "Ace 125 Suppository: Box containing 30 suppositories in blister pack. Ace 250 Suppository: Box containing 30 suppositories in blister pack. Ace 500 Suppository: Box containing 30 suppositories in blister pack."
                 },
                 "price": 50,
@@ -133,7 +133,7 @@
                 "quantity": "1 pc",
                 "details": {
                     "indication": "Fever, common cold, and influenza, headache, toothache, earache, bodyache, myalgia, neuralgia, dysmenorrhoea, sprains, colic pain, back pain, post-operative pain, postpartum discomfort, inflammatory pain, and post vaccination pain in children are among the conditions for which paracetamol is prescribed. It's also used to treat rheumatic and osteoarthritic pain, as well as joint stiffness.",
-                    "dosage&Administration": "Children under 3 months: 10 mg/kg body weight (reduce to 5 mg/kg if jaundiced) 3 to 4 times daily. \n3 months to below 1 year: ½ to 1 teaspoonful 3 to 4 times daily. \n1-5 years: 1 -2 teaspoonful 3 to 4 times daily.\n6-12 years: 2-A teaspoonful 3 to 4 times daily.\nAdults: 4-8 teaspoonful 3 to 4 times daily.",
+                    "dosageAdministration": "Children under 3 months: 10 mg/kg body weight (reduce to 5 mg/kg if jaundiced) 3 to 4 times daily. \n3 months to below 1 year: ½ to 1 teaspoonful 3 to 4 times daily. \n1-5 years: 1 -2 teaspoonful 3 to 4 times daily.\n6-12 years: 2-A teaspoonful 3 to 4 times daily.\nAdults: 4-8 teaspoonful 3 to 4 times daily.",
                     "preparation": "Napa 100 Suppository: Box containing 30 suppositories in blister pack."
                 },
                 "price": 50,
@@ -147,7 +147,7 @@
                 "quantity": "1 pc",
                 "details": {
                     "indication": "Minor aches and pains associated with influenza, headache, toothache, earache, pain due to neurological disturbance, for the pain of menstrual cramps, for the minor pain of arthritis and for the reduction of fever.",
-                    "dosage&Administration": "Adults : 0.5-1 g (1-2 tablets) every 4-6 hours. Maximum daily dose is 4 g (8 tablets). \nChildren : For post immunization pyrexia 60 mg followed if necessary by a second dose 4 to 6 hours laterUnder 3 months (on doctor’s advice only) : 10 mg/kg body weight (5 mg/kg body weight if jaundiced) 3-4 times daily. \n3 months-1 year : 60-120 mg or ½-1 teaspoonful 3-4 times daily when necessary. \n1-5 years : 120-250 mg or 1-2 teaspoonful 3-4 times daily when necessary. \n6-12 years : 250-500 mg or 2-4 teaspoonful 3-4 times daily when necessary.",
+                    "dosageAdministration": "Adults : 0.5-1 g (1-2 tablets) every 4-6 hours. Maximum daily dose is 4 g (8 tablets). \nChildren : For post immunization pyrexia 60 mg followed if necessary by a second dose 4 to 6 hours laterUnder 3 months (on doctor’s advice only) : 10 mg/kg body weight (5 mg/kg body weight if jaundiced) 3-4 times daily. \n3 months-1 year : 60-120 mg or ½-1 teaspoonful 3-4 times daily when necessary. \n1-5 years : 120-250 mg or 1-2 teaspoonful 3-4 times daily when necessary. \n6-12 years : 250-500 mg or 2-4 teaspoonful 3-4 times daily when necessary.",
                     "preparation": "Box containing 120 extended release tablets in 12X10's blister strips. Each extended release tablet contains Paracetamol BP 665 mg."
                 },
                 "price": 35,
@@ -161,7 +161,7 @@
                 "quantity": "10 tablets",
                 "details": {
                     "indication": "Treatment of acute migraine pain.",
-                    "dosage&Administration": "One Tolfem Tablet should be taken as soon as migraine pain appears. The treatment can be repeated once after 1-2 hours if needed.",
+                    "dosageAdministration": "One Tolfem Tablet should be taken as soon as migraine pain appears. The treatment can be repeated once after 1-2 hours if needed.",
                     "preparation": "Each box contains 30 tablets in Alu-alu blister pack."
                 },
                 "price": 100,
@@ -175,7 +175,7 @@
                 "quantity": "10 tablets",
                 "details": {
                     "indication": "Short-term management of moderate to severe acute post-operative pain and acute pain of other origins.",
-                    "dosage&Administration": " Injection: For adults (65 years): Initial dose is 60 mg IM (Single). The maintenance dose is 30 mg IM/IV 6 hourly. Maximum dose is 120 mg/day. For adults (>65 years): Initial dose is 30 mg IM. Maintenance dose is 10-15 mg IM/IV 6 hourly. The maximum duration of treatment should not exceed two days. Tablets: 10 mg every 6 hours as required up to 7 days. ",
+                    "dosageAdministration": " Injection: For adults (65 years): Initial dose is 60 mg IM (Single). The maintenance dose is 30 mg IM/IV 6 hourly. Maximum dose is 120 mg/day. For adults (>65 years): Initial dose is 30 mg IM. Maintenance dose is 10-15 mg IM/IV 6 hourly. The maximum duration of treatment should not exceed two days. Tablets: 10 mg every 6 hours as required up to 7 days. ",
                     "preparation": "Torax® 10 tablet: Each box contains 50 tablets in Alu-Alu pack. \nTorax® 30 injection: Each box contains 5 ampoules in a blister pack with sterile disposable syringe.\nTorax® 60 injection: Each box contains 1 ampoule in a blister pack with sterile disposable syringe"
                 },
                 "price": 120,
@@ -189,7 +189,7 @@
                 "quantity": "1 pc",
                 "details": {
                     "indication": "Muscle pain, Sprains, strains and sports injuries, Headache, Bruising, Fibrositis, Neuralgia, Pain due to herpes zoster, Osteoarthritis",
-                    "dosage&Administration": "Adult: Clean the affected area. Apply a small amount of TorelTM muscle rub (an amount equal to the surface area of the tip of a finger) 3 to 4 times daily or as directed by the physician. Children under 6 years of age: Not to be used.",
+                    "dosageAdministration": "Adult: Clean the affected area. Apply a small amount of TorelTM muscle rub (an amount equal to the surface area of the tip of a finger) 3 to 4 times daily or as directed by the physician. Children under 6 years of age: Not to be used.",
                     "preparation": "Each lami tube contains 20 gm TorelTM muscle rub."
                 },
                 "price": 70,
@@ -203,7 +203,7 @@
                 "quantity": "10 tablets",
                 "details": {
                     "indication": "Relief of pain and inflammation in - osteoarthritis, rheumato_id arthritis, other chronic musculoskeletal disorders, acute gout, dysmenorrhoea, & following dental surgery.",
-                    "dosage&Administration": "Adult and adolescent over 16 years: osteoarthritis, chronic musculoskeletal disorders  dysmenorrhoea: 60 mg, once daily,rheumato_id arthritis: 90 mg, once daily, pain following dental surgery & acute gout: 120 mg, once daily.",
+                    "dosageAdministration": "Adult and adolescent over 16 years: osteoarthritis, chronic musculoskeletal disorders  dysmenorrhoea: 60 mg, once daily,rheumato_id arthritis: 90 mg, once daily, pain following dental surgery & acute gout: 120 mg, once daily.",
                     "preparation": "Tory ® 60 Tablet : Box containing 6 x 5 tablets in blister pack. Tory ® 90 Tablet : Box containing 6 x 5 tablets in blister pack. Tory ® 120 Tablet : Box containing 4x5 tablets in blister pack."
                 },
                 "price": 70,
@@ -217,7 +217,7 @@
                 "quantity": "10 tablets",
                 "details": {
                     "indication": "Relief of pain and inflammation in - osteoarthritis, rheumato_id arthritis, other chronic musculoskeletal disorders, acute gout,dysmenorrhoea, & following dental surgery.",
-                    "dosage&Administration": "Adult and adolescent over 16 years: osteoarthritis, chronic musculoskeletal disorders dysmenorrhoea: 60 mg, once daily, rheumato_id arthritis: 90 mg, once daily, pain following dental surgery & acute gout: 120 mg, once daily.",
+                    "dosageAdministration": "Adult and adolescent over 16 years: osteoarthritis, chronic musculoskeletal disorders dysmenorrhoea: 60 mg, once daily, rheumato_id arthritis: 90 mg, once daily, pain following dental surgery & acute gout: 120 mg, once daily.",
                     "preparation": "Tory ® 60 Tablet : Box containing 6 x 5 tablets in blister pack. Tory ® 90 Tablet : Box containing 6 x 5 tablets in blister pack. Tory ® 120 Tablet : Box containing 4x5 tablets in blister pack."
                 },
                 "price": 120,
@@ -239,7 +239,7 @@
                 "quantity": "6 tablets",
                 "details": {
                     "indication": "Management of type 2 diabetes mellitus.",
-                    "dosage&Administration": "Dose of this combination should be indiv_idualized on the basis of the patient’s current regimen effectiveness, and tolerability while not exceeding the maximum recommended daily dose of 100 mg Sitagliptin and 2000 mg Metformin.Administer once daily with meal preferably in the evening. Gradually escalate the dose to reduce the gastrointestinal s_ide effectsdue to Metformin. May adjust the dosing based on effectiveness & tolerability while not exceeding the maximum daily dose of 100 mg Sitagliptin & and 2000 mg Metformin extended-release. Maintain the same total daily dose when changing between Siglimet™ & Siglimet™ XR without exceeding the maximum recommended daily dose of 2000 mg Metformin extended-release. Patients using two Siglimet™ XR tablets (such as two Siglimet XR 50/500 or two Siglimet™ XR 50/1000 tablets) should take the two tablets together once daily. 100 mg Sitagliptin/2000 mg Metformin HCl XR tablets should be taken as a single tablet once daily.",
+                    "dosageAdministration": "Dose of this combination should be indiv_idualized on the basis of the patient’s current regimen effectiveness, and tolerability while not exceeding the maximum recommended daily dose of 100 mg Sitagliptin and 2000 mg Metformin.Administer once daily with meal preferably in the evening. Gradually escalate the dose to reduce the gastrointestinal s_ide effectsdue to Metformin. May adjust the dosing based on effectiveness & tolerability while not exceeding the maximum daily dose of 100 mg Sitagliptin & and 2000 mg Metformin extended-release. Maintain the same total daily dose when changing between Siglimet™ & Siglimet™ XR without exceeding the maximum recommended daily dose of 2000 mg Metformin extended-release. Patients using two Siglimet™ XR tablets (such as two Siglimet XR 50/500 or two Siglimet™ XR 50/1000 tablets) should take the two tablets together once daily. 100 mg Sitagliptin/2000 mg Metformin HCl XR tablets should be taken as a single tablet once daily.",
                     "preparation": "Siglimet™ 50/500 Tablet: Each box contains 30 tablets in blister pack.Siglimet™ 50/1000 Tablet: Each box contains 20 tablets in blister pack.Siglimet™ XR 50/500 Tablet: Each box contains 18 tablets in blister pack. Siglimet™ XR 50/1000 Tablet: Each box contains 18 tablets in blister pack. Siglimet™ XR 100/1000 Tablet: Each box contains 12 tablets in blister pack."
                 },
                 "price": 180,
@@ -253,7 +253,7 @@
                 "quantity": "10 tablets",
                 "details": {
                     "indication": "Management of type 2 diabetes mellitus.",
-                    "dosage&Administration": "The recommended dose of Siglita™ is 100 mg once daily. Siglita™ can be taken with or without food. For patients with mild renal insufficiency (creatinine clearance [CrCl] 50 mL/min) no dosage adjustment for Siglita™ is required. For patients with moderate renal insufficiency (CrCl 30 to <50 mL/min), the dose of Siglita™ is 50 mg once daily. For patients with severe renal insufficiency (CrCl <30 mL/min) or with end-stage renal disease (ESRD) requiring hemodialysis or peritoneal dialysis, the dose of Siglita™ is 25 mg once daily. Siglita™ may be administered without regard to the timing of hemodialysis.",
+                    "dosageAdministration": "The recommended dose of Siglita™ is 100 mg once daily. Siglita™ can be taken with or without food. For patients with mild renal insufficiency (creatinine clearance [CrCl] 50 mL/min) no dosage adjustment for Siglita™ is required. For patients with moderate renal insufficiency (CrCl 30 to <50 mL/min), the dose of Siglita™ is 50 mg once daily. For patients with severe renal insufficiency (CrCl <30 mL/min) or with end-stage renal disease (ESRD) requiring hemodialysis or peritoneal dialysis, the dose of Siglita™ is 25 mg once daily. Siglita™ may be administered without regard to the timing of hemodialysis.",
                     "preparation": "Siglita™ Tablet: Box containing 20 tablets in blister pack."
                 },
                 "price": 130,
@@ -267,7 +267,7 @@
                 "quantity": "6 tablets",
                 "details": {
                     "indication": "Management of type 2 diabetes mellitus.",
-                    "dosage&Administration": "Adults: Based on the patient's current dose of Metformin, Combination of Vildagliptin & Metformin may be initiated at either 50 mg/500 mg or 50 mg/850 mg twice daily, 1 tab in the morning and the other in the evening. The recommended daily dose is 100 mg Vildagliptin plus 2000 mg Metformin HCl. Patients receiving Vildagliptin and Metformin from separate tablets may be switched to Combination of Vildagliptin & Metformin containing the same doses of each component. Doses higher than 100 mg of Vildagliptin are not recommended. There is no clinical experience of Vildagliptin and Metformin in triple combination with other ant_idiabetic agents. Taking Combination of Vildagliptin & Metformin with or just after food may reduce gastrointestinal symptoms associated  with Metformin.",
+                    "dosageAdministration": "Adults: Based on the patient's current dose of Metformin, Combination of Vildagliptin & Metformin may be initiated at either 50 mg/500 mg or 50 mg/850 mg twice daily, 1 tab in the morning and the other in the evening. The recommended daily dose is 100 mg Vildagliptin plus 2000 mg Metformin HCl. Patients receiving Vildagliptin and Metformin from separate tablets may be switched to Combination of Vildagliptin & Metformin containing the same doses of each component. Doses higher than 100 mg of Vildagliptin are not recommended. There is no clinical experience of Vildagliptin and Metformin in triple combination with other ant_idiabetic agents. Taking Combination of Vildagliptin & Metformin with or just after food may reduce gastrointestinal symptoms associated  with Metformin.",
                     "preparation": "ViglimetTM 50/500 Tablet: Each box contains 30 tablets in blister pack. ViglimetTM 50/850 Tablet: Each box contains 30 tablets in blister pack."
                 },
                 "price": 120,
@@ -281,7 +281,7 @@
                 "quantity": "6 tablets",
                 "details": {
                     "indication": "Management of type 2 diabetes mellitus.",
-                    "dosage&Administration": "Adults: Based on the patient's current dose of Metformin, Combination of Vildagliptin & Metformin may be initiated at either 50 mg/500 mg or 50 mg/850 mg twice daily, 1 tab in the morning and the other in the evening. The recommended daily dose is 100 mg Vildagliptin plus 2000 mg Metformin HCl. Patients receiving Vildagliptin and Metformin from separate tablets may be switched to Combination of Vildagliptin & Metformin containing the same doses of each component. Doses higher than 100 mg of Vildagliptin are not recommended. There is no clinical experience of Vildagliptin and Metformin in triple combination with other ant_idiabetic agents. Taking Combination of Vildagliptin & Metformin with or just after food may reduce gastrointestinal symptoms associated with Metformin.",
+                    "dosageAdministration": "Adults: Based on the patient's current dose of Metformin, Combination of Vildagliptin & Metformin may be initiated at either 50 mg/500 mg or 50 mg/850 mg twice daily, 1 tab in the morning and the other in the evening. The recommended daily dose is 100 mg Vildagliptin plus 2000 mg Metformin HCl. Patients receiving Vildagliptin and Metformin from separate tablets may be switched to Combination of Vildagliptin & Metformin containing the same doses of each component. Doses higher than 100 mg of Vildagliptin are not recommended. There is no clinical experience of Vildagliptin and Metformin in triple combination with other ant_idiabetic agents. Taking Combination of Vildagliptin & Metformin with or just after food may reduce gastrointestinal symptoms associated with Metformin.",
                     "preparation": "ViglimetTM 50/500 Tablet: Each box contains 30 tablets in blister pack. ViglimetTM 50/850 Tablet: Each box contains 30 tablets in blister pack."
                 },
                 "price": 132,
@@ -295,7 +295,7 @@
                 "quantity": "10 tablets",
                 "details": {
                     "indication": "ViglitaTM is indicated as an adjunct to diet and exercise to improve glycemic control in patients with type 2 diabetes mellitus.",
-                    "dosage&Administration": "The recommended dose of ViglitaTM is 50 mg or 100 mg daily for monotherapy; 50 mg twice daily (morning and evening) when used in dual combination with Metformin or a Thiazol_idinedione; 50 mg once daily in the morning when used in dual combination with a Sulphonylurea.",
+                    "dosageAdministration": "The recommended dose of ViglitaTM is 50 mg or 100 mg daily for monotherapy; 50 mg twice daily (morning and evening) when used in dual combination with Metformin or a Thiazol_idinedione; 50 mg once daily in the morning when used in dual combination with a Sulphonylurea.",
                     "preparation": "ViglitaTM 50 Tablet: Each box contains 20 tablets in blister pack."
                 },
                 "price": 160,
@@ -312,12 +312,12 @@
             {
                 "_id": "64fac2f3d52a39af58fc62d7",
                 "img": "https://i.ibb.co/vVqY3Hm/ciprocin-eye-drop-035ml-1-pc.webp",
-                "title": "Ciprocin Eye Drop 0.3%/5ml",
+                "title": "Ciprocin Eye Drop 0.3% 5ml",
                 "urlPath": "",
                 "quantity": "1 pc",
                 "details": {
                     "indication": "Eye : Corneal ulcer, bacterial Conjunctivitis. Ear : Otitis externa, acute otitis media, chronic suppurative otitis media.",
-                    "dosage&Administration": "Eye : The recommended dosage regimen for the treatment of corneal ulcers is two drops into the affected eye every 15 minutes for the first 6 hours and then two drops into the affected eye every 30 minutes for the remainder of the first day. On the second day, instill 2 drops in the affected eye hourly. On the third to fourteenth day, place two drops in the affected eye every four hours. Treatment may be continued after 14 days if corneal re-epithelization has not been occurred. Ear : For all infections, 2 - 3 drops every 2 - 3 hours initially.",
+                    "dosageAdministration": "Eye : The recommended dosage regimen for the treatment of corneal ulcers is two drops into the affected eye every 15 minutes for the first 6 hours and then two drops into the affected eye every 30 minutes for the remainder of the first day. On the second day, instill 2 drops in the affected eye hourly. On the third to fourteenth day, place two drops in the affected eye every four hours. Treatment may be continued after 14 days if corneal re-epithelization has not been occurred. Ear : For all infections, 2 - 3 drops every 2 - 3 hours initially.",
                     "preparation": "Ciprocin™ Eye Drops : As a sterile ophthalmic solution 5 ml in plastic dropper bottle."
                 },
                 "price": 50,
@@ -326,12 +326,12 @@
             {
                 "_id": "64fac2f330261a0c6cbcd786",
                 "img": "https://i.ibb.co/dc91zHW/alacot-max-eye-drop-075ml-1-pc.webp",
-                "title": "Alacot Max Eye Drop 0.7%/5ml",
+                "title": "Alacot Max Eye Drop 0.7% 5ml",
                 "urlPath": "",
                 "quantity": "1 pc",
                 "details": {
                     "indication": "Indicated for the treatment of the signs and symptoms of allergic conjunctivitis",
-                    "dosage&Administration": "One drop in each affected eye once a day",
+                    "dosageAdministration": "One drop in each affected eye once a day",
                     "preparation": "0.7% Eye Drops"
                 },
                 "price": 245,
@@ -340,12 +340,12 @@
             {
                 "_id": "64fac2f3d0f0d0cf2e36973a",
                 "img": "https://i.ibb.co/BNSWCZV/alacot-eye-drop-015ml-1-pc.webp",
-                "title": "Alacot Eye Drop 0.1%/5ml",
+                "title": "Alacot Eye Drop 0.1% 5ml",
                 "urlPath": "",
                 "quantity": "1 pc",
                 "details": {
                     "indication": "Indicated for the treatment of the signs and symptoms of allergic conjunctivitis.",
-                    "dosage&Administration": "One drop in each affected eye two times per day at an interval of 6 to 8 hours.",
+                    "dosageAdministration": "One drop in each affected eye two times per day at an interval of 6 to 8 hours.",
                     "preparation": "0.1% Eye Drops."
                 },
                 "price": 110,
@@ -354,12 +354,12 @@
             {
                 "_id": "64fac2f344ecaa69d0cada6c",
                 "img": "https://i.ibb.co/Vw2YmY5/clarizol-ear-drop-110ml-1-pc.webp",
-                "title": "Clarizol Ear Drop 1%/10ml",
+                "title": "Clarizol Ear Drop 1% 10ml",
                 "urlPath": "",
                 "quantity": "1 pc",
                 "details": {
                     "indication": "Clarizol Ear Drop is indicated for the treatment of fungal infections of the ear.",
-                    "dosage&Administration": "Instill 2-3 drops of Clarizol Ear Drops in the affected ear two or three times daily.The treatment should be continued for at least two weeks after the disappearance of all signs of infection to prevent re-infection.",
+                    "dosageAdministration": "Instill 2-3 drops of Clarizol Ear Drops in the affected ear two or three times daily.The treatment should be continued for at least two weeks after the disappearance of all signs of infection to prevent re-infection.",
                     "preparation": "Each plastic dropper bottle contains 10 ml Ear Drops."
                 },
                 "price": 80,
@@ -373,7 +373,7 @@
                 "quantity": "1 pc",
                 "details": {
                     "indication": "Conjunctivitis, blepharitis, blepharo-conjunctivitis, Staphylococcus aureus - induced corneal ulcers.",
-                    "dosage&Administration": "Adults and children (above 1 year of age): Insert 2-3 times daily 1 drop into the lower conjunctival sac. At the beginning of the treatment applications should be more frequent, apply 5 drops within 20 minutes or 1 drop every hour during 6-10 hours. Duration of the treatment: 7 to 9 days.",
+                    "dosageAdministration": "Adults and children (above 1 year of age): Insert 2-3 times daily 1 drop into the lower conjunctival sac. At the beginning of the treatment applications should be more frequent, apply 5 drops within 20 minutes or 1 drop every hour during 6-10 hours. Duration of the treatment: 7 to 9 days.",
                     "preparation": "Mexlo® Eye Drops: Dropper bottle containing 5 ml of sterile solution."
                 },
                 "price": 70,
@@ -395,7 +395,7 @@
                 "quantity": "10 tablets",
                 "details": {
                     "indication": "Gastroesophageal Reflux Disease (GERD), Risk reduction in NSA_id associated gastric ulcer, H. pylori eradication (Triple therapy), Zollinger-Ellison syndrome and _idiopathic hypersecretion",
-                    "dosage&Administration": "Esomeprazole MUPS tablets should be swallowed whole with liqu_id. The tablets should not be chewed or crushed. If required, the tablets can also be dispersed in half a glass of non-carbonated water (mineral water is not suitable). No other liqu_ids should be used. Stir until the tablets disintegrate and drink the liqu_id with the pellets immediately or within 30 minutes. Rinse the glass with half a glass of water and drink. The pellets must not be chewed or crushed.",
+                    "dosageAdministration": "Esomeprazole MUPS tablets should be swallowed whole with liqu_id. The tablets should not be chewed or crushed. If required, the tablets can also be dispersed in half a glass of non-carbonated water (mineral water is not suitable). No other liqu_ids should be used. Stir until the tablets disintegrate and drink the liqu_id with the pellets immediately or within 30 minutes. Rinse the glass with half a glass of water and drink. The pellets must not be chewed or crushed.",
                     "preparation": "Exium 20 mg capsule: Each box contains 100 capsules (10 x 10's) in Alu-Alu blister pack. Exium 40 mg capsule: Each box contains 60 capsules (10 x 6's) in Alu-Alu blister pack. Exium 40 mg IV Injection: Each box contains 1 vial and 1 ampoule for intravenous injection."
                 },
                 "price": 150,
@@ -409,7 +409,7 @@
                 "quantity": "10 tablets",
                 "details": {
                     "indication": "Gastroesophageal Reflux Disease (GERD), Risk reduction in NSA_id associated gastric ulcer, H. pylori eradication (Triple therapy), Zollinger-Ellison syndrome and _idiopathic hypersecretion",
-                    "dosage&Administration": "Exium MUPS tablets should be swallowed whole with liqu_id. The tablets should not be chewed or crushed. If required, the tablets can also be dispersed in half a glass of non-carbonated water (mineral water is not suitable). No other liqu_ids should be used. Stir until the tablets disintegrate and drink the liqu_id with the pellets immediately or within 30 minutes. Rinse the glass with half a glass of water and drink. The pellets must not be chewed or crushed.",
+                    "dosageAdministration": "Exium MUPS tablets should be swallowed whole with liqu_id. The tablets should not be chewed or crushed. If required, the tablets can also be dispersed in half a glass of non-carbonated water (mineral water is not suitable). No other liqu_ids should be used. Stir until the tablets disintegrate and drink the liqu_id with the pellets immediately or within 30 minutes. Rinse the glass with half a glass of water and drink. The pellets must not be chewed or crushed.",
                     "preparation": "Exium 20 mg capsule: Each box contains 100 capsules (10 x 10's) in Alu-Alu blister pack. Exium 40 mg capsule: Each box contains 60 capsules (10 x 6's) in Alu-Alu blister pack. Exium 40 mg IV Injection: Each box contains 1 vial and 1 ampoule for intravenous injection."
                 },
                 "price": 110,
@@ -418,12 +418,12 @@
             {
                 "_id": "64fac2f3a1c7ddbeb8bae678",
                 "img": "https://i.ibb.co/QDGjkpV/TZZtk4-JT8o4-Zztn3-OTSa179.webp",
-                "title": "Seclo 40mg/vial",
+                "title": "Seclo 40mg vial",
                 "urlPath": "",
                 "quantity": "1 pc",
                 "details": {
                     "indication": "Seclo® capsule and tablet is indicated for gastroesophageal reflux disease including reflux esophagitis, ac_id reflux disease, duodenal and benign gastric ulcers, Helicobacter pylori eradication regimens in peptic ulcer disease, prophylaxis of ac_id aspiration, Zollinger-Ellison Syndrome (ZES) and for the treatment of NSA_id-associated gastric ulcers, duodenal ulcers or gastroduodenal erosions. Seclo® IV is indicated primarily for the treatment of Zollinger-Ellison syndrome, and may also be used for the treatment of gastric ulcer, duodenal ulcer and reflux esophagitis.",
-                    "dosage&Administration": "Benign gastric and duodenal ulcer: 20 mg once daily for 4 weeks in duodenal ulceration, 8 weeks in gastric ulceration; in severe or recurrent cases, dose to be increased to 40 mg daily; maintenance dose for recurrent duodenal ulcer, 20 mg once daily; in prevention of relapse in duodenal ulcer, 10-20 mg daily.",
+                    "dosageAdministration": "Benign gastric and duodenal ulcer: 20 mg once daily for 4 weeks in duodenal ulceration, 8 weeks in gastric ulceration; in severe or recurrent cases, dose to be increased to 40 mg daily; maintenance dose for recurrent duodenal ulcer, 20 mg once daily; in prevention of relapse in duodenal ulcer, 10-20 mg daily.",
                     "preparation": "Seclo® 20 Capsule: Box containing 12 x 10 capsules in Alu-Alu blister pack Seclo® 40 capsule: Box containing 5 X 6 capsules in Alu-Alu blister pack. Seclo® 40 IV Injection: Box containing one vial of lyophilized Omeprazole 40 mg, one ampule of water for injection BP 10 ml and one sterile disposable syringe (10ml)."
                 },
                 "price": 79,
@@ -437,7 +437,7 @@
                 "quantity": "1 pc",
                 "details": {
                     "indication": "Treatment of symptoms of gastroesophageal reflux such as ac_id regurgitation, heartburn and indigestion (related to reflux), for example, following meals, or during pregnancy, or in patients with symptoms related to reflux oesophagitis.",
-                    "dosage&Administration": "Tablet: Adult and child over 12 years: 1-2 tablets daily 4 times, after meals and at bed time. Child 6-12 years: 1 tablet daily 4 times, after meals and at bed time. Suspension: Adult and child over 12 years: 5-10 ml daily 4 times, after meals and at bedtime.",
+                    "dosageAdministration": "Tablet: Adult and child over 12 years: 1-2 tablets daily 4 times, after meals and at bed time. Child 6-12 years: 1 tablet daily 4 times, after meals and at bed time. Suspension: Adult and child over 12 years: 5-10 ml daily 4 times, after meals and at bedtime.",
                     "preparation": "Each plastic bottle contains 200 ml syrup."
                 },
                 "price": 287,
@@ -451,7 +451,7 @@
                 "quantity": "10 tablets",
                 "details": {
                     "indication": "To relieve from chronic heartburn symptoms and other symptoms associated with GERD. For the healing of erosive esophagitis. For maintenance of healing of erosive esophagitis. In combination with amoxicillin and clarithromycin for eradication of Helicobacter pylori infection in-patients with duodenal ulcer disease. Zollinger-Ellison Syndrome Ac_id related Dyspepsia Duodenal & Gastric ulcer",
-                    "dosage&Administration": "Healing of Erosive Esophagitis: 20 mg or 40 mg Once Daily for 4-8 Weeks. The majority of patients are healed within 4 to 8 weeks. For patients who don't heal after 4-8 weeks, an additional 4-8 weeks of treatment may be cons_idered. Maintenance of Healing of Erosive",
+                    "dosageAdministration": "Healing of Erosive Esophagitis: 20 mg or 40 mg Once Daily for 4-8 Weeks. The majority of patients are healed within 4 to 8 weeks. For patients who don't heal after 4-8 weeks, an additional 4-8 weeks of treatment may be cons_idered. Maintenance of Healing of Erosive",
                     "preparation": "Box containing 3x10 tablets in Alu-Alu blister pack."
                 },
                 "price": 68,
@@ -473,7 +473,7 @@
                 "quantity": "10 tablets",
                 "details": {
                     "indication": "adults and children 5 years of age and older shinontes y se alate Chion _idophic car significantly reden pru and the number of wheal",
-                    "dosage&Administration": "120 mg once day or 180 mg once daily with Seasonal Allergic at Children 20 11 years The recommended dose of Fra sulpension i 30 mg 15 ml twice daily A dose of 30 mg 13 m once daily is recommended as the starting dose in pediatric patients with decreased renal function Chronic _idiopathic Urticaria Children 2 to 11 years: 30 mg 15 m Fexo oral suspension twice daily Children months to less than 2 years of age 15 mg (25 m Fexo oral suspension twice daily For pediatric patients with decreased renal function, the recommended starting doses of Fess oral suspension are 30 mg 15 ml once daily for patients 2 to 11 years of age and 15 mg 12.5 m once daily for patients & months to less than 2 years of age DOSES IN RENAL IMPAIRMENT This drug is known to be substantially excreted by the k_idney and the risk of tox reactions to this drug may be greater in patients with impaired renal function Because elderly patents are more likely to have decreased renal function, care should be taken in dose selection and it may be useful to monnor renal function intual doses of Fexofenadine Hydrochlonde in patients with renal impairment should be reduced to 60 mg once daily",
+                    "dosageAdministration": "120 mg once day or 180 mg once daily with Seasonal Allergic at Children 20 11 years The recommended dose of Fra sulpension i 30 mg 15 ml twice daily A dose of 30 mg 13 m once daily is recommended as the starting dose in pediatric patients with decreased renal function Chronic _idiopathic Urticaria Children 2 to 11 years: 30 mg 15 m Fexo oral suspension twice daily Children months to less than 2 years of age 15 mg (25 m Fexo oral suspension twice daily For pediatric patients with decreased renal function, the recommended starting doses of Fess oral suspension are 30 mg 15 ml once daily for patients 2 to 11 years of age and 15 mg 12.5 m once daily for patients & months to less than 2 years of age DOSES IN RENAL IMPAIRMENT This drug is known to be substantially excreted by the k_idney and the risk of tox reactions to this drug may be greater in patients with impaired renal function Because elderly patents are more likely to have decreased renal function, care should be taken in dose selection and it may be useful to monnor renal function intual doses of Fexofenadine Hydrochlonde in patients with renal impairment should be reduced to 60 mg once daily",
                     "preparation": "Fexo 60 Tablet Box containing 50 tablets in blister pack Fexo 120 Tablet Box containing 50 tablets in blister pack Fexo 180 Tablet Box containing 30 tablets in blister pack Fexo Suspension Each borrie contains 50 ml suspension and measuring cup."
                 },
                 "price": 90,
@@ -487,7 +487,7 @@
                 "quantity": "10 tablets",
                 "details": {
                     "indication": "For the prophylaxis and chronic treatment of asthma in adults and pediatric patients 2 years of age and older.",
-                    "dosage&Administration": "Adolescents and adults 15 years of age and older: One 10 mg tablet daily to be taken in the evening. Paediatric patients 6-14 years of age: The dosage for paediatric patients 6-14 years of age is 5 mg daily to be taken in the evening. The dosage for paediatric patients 2-5 years of age is 4 mg daily to be taken in the evening.",
+                    "dosageAdministration": "Adolescents and adults 15 years of age and older: One 10 mg tablet daily to be taken in the evening. Paediatric patients 6-14 years of age: The dosage for paediatric patients 6-14 years of age is 5 mg daily to be taken in the evening. The dosage for paediatric patients 2-5 years of age is 4 mg daily to be taken in the evening.",
                     "preparation": "Montene® 10 tablet: Box containing 30 tablets in Alu-Alu blisterpack. Montene® 5 tablet: Box containing 20 tablets in Alu-Alublisterpack. Montene® 4 tablet: Box containing 20 tablets in Alu-Alublisterpack."
                 },
                 "price": 160,
@@ -501,7 +501,7 @@
                 "quantity": "10 tablets",
                 "details": {
                     "indication": "Alatrol® is indicated for the relief of symptoms associated with seasonal allergic rhinitis due to allergen. Symptoms treated effectively include sneezing, rhinorrhea, pruritus, ocular pruritus, tearing and redness of the eyes. Alatrol® is indicated for the relief of symptoms associated with perennial allergic rhinitis due to allergens. Symptoms treated effectively include sneezing, rhinorrhea, post-nasal discharge, nasal pruritus, ocular pruritus and tearing. Alatrol® is indicated for the treatment of the uncomplicated skin manifestations of chronic _idiopathic urticaria. It is also used in allergen induced asthma.",
-                    "dosage&Administration": "Alatrol® is administered with or without food. Adults and Children 6 years and older",
+                    "dosageAdministration": "Alatrol® is administered with or without food. Adults and Children 6 years and older",
                     "preparation": "Alatrol® Table : Each box contains 100's tablets. Alatrol®Syrup : Each bottle contains 60 ml syrup and a measuring cup.Alatrol® Paediatric Drops : Each bottle contains 15 ml paediatric drops and a calibrated dropper."
                 },
                 "price": 30,
@@ -515,7 +515,7 @@
                 "quantity": "15 tablets",
                 "details": {
                     "indication": "Monas in indicated for the prophylaxis and chronic treatment of Asthma & for the symptomatic relief of Allergic Rhinitis",
-                    "dosage&Administration": "AgeDose6 months- 6 years4 mg/day, in the evening6 years- 15 years5 mg/day, in the evening15 years and older10 mg/day, in the evening",
+                    "dosageAdministration": "AgeDose6 months- 6 years4 mg/day, in the evening6 years- 15 years5 mg/day, in the evening15 years and older10 mg/day, in the evening",
                     "preparation": "Monas ® 10: Each film coated tablet contains Montelukast Sodium USP equivalent to 10 mg Montelukast. Monas ® 5 OFT: Each Oroflash tablet contains Montelukast Sodium USP equivalent to 5 mg Montelukast. Monas ® 4 OFT: Each Oroflash tablet contains Montelukast Sodium USP equivalent to 4 mg Montelukast. Monas ® 5: Each Chewable tablet contains Montelukast Sodium USP equivalent to 5 mg Montelukast. Monas ® 4: Each Chewable tablet contains Montelukast Sodium USP equivalent to 4 mg Montelukast."
                 },
                 "price": 262,
@@ -529,7 +529,7 @@
                 "quantity": "1 pc",
                 "details": {
                     "indication": "Prot_ide is indicated in the regular treatment of asthma where use of a combination product (long-acting beta 2 agonist and inhaled corticostero_id) is appropriate: patients not adequately controlled with inhaled corticostero_ids and 'as needed' inhaled short- acting beta 2 agonist or patients already adequately controlled on both inhaled corticostero_id and long-acting beta 2 agonist",
-                    "dosage&Administration": "Posology Route of administration: Inhalation use. Patients should be made aware that Prot_ide HFA must be used daily for optimum benefit, even when asymptomatic. Patients should be regularly reassessed by a doctor, so that the strength of Prot_ide HFA they are receiving remains optimal and is only changed on medical advice. The dose should be titrated to the lowest dose at which effective control of symptoms is maintained.",
+                    "dosageAdministration": "Posology Route of administration: Inhalation use. Patients should be made aware that Prot_ide HFA must be used daily for optimum benefit, even when asymptomatic. Patients should be regularly reassessed by a doctor, so that the strength of Prot_ide HFA they are receiving remains optimal and is only changed on medical advice. The dose should be titrated to the lowest dose at which effective control of symptoms is maintained.",
                     "preparation": "Prot_ide 25/125 HFA: Each canister contains 120 metered dose. Prot_ide 25/250 HFA: Each canister contains 120 metered dose."
                 },
                 "price": 795,
@@ -551,7 +551,7 @@
                 "quantity": "10 tablets",
                 "details": {
                     "indication": "In the management of hypertension and angina pectoris. Cardiac arrhythmias, especially supraventricular tachyarrhythmias. Adjunct to the treatment of hyperthyro_idism. Early intervention with Metoprolol in acute myocardial infarction reduces infarct size and the inc_idence of ventricular fibrillation. Pain relief may also decrease the need for opiate analgesics. Metoprolol has been shown to reduce mortality when administered to patients with acute myocardial infarction.",
-                    "dosage&Administration": "Hypertension: Total daily dosage Metoprolol 100 - 400 mg to be given as a single or twice daily dose. The starting dose is 100 mg (two Selomet-50 tablets) per day. This may be increased by 100 mg per day at weekly intervals. lf full control is not achieved using a single daily dose, a b.i.d. regimen should be initiated Combination therapy with a diuretic or other anti-hypertensive agent may also be cons_idered.",
+                    "dosageAdministration": "Hypertension: Total daily dosage Metoprolol 100 - 400 mg to be given as a single or twice daily dose. The starting dose is 100 mg (two Selomet-50 tablets) per day. This may be increased by 100 mg per day at weekly intervals. lf full control is not achieved using a single daily dose, a b.i.d. regimen should be initiated Combination therapy with a diuretic or other anti-hypertensive agent may also be cons_idered.",
                     "preparation": "Selomet-25 tablet: Cartons containing 30 tablets in blister. Selomet-50 tablet: Cartons containing 30 tablets in blister."
                 },
                 "price": 20,
@@ -565,7 +565,7 @@
                 "quantity": "10 tablets",
                 "details": {
                     "indication": "TelAmlo is indicated for the treatment of hypertension alone or with other antihypertensive agents. TelAmlo tablets are indicated as initial therapy in patients likely to need multiple antihypertensive agents to achieve their blood pressure goals.",
-                    "dosage&Administration": "The usual starting dose is TelAmlo 40/5 mg once daily. Patients requiring larger blood pressure reductions may be started on TelAmlo 80/5 mg once daily. Initial therapy with TelAmlo is not recommended in patients =75 years old or with hepatic impairment. Correct imbalances of intravascular volume or salt-depletion, before initiating therapy with TelAmlo tablets. Dosage must be indiv_idualized and may be increased after at least 2 weeks. Most of the antihypertensive effect is apparent within 2 weeks and maximal reduction is generally attained after 4 weeks.",
+                    "dosageAdministration": "The usual starting dose is TelAmlo 40/5 mg once daily. Patients requiring larger blood pressure reductions may be started on TelAmlo 80/5 mg once daily. Initial therapy with TelAmlo is not recommended in patients =75 years old or with hepatic impairment. Correct imbalances of intravascular volume or salt-depletion, before initiating therapy with TelAmlo tablets. Dosage must be indiv_idualized and may be increased after at least 2 weeks. Most of the antihypertensive effect is apparent within 2 weeks and maximal reduction is generally attained after 4 weeks.",
                     "preparation": "TelAmlo 40/5 tablet: Pink, shield shaped, scored on one s_ide, logo on other s_ide; each tablet contains Telmisartan USP 40mg & Amlodipine Besilate BP equivalent to Amlodipine 5mg. TelAmlo 80/5 tablet: Pink, diamond shaped, scored on one s_ide,   logo Amlodipine Besilate BP equivalent to Amlodipine 5mg."
                 },
                 "price": 125,
@@ -579,7 +579,7 @@
                 "quantity": "7 tablets",
                 "details": {
                     "indication": "To treat hypertension and lower blood pressure, telmisartan and hydrochlorothiaz_ide are combined. The risk of both fatal and nonfatal cardiovascular events, such as strokes and heart attacks, is reduced by lowering blood pressure. These benefits have been demonstrated in controlled trials for antihypertensive drugs from a w_ide range of pharmacologic classes, including those to which this drug primarily belongs. There are no controlled studies demonstrating a risk reduction with telmisartan and hydrochlorothiaz_ide.",
-                    "dosage&Administration": "Start telmisartan monotherapy (80 mg) for a patient whose blood pressure cannot be sufficiently controlled with telmisartan and hydrochlorothiaz_ide (80 mg/12.5 mg) once daily. If necessary, the dose can be increased after two to four weeks to a maximum of 160 mg/25 mg.",
+                    "dosageAdministration": "Start telmisartan monotherapy (80 mg) for a patient whose blood pressure cannot be sufficiently controlled with telmisartan and hydrochlorothiaz_ide (80 mg/12.5 mg) once daily. If necessary, the dose can be increased after two to four weeks to a maximum of 160 mg/25 mg.",
                     "preparation": "In one box, there have 3 strips."
                 },
                 "price": 125,
@@ -593,7 +593,7 @@
                 "quantity": "10 tablets",
                 "details": {
                     "indication": "Telcardis is an angiotensin II receptor blocker (ARB) indicated for treatment of hypertension and Cardiovascular (CV) risk reduction in patients who are indicated for ACE inhibitors.",
-                    "dosage&Administration": "In case of hypertension usually 40mg once daily. Increased if necessary after at least 4 weeks to maximum 80mg once daily. Prevention of cardiovascular events 80mg once daily.",
+                    "dosageAdministration": "In case of hypertension usually 40mg once daily. Increased if necessary after at least 4 weeks to maximum 80mg once daily. Prevention of cardiovascular events 80mg once daily.",
                     "preparation": "Telcardis 40mg tablet: Each pack contains 14 tablets. Telcardis 80mg tablet: Each pack contains 14 tablets."
                 },
                 "price": 125,
@@ -607,7 +607,7 @@
                 "quantity": "10 tablets",
                 "details": {
                     "indication": "Telcardis is an angiotensin II receptor blocker (ARB) indicated for treatment of hypertension and Cardiovascular (CV) risk reduction in patients who are indicated for ACE inhibitors.",
-                    "dosage&Administration": "In case of hypertension usually 40mg once daily. Increased if necessary after at least 4 weeks to maximum 80mg once daily. Prevention of cardiovascular events 80mg once daily.",
+                    "dosageAdministration": "In case of hypertension usually 40mg once daily. Increased if necessary after at least 4 weeks to maximum 80mg once daily. Prevention of cardiovascular events 80mg once daily.",
                     "preparation": "Telcardis 40mg tablet: Each pack contains 14 tablets. Telcardis 80mg tablet: Each pack contains 14 tablets."
                 },
                 "price": 200,
@@ -629,7 +629,7 @@
                 "quantity": "1 pc",
                 "details": {
                     "indication": "Burn, Leg ulcer, Surgical wound, Obstetric wound, Cracked nipple",
-                    "dosage&Administration": "A thin layer of Betaburn™ ointment should be applied to the whole burn/affected area 3-4 times daily.",
+                    "dosageAdministration": "A thin layer of Betaburn™ ointment should be applied to the whole burn/affected area 3-4 times daily.",
                     "preparation": "Betaburn™ ointment is available 25 gm in Lami tube."
                 },
                 "price": 100,
@@ -643,7 +643,7 @@
                 "quantity": "1 pc",
                 "details": {
                     "indication": "Topical bacterial infections, atopic or contact stasis and infections, eczemato_id dermatitis, neurodermatitis, eczema, anogenital pruritus etc.",
-                    "dosage&Administration": "A thin film to be applied 2 to 4 times daily.",
+                    "dosageAdministration": "A thin film to be applied 2 to 4 times daily.",
                     "preparation": "Nebanol® Ointment : 10 gm tube containing 10 gm ointment 20 gm tube containing 20 gm ointment. Nebanol® Powder : Plastic bottle containing 5 gm powder."
                 },
                 "price": 20,
@@ -657,7 +657,7 @@
                 "quantity": "1 pc",
                 "details": {
                     "indication": "Xenovate (Clobetasol Propionate) ointment and cream are indicated for the topical therapy of recalcitrant corticostero_id responsive dermatoses, including severe cases of psoriasis (excluding w_idespread plaque psoriasis) and eczematous dermatitis. Xenovate (Clobetasol Propionate) ointment is generally chosen for dry, lichenified or scaly lesions or where a more occlusive effect is required. Xenovate (Clobetasol Propionate) cream is suitable for moist or weeping lesions.",
-                    "dosage&Administration": "Xenovate (Clobetasol Propionate) ointment and cream are applied sparingly to cover the affected area, and gently rubbed into the skin. Frequency of application is two to three times daily according to the severity of the condition. The total dose of Clobetasol Propionate cream and ointment applied should not exceed 50grams weekly. Therapy should be discontinued if no response is noted after a week or as soon as the lesion heals. It is advisable to use Clobetasol Propionate (Xenovate) cream and ointment for brief periods only.",
+                    "dosageAdministration": "Xenovate (Clobetasol Propionate) ointment and cream are applied sparingly to cover the affected area, and gently rubbed into the skin. Frequency of application is two to three times daily according to the severity of the condition. The total dose of Clobetasol Propionate cream and ointment applied should not exceed 50grams weekly. Therapy should be discontinued if no response is noted after a week or as soon as the lesion heals. It is advisable to use Clobetasol Propionate (Xenovate) cream and ointment for brief periods only.",
                     "preparation": "Xenovate 10gm ointment : Cartons containing 10gm ointment in tube. Xenovate 30gm ointment : Cartons containing 30gm ointment in tube.Xenovate 10gm cream: Cartons containing 10gm cream in tube."
                 },
                 "price": 150,
@@ -671,7 +671,7 @@
                 "quantity": "1 pc",
                 "details": {
                     "indication": "Any inflammatory skin disorders like eczema & psoriasis where secondary bacterial or fungal infection is present, suspected or likely to occur.",
-                    "dosage&Administration": "Adults and children over 2 years: Apply sparingly to the affected area once or twice daily until improvement occurs. As with other highly active topical stero_id preparations therapy should be discontinued when control is achieved.",
+                    "dosageAdministration": "Adults and children over 2 years: Apply sparingly to the affected area once or twice daily until improvement occurs. As with other highly active topical stero_id preparations therapy should be discontinued when control is achieved.",
                     "preparation": "Nyclobate NN Cream: Each tube contains 10 gm or 20 gm cream."
                 },
                 "price": 60,
@@ -685,7 +685,7 @@
                 "quantity": "1 pc",
                 "details": {
                     "indication": "Xenosal Ointment is indicated for the relief of the inflammatory manifestations of hyperkeratotic and dry corticostero_id responsive dermatoses such as, psoriasis, chronic atopic dermatitis, neurodermatitis (licehen Simplex, Chronicus), lichen planus, eczema (including nummular eczema, hand eczema, eczematous dermatitis), seborrheic dermatitis of the scalp, ichthyosis vulgaris and other ichthyotic conditions.",
-                    "dosage&Administration": "Apply a thin layer of this ointment to the affected skin areas twice daily and rub in gently & completely. For some patients, adequate maintenance therapy may be achieved with less frequent application. As with other higher active corticostero_ids, therapy should be discontinued when control has been achieved. If no improvement is seen within 2 weeks, reassessment of diagnosis may be necessary. It should not be used with occlusive dressing. Treatment beyond 2 consecutive weeks is not exceeding 50gm/week because of the potential for the drug to suppress the hypothalamic pituitary adrenal axis. Children: Use in pediatric patients under 12 years of age is not recommended.",
+                    "dosageAdministration": "Apply a thin layer of this ointment to the affected skin areas twice daily and rub in gently & completely. For some patients, adequate maintenance therapy may be achieved with less frequent application. As with other higher active corticostero_ids, therapy should be discontinued when control has been achieved. If no improvement is seen within 2 weeks, reassessment of diagnosis may be necessary. It should not be used with occlusive dressing. Treatment beyond 2 consecutive weeks is not exceeding 50gm/week because of the potential for the drug to suppress the hypothalamic pituitary adrenal axis. Children: Use in pediatric patients under 12 years of age is not recommended.",
                     "preparation": "Xenosal ointment : Carton containing 30gm ointment in alu tube."
                 },
                 "price": 150,
@@ -707,7 +707,7 @@
                 "quantity": "10 capsul",
                 "details": {
                     "indication": "Omega-3 Corrosive Ethyl Esters is demonstrated as an a_ide to slim down to decrease exceptionally tall (>500mg/dl) triglycer_ide (TG) levels in grown-up patients and as an a_ide in auxiliary avo_idance in those who have had a myocardial dead tissue within the preceding 3 months. It is additionally demonstrated to assist decrease the joint aggravation related with mellow joint pain, disposition clutters & motivation control, age-related macular degeneration.",
-                    "dosage&Administration": "In hypertriglycer_idaemia: it can be taken as a single measurements of 4 capsules (4 gm) or 2 capsules (2 gm) twice daily. In already myocardial dead tissue patients: It can be taken 1 capsule (1 gm ) day by day with nourishment. Patients ought to be set on an fitting lip_id bringing down eat less some time recently getting Omega-3 Corrosive Ethyl Esters and ought to proceed this count calories am_id treatment. In joint irritation related with gentle joint pain: The dosage is 2.7 gm daily. In disposition disarranges & motivation control and age-related macular degeneration: The dosage is 1 capsule (1 gm) per day. Or, as coordinated by the enrolled doctor.",
+                    "dosageAdministration": "In hypertriglycer_idaemia: it can be taken as a single measurements of 4 capsules (4 gm) or 2 capsules (2 gm) twice daily. In already myocardial dead tissue patients: It can be taken 1 capsule (1 gm ) day by day with nourishment. Patients ought to be set on an fitting lip_id bringing down eat less some time recently getting Omega-3 Corrosive Ethyl Esters and ought to proceed this count calories am_id treatment. In joint irritation related with gentle joint pain: The dosage is 2.7 gm daily. In disposition disarranges & motivation control and age-related macular degeneration: The dosage is 1 capsule (1 gm) per day. Or, as coordinated by the enrolled doctor.",
                     "preparation": "OMG-3 : 6 x 5's soft capsules in blister pack."
                 },
                 "price": 70,
@@ -721,7 +721,7 @@
                 "quantity": "14 tablets",
                 "details": {
                     "indication": " Clop_id is indicated for the reduction of atherosclerotic (myocardial infarction stroke and vascular death) in patients with ather documented by recent stroke, recent myocardial infarction or established thera.",
-                    "dosage&Administration": "The recommended dose of Clop_id is 75mg once arterial disease",
+                    "dosageAdministration": "The recommended dose of Clop_id is 75mg once arterial disease",
                     "preparation": "Each box contains 2 x 14's tablets in blister pack."
                 },
                 "price": 168,
@@ -735,7 +735,7 @@
                 "quantity": "15 tablets",
                 "details": {
                     "indication": "Predialysis patients : Dicaltrol is indicated in the management of secondary hyperparathyro_idism and resultant metabolic bone disease in patients with moderate to severe chronic renal failure not yet on dialysis. In children, the creatinine clearance value must be corrected for a surface area of 1.73 square meters",
-                    "dosage&Administration": "Predialysis Patients : The recommended initial dosage of Dicaltrol is 0.25 mcg/day in adults and pediatric patients 3 years of age and older. This dosage may be increased if necessary to 0.5 mcg/day.",
+                    "dosageAdministration": "Predialysis Patients : The recommended initial dosage of Dicaltrol is 0.25 mcg/day in adults and pediatric patients 3 years of age and older. This dosage may be increased if necessary to 0.5 mcg/day.",
                     "preparation": "Each box contains 60's capsule in blister pack."
                 },
                 "price": 180,
@@ -749,7 +749,7 @@
                 "quantity": "14 tablets",
                 "details": {
                     "indication": "For the treatment of maturity onset diabetes in patients who cannot be controlled on diet alone.",
-                    "dosage&Administration": "The usual initial dose by mouth in the treatment of non-insulin-dependent diabetes mellitus, is initially 40mg (1/2 tablet) to 80mg (1 tablet) daily, adjusted according to response up to 160mg (2 tablets) as a single dose, with breakfast. If necessary up to 320mg can be given daily. It is suggested that doses of more than 160mg should be given in 2 div_ided doses or as directed by a registered physician.",
+                    "dosageAdministration": "The usual initial dose by mouth in the treatment of non-insulin-dependent diabetes mellitus, is initially 40mg (1/2 tablet) to 80mg (1 tablet) daily, adjusted according to response up to 160mg (2 tablets) as a single dose, with breakfast. If necessary up to 320mg can be given daily. It is suggested that doses of more than 160mg should be given in 2 div_ided doses or as directed by a registered physician.",
                     "preparation": "Dimerol : 4 x 14's tablets per box."
                 },
                 "price": 112,
@@ -763,7 +763,7 @@
                 "quantity": "10 tablets",
                 "details": {
                     "indication": "Streptococcal infections, scarlet fever, mild erysipelas, Bacterial endocarditis, lobar pneumonia.",
-                    "dosage&Administration": "250 to 500 mg 6 hourly",
+                    "dosageAdministration": "250 to 500 mg 6 hourly",
                     "preparation": "Penvik® Tablet :Each box containing 10x10 tablets in strip pack. Penvik® DS Tablet :Each box containing 10x10 tablets in strip pack. Penvik® Forte Dry Syrup : Each bottle containing dry powder to make 100ml syrup and a measuring spoon."
                 },
                 "price": 55,
@@ -785,7 +785,7 @@
                 "quantity": "10 tablets",
                 "details": {
                     "indication": "Indever 10 belongs to a class of drugs known as beta-blockers. It reduces anxiety and relieves tremors. It is also used to treat migraines, heart-related chest pain (angina), and stomach bleeding caused by high blood pressure in the liver (portal hypertension). Indever 10 may also be used to treat high blood pressure and irregular heartbeats (arrhythmia). The dose will be determined by the condition being treated and how you respond to the medication. Always take it exactly as prescribed by your doctor.",
-                    "dosage&Administration": "Adult (above 18 years): Hypertension: Start with 80 mg twice daily, then increase at weekly intervals to a maintenance dose of 160-320 mg daily.Angina pectoris: 40 mg 2-3 times daily at first, followed by a maintenance dose of 120-240 mg daily.Thyrotoxicosis: 10-40 mg, 3-4 times per day. Anxiety: 40 mg once daily, up to three times per day. Migraine prophylaxis: 40 mg 2-3 times daily at first, followed by a maintenance dose of 80-160 mg daily. Hypertension in children (from birth to 18 years):0.25-0.5 mg/kg 3 times daily, adjusted based on response.1 month to 12 years: 0.25-1 mg/kg 3 times daily, with a maximum dose of 5 mg/kg daily in div_ided doses.Child 12-18 years: 80 mg twice daily at first, then 160-320 mg daily.",
+                    "dosageAdministration": "Adult (above 18 years): Hypertension: Start with 80 mg twice daily, then increase at weekly intervals to a maintenance dose of 160-320 mg daily.Angina pectoris: 40 mg 2-3 times daily at first, followed by a maintenance dose of 120-240 mg daily.Thyrotoxicosis: 10-40 mg, 3-4 times per day. Anxiety: 40 mg once daily, up to three times per day. Migraine prophylaxis: 40 mg 2-3 times daily at first, followed by a maintenance dose of 80-160 mg daily. Hypertension in children (from birth to 18 years):0.25-0.5 mg/kg 3 times daily, adjusted based on response.1 month to 12 years: 0.25-1 mg/kg 3 times daily, with a maximum dose of 5 mg/kg daily in div_ided doses.Child 12-18 years: 80 mg twice daily at first, then 160-320 mg daily.",
                     "preparation": "Each tablet contains Propranolol Hydrochlor_ide BP 10mg."
                 },
                 "price": 5,
@@ -799,7 +799,7 @@
                 "quantity": "10 tablets",
                 "details": {
                     "indication": "Short-term treatment of insomnia. Sedation in premedication before surgical or diagnostic procedures.",
-                    "dosage&Administration": "Oral dosage: For adults: 7.5-15 mg daily. In elderly and debilitated patients: The recommended dose is 7.5 mg. In premedication: 15 mg of M_idazolam should be given 30-60 minutes before the procedure. Intravenous administration: Endoscopic or Cardiovascular Procedures: In healthy adults, the initial dose is approximately 2.5 mg. In cases of severe illness and in elderly patients, the initial dose must be reduced to 1 to 1.5 mg. Induction of Anesthesia: The dose is 10-15 mg. Intramuscular administration: Adult: 0.07-0.1 mg/kg body weight. The usual dose is about 5 mg.Children: 0.15-0.20 mg/kg. Elderly and debilitated patients: 0.025-0.05 mg/kg Rectal administration in children: For preoperative sedation: Rectal administration of the ampoule solution (0.35-0.45 mg/kg) 20-30 min. before induction of general anesthesia.",
+                    "dosageAdministration": "Oral dosage: For adults: 7.5-15 mg daily. In elderly and debilitated patients: The recommended dose is 7.5 mg. In premedication: 15 mg of M_idazolam should be given 30-60 minutes before the procedure. Intravenous administration: Endoscopic or Cardiovascular Procedures: In healthy adults, the initial dose is approximately 2.5 mg. In cases of severe illness and in elderly patients, the initial dose must be reduced to 1 to 1.5 mg. Induction of Anesthesia: The dose is 10-15 mg. Intramuscular administration: Adult: 0.07-0.1 mg/kg body weight. The usual dose is about 5 mg.Children: 0.15-0.20 mg/kg. Elderly and debilitated patients: 0.025-0.05 mg/kg Rectal administration in children: For preoperative sedation: Rectal administration of the ampoule solution (0.35-0.45 mg/kg) 20-30 min. before induction of general anesthesia.",
                     "preparation": "Dormicum 7.5 mg tablet: Each box contains 30 tablets (3 x 10's) in Alu-PVC blister pack."
                 },
                 "price": 220,
@@ -813,7 +813,7 @@
                 "quantity": "10 tablets",
                 "details": {
                     "indication": "Epilepsy, Anxiety disorders, Panic disorder, Status epilepticus, Social phobia, Migraines, Parasomnia, Restless legs syndrome, Rap_id eye movement, Behavior disorder, Spasticity, Resistant depression, Trigeminal neuralgia, Nocturnal myoclonus, Post traumatic stress disorder, Insomnia and sleep disturbances, Burning Mouth Syndrome",
-                    "dosage&Administration": "May be taken with or without food. Adult Dose: Oral Epilepsy Adult: Initially, 1 mg given at night for 4 days, gradually increased over 2-4 wk. Maintenance: 4-8 mg/day. Max: 20 mg/day. Elderly: Initially, 0.5 mg at night for 4 days. Panic disorder Adult: Initially, 0.25 mg b_id, increased after 3 days up to 1 mg/day. Max: 4 mg/day. Intravenous Emergency management of status epilepticus Adult: 1 mg by slow IV inj over at least 2 min or by infusion, repeated if necessary. Max: 20 mg. Hepatic impairment: Dosage adjustment may be needed. Child Dose: Oral Epilepsy Child: <10 yr or <30 kg: Initially, 0.01-0.03 mg/kg/day but not to exceed 0.05 mg/kg/day given in 2 or 3 div_ided doses. May be increased by no more than 0.25-0.5 mg every 3rd day until seizure control is achieved. Maintenance: 0.1-0.2 mg/kg/day div_ided 3 times daily. Max: 0.2 mg/kg/day. Intravenous Emergency management of status epilepticus Child: 500 mcg by slow IV inj or by infusion.",
+                    "dosageAdministration": "May be taken with or without food. Adult Dose: Oral Epilepsy Adult: Initially, 1 mg given at night for 4 days, gradually increased over 2-4 wk. Maintenance: 4-8 mg/day. Max: 20 mg/day. Elderly: Initially, 0.5 mg at night for 4 days. Panic disorder Adult: Initially, 0.25 mg b_id, increased after 3 days up to 1 mg/day. Max: 4 mg/day. Intravenous Emergency management of status epilepticus Adult: 1 mg by slow IV inj over at least 2 min or by infusion, repeated if necessary. Max: 20 mg. Hepatic impairment: Dosage adjustment may be needed. Child Dose: Oral Epilepsy Child: <10 yr or <30 kg: Initially, 0.01-0.03 mg/kg/day but not to exceed 0.05 mg/kg/day given in 2 or 3 div_ided doses. May be increased by no more than 0.25-0.5 mg every 3rd day until seizure control is achieved. Maintenance: 0.1-0.2 mg/kg/day div_ided 3 times daily. Max: 0.2 mg/kg/day. Intravenous Emergency management of status epilepticus Child: 500 mcg by slow IV inj or by infusion.",
                     "preparation": "Rivotril 0.5 mg tablet: Each box contains 80 tablets (8 x 10's) in Alu-PVC / PVDC blister pack."
                 },
                 "price": 90,
@@ -827,7 +827,7 @@
                 "quantity": "20 tablets",
                 "details": {
                     "indication": "Anxiety pain from apprehension and depression, acute and chronic stress of life, skeletal muscle spasm and strychnine poisoning. For surgical measures, Sedil® is a useful premedication (I.M. route recommended).",
-                    "dosage&Administration": "Sedil® 15 to 30 mg daily in div_ided doses.",
+                    "dosageAdministration": "Sedil® 15 to 30 mg daily in div_ided doses.",
                     "preparation": "Sedil® Tablet : Box containing 25 x 20 tablets in blister pack. Sedil® Injection : Box containing 2 x 5 ampoules in blister pack."
                 },
                 "price": 14,
@@ -841,7 +841,7 @@
                 "quantity": "10 tablets",
                 "details": {
                     "indication": "Anxiety disorder Short term relief of anxiety Anxiety associated with depression",
-                    "dosage&Administration": "Zolum Tablets (0.25 mg & 0.5 mg) Treatment should be initiated with a dose of 0.25 to 0.5 mg three times daily. Depending on the response, dose may be increased at intervals of 3 to 4 days in increments of no more than 1 mg per day. The maximum dose should not exceed 4 mg/day Occasional Panic disorder, with or without agoraphobia. patients with panic disorder may need as much as 10 mg a day to achieve a successful response and in these cases periodic reassessment and cons_ideration of dosage adjustment is required.",
+                    "dosageAdministration": "Zolum Tablets (0.25 mg & 0.5 mg) Treatment should be initiated with a dose of 0.25 to 0.5 mg three times daily. Depending on the response, dose may be increased at intervals of 3 to 4 days in increments of no more than 1 mg per day. The maximum dose should not exceed 4 mg/day Occasional Panic disorder, with or without agoraphobia. patients with panic disorder may need as much as 10 mg a day to achieve a successful response and in these cases periodic reassessment and cons_ideration of dosage adjustment is required.",
                     "preparation": "Zolium 0.25. Each box contains 10 blister strips of 10 tablets. Zolium 0.5: Each box contains 10 blister strips of 10 tablets. Zolium XR 1: Each box contains 3 blister strips of 10 tablets. Zolium XR 2: Each box contains 3 blister strips of 10 tablets."
                 },
                 "price": 34,
@@ -863,7 +863,7 @@
                 "quantity": "1 pc",
                 "details": {
                     "indication": "1. The dyspeptic symptom complex that is often associated with delayed gastric emptying, gastrooesophageal  reflux and oesophagitis: epigastric sense of fullness, early satiety, feeling of abdominal distension, upper abdominal pain;bloating, eructation, flatulence; nausea and vomiting; heartburn with or without regurgitations of gastric contents in the mouth. 2. Nausea and vomiting of functional, organic, infectious or dietetic origin or induced by radiotherapy or drug therapy. A specific indication is nausea and vomiting induced by dopamine agonists, as used in Parkinson's disease (such as L-dopa and bromocriptine).",
-                    "dosage&Administration": "1. Chronic dyspepsia Adults: 10mg (1 tablet or 10ml suspension) 3 times daily, 15-30 minutes before meals and, if necessary, once more before retiring.Children: 2.5mg (2.5ml suspension or 0.5ml drops) per 10kg body weight, 3 times daily before meals and, if necessary, once more in the evening. When results are not satisfactory, the above dosage may be doubled in adults and children over 1 year of age. 2. Acute and subacute conditions (particularly nausea and vomiting) Adults: 20mg (2 tablets or 20ml suspension) 3-4 times daily before meals and before bedtime. Children: 5mg (5ml suspension or 1ml drops) per 10kg body weight, 3-4 times daily before meals and before bedtime. Remarks: Domper_idone is recommended to be taken before meals. If taken after meals, absorption of the drug is somewhat delayed. The tablets are not intended to be administered to children below the age of 5 years. In patients with renal insufficiency, the dosing frequency should be reduced. Contra-indications, warnings, etc.",
+                    "dosageAdministration": "1. Chronic dyspepsia Adults: 10mg (1 tablet or 10ml suspension) 3 times daily, 15-30 minutes before meals and, if necessary, once more before retiring.Children: 2.5mg (2.5ml suspension or 0.5ml drops) per 10kg body weight, 3 times daily before meals and, if necessary, once more in the evening. When results are not satisfactory, the above dosage may be doubled in adults and children over 1 year of age. 2. Acute and subacute conditions (particularly nausea and vomiting) Adults: 20mg (2 tablets or 20ml suspension) 3-4 times daily before meals and before bedtime. Children: 5mg (5ml suspension or 1ml drops) per 10kg body weight, 3-4 times daily before meals and before bedtime. Remarks: Domper_idone is recommended to be taken before meals. If taken after meals, absorption of the drug is somewhat delayed. The tablets are not intended to be administered to children below the age of 5 years. In patients with renal insufficiency, the dosing frequency should be reduced. Contra-indications, warnings, etc.",
                     "preparation": "Dysnov suspension: Cartons containing 60ml and 100ml suspension in bottle."
                 },
                 "price": 38,
@@ -877,7 +877,7 @@
                 "quantity": "10 tablets",
                 "details": {
                     "indication": "1. The dyspeptic symptom complex that is often associated with delayed gastric emptying, gastrooesophageal  reflux and oesophagitis: epigastric sense of fullness, early satiety, feeling of abdominal distension, upper abdominal pain; bloating, eructation, flatulence; nausea and vomiting; heartburn with or without regurgitations of gastric contents in the mouth. 2. Nausea and vomiting of functional, organic, infectious or dietetic origin or induced by radiotherapy or drug therapy. A specific indication is nausea and vomiting induced by dopamine agonists, as used in Parkinson’s disease (such as L-dopa and bromocriptine).",
-                    "dosage&Administration": "1. Chronic dyspepsia Adults: 10mg (1 tablet or 10ml suspension) 3 times daily, 15-30 minutes before meals and, if necessary, once more before retiring. Children: 2.5mg (2.5ml suspension or 0.5ml drops) per 10kg body weight, 3 times daily before meals and, if necessary, once more in the evening. When results are not satisfactory, the above dosage may be doubled in adults and children over 1 year of age. 2. Acute and subacute conditions (particularly nausea and vomiting)Adults: 20mg (2 tablets or 20ml suspension) 3-4 times daily before meals and before bedtime. Children: 5mg (5ml suspension or 1ml drops) per 10kg body weight, 3-4 times daily before meals and before bedtime. Remarks: Domper_idone is recommended to be taken before meals. If taken after meals, absorption of the drug is somewhat delayed. The tablets are not intended to be administered to children below the age of 5 years. In patients with renal insufficiency, the dosing frequency should be reduced. Contra-indications, warnings, etc.",
+                    "dosageAdministration": "1. Chronic dyspepsia Adults: 10mg (1 tablet or 10ml suspension) 3 times daily, 15-30 minutes before meals and, if necessary, once more before retiring. Children: 2.5mg (2.5ml suspension or 0.5ml drops) per 10kg body weight, 3 times daily before meals and, if necessary, once more in the evening. When results are not satisfactory, the above dosage may be doubled in adults and children over 1 year of age. 2. Acute and subacute conditions (particularly nausea and vomiting)Adults: 20mg (2 tablets or 20ml suspension) 3-4 times daily before meals and before bedtime. Children: 5mg (5ml suspension or 1ml drops) per 10kg body weight, 3-4 times daily before meals and before bedtime. Remarks: Domper_idone is recommended to be taken before meals. If taken after meals, absorption of the drug is somewhat delayed. The tablets are not intended to be administered to children below the age of 5 years. In patients with renal insufficiency, the dosing frequency should be reduced. Contra-indications, warnings, etc.",
                     "preparation": "Dysnov tablet: Cartons containing 100 tablets in blister."
                 },
                 "price": 25,
@@ -891,7 +891,7 @@
                 "quantity": "10 tablets",
                 "details": {
                     "indication": "Gastroesophageal reflux disease (GERD) Healing of erosive esophagitis Maintenance of healing of erosive esophagitis Symptomatic gastroesophageal reflux disease Risk reduction of NSA_id-associated gastric ulcer H. pylori eradication to reduce the risk of duodenal ulcer recurrence Peptic ulcer",
-                    "dosage&Administration": "Gastroesophageal reflux disease (GERD) Healing of erosive esophagitis: Esomeprazole 20 mg (one NexCap-20 capsule) or Esomeprazole 40 mg (one NexCap-40 capsule) once daily for 4 to 8 weeks. (The majority of patients are healed within 4 to 8 weeks. For patients who do not heal after 4-8 weeks, an additional 4-8 weeks of treatment may be cons_idered). Maintenance of healing of erosive esophagitis: Esomeprazole 20 mg (one NexCap- 20 capsule) once daily is recommended. (Controlled studies d_id not extend beyond six months).",
+                    "dosageAdministration": "Gastroesophageal reflux disease (GERD) Healing of erosive esophagitis: Esomeprazole 20 mg (one NexCap-20 capsule) or Esomeprazole 40 mg (one NexCap-40 capsule) once daily for 4 to 8 weeks. (The majority of patients are healed within 4 to 8 weeks. For patients who do not heal after 4-8 weeks, an additional 4-8 weeks of treatment may be cons_idered). Maintenance of healing of erosive esophagitis: Esomeprazole 20 mg (one NexCap- 20 capsule) once daily is recommended. (Controlled studies d_id not extend beyond six months).",
                     "preparation": "NexCap-20 capsule: Cartons of 56 capsules in alu-alu blister."
                 },
                 "price": 70,
@@ -905,7 +905,7 @@
                 "quantity": "10 tablets",
                 "details": {
                     "indication": "To relieve from chronic heartburn symptoms and other symptoms associated with GERD For the healing of erosive esophagitis For maintenance of healing of erosive esophagitis In combination with amoxicillin and clarithromycin for eradication of Helicobacter pylori infection in patients with duodenal ulcer disease. Zollinger-Ellison Syndrome Ac_id related Dyspepsia Duodenal & Gastric ulcer",
-                    "dosage&Administration": "Healing of Erosive Esophagitis: 20 mg or 40 mg Once Daily for 4-8 Weeks. The majority of patients are healed within 4 to 8 weeks. For patients who don't heal after 4-8 weeks, an additional 4-8 weeks of treatment may be cons_idered. Maintenance of Healing of Erosive Esophagitis: 20 mg Once Daily (Clinical studies d_id not extend 6 months). Symptomatic GERD: 20 mg Once Daily for 4 Weeks. If symptoms do not resolve completely after 4 weeks, an additional 4 weeks of treatment may be cons_idered.",
+                    "dosageAdministration": "Healing of Erosive Esophagitis: 20 mg or 40 mg Once Daily for 4-8 Weeks. The majority of patients are healed within 4 to 8 weeks. For patients who don't heal after 4-8 weeks, an additional 4-8 weeks of treatment may be cons_idered. Maintenance of Healing of Erosive Esophagitis: 20 mg Once Daily (Clinical studies d_id not extend 6 months). Symptomatic GERD: 20 mg Once Daily for 4 Weeks. If symptoms do not resolve completely after 4 weeks, an additional 4 weeks of treatment may be cons_idered.",
                     "preparation": "Maxpro-40 capsule: Cartons of 56 capsules in alu-alu blister."
                 },
                 "price": 100,
@@ -919,7 +919,7 @@
                 "quantity": "14 tablets",
                 "details": {
                     "indication": "Esomeprazole is endorsed to treat persistent ac_id. In order to treat erosive esophagitis, For the support of erosive esophagitis healing. In patients with duodenal ulcer sickness, in conjunction with amoxicillin and clarithromycin, for the disposal of Helicobacter pylori infection. Syndrome of Zollinger-Ellison Duodenal and gastric ulcers due to corrosive dyspepsia",
-                    "dosage&Administration": " 20 mg or 40 mg Once Daily for 4-8 Weeks. The majority of patients are healed within 4 to 8 weeks. For patients who don't heal after 4-8 weeks, an additional 4-8 weeks of treatment may be cons_idered. Maintenance of Healing of Erosive",
+                    "dosageAdministration": " 20 mg or 40 mg Once Daily for 4-8 Weeks. The majority of patients are healed within 4 to 8 weeks. For patients who don't heal after 4-8 weeks, an additional 4-8 weeks of treatment may be cons_idered. Maintenance of Healing of Erosive",
                     "preparation": "Maxpro® tablet 20mg : Box containing 10 x14's tablets in Alu-Alu blister pack."
                 },
                 "price": 98,

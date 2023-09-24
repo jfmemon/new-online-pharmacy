@@ -45,7 +45,7 @@ export const router = createBrowserRouter([
                 element: <ShowConditionalItems></ShowConditionalItems>
             },
             {
-                path: "category/cardDetails/:content",
+                path: "medicineDetails/:content",
                 element: <CardDetails></CardDetails>
             },
             {

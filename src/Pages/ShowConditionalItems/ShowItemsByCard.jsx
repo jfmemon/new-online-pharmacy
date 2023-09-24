@@ -10,7 +10,6 @@ const ShowItemsByCard = ({ items }) => {
     console.log(items);
 
     const handleItemDetails = (item) => {
-        // console.log(item)
         if (user && user.email) {
             const cartItem = { itemId: _id, img, title, quantity, price, details, brand, userEmail: user.email };
 
@@ -55,7 +54,7 @@ const ShowItemsByCard = ({ items }) => {
     }
 
     const handleDetails = () => {
-        navigate(`/category/cardDetails/${title}`);
+        navigate(`/medicineDetails/${title}`, { state: { _id, img, title, quantity, price, details, brand } });
     }
 
     return (
