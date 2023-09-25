@@ -95,7 +95,7 @@ const Header = () => {
                             <div className='md:w-9 w-7 md:h-9 h-7 rounded-full'>
                                 <img className='w-full md:h-9 h-7 rounded-full' src={user?.photoURL} alt='' />
                             </div>
-                            <span className='text-white text-xl btn btn-ghost md:px-3 px-3 hover:border-zinc-50 lg:ml-4' title='Logout' onClick={handleLogout}><FontAwesomeIcon icon={faRightFromBracket} /></span>
+                            <span className='text-white text-xl btn btn-ghost md:px-3 px-3 hover:border-zinc-50 lg:ml-4 ml-5' title='Logout' onClick={handleLogout}><FontAwesomeIcon icon={faRightFromBracket} /></span>
                         </> :
                         <>
                             <Link to="/login"><span className='text-white text-2xl mx-2 btn btn-ghost p-3 hover:border-zinc-50' title='Login/Sign Up'><FontAwesomeIcon icon={faRightToBracket} /></span></Link>
