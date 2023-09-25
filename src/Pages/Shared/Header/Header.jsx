@@ -3,6 +3,8 @@ import { FaHandHoldingMedical } from 'react-icons/fa';
 import { Link, useSearchParams } from 'react-router-dom';
 import { AuthContext } from '../../../Context/AuthProvider';
 import Swal from 'sweetalert2';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faPersonWalkingDashedLineArrowRight, faRightFromBracket, faRightToBracket } from '@fortawesome/free-solid-svg-icons'
 
 import img1 from '../../../assets/Category-logos/shopByCondition.png';
 import img2 from '../../../assets/Category-logos/sexualWellness.png';
@@ -16,6 +18,10 @@ import img8 from '../../../assets/Category-logos/babyCare.png';
 const Header = () => {
     const { user, logOut } = useContext(AuthContext);
     const [open, setOpen] = useState(false);
+
+    const closeDropdown = () => {
+        setOpen(false);
+    }
 
     const handleLogout = () => {
         logOut()
@@ -52,20 +58,20 @@ const Header = () => {
                         open && (
                             <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 w-52 gap-3">
                                 <li>
-                                    <Link to='/prescription' className='rounded-none'>
+                                    <Link to='/uploadPrescription' className='rounded-none' onClick={closeDropdown}>
                                         <span className='text-teal-500 items-center mt-2'><ion-icon name="cloud-upload" size="small"></ion-icon></span>
                                         <p>Upload prescription</p>
                                     </Link>
                                 </li>
                                 <div className="divider my-0 h-[1px]"></div>
-                                <li><Link to="/category/shopByCondition" className='rounded-none'><img className='w-5' src={img1} alt="Shop by condition" /> Shop by condition</Link></li>
-                                <li><Link to="/category/sexualWellness" className='rounded-none'><img className='w-5' src={img2} alt="Sexual wellness" /> Sexual wellness</Link></li>
-                                <li><Link to="/category/birthControl" className='rounded-none'><img className='w-5' src={img3} alt="Birth control" /> Birth control</Link></li>
-                                <li><Link to="/category/vitaminsAndSupplements" className='rounded-none'><img className='w-5' src={img4} alt="Vitamins and supplements" /> Vitamins and supplements</Link></li>
-                                <li><Link to="/category/medicalDevices" className='rounded-none'><img className='w-5' src={img5} alt="Medical devices" /> Medical devices</Link></li>
-                                <li><Link to="/category/personalCare" className='rounded-none'><img className='w-5' src={img6} alt="Personal care" /> Personal care</Link></li>
-                                <li><Link to="/category/healthAndWellness" className='rounded-none'><img className='w-5' src={img7} alt="Health and wellness" /> Health and wellness</Link></li>
-                                <li><Link to="/category/babyCare" className='rounded-none'><img className='w-5' src={img8} alt="Baby care" /> Baby care</Link></li>
+                                <li><Link onClick={closeDropdown} to="/category/shopByCondition" className='rounded-none'><img className='w-5' src={img1} alt="Shop by condition" /> Shop by condition</Link></li>
+                                <li><Link onClick={closeDropdown} to="/category/sexualWellness" className='rounded-none'><img className='w-5' src={img2} alt="Sexual wellness" /> Sexual wellness</Link></li>
+                                <li><Link onClick={closeDropdown} to="/category/birthControl" className='rounded-none'><img className='w-5' src={img3} alt="Birth control" /> Birth control</Link></li>
+                                <li><Link onClick={closeDropdown} to="/category/vitaminsAndSupplements" className='rounded-none'><img className='w-5' src={img4} alt="Vitamins and supplements" /> Vitamins and supplements</Link></li>
+                                <li><Link onClick={closeDropdown} to="/category/medicalDevices" className='rounded-none'><img className='w-5' src={img5} alt="Medical devices" /> Medical devices</Link></li>
+                                <li><Link onClick={closeDropdown} to="/category/personalCare" className='rounded-none'><img className='w-5' src={img6} alt="Personal care" /> Personal care</Link></li>
+                                <li><Link onClick={closeDropdown} to="/category/healthAndWellness" className='rounded-none'><img className='w-5' src={img7} alt="Health and wellness" /> Health and wellness</Link></li>
+                                <li><Link onClick={closeDropdown} to="/category/babyCare" className='rounded-none'><img className='w-5' src={img8} alt="Baby care" /> Baby care</Link></li>
                             </ul>
                         )
                     }
@@ -87,11 +93,10 @@ const Header = () => {
                             <div className='md:w-9 w-7 md:h-9 h-7 rounded-full'>
                                 <img className='w-full md:h-9 h-7 rounded-full' src={user?.photoURL} alt='' />
                             </div>
-                            {/* <span className='text-white md:font-semibold font-normal mx-1'>{user?.displayName}</span> */}
-                            <span className='text-white btn btn-ghost md:px-3 px-3 hover:border-zinc-50' title='Logout' onClick={handleLogout}><ion-icon name="log-out" size="small"></ion-icon></span>
+                            <span className='text-white text-2xl btn btn-ghost md:px-3 px-3 hover:border-zinc-50' title='Logout' onClick={handleLogout}><FontAwesomeIcon icon={faPersonWalkingDashedLineArrowRight} /></span>
                         </> :
                         <>
-                            <Link to="/login"><span className='text-white mx-2 btn btn-ghost p-3 hover:border-zinc-50' title='Login/Sign Up'><ion-icon name="person" size="small"></ion-icon></span></Link>
+                            <Link to="/login"><span className='text-white text-2xl mx-2 btn btn-ghost p-3 hover:border-zinc-50' title='Login/Sign Up'><FontAwesomeIcon icon={faRightToBracket} /></span></Link>
                         </>
                 }
                 <div className="dropdown dropdown-end flex justify-center">
