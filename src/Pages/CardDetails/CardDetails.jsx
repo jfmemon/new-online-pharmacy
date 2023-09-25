@@ -4,12 +4,14 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMinus, faPlus } from '@fortawesome/free-solid-svg-icons'
 import { AuthContext } from '../../Context/AuthProvider';
 import Swal from 'sweetalert2';
+import useCart from '../../Hooks/useCart';
 
 const CardDetails = () => {
     const location = useLocation();
     const { _id, img, title, quantity, price, details, brand } = location.state;
     const { user } = useContext(AuthContext);
     const [addedQuantity, setAddedQuantity] = useState(1);
+    const [, refetch] = useCart();
 
     const handleIncrease = () => {
         setAddedQuantity(addedQuantity + 1);
@@ -35,6 +37,7 @@ const CardDetails = () => {
                 .then(res => res.json())
                 .then(data => {
                     if (data.insertedId) {
+                        refetch();
                         Swal.fire({
                             icon: 'success',
                             position: 'top',

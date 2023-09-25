@@ -4,7 +4,7 @@ import { Link, useSearchParams } from 'react-router-dom';
 import { AuthContext } from '../../../Context/AuthProvider';
 import Swal from 'sweetalert2';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPersonWalkingDashedLineArrowRight, faRightFromBracket, faRightToBracket } from '@fortawesome/free-solid-svg-icons'
+import { faCartShopping, faRightFromBracket, faRightToBracket } from '@fortawesome/free-solid-svg-icons'
 
 import img1 from '../../../assets/Category-logos/shopByCondition.png';
 import img2 from '../../../assets/Category-logos/sexualWellness.png';
@@ -14,10 +14,12 @@ import img5 from '../../../assets/Category-logos/medicalDevice.png';
 import img6 from '../../../assets/Category-logos/personalCare.png';
 import img7 from '../../../assets/Category-logos/healthAndWellness.png';
 import img8 from '../../../assets/Category-logos/babyCare.png';
+import useCart from '../../../Hooks/useCart';
 
 const Header = () => {
     const { user, logOut } = useContext(AuthContext);
     const [open, setOpen] = useState(false);
+    const [cart] = useCart();
 
     const closeDropdown = () => {
         setOpen(false);
@@ -93,32 +95,19 @@ const Header = () => {
                             <div className='md:w-9 w-7 md:h-9 h-7 rounded-full'>
                                 <img className='w-full md:h-9 h-7 rounded-full' src={user?.photoURL} alt='' />
                             </div>
-                            <span className='text-white text-2xl btn btn-ghost md:px-3 px-3 hover:border-zinc-50' title='Logout' onClick={handleLogout}><FontAwesomeIcon icon={faPersonWalkingDashedLineArrowRight} /></span>
+                            <span className='text-white text-xl btn btn-ghost md:px-3 px-3 hover:border-zinc-50 lg:ml-4' title='Logout' onClick={handleLogout}><FontAwesomeIcon icon={faRightFromBracket} /></span>
                         </> :
                         <>
                             <Link to="/login"><span className='text-white text-2xl mx-2 btn btn-ghost p-3 hover:border-zinc-50' title='Login/Sign Up'><FontAwesomeIcon icon={faRightToBracket} /></span></Link>
                         </>
                 }
                 <div className="dropdown dropdown-end flex justify-center">
-                    <label tabIndex={0} className="btn btn-ghost text-white px-2 hover:border-zinc-50" title='See cart list' onClick={() => setOpen(!open)}>
+                    <label className="btn btn-ghost text-white px-2 hover:border-zinc-50" title='See cart list' onClick={() => setOpen(!open)}>
                         <div className="indicator">
-                            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" /></svg>
-                            <span className="badge badge-sm indicator-item">8</span>
+                            <span className='text-xl'><FontAwesomeIcon icon={faCartShopping} /></span>
+                            <span className="badge badge-sm indicator-item text-gray-600">{cart?.length}</span>
                         </div>
                     </label>
-                    {
-                        open && (
-                            <div tabIndex={0} className="mt-12 z-[1] card card-compact dropdown-content md:w-52 bg-base-100 shadow">
-                                <div className="card-body">
-                                    <span className="font-bold text-lg">8 Items</span>
-                                    <span className="text-info">Subtotal: $999</span>
-                                    <div className="card-actions">
-                                        <button className="btn btn-primary btn-block">View cart</button>
-                                    </div>
-                                </div>
-                            </div>
-                        )
-                    }
                 </div>
             </div>
         </div>
