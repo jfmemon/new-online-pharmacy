@@ -81,7 +81,7 @@ const CardDetails = () => {
                         <p className='mx-auto font-bold'>{addedQuantity}</p>
                         <button onClick={handleIncrease} className='mx-auto'><FontAwesomeIcon icon={faPlus} /></button>
                     </div>
-                    <button onClick={handleAddToCart} className='text-center border w-40 md:py-1 border-warning font-semibold text-sm cursor-pointer text-warning hover:bg-warning hover:text-white uppercase'>ADD TO CART</button>
+                    <button onClick={handleAddToCart} className='text-center border w-40 md:py-1 py-1 border-warning font-semibold text-sm cursor-pointer text-warning hover:bg-warning hover:text-white uppercase'>ADD TO CART</button>
                 </div>
             </div>
             <div className='border-2 mt-5 mb-10 md:w-3/4 mx-auto px-5 py-4 gap-5 text-gray-600'>
