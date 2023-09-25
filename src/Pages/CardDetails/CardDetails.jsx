@@ -1,20 +1,67 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMinus, faPlus } from '@fortawesome/free-solid-svg-icons'
+import { AuthContext } from '../../Context/AuthProvider';
+import Swal from 'sweetalert2';
 
 const CardDetails = () => {
     const location = useLocation();
     const { _id, img, title, quantity, price, details, brand } = location.state;
-    const [newPrice, setNewPrice] = useState(1);
+    const { user } = useContext(AuthContext);
+    const [addedQuantity, setAddedQuantity] = useState(1);
 
     const handleIncrease = () => {
-        setNewPrice(newPrice + 1);
+        setAddedQuantity(addedQuantity + 1);
     }
 
     const handleDecrease = () => {
-        if (newPrice > 1) {
-            setNewPrice(newPrice - 1);
+        if (addedQuantity > 1) {
+            setAddedQuantity(addedQuantity - 1);
+        }
+    }
+
+    const handleAddToCart = () => {
+        if (user && user.email) {
+            const cartItem = { itemId: _id, img, title, quantity, price, details, brand, addedQuantity:addedQuantity, totalPrice: price * addedQuantity, userEmail: user.email };
+
+            fetch("http://localhost:5000/carts", {
+                method: "POST",
+                headers: {
+                    "content-type": "application/json"
+                },
+                body: JSON.stringify(cartItem)
+            })
+                .then(res => res.json())
+                .then(data => {
+                    if (data.insertedId) {
+                        Swal.fire({
+                            icon: 'success',
+                            position: 'top',
+                            title: 'Medicine added to the cart successfully.',
+                            showClass: {
+                                popup: 'animate__animated animate__fadeInDown'
+                            },
+                            hideClass: {
+                                popup: 'animate__animated animate__fadeOutUp'
+                            }
+                        })
+                    }
+                })
+        }
+        else {
+            Swal.fire({
+                title: 'Please login to order this medicine.',
+                icon: 'warning',
+                showCancelButton: true,
+                confirmButtonColor: '#3085d6',
+                cancelButtonColor: '#d33',
+                confirmButtonText: 'Login now!'
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    navigate("/login");
+                }
+            })
         }
     }
 
@@ -28,13 +75,13 @@ const CardDetails = () => {
                     <h3 className='text-xl font-bold'>{title}</h3>
                     <small>{brand}</small><br /><br />
                     <p className='font-semibold'>{quantity}</p>
-                    <p className='font-semibold'>{price * newPrice} &#2547;</p><br /><br />
+                    <p className='font-semibold'>{price * addedQuantity} &#2547;</p><br /><br />
                     <div className='w-40 border h-8 mb-2 flex justify-between items-center'>
                         <button onClick={handleDecrease} className='mx-auto'><FontAwesomeIcon icon={faMinus} /></button>
-                        <p className='mx-auto font-bold'>{newPrice}</p>
+                        <p className='mx-auto font-bold'>{addedQuantity}</p>
                         <button onClick={handleIncrease} className='mx-auto'><FontAwesomeIcon icon={faPlus} /></button>
                     </div>
-                    <button className='text-center border w-40 md:py-1 border-warning font-semibold text-sm cursor-pointer text-warning hover:bg-warning hover:text-white uppercase'>ADD TO CART</button>
+                    <button onClick={handleAddToCart} className='text-center border w-40 md:py-1 border-warning font-semibold text-sm cursor-pointer text-warning hover:bg-warning hover:text-white uppercase'>ADD TO CART</button>
                 </div>
             </div>
             <div className='border-2 mt-5 mb-10 md:w-3/4 mx-auto px-5 py-4 gap-5 text-gray-600'>

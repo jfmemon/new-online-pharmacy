@@ -9,7 +9,7 @@ const ShowItemsByCard = ({ items }) => {
     const navigate = useNavigate();
     console.log(items);
 
-    const handleItemDetails = (item) => {
+    const handleAddToCart = (item) => {
         if (user && user.email) {
             const cartItem = { itemId: _id, img, title, quantity, price, details, brand, userEmail: user.email };
 
@@ -66,7 +66,7 @@ const ShowItemsByCard = ({ items }) => {
                 <p className='font-bold'>{price} &#2547;</p>
             </div>
             <button onClick={handleDetails} className='text-center mb-1 border w-full md:py-1 border-accent font-semibold text-sm cursor-pointer text-accent hover:bg-accent hover:text-white uppercase'>See Details</button>
-            <button onClick={() => handleItemDetails(items)} className='text-center border w-full md:py-1 border-warning font-semibold text-sm cursor-pointer text-warning hover:bg-warning hover:text-white uppercase'>ADD TO CART</button>
+            <button onClick={() => handleAddToCart(items)} className='text-center border w-full md:py-1 border-warning font-semibold text-sm cursor-pointer text-warning hover:bg-warning hover:text-white uppercase'>ADD TO CART</button>
         </div>
     );
 };
