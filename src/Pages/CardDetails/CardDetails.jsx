@@ -78,7 +78,7 @@ const CardDetails = () => {
                     <h3 className='text-xl font-bold'>{title}</h3>
                     <small>{brand}</small><br /><br />
                     <p className='font-semibold'>{quantity}</p>
-                    <p className='font-semibold'>{price * addedQuantity} &#2547;</p><br /><br />
+                    <p className='font-semibold text-2xl' style={{color:'#f57224'}}>{price * addedQuantity} &#2547;</p><br /><br />
                     <div className='w-40 border h-8 mb-2 flex justify-between items-center'>
                         <button onClick={handleDecrease} className='mx-auto'><FontAwesomeIcon icon={faMinus} /></button>
                         <p className='mx-auto font-bold'>{addedQuantity}</p>

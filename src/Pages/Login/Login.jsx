@@ -3,6 +3,7 @@ import { Helmet } from "react-helmet-async";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../Context/AuthProvider";
 import Swal from "sweetalert2";
+import loginImage from '../../assets/login.svg';
 
 const Login = () => {
     const { signIn } = useContext(AuthContext);
@@ -51,13 +52,14 @@ const Login = () => {
             <Helmet>
                 <title>SHEFA | Login</title>
             </Helmet>
-            <div className="hero bg-base-200">
-                <div className="hero-content flex-col my-10">
+            <div className="hero bg-base-200 md:h-[596px] w-full">
+                <div className="hero-content md:flex md:flex-row flex-col">
                     <div className="text-center lg:text-center">
-                        <h1 className="text-4xl font-bold py-4" style={{color: "#76D7C4"}}>Login now!</h1>
+                        <img className="w-[500px] mr-20" src={loginImage} alt="" />
                     </div>
                     <div className="card flex-shrink-0 md:w-96 shadow-2xl bg-base-100">
-                        <form className="card-body" onSubmit={handleLogin}>
+                        <h3 className="py-5 text-center font-semibold text-2xl text-[#76D7C4]">Login</h3>
+                        <form className="card-body pt-0" onSubmit={handleLogin}>
                             <div className="form-control">
                                 <label className="label">
                                     <span className="label-text">Email</span>

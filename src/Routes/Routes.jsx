@@ -14,6 +14,7 @@ import HealthAndWellness from "../Pages/HealthAndWellness/HealthAndWellness";
 import BabyCare from "../Pages/BabyCare/BabyCare";
 import ShowConditionalItems from "../Pages/ShowConditionalItems/ShowConditionalItems";
 import CardDetails from "../Pages/CardDetails/CardDetails";
+import UserDashboard from "../Pages/UserDashboard/UserDashboard";
 
 export const router = createBrowserRouter([
     {
@@ -75,6 +76,10 @@ export const router = createBrowserRouter([
             {
                 path: "category/babyCare",
                 element: <BabyCare></BabyCare>
+            },
+            {
+                path: "userDashboard",
+                element: <UserDashboard></UserDashboard>
             }
         ]
     }

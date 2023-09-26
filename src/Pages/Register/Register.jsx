@@ -4,6 +4,7 @@ import { useForm } from "react-hook-form";
 import { useContext } from "react";
 import { AuthContext } from "../../Context/AuthProvider";
 import Swal from "sweetalert2";
+import signupImage from '../../assets/signup.svg';
 
 const Register = () => {
     const { createUser, updateUserProfile } = useContext(AuthContext);
@@ -48,12 +49,13 @@ const Register = () => {
                 <title>SHEFA | Registration</title>
             </Helmet>
             <div className="hero bg-base-200">
-                <div className="hero-content flex-col">
+                <div className="hero-content md:flex md:flex-row flex-col">
                     <div className="text-center lg:text-center">
-                        <h1 className="text-4xl font-bold py-4" style={{color:"#76D7C4"}}>Create your account!</h1>
+                        <img className="w-[500px] mr-20" src={signupImage} alt="" />
                     </div>
                     <div className="card flex-shrink-0 md:w-96 shadow-2xl bg-base-100">
-                        <form className="card-body" onSubmit={handleSubmit(onSubmit)}>
+                        <h3 className="py-5 text-center font-semibold text-2xl text-[#76D7C4]">Sign Up</h3>
+                        <form className="card-body pt-0" onSubmit={handleSubmit(onSubmit)}>
                             <div className="form-control">
                                 <label className="label">
                                     <span className="label-text">Name</span>

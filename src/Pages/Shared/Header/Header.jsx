@@ -1,10 +1,12 @@
 import { useContext, useState } from 'react';
 import { FaHandHoldingMedical } from 'react-icons/fa';
-import { Link, useSearchParams } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { AuthContext } from '../../../Context/AuthProvider';
 import Swal from 'sweetalert2';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCartShopping, faRightFromBracket, faRightToBracket } from '@fortawesome/free-solid-svg-icons'
+import useCart from '../../../Hooks/useCart';
+
 
 import img1 from '../../../assets/Category-logos/shopByCondition.png';
 import img2 from '../../../assets/Category-logos/sexualWellness.png';
@@ -14,7 +16,7 @@ import img5 from '../../../assets/Category-logos/medicalDevice.png';
 import img6 from '../../../assets/Category-logos/personalCare.png';
 import img7 from '../../../assets/Category-logos/healthAndWellness.png';
 import img8 from '../../../assets/Category-logos/babyCare.png';
-import useCart from '../../../Hooks/useCart';
+
 
 const Header = () => {
     const { user, logOut } = useContext(AuthContext);
@@ -103,10 +105,10 @@ const Header = () => {
                 }
                 <div className="dropdown dropdown-end flex justify-center">
                     <label className="btn btn-ghost text-white px-2 hover:border-zinc-50" title='See cart list' onClick={() => setOpen(!open)}>
-                        <div className="indicator">
+                        <Link to="/userDashboard" className="indicator">
                             <span className='text-xl'><FontAwesomeIcon icon={faCartShopping} /></span>
                             <span className="badge badge-sm indicator-item text-gray-600">{cart?.length}</span>
-                        </div>
+                        </Link>
                     </label>
                 </div>
             </div>
