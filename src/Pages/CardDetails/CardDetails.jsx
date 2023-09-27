@@ -80,7 +80,7 @@ const CardDetails = () => {
                     <p className='font-semibold'>{quantity}</p>
                     <p className='font-semibold text-2xl' style={{color:'#f57224'}}>{price * addedQuantity} &#2547;</p><br /><br />
                     <div className='w-40 border h-8 mb-2 flex justify-between items-center'>
-                        <button onClick={handleDecrease} className='mx-auto'><FontAwesomeIcon icon={faMinus} /></button>
+                        <button onClick={handleDecrease} disabled={addedQuantity === 1} className='mx-auto disabled:cursor-not-allowed'><FontAwesomeIcon icon={faMinus} /></button>
                         <p className='mx-auto font-bold'>{addedQuantity}</p>
                         <button onClick={handleIncrease} className='mx-auto'><FontAwesomeIcon icon={faPlus} /></button>
                     </div>

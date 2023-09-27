@@ -52,3 +52,13 @@
 .product-grid {
     flex-wrap: wrap;
 }
+
+.drawer-side a {
+    background-color: rgb(141, 111, 250);
+    margin-bottom: 7px;
+    color: white;
+}
+
+.drawer-side a.active {
+    color: white;
+}

@@ -15,6 +15,9 @@ import BabyCare from "../Pages/BabyCare/BabyCare";
 import ShowConditionalItems from "../Pages/ShowConditionalItems/ShowConditionalItems";
 import CardDetails from "../Pages/CardDetails/CardDetails";
 import UserDashboard from "../Pages/UserDashboard/UserDashboard";
+import MyCart from "../Pages/UserDashboard/MyCart";
+import OrderList from "../Pages/UserDashboard/OrderList";
+import PaymentHistory from "../Pages/UserDashboard/PaymentHistory";
 
 export const router = createBrowserRouter([
     {
@@ -79,7 +82,21 @@ export const router = createBrowserRouter([
             },
             {
                 path: "userDashboard",
-                element: <UserDashboard></UserDashboard>
+                element: <UserDashboard></UserDashboard>,
+                children: [
+                    {
+                        path: 'myCart',
+                        element: <MyCart></MyCart>
+                    },
+                    {
+                        path: 'orderList',
+                        element: <OrderList></OrderList>
+                    },
+                    {
+                        path: 'paymentHistory',
+                        element: <PaymentHistory></PaymentHistory>
+                    }
+                ]
             }
         ]
     }
