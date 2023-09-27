@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { AuthContext } from '../../../Context/AuthProvider';
 import Swal from 'sweetalert2';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCartShopping, faRightFromBracket, faRightToBracket } from '@fortawesome/free-solid-svg-icons'
+import { faCartShopping, faRightFromBracket, faRightToBracket, faUserPlus } from '@fortawesome/free-solid-svg-icons'
 import useCart from '../../../Hooks/useCart';
 
 
@@ -94,13 +94,14 @@ const Header = () => {
                 {
                     user ?
                         <>
-                            <div className='md:w-9 w-7 md:h-9 h-7 rounded-full'>
-                                <img className='w-full md:h-9 h-7 rounded-full' src={user?.photoURL} alt='' />
+                            <div className='lg:w-24 w-[80px] md:w-96 md:h-9 h-7 rounded-full flex items-center justify-between lg:mr-0 md:mr-6 mr-6'>
+                                <img className=' md:h-7 lg:w-9 w-1/2 lg:h-9 h-7 rounded-full' src={user?.photoURL} alt='' />
+                                <small className='pl-2 md:pl-2 lg:pl-0 text-white w-1/2 font-semibold leading-none'>{user.displayName}</small>
                             </div>
                             <span className='text-white text-xl btn btn-ghost md:px-3 px-3 hover:border-zinc-50 lg:ml-4 ml-5' title='Logout' onClick={handleLogout}><FontAwesomeIcon icon={faRightFromBracket} /></span>
                         </> :
                         <>
-                            <Link to="/login"><span className='text-white text-2xl mx-2 btn btn-ghost p-3 hover:border-zinc-50' title='Login/Sign Up'><FontAwesomeIcon icon={faRightToBracket} /></span></Link>
+                            <Link to="/login"><span className='text-white text-xl mx-2 btn btn-ghost p-3 hover:border-zinc-50' title='Login/Sign Up'><FontAwesomeIcon icon={faUserPlus} /></span></Link>
                         </>
                 }
                 <div className="dropdown dropdown-end flex justify-center">
