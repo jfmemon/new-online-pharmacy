@@ -20,7 +20,7 @@ const MyCart = () => {
                 <div className='relative flex flex-col bg-clip-border rounded-xl bg-white text-gray-700 shadow-md h-full w-full lg:overflow-hidden overflow-scroll'>
                     <table className='w-full min-w-max table-auto text-left'>
                         <thead>
-                            <tr className='bg-[#8D6FFA] text-white'>
+                            <tr className='bg-gray-800 text-white'>
                                 <th className='border-b border-blue-gray-100 bg-blue-gray-50 py-4 px-8'>No.</th>
                                 <th className='border-b border-blue-gray-100 bg-blue-gray-50 py-4 px-8'>Image</th>
                                 <th className='border-b border-blue-gray-100 bg-blue-gray-50 py-4 px-8'>Name</th>
