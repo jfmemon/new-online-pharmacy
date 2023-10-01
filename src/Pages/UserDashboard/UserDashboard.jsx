@@ -1,8 +1,10 @@
 import React from 'react';
 import { NavLink, Outlet } from 'react-router-dom';
 import '../../index.css';
+import useCart from '../../Hooks/useCart';
 
 const UserDashboard = () => {
+    const [cart] = useCart();
     return (
         <div className="drawer lg:drawer-open">
             <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
@@ -17,7 +19,7 @@ const UserDashboard = () => {
                 <ul className="menu p-4 w-80 min-h-full bg-base-200 text-base-content">
                     {/* Sidebar content here */}
                     <h3 className=' py-3 text-2xl text-indigo-500'>User dashboard</h3>
-                    <li><NavLink to="/userDashboard/myCart">My cart</NavLink></li>
+                    <li><NavLink to="/userDashboard/myCart">My cart<span className="badge badge-sm indicator-item text-gray-600 font-bold">{cart?.length}</span></NavLink></li>
                     <li><NavLink to="/userDashboard/orderList">Order list</NavLink></li>
                     <li><NavLink to="/userDashboard/paymentHistory">Payment history</NavLink></li>
                 </ul>

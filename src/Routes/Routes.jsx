@@ -18,6 +18,7 @@ import UserDashboard from "../Pages/UserDashboard/UserDashboard";
 import MyCart from "../Pages/UserDashboard/MyCart";
 import OrderList from "../Pages/UserDashboard/OrderList";
 import PaymentHistory from "../Pages/UserDashboard/PaymentHistory";
+import PrivateRoute from "./PrivateRoute";
 
 export const router = createBrowserRouter([
     {
@@ -82,7 +83,7 @@ export const router = createBrowserRouter([
             },
             {
                 path: "userDashboard",
-                element: <UserDashboard></UserDashboard>,
+                element: <PrivateRoute><UserDashboard></UserDashboard></PrivateRoute>,
                 children: [
                     {
                         path: 'myCart',
