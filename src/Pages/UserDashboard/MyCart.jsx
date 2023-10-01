@@ -70,7 +70,7 @@ const MyCart = () => {
                                     <td className='py-2 px-8 border-b border-blue-gray-50 text-center'>{item.addedQuantity}</td>
                                     <td className='py-2 px-8 border-b border-blue-gray-50 text-center'>{item.totalPrice}</td>
                                     <td className='py-2 px-8 border-b border-blue-gray-50'>
-                                        <button onClick={() => handleDelete(item)} className='btn btn-md bg-red-500 text-white text-[18px] hover:text-red-600'><FontAwesomeIcon icon={faTrashCan} /></button>
+                                        <button onClick={() => handleDelete(item)} className='btn btn-md bg-red-500 text-white text-[18px] hover:text-red-600' title='Delete this item!'><FontAwesomeIcon icon={faTrashCan} /></button>
                                     </td>
                                 </tr>)
                             }
