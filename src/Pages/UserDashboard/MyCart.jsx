@@ -2,10 +2,40 @@ import React from 'react';
 import useCart from '../../Hooks/useCart';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTrashCan } from '@fortawesome/free-solid-svg-icons';
+import Swal from 'sweetalert2';
 
 const MyCart = () => {
-    const [cart] = useCart();
+    const [cart, refetch] = useCart();
     const totalPrice = cart.reduce((accumulator, currentValue) => currentValue.totalPrice + accumulator, 0);
+
+    const handleDelete = item => {
+        Swal.fire({
+            title: 'Are you sure?',
+            text: "You want to delete this?",
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#3085d6',
+            cancelButtonColor: '#d33',
+            confirmButtonText: 'Yes, delete it!'
+        }).then((result) => {
+            if (result.isConfirmed) {
+                fetch(`http://localhost:5000/carts/${item._id}`, {
+                    method: 'DELETE'
+                })
+                    .then(res => res.json())
+                    .then(data => {
+                        if (data.deletedCount > 0) {
+                            refetch();
+                            Swal.fire(
+                                'Deleted!',
+                                'Your file has been deleted.',
+                                'success'
+                            )
+                        }
+                    })
+            }
+        })
+    }
 
     return (
         <div className='relative'>
@@ -40,7 +70,7 @@ const MyCart = () => {
                                     <td className='py-2 px-8 border-b border-blue-gray-50 text-center'>{item.addedQuantity}</td>
                                     <td className='py-2 px-8 border-b border-blue-gray-50 text-center'>{item.totalPrice}</td>
                                     <td className='py-2 px-8 border-b border-blue-gray-50'>
-                                        <button className='btn btn-md bg-red-500 text-white text-[18px] hover:text-red-600'><FontAwesomeIcon icon={faTrashCan} /></button>
+                                        <button onClick={() => handleDelete(item)} className='btn btn-md bg-red-500 text-white text-[18px] hover:text-red-600'><FontAwesomeIcon icon={faTrashCan} /></button>
                                     </td>
                                 </tr>)
                             }
