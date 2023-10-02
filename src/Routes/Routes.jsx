@@ -39,7 +39,7 @@ export const router = createBrowserRouter([
             },
             {
                 path: "uploadPrescription",
-                element: <UploadPrescription></UploadPrescription>
+                element: <PrivateRoute><UploadPrescription></UploadPrescription></PrivateRoute>
             },
             {
                 path: "category/shopByCondition",
