@@ -1,5 +1,5 @@
 import React, { useContext, useState } from 'react';
-import { useLocation, useNavigate } from 'react-router-dom';
+import { useLoaderData, useLocation, useNavigate } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMinus, faPlus } from '@fortawesome/free-solid-svg-icons'
 import { AuthContext } from '../../Context/AuthProvider';
@@ -8,11 +8,13 @@ import useCart from '../../Hooks/useCart';
 
 const CardDetails = () => {
     const navigate = useNavigate();
-    // const location = useLocation();
-    const { _id, img, title, quantity, price, details, brand } = location.state;
+    const items = JSON.parse(localStorage.getItem('items'));
+    const { _id, img, title, quantity, price, details, brand } = items;
     const { user } = useContext(AuthContext);
     const [addedQuantity, setAddedQuantity] = useState(1);
     const [, refetch] = useCart();
+    const location = useLocation();
+    // console.log(searchParams.get(items));
 
     const handleIncrease = () => {
         setAddedQuantity(addedQuantity + 1);
@@ -26,7 +28,7 @@ const CardDetails = () => {
 
     const handleAddToCart = () => {
         if (user && user.email) {
-            const cartItem = { itemId: _id, img, title, quantity, price, details, brand, addedQuantity:addedQuantity, totalPrice: price * addedQuantity, userEmail: user.email };
+            const cartItem = { itemId: _id, img, title, quantity, price, details, brand, addedQuantity: addedQuantity, totalPrice: price * addedQuantity, userEmail: user.email };
 
             fetch("http://localhost:5000/carts", {
                 method: "POST",
@@ -54,7 +56,6 @@ const CardDetails = () => {
                 })
         }
         else {
-            const currentLocation = location.pathname;
             Swal.fire({
                 title: 'Please login to order this medicine.',
                 icon: 'warning',
@@ -64,7 +65,7 @@ const CardDetails = () => {
                 confirmButtonText: 'Login now!'
             }).then((result) => {
                 if (result.isConfirmed) {
-                    navigate("/login", { state: { from: currentLocation } });
+                    navigate("/login", { state: { from: location } });
                 }
             })
         }
@@ -80,7 +81,7 @@ const CardDetails = () => {
                     <h3 className='text-xl font-bold'>{title}</h3>
                     <small>{brand}</small><br /><br />
                     <p className='font-semibold'>{quantity}</p>
-                    <p className='font-semibold text-2xl' style={{color:'#f57224'}}>{price * addedQuantity} &#2547;</p><br /><br />
+                    <p className='font-semibold text-2xl' style={{ color: '#f57224' }}>{price * addedQuantity} &#2547;</p><br /><br />
                     <div className='w-40 border h-8 mb-2 flex justify-between items-center'>
                         <button onClick={handleDecrease} disabled={addedQuantity === 1} className='mx-auto disabled:cursor-not-allowed'><FontAwesomeIcon icon={faMinus} /></button>
                         <p className='mx-auto font-bold'>{addedQuantity}</p>

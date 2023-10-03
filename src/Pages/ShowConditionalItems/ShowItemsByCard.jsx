@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { useLocation, useNavigate } from 'react-router-dom';
+import { createSearchParams, useLocation, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../Context/AuthProvider';
 import Swal from 'sweetalert2';
 import useCart from '../../Hooks/useCart';
@@ -42,7 +42,6 @@ const ShowItemsByCard = ({ items }) => {
                 })
         }
         else {
-            const currentLocation = location.pathname;
             Swal.fire({
                 title: 'Please login to order this medicine.',
                 icon: 'warning',
@@ -59,7 +58,10 @@ const ShowItemsByCard = ({ items }) => {
     }
 
     const handleDetails = () => {
-        navigate(`/medicineDetails/${title}`, { state: { _id, img, title, quantity, price, details, brand } });
+        localStorage.setItem('items', JSON.stringify(items));
+        navigate(`/medicineDetails/${title}`);
+
+        // navigate(`/medicineDetails/${title}`, { state: { _id, img, title, quantity, price, details, brand } });
     }
 
     return (
