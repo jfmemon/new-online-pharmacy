@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../Context/AuthProvider';
 import Swal from 'sweetalert2';
 import useCart from '../../Hooks/useCart';
@@ -9,6 +9,7 @@ const ShowItemsByCard = ({ items }) => {
     const { user } = useContext(AuthContext);
     const [, refetch] = useCart();
     const navigate = useNavigate();
+    const location = useLocation();
     console.log(items);
 
     const handleAddToCart = () => {
@@ -50,7 +51,7 @@ const ShowItemsByCard = ({ items }) => {
                 confirmButtonText: 'Login now!'
             }).then((result) => {
                 if (result.isConfirmed) {
-                    navigate("/login");
+                    navigate("/login", { state: { from: location } });
                 }
             })
         }
@@ -66,7 +67,7 @@ const ShowItemsByCard = ({ items }) => {
             <div className="card-body text-center">
                 <h2 className='font-semibold text-sky-600'>{title}</h2>
                 <small className='text-gray-600 font-semibold'>{quantity}</small>
-                <p className='font-semibold text-2xl' style={{color:'#f57224'}}>{price} &#2547;</p>
+                <p className='font-semibold text-2xl' style={{ color: '#f57224' }}>{price} &#2547;</p>
             </div>
             <button onClick={handleDetails} className='text-center mb-1 border w-full md:py-1 py-1 border-accent font-semibold text-sm cursor-pointer text-accent hover:bg-accent hover:text-white uppercase'>See Details</button>
             <button onClick={handleAddToCart} className='text-center border w-full md:py-1 py-1 border-warning font-semibold text-sm cursor-pointer text-warning hover:bg-warning hover:text-white uppercase'>ADD TO CART</button>

@@ -4,7 +4,7 @@ import ShowItemsByCard from './ShowItemsByCard';
 
 const ShowConditionalItems = () => {
     const location = useLocation();
-    // console.log(location.state);
+    console.log(location);
 
     const productItems = location.state.products;
     const name = location.state.name;

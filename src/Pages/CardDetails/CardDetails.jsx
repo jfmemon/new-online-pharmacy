@@ -1,5 +1,5 @@
 import React, { useContext, useState } from 'react';
-import { useLocation } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMinus, faPlus } from '@fortawesome/free-solid-svg-icons'
 import { AuthContext } from '../../Context/AuthProvider';
@@ -7,7 +7,9 @@ import Swal from 'sweetalert2';
 import useCart from '../../Hooks/useCart';
 
 const CardDetails = () => {
+    const navigate = useNavigate();
     const location = useLocation();
+    const pathname = location.pathname;
     const { _id, img, title, quantity, price, details, brand } = location.state;
     const { user } = useContext(AuthContext);
     const [addedQuantity, setAddedQuantity] = useState(1);
