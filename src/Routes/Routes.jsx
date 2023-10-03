@@ -46,8 +46,9 @@ export const router = createBrowserRouter([
                 element: <ShopByCondition></ShopByCondition>
             },
             {
-                path: "category/shopByCondition/:content",
-                element: <ShowConditionalItems></ShowConditionalItems>
+                path: "category/shopByCondition/:id",
+                element: <ShowConditionalItems></ShowConditionalItems>,
+                loader: ({params}) => fetch(`http://localhost:5000/shopByCondition/${params.id}`)
             },
             {
                 path: "medicineDetails/:content",

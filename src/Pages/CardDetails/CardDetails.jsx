@@ -8,8 +8,7 @@ import useCart from '../../Hooks/useCart';
 
 const CardDetails = () => {
     const navigate = useNavigate();
-    const location = useLocation();
-    const pathname = location.pathname;
+    // const location = useLocation();
     const { _id, img, title, quantity, price, details, brand } = location.state;
     const { user } = useContext(AuthContext);
     const [addedQuantity, setAddedQuantity] = useState(1);
@@ -55,6 +54,7 @@ const CardDetails = () => {
                 })
         }
         else {
+            const currentLocation = location.pathname;
             Swal.fire({
                 title: 'Please login to order this medicine.',
                 icon: 'warning',
@@ -64,7 +64,7 @@ const CardDetails = () => {
                 confirmButtonText: 'Login now!'
             }).then((result) => {
                 if (result.isConfirmed) {
-                    navigate("/login");
+                    navigate("/login", { state: { from: currentLocation } });
                 }
             })
         }

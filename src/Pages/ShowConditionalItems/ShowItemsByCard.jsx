@@ -42,6 +42,7 @@ const ShowItemsByCard = ({ items }) => {
                 })
         }
         else {
+            const currentLocation = location.pathname;
             Swal.fire({
                 title: 'Please login to order this medicine.',
                 icon: 'warning',

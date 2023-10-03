@@ -1,14 +1,12 @@
 import React from 'react';
-import { useLoaderData, useLocation } from 'react-router-dom';
+import { useLoaderData } from 'react-router-dom';
 import ShowItemsByCard from './ShowItemsByCard';
 
 const ShowConditionalItems = () => {
-    const location = useLocation();
-    console.log(location);
+    const loadedItem = useLoaderData();
 
-    const productItems = location.state.products;
-    const name = location.state.name;
-    // console.log(name);
+    const productItems = loadedItem.products;
+    const name = loadedItem.name;
 
     console.log(productItems);
 
