@@ -25,7 +25,7 @@ const Carousel = () => {
     return (
         <div>
             <div className='flex justify-center md:pt-10 pt-5'>
-                <div className="divider md:w-[300px] w-60 mb-0 md:mb-5">Shop by category</div>
+                <div className="divider md:w-[300px] w-60 mb-0 md:mb-5 text-indigo-500 font-semibold">Shop by category</div>
             </div>
             <Swiper
                 effect={'coverflow'}

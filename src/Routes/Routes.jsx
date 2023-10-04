@@ -19,6 +19,7 @@ import MyCart from "../Pages/UserDashboard/MyCart";
 import OrderList from "../Pages/UserDashboard/OrderList";
 import PaymentHistory from "../Pages/UserDashboard/PaymentHistory";
 import PrivateRoute from "./PrivateRoute";
+import SexualWellnessProductDetails from "../Pages/Home/SexualWellness/SexualWellnessProductDetails";
 
 export const router = createBrowserRouter([
     {
@@ -57,6 +58,11 @@ export const router = createBrowserRouter([
             {
                 path: "category/sexualWellness",
                 element: <SexualWellness></SexualWellness>
+            },
+            {
+                path: "category/sexualWellness/:id",
+                element: <SexualWellnessProductDetails></SexualWellnessProductDetails>,
+                loader: ({params}) => fetch(`http://localhost:5000/sexualWellness/${params.id}`)
             },
             {
                 path: "category/birthControl",

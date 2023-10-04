@@ -1,59 +1,62 @@
 [
     {
-        "_id": "6501c8ebb39311e0ba58323d",
-        "name": "Sexual Wellness",
-        "urlPath": "sexual-wellness",
-        "products": [
-            {
-                "_id": "6501c8eb8e73829e465a0663",
-                "img": "https://i.ibb.co/MP4TJX0/ey-J_id-WNr-ZXQi-Oi-Jhcm9n-Z2-Ei-LCJr-ZXki-Oi-Jt-ZWRp-Y2lu-ZVwv-Mz-Fc-Lz-Mx-Nz-Iw-LUl-NRz-Iw-Mj-Mw-Nj.webp",
-                "title": "Vigogel15gm tube",
-                "urlPath": "vigogel15gm-tube",
-                "quantity": "1 pc",
-                "details": "Description: Vigogel is an ointment type medicine which is used for genital laxity, sexual impotence, penile curvature.Indications: Genital laxity, sexual weakness, speech of the penis. Dosing and usage 1-2 times a day as needed or as per doctor's advice S_ide effects and types of unani medicine Vigogel s_ide effects are not known. Adverse Reactions: No adverse reactions have been observed but reactions may occur in patients sensitive to any of its components.",
-                "price": 180,
-                "brand": "The IBN SINA Pharmaceutical Industry Ltd, Bangladesh"
-            },
-            {
-                "_id": "6501c8ebda70363d1b7d5903",
-                "img": "https://i.ibb.co/g9byMkz/ey-J_id-WNr-ZXQi-Oi-Jhcm9n-Z2-Ei-LCJr-ZXki-Oi-Jt-ZWRp-Y2lu-ZVwv-NDBc-Lz-Qw-MDg0-LVZp-Z29y-YS01-MDAt-Q.webp",
-                "title": "Vigora 500mg",
-                "urlPath": "vigora-500",
-                "quantity": "10 tablets",
-                "details": "Functionality:Sexual weakness, ejaculatory stimulant, sleep enhancer and dream dosha reliever.Consumption rules:Take 1-2 capsules after meals or as directed by your doctor.",
-                "price": 400,
-                "brand": "Bego Pharmaceuticals(Ayurvedic)"
-            },
-            {
-                "_id": "6501c8ebf1808a5fc473c013",
-                "img": "https://i.ibb.co/dJQH7kq/ey-J_id-WNr-ZXQi-Oi-Jhcm9n-Z2-Ei-LCJr-ZXki-Oi-Jt-ZWRp-Y2lu-ZVwv-Mz-Fc-Lz-Mx-OTE0-LUR1cm-V4-LUt-ZLUplb.webp",
-                "title": "KY-Jelly",
-                "urlPath": "ky-jelly",
-                "quantity": "1 pc",
-                "details": "Description:This is a non-sticky,non-staining non-greasy and is a compatible with latex condom. It is a water soluble personal lubricant that prov_ides comfort, helping both partners to enjoy comfortable sex on an ongoing basis. This lubricant formula is non-greasy and easily removed by rinsing, making it easy and convenient to use.",
-                "price": 320,
-                "brand": "Reckitt Benckiser(India)Pvt.Ltd"
-            },
-            {
-                "_id": "6501c8eb35ac3f7ee0ac7475",
-                "img": "https://i.ibb.co/09cxkmN/ey-J_id-WNr-ZXQi-Oi-Jhcm9n-Z2-Ei-LCJr-ZXki-Oi-Jt-ZWRp-Y2lu-ZVwv-Mlwv-Mjc3-My1-JTUdf-Mj-Ay-Mz-A3-MDNf.webp",
-                "title": "Life-100",
-                "urlPath": "life-100",
-                "quantity": "15 capsule",
-                "details": "The information prov_ided herein is accurate, updated and complete as per the best practices of the Company. Please note that this information should not be treated as a replacement for physical medical consultation or advice. We do not guarantee the accuracy and the completeness of the information so prov_ided. The absence of any information and/or warning to any drug shall not be cons_idered and assumed as an implied assurance of the Company. We do not take any responsibility for the consequences arising out of the aforementioned information and strongly recommend you for a physical consultation in case of any queries or doubts.",
-                "price": 600,
-                "brand": "MM Ayurvedic"
-            },
-            {
-                "_id": "6501c8eb1d097831296a13f8",
-                "img": "https://i.ibb.co/LRcsjnm/ey-J_id-WNr-ZXQi-Oi-Jhcm9n-Z2-Ei-LCJr-ZXki-Oi-Jt-ZWRp-Y2lu-ZVwv-Mz-Fc-Lz-Mx-NDMz-LUR1cm-V4-LUV4d-HJh.webp",
-                "title": "Durex Extra Time Condom",
-                "urlPath": "durex-extra-time-condom",
-                "quantity": "10 pcs",
-                "details": "The information prov_ided herein is accurate, updated and complete as per the best practices of the Company. Please note that this information should not be treated as a replacement for physical medical consultation or advice. We do not guarantee the accuracy and the completeness of the information so prov_ided. The absence of any information and/or warning to any drug shall not be cons_idered and assumed as an implied assurance of the Company. We do not take any responsibility for the consequences arising out of the aforementioned information and strongly recommend you for a physical consultation in case of any queries or doubts.",
-                "price": 360,
-                "brand": "Durex"
-            }
-        ]
+        "_id": "6501c8eb8e73829e465a0663",
+        "img": "https://i.ibb.co/MP4TJX0/ey-J_id-WNr-ZXQi-Oi-Jhcm9n-Z2-Ei-LCJr-ZXki-Oi-Jt-ZWRp-Y2lu-ZVwv-Mz-Fc-Lz-Mx-Nz-Iw-LUl-NRz-Iw-Mj-Mw-Nj.webp",
+        "category": "Sexual Wellness",
+        "categoryPath": "sexual-wellness",
+        "title": "Vigogel15gm tube",
+        "urlPath": "vigogel15gm-tube",
+        "quantity": "1 pc",
+        "details": "Description: Vigogel is an ointment type medicine which is used for genital laxity, sexual impotence, penile curvature.Indications: Genital laxity, sexual weakness, speech of the penis. Dosing and usage 1-2 times a day as needed or as per doctor's advice S_ide effects and types of unani medicine Vigogel s_ide effects are not known. Adverse Reactions: No adverse reactions have been observed but reactions may occur in patients sensitive to any of its components.",
+        "price": 180,
+        "brand": "The IBN SINA Pharmaceutical Industry Ltd, Bangladesh"
+    },
+    {
+        "_id": "6501c8ebda70363d1b7d5903",
+        "img": "https://i.ibb.co/g9byMkz/ey-J_id-WNr-ZXQi-Oi-Jhcm9n-Z2-Ei-LCJr-ZXki-Oi-Jt-ZWRp-Y2lu-ZVwv-NDBc-Lz-Qw-MDg0-LVZp-Z29y-YS01-MDAt-Q.webp",
+        "category": "Sexual Wellness",
+        "categoryPath": "sexual-wellness",
+        "title": "Vigora 500mg",
+        "urlPath": "vigora-500",
+        "quantity": "10 tablets",
+        "details": "Functionality:Sexual weakness, ejaculatory stimulant, sleep enhancer and dream dosha reliever.Consumption rules:Take 1-2 capsules after meals or as directed by your doctor.",
+        "price": 400,
+        "brand": "Bego Pharmaceuticals(Ayurvedic)"
+    },
+    {
+        "_id": "6501c8ebf1808a5fc473c013",
+        "img": "https://i.ibb.co/dJQH7kq/ey-J_id-WNr-ZXQi-Oi-Jhcm9n-Z2-Ei-LCJr-ZXki-Oi-Jt-ZWRp-Y2lu-ZVwv-Mz-Fc-Lz-Mx-OTE0-LUR1cm-V4-LUt-ZLUplb.webp",
+        "category": "Sexual Wellness",
+        "categoryPath": "sexual-wellness",
+        "title": "KY-Jelly",
+        "urlPath": "ky-jelly",
+        "quantity": "1 pc",
+        "details": "Description:This is a non-sticky,non-staining non-greasy and is a compatible with latex condom. It is a water soluble personal lubricant that prov_ides comfort, helping both partners to enjoy comfortable sex on an ongoing basis. This lubricant formula is non-greasy and easily removed by rinsing, making it easy and convenient to use.",
+        "price": 320,
+        "brand": "Reckitt Benckiser(India)Pvt.Ltd"
+    },
+    {
+        "_id": "6501c8eb35ac3f7ee0ac7475",
+        "img": "https://i.ibb.co/09cxkmN/ey-J_id-WNr-ZXQi-Oi-Jhcm9n-Z2-Ei-LCJr-ZXki-Oi-Jt-ZWRp-Y2lu-ZVwv-Mlwv-Mjc3-My1-JTUdf-Mj-Ay-Mz-A3-MDNf.webp",
+        "category": "Sexual Wellness",
+        "categoryPath": "sexual-wellness",
+        "title": "Life-100",
+        "urlPath": "life-100",
+        "quantity": "15 capsule",
+        "details": "The information prov_ided herein is accurate, updated and complete as per the best practices of the Company. Please note that this information should not be treated as a replacement for physical medical consultation or advice. We do not guarantee the accuracy and the completeness of the information so prov_ided. The absence of any information and/or warning to any drug shall not be cons_idered and assumed as an implied assurance of the Company. We do not take any responsibility for the consequences arising out of the aforementioned information and strongly recommend you for a physical consultation in case of any queries or doubts.",
+        "price": 600,
+        "brand": "MM Ayurvedic"
+    },
+    {
+        "_id": "6501c8eb1d097831296a13f8",
+        "img": "https://i.ibb.co/LRcsjnm/ey-J_id-WNr-ZXQi-Oi-Jhcm9n-Z2-Ei-LCJr-ZXki-Oi-Jt-ZWRp-Y2lu-ZVwv-Mz-Fc-Lz-Mx-NDMz-LUR1cm-V4-LUV4d-HJh.webp",
+        "category": "Sexual Wellness",
+        "categoryPath": "sexual-wellness",
+        "title": "Durex Extra Time Condom",
+        "urlPath": "durex-extra-time-condom",
+        "quantity": "10 pcs",
+        "details": "The information prov_ided herein is accurate, updated and complete as per the best practices of the Company. Please note that this information should not be treated as a replacement for physical medical consultation or advice. We do not guarantee the accuracy and the completeness of the information so prov_ided. The absence of any information and/or warning to any drug shall not be cons_idered and assumed as an implied assurance of the Company. We do not take any responsibility for the consequences arising out of the aforementioned information and strongly recommend you for a physical consultation in case of any queries or doubts.",
+        "price": 360,
+        "brand": "Durex"
     }
 ]
