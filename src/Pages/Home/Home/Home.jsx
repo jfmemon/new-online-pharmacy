@@ -5,6 +5,13 @@ import ShopByCondition from "../ShopByCondition/ShopByCondition";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
+import SexualWellness from "../SexualWellness/SexualWellness";
+import BirthControl from "../BirthControl/BirthControl";
+import VitaminsAndSupplements from "../VitaminsAndSupplements/VitaminsAndSupplements";
+import MedicalDevices from "../MedicalDevices/MedicalDevices";
+import PersonalCare from "../PersonalCare/PersonalCare";
+import HealthAndWellness from "../HealthAndWellness/HealthAndWellness";
+import BabyCare from "../BabyCare/BabyCare";
 
 const Home = () => {
     return (
@@ -23,6 +30,13 @@ const Home = () => {
             <FirstGrid></FirstGrid>
             <Carousel></Carousel>
             <ShopByCondition></ShopByCondition>
+            <SexualWellness></SexualWellness>
+            <BirthControl></BirthControl>
+            <VitaminsAndSupplements></VitaminsAndSupplements>
+            <MedicalDevices></MedicalDevices>
+            <PersonalCare></PersonalCare>
+            <HealthAndWellness></HealthAndWellness>
+            <BabyCare></BabyCare>
         </div>
     );
 };
