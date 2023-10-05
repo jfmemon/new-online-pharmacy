@@ -65,7 +65,7 @@ const BabyCare = () => {
                 <h3 className='text-xl font-semibold md:pl-2 pl-3 my-2 text-indigo-500'>Baby Care</h3>
                 <small className='md:pl-2 pl-3 text-gray-500'>{babyCare?.length} items found in Baby Care</small>
             </div>
-            <div className='grid md:grid-cols-5 grid-cols-1 gap-5 justify-center md:my-10'>
+            <div className='grid lg:grid-cols-5 md:grid-cols-3 grid-cols-1 gap-5 justify-center md:my-10'>
                 {
                     babyCare.map(items =>
                         <div

@@ -65,7 +65,7 @@ const BirthControl = () => {
                 <h3 className='text-xl font-semibold md:pl-2 pl-3 my-2 text-indigo-500'>Birth Control</h3>
                 <small className='md:pl-2 pl-3 text-gray-500'>{birthControl?.length} items found in Birth Control</small>
             </div>
-            <div className='grid md:grid-cols-5 grid-cols-1 gap-5 justify-center md:my-10'>
+            <div className='grid lg:grid-cols-5 md:grid-cols-3 grid-cols-1 gap-5 justify-center md:my-10'>
                 {
                     birthControl.map(items =>
                         <div

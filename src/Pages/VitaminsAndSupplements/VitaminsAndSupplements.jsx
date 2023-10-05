@@ -11,7 +11,7 @@ const VitaminsAndSupplements = () => {
     const { user } = useContext(AuthContext);
     const navigate = useNavigate();
     const location = useLocation();
-    const [,refetch] = useCart();
+    const [, refetch] = useCart();
 
     const handleAddToCart = (product) => {
         const { _id, img, title, quantity, price, details, brand } = product;
@@ -66,7 +66,7 @@ const VitaminsAndSupplements = () => {
                 <h3 className='text-xl font-semibold md:pl-2 pl-3 my-2 text-indigo-500'>Vitamins And Supplements</h3>
                 <small className='md:pl-2 pl-3 text-gray-500'>{vitaminsAndSupplements?.length} items found in Vitamins And Supplements</small>
             </div>
-            <div className='grid md:grid-cols-5 grid-cols-1 gap-5 justify-center md:my-10'>
+            <div className='grid lg:grid-cols-5 md:grid-cols-3 grid-cols-1 gap-5 justify-center md:my-10'>
                 {
                     vitaminsAndSupplements.map(items =>
                         <div
