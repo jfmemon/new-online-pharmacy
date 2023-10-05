@@ -1,0 +1,52 @@
+[
+    {
+        "_id": "65103efdcf5d0556265893c1",
+        "img": "https://i.ibb.co/mtJhgYy/bicozin-syrup-100ml-1-pc.webp",
+        "title": "Bicozin Syrup 100ml",
+        "urlPath": "bicozin-syrup-100ml",
+        "quantity": "1 pc",
+        "details": "Bicozin Syrup : Adults : 10 ml (2 teaspoonfuls) 2 to 3 times daily, Children : 10 ml (2 teaspoonfuls) 1 to 3 times daily, Infants:5 ml (1 teaspoonful) 1 to 2 times daily. Bicozin Tablet : Adults & Children over 30 kg : 1 to 2 tablets 2 to 3 times daily.",
+        "price": 55,
+        "brand": "Square Pharmaceuticals LTD, Bangladesh"
+    },
+    {
+        "_id": "65103efdefa7e9c9ce9c9e23",
+        "img": "https://i.ibb.co/g4VnjxS/ey-Jid-WNr-ZXQi-Oi-Jhcm9n-Z2-Ei-LCJr-ZXki-Oi-Jt-ZWRp-Y2lu-ZVwv-MTZc-Lz-E2-Mzk4-LVJle-C02b-Wct-Mj-Awb.webp",
+        "title": "Rex Tablet 6mg+200mg+50mg",
+        "urlPath": "rex-tablet-6mg+200mg+50mg",
+        "quantity": "30 tablets",
+        "details": "Indication:Reduces risks of cardiovascular diseases in human, reduces risks of cataract, combat infection and chronic diseases, trend toward decreased age-related degenerative changes, defense against infections.",
+        "price": 90,
+        "brand": "Square Pharmaceuticals LTD, Bangladesh"
+    },
+    {
+        "_id": "65103efd058ff769ca1da77a",
+        "img": "https://i.ibb.co/hL8BT5x/ey-Jid-WNr-ZXQi-Oi-Jhcm9n-Z2-Ei-LCJr-ZXki-Oi-Jt-ZWRp-Y2lu-ZVwv-Mz-Bc-Lz-Mw-OTcz-LVBy-ZWdua-WZvcn-Rl.webp",
+        "title": "Pregniforte",
+        "urlPath": "pregniforte",
+        "quantity": "30 tablets",
+        "details": "Pregniforte tablets are used for the treatment of female infertility caused by anovulation (lack of ovulation) or oligo ovulation (infrequent ovulation). The tablets contain a combination of Clomiphene Citrate and Metformin Hydrochloride, which work together to stimulate ovulation and improve fertility in women with these conditions.",
+        "price": 1470,
+        "brand": "Jupiter Healthcare"
+    },
+    {
+        "_id": "65103efdc2109a1ec8768148",
+        "img": "https://i.ibb.co/v11mbsN/hemofix-fz-tablet-48mg05mg225mg-10-tablets.webp",
+        "title": "Hemofix FZ Tablet 48mg+0.5mg+22.5mg",
+        "urlPath": "hemofix-fz-tablet-48mg+0.5mg+22.5mg",
+        "quantity": "10 tablets",
+        "details": "Description:Indicated by the treatment of iron, folic acid and zinc deficiency.",
+        "price": 50,
+        "brand": "Beximco Pharmaceuticals Ltd."
+    },
+    {
+        "_id": "65103efd5d14c35826c5835c",
+        "img": "https://i.ibb.co/m4r5cYT/Zif-CI-Capsule-Timed-Release-50-mg0-50-mg61-80-mg-Square.webp",
+        "title": "Zif-CI Capsule 50mg+0.50mg+61.80mg",
+        "urlPath": "zif-ci-capsule-50mg+0.5mg+61.80mg",
+        "quantity": "10 tablets",
+        "details": "Indication:Treatment and prophylaxis of Iron, Folic Acid and Zinc deficiency especially during pregnancy and lactation.",
+        "price": 50,
+        "brand": "Square Pharmaceuticals LTD, Bangladesh"
+    }
+]

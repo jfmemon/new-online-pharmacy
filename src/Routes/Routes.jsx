@@ -21,6 +21,7 @@ import PaymentHistory from "../Pages/UserDashboard/PaymentHistory";
 import PrivateRoute from "./PrivateRoute";
 import SexualWellnessProductDetails from "../Pages/Home/SexualWellness/SexualWellnessProductDetails";
 import BirthControlProductDetails from "../Pages/Home/BirthControl/BirthControlProductDetails";
+import VitaminsAndSupplementsProductDetails from "../Pages/Home/VitaminsAndSupplements/VitaminsAndSupplementsProductDetails";
 
 export const router = createBrowserRouter([
     {
@@ -77,6 +78,11 @@ export const router = createBrowserRouter([
             {
                 path: "category/vitaminsAndSupplements",
                 element: <VitaminsAndSupplements></VitaminsAndSupplements>
+            },
+            {
+                path: "category/vitaminsAndSupplements/:id",
+                element: <VitaminsAndSupplementsProductDetails></VitaminsAndSupplementsProductDetails>,
+                loader: ({params}) => fetch(`http://localhost:5000/vitaminsAndSupplements/${params.id}`)
             },
             {
                 path: "category/medicalDevices",
