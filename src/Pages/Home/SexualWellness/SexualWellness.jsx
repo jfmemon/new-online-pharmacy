@@ -108,7 +108,7 @@ const SexualWellness = () => {
                     sexualWellness.map(product => <SwiperSlide
                         key={product._id}
                     >
-                        <div className="card card-compact bg-base-100 drop-shadow-lg p-2 rounded-none">
+                        <div className="card h-96 card-compact bg-base-100 drop-shadow-lg p-2 rounded-none">
                             <figure><img className='md:w-40 md:h-40' src={product.img} alt="Shoes" /></figure>
                             <div className="card-body text-center">
                                 <h2 className='font-semibold text-sky-600'>{product.title}</h2>

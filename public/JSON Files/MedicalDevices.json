@@ -1,0 +1,52 @@
+[
+    {
+        "_id": "65103f5e401a596852f7ce9c",
+        "img": "https://i.ibb.co/WBhfxTJ/accu-chek-active.webp",
+        "title": "ACCU-CHEK Active",
+        "urlPath": "accu-chek-active",
+        "quantity": "1 pc",
+        "details": "The Accu-Chek Active Glucose Monitor is an easy to use system that comprises powerful features like accurate blood glucose measurement, pre-and post-meal reminders, visual double-check and two-button intuitive handling and is suitable for self-testing.",
+        "price": 3200,
+        "brand": "ACCU-CHEK"
+    },
+    {
+        "_id": "65103f5e5ff55b26bd0f2170",
+        "img": "https://i.ibb.co/cD46s1v/novofine-pen-needle-1-pc.webp",
+        "title": "Novofine Pen Needle",
+        "urlPath": "novofine-pen-needle",
+        "quantity": "1 pc",
+        "details": "Novofine needles are insulin needles available in 6 mm 32 gauge, 6 mm 31 gauge, and 8 mm 30 gauge designs.These needles are used to deliver insulin directly into the layer of fat below the skin.",
+        "price": 12.15,
+        "brand": "Novo Nordisk"
+    },
+    {
+        "_id": "65103f5e54103c1bd7dc6d1f",
+        "img": "https://i.ibb.co/crmN6jX/rossmax-thermometer-1-pcs.webp",
+        "title": "Rossmax Thermometer",
+        "urlPath": "rossmax-thermometer",
+        "quantity": "1 pc",
+        "details": "Rossmax Digital Thermometer TG100 is a medical device designed for accurate and easy temperature measurement. It is used to measure body temperature in both adults and children, providing a quick and reliable reading. This type of digital thermometer is commonly used for monitoring fever and general health.",
+        "price": 280,
+        "brand": "Rossmax"
+    },
+    {
+        "_id": "65103f5e542f6bfa433c7fd0",
+        "img": "https://i.ibb.co/zXLYNMv/tens-therapy-machine-1-pc.webp",
+        "title": "Tens Therapy Machine",
+        "urlPath": "tens-therapy-machine",
+        "quantity": "1 pc",
+        "details": "Transcutaneous electrical nerve stimulation (TENS) is a method of pain relief involving the use of a mild electrical current. A TENS machine is a small, battery-operated device that has leads connected to sticky pads called electrodes. You attach the pads directly to your skin.",
+        "price": 1999,
+        "brand": "Hong Qiangxing (shenzhen) Electronics Limited"
+    },
+    {
+        "_id": "65103f5e0699736c1f27fd81",
+        "img": "https://i.ibb.co/7r0VWJL/match-blood-glucose-50-test-strip.webp",
+        "title": "Match Blood Glucose 50 Test Strip",
+        "urlPath": "match-blood-glucose-50-test-strip",
+        "quantity": "1 packet",
+        "details": "Easy to use Suitable for self-testing Fast and accurate results in 5 seconds Suitable with Ok Meter Match or Match II blood glucose meter",
+        "price": 1080,
+        "brand": "OKmeter"
+    }
+]

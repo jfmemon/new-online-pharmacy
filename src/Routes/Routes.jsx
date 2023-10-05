@@ -22,6 +22,7 @@ import PrivateRoute from "./PrivateRoute";
 import SexualWellnessProductDetails from "../Pages/Home/SexualWellness/SexualWellnessProductDetails";
 import BirthControlProductDetails from "../Pages/Home/BirthControl/BirthControlProductDetails";
 import VitaminsAndSupplementsProductDetails from "../Pages/Home/VitaminsAndSupplements/VitaminsAndSupplementsProductDetails";
+import MedicalDevicesProductDetails from "../Pages/Home/MedicalDevices/MedicalDevicesProductDetails";
 
 export const router = createBrowserRouter([
     {
@@ -87,6 +88,11 @@ export const router = createBrowserRouter([
             {
                 path: "category/medicalDevices",
                 element: <MedicalDevices></MedicalDevices>
+            },
+            {
+                path: "category/medicalDevices/:id",
+                element: <MedicalDevicesProductDetails></MedicalDevicesProductDetails>,
+                loader: ({params}) => fetch(`http://localhost:5000/medicalDevices/${params.id}`)
             },
             {
                 path: "category/personalCare",
