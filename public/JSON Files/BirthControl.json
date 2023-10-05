@@ -1,0 +1,52 @@
+[
+    {
+        "_id": "65103e6086b54f8c6f60e245",
+        "img": "https://i.ibb.co/3CxTvPr/emcon-1-tablet-15mg-1-tablet.webp",
+        "title": "Emcon 1 Tablet 1.5mg",
+        "urlPath": "emcon-1-tablet-1.5mg",
+        "quantity": "1 tablet",
+        "details": "Emcon 1 Tablet (Levonorgestrel 1.5mg) is a medicine used for contraception (to prevent pregnancy) and in the treatment of irregular periods. It helps to prevent the release of the egg and its fertilization by the sperm.",
+        "price": 70,
+        "brand": "Renata Limited"
+    },
+    {
+        "_id": "65103e604c1f9bd1cd204c23",
+        "img": "https://i.ibb.co/SK4b5nF/norpill-1-tablet-15mg-1-tablet.webp",
+        "title": "Norpill 1 Tablet 1.5mg",
+        "urlPath": "norpill-1-tablet-1.5mg",
+        "quantity": "1 tablet",
+        "details": "Indication:Emergency Contraception.Dosage & Administration:The tablet must be taken as soon as possible within 72 hours (3 days) after unprotected intercourse or a known or suspected contraceptive failure. The tablet can be taken with or without food. If vomiting occurs within 3 hours of NorpillTM1 intake,hould be given to repeating the dose.",
+        "price": 70,
+        "brand": "Square Pharmaceuticals LTD, Bangladesh"
+    },
+    {
+        "_id": "65103e600cdeb10edfc9ef63",
+        "img": "https://i.ibb.co/tKm9PDg/novelon-lite-tablet-002mg3mg-28-tablets.webp",
+        "title": "Novelon Lite Tablet 0.02mg+3mg",
+        "urlPath": "novelon-lite-tablet-0.02mg+3mg",
+        "quantity": "28 tablets",
+        "details": "Novelon Lite is a combination drug that treats irregular periods and is used as a contraceptive (to prevent pregnancy). In doing so, it aids in stopping the egg from being released and fertilized. Whether you eat or not, Novelon Lite should be taken at the same time each day for the best results. Medical advice should be followed.",
+        "price": 425,
+        "brand": "Renata Limited"
+    },
+    {
+        "_id": "65103e60d3a903beeb23eba4",
+        "img": "https://i.ibb.co/g9gwYFL/novelon-tablet-003mg3mg-28-tablets.webp",
+        "title": "Novelon Tablet 0.03mg+3mg",
+        "urlPath": "novelon-tablet-0.02mg+3mg",
+        "quantity": "28 tablets",
+        "details": "Novelon is a combination of two medicines used for contraception (to prevent pregnancy) and in the treatment of irregular periods. It helps to prevent release and fertilization of the egg. Novelon can be taken with or without food, but take it at the same time to get the most benefit. It should be taken as your doctor's advice. You should have to start taking the pill on the day one of your menstrual cycle and continue taking it for whole month and start with new pack once the pack get finished.",
+        "price": 399,
+        "brand": "Renata Limited"
+    },
+    {
+        "_id": "65103e603301f0674b1c659a",
+        "img": "https://i.ibb.co/gRT42nb/peuli-tablet-30-mg-1-tablets.webp",
+        "title": "Peuli Tablet 30 mg",
+        "urlPath": "peuli-tablet-30mg",
+        "quantity": "1 tablet",
+        "details": "Description:Ulipristal Acetate 30 mg tablet is an Emergency Contraceptive (EC) pill that prevents unwanted pregnancy. This is a Selective Progesterone Receptor Modulator (SPRM). Ulipristal Acetate tablet is supplied for oral administration. The inactive ingredients are lactose monohydrate, povidone K-30, croscarmellose sodium and magnesium stearate.",
+        "price": 195,
+        "brand": "Ziska Pharmaceuticals Ltd."
+    }
+]
