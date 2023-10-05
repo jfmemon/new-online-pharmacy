@@ -5,6 +5,7 @@ import { AuthContext } from '../../../Context/AuthProvider';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import useCart from '../../../Hooks/useCart';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import Swal from 'sweetalert2';
 
 const BirthControl = () => {
     const [birthControl] = useBirthControl();
