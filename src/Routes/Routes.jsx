@@ -24,6 +24,7 @@ import BirthControlProductDetails from "../Pages/Home/BirthControl/BirthControlP
 import VitaminsAndSupplementsProductDetails from "../Pages/Home/VitaminsAndSupplements/VitaminsAndSupplementsProductDetails";
 import MedicalDevicesProductDetails from "../Pages/Home/MedicalDevices/MedicalDevicesProductDetails";
 import PersonalCareProductDetails from "../Pages/Home/PersonalCare/PersonalCareProductDetails";
+import HealthAndWellnessProductDetails from "../Pages/Home/HealthAndWellness/HealthAndWellnessProductDetails";
 
 export const router = createBrowserRouter([
     {
@@ -107,6 +108,11 @@ export const router = createBrowserRouter([
             {
                 path: "category/healthAndWellness",
                 element: <HealthAndWellness></HealthAndWellness>
+            },
+            {
+                path: "category/healthAndWellness/:id",
+                element: <HealthAndWellnessProductDetails></HealthAndWellnessProductDetails>,
+                loader: ({params}) => fetch(`http://localhost:5000/healthAndWellness/${params.id}`)
             },
             {
                 path: "category/babyCare",

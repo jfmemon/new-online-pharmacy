@@ -1,0 +1,52 @@
+[
+    {
+        "_id": "651040555600b820a62206e5",
+        "img": "https://i.ibb.co/t8S193L/aci-savlon-liquid-antiseptic-500-ml.webp",
+        "title": "ACI Savlon Liquid Antiseptic",
+        "urlPath": "aci-savlon-liquid-antiseptic",
+        "quantity": "500 ml",
+        "details": "Savlon Liquid Antiseptic is used in first-aid to clean wounds and prevent infection. It contains two medicine is available called chlorhexidine and cetrimide which are both antiseptics that kill germs. Savlon can be used on minor cuts, abrasion, stings and insect bites. It disinfect, prevents infection and promotes the natural healing process if the skin. It can also be used in the bathing.",
+        "price": 150,
+        "brand": "ACI Pharmaceuticals Limited"
+    },
+    {
+        "_id": "65104055537f1e9638ada15b",
+        "img": "https://i.ibb.co/F3d1rcL/smc-orsaline-n-25-pcs.webp",
+        "title": "SMC Orsaline-N",
+        "urlPath": "smc-orsaline-n",
+        "quantity": "25 pcs",
+        "details": "ORSaline-N {Glucose (Dextrose) Anhydrous + Potassium Chloride + Tri-sodium citrate + Sodium chloride} is a combination medicine used to treat or prevent dehydration, which occurs due to excessive loss of body water. It contains four drugs, including Sodium chloride, potassium chloride, dextrose, and sodium citrate, which provide the body with necessary electrolytes, water, and calories. This medicine helps to replace fluids and minerals lost due to vomiting or diarrhea, thus preventing and treating dehydration.",
+        "price": 150,
+        "brand": "Social Marketing Company (SMC)"
+    },
+    {
+        "_id": "651040554d393910e230f40f",
+        "img": "https://i.ibb.co/WV376h4/dettol-antiseptic-disinfectant-liquid-750-ml.webp",
+        "title": "Dettol Antiseptic Disinfectant Liquid",
+        "urlPath": "detol-antiseptic-disinfectant-liquid",
+        "quantity": "750 ml",
+        "details": "Dettol Antiseptic combines Dettol's Trusted germ protection with Original fragrance to effectively protect you from germs that causes infection. Dettol Liquid needs to be used diluted and is used for First Aid, Medical & Personal Hygiene.",
+        "price": 250,
+        "brand": "Reckitt Benckiser Healthcare (UK) Ltd"
+    },
+    {
+        "_id": "651040555a76fc1743639b1c",
+        "img": "https://i.ibb.co/FqnfbwW/hexisol-hand-rub-250-ml.webp",
+        "title": "Hexisol Hand Rub",
+        "urlPath": "hexisol-hand-rub",
+        "quantity": "250 ml",
+        "details": "Hexisol hand rub protect your hand from germ without using water.",
+        "price": 140,
+        "brand": "ACI Pharmaceuticals Limited"
+    },
+    {
+        "_id": "65104055553a5e1777512439",
+        "img": "https://i.ibb.co/Y3GBgzY/horlicks-chocolate-flavour-jar-500-gm.webp",
+        "title": "Horlicks Chocolate Flavour Jar",
+        "urlPath": "horlicks-chocolate-flavour-jar",
+        "quantity": "500 gm",
+        "details": "Filled with a wide range of vitamins and minerals including as Calcium, Iron, Zinc, Phosphorous, Vitamins A, C, E, D, B1, B2, B6, B12 - Horlicks is a nourishing beverage that helps support your childs growth. Produced from a mix of malted barley, wheat and milk, this unrivaled tasty recipe has been providing nutrition to people for many years. Horlicks helps to make kids Taller, Stronger and Sharper! Now available in delicious Chocolate Flavor!",
+        "price": 415,
+        "brand": "Horlicks"
+    }
+]
