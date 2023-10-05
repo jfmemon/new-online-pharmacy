@@ -1,0 +1,52 @@
+[
+    {
+        "_id": "651040a1754de77a68e4286c",
+        "img": "https://i.ibb.co/n7NfxXr/neocare-premium-baby-diaper-belt-l-7-18-kg-50-pcs.webp",
+        "title": "NeoCare Premium Baby Diaper Belt L (7-18 kg)",
+        "urlPath": "neocare-premium-baby-diaper-belt-l-(7-18-kg)",
+        "quantity": "50 pcs",
+        "details": "NeoCare is a premium quality baby diaper. This is a unique blend of natural and technological components. It ensures adequate protection with unparallel comfort to the users. you can easily keep it in your drawer or rack.",
+        "price": 1269,
+        "brand": "Incepta Hygiene And Hospicare LTD"
+    },
+    {
+        "_id": "651040a12e39b8d7b1d3e1af",
+        "img": "https://i.ibb.co/L8GJ2rS/neocare-premium-baby-diaper-belt-m-4-9-kg-50-pcs.webp",
+        "title": "NeoCare Premium Baby Diaper Belt M (4-9 kg)",
+        "urlPath": "neocare-premium-baby-diaper-belt-l-(4-9-kg)",
+        "quantity": "50 pcs",
+        "details": "NeoCare is a premium quality baby diaper. This is a unique blend of natural and technological components. It ensures adequate protection with unparallel comfort to the users. you can easily keep it in your drawer or rack.",
+        "price": 1190,
+        "brand": "Incepta Hygiene And Hospicare LTD"
+    },
+    {
+        "_id": "651040a15f8b0d24d7af5604",
+        "img": "https://i.ibb.co/T1NFRjQ/johnsons-baby-soap-50-gm-buy-3-get-1-free-4-pcs.webp",
+        "title": "Johnson's Baby Soap 50 gm (Buy 3 Get 1 Free)",
+        "urlPath": "johnson's-baby-soap-50-gm-(buy-3-get-1-free)",
+        "quantity": "4 pcs",
+        "details": "A new borns skin comes with a natural protective coating of moisturizing oils that cover their skin's outer layer. Wash away that oil and you might leave their tender skin vulnerable to dryness, irritation and rashes. For your babys soft skin, trust JOHNSON'S Baby Soap for the best care of your little ones delicate skin.",
+        "price": 300,
+        "brand": "Johnson & Johnson"
+    },
+    {
+        "_id": "651040a123a2dc802c039611",
+        "img": "https://i.ibb.co/tzDdj01/neocare-baby-wipes-120-pcs.webp",
+        "title": "NeoCare Baby Wipes",
+        "urlPath": "NeoCare Baby Wipes",
+        "quantity": "120 pcs",
+        "details": "PH balanced, microbiologically tested baby wipes. Free from paraben, silicone and alcohol.",
+        "price": 189,
+        "brand": "Incepta Hygiene And Hospicare LTD"
+    },
+    {
+        "_id": "651040a10ab45b14ef2a05b3",
+        "img": "https://i.ibb.co/zs7fr0f/savlon-antibacterial-wet-wipes-20-pcs.webp",
+        "title": "Savlon Antibacterial Wet Wipes",
+        "urlPath": "savlon-antibacterial-wet-wipes",
+        "quantity": "20 pcs",
+        "details": "Gentle, alcohol-free formula.Balanced PH 5.5",
+        "price": 100,
+        "brand": "ACI Pharmaceuticals Limited"
+    }
+]

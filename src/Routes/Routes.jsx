@@ -25,6 +25,7 @@ import VitaminsAndSupplementsProductDetails from "../Pages/Home/VitaminsAndSuppl
 import MedicalDevicesProductDetails from "../Pages/Home/MedicalDevices/MedicalDevicesProductDetails";
 import PersonalCareProductDetails from "../Pages/Home/PersonalCare/PersonalCareProductDetails";
 import HealthAndWellnessProductDetails from "../Pages/Home/HealthAndWellness/HealthAndWellnessProductDetails";
+import BabyCareProductDetails from "../Pages/Home/BabyCare/BabyCareProductDetails";
 
 export const router = createBrowserRouter([
     {
@@ -117,6 +118,11 @@ export const router = createBrowserRouter([
             {
                 path: "category/babyCare",
                 element: <BabyCare></BabyCare>
+            },
+            {
+                path: "category/babyCare/:id",
+                element: <BabyCareProductDetails></BabyCareProductDetails>,
+                loader: ({params}) => fetch(`http://localhost:5000/babyCare/${params.id}`)
             },
             {
                 path: "userDashboard",
