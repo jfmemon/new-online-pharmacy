@@ -7,7 +7,7 @@ import img3 from '../../../assets/First-grid-images/image3.jpg';
 
 const FirstGrid = () => {
     return (
-        <div className='grid grid-cols-1 md:grid-cols-2 gap-5'>
+        <div className='grid grid-cols-1 lg:grid-cols-2 gap-5'>
             <div className='relative'>
                 <div className='firstImage'>
                     <img className='h-[340px] w-full opacity-75' src={img1} alt="" srcset="" />
