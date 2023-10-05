@@ -1,0 +1,52 @@
+[
+    {
+        "_id": "65103fe75e2e952da6504d4a",
+        "img": "https://i.ibb.co/j4wt7q8/a8-aci-freedom-heavy-flow-wings-16-pads.webp",
+        "title": "A8 ACI Freedom Heavy Flow Wings 16 pads",
+        "urlPath": "a8-aci-freedom-heavy-flow-wings-16-pads",
+        "quantity": "1 pc",
+        "details": "It has the Super Absorbent Polymer (SAP) that absorbs a large volume of fluid instantly, converts fluid into GEL, locks inside the pad, and ultimately ensures maximum dry-feel and protection.",
+        "price": 200,
+        "brand": "ACI Pharmaceuticals Limited"
+    },
+    {
+        "_id": "65103fe76a950c3321ce1f4b",
+        "img": "https://i.ibb.co/BZLNZMg/nivea-men-protect-care-after-shave-balm-100-ml.webp",
+        "title": "Nivea Men Protect & Care After Shave Balm",
+        "urlPath": "nivea-men-protect-&-care-after-shave-blam",
+        "quantity": "1 pc",
+        "details": "The soothing formula for all skin types provides instant relief to just shaved skin.Special moisturizers, Vitamins and Aloe Vera ensure your skin looks healthy and well cared-for.Skin compatibility dermatologically approved. ",
+        "price": 339,
+        "brand": "Nivea"
+    },
+    {
+        "_id": "65103fe7814de59f7a8078bc",
+        "img": "https://i.ibb.co/dJsRR8G/gillette-series-moisturizing-pre-shave-gel-195-gm.webp",
+        "title": "Gillette Series Moisturizing Pre Shave Gel",
+        "urlPath": "gillette-series-moisturizing-pre-shave-gel",
+        "quantity": "1 pc",
+        "details": "The Gillette Series Moisturizing Shave gel helps in fighting 5 signs of irritation including  nicks/cuts burning stinging redness and tightness. It is powered with  3x action formula that   ensures the  hydration protection and  soothening  of your skin . Enriched with Aloe vera the shaving gel ensures your  skin is left with a smooth supple after shave experience",
+        "price": 499,
+        "brand": "Gillette"
+    },
+    {
+        "_id": "65103fe7bec4dd58edb765d5",
+        "img": "https://i.ibb.co/8bjjGRK/d-care-instant-hand-sanitizer-2-ltr.webp",
+        "title": "D-Care Instant Hand Sanitizer",
+        "urlPath": "d-care-instant-hand-sanitizer",
+        "quantity": "2 ltr",
+        "details": "Contains 75% alcohol as per WHO and CDC, USA Guideline. Kills 99.9% of germs and bacteria. Enriched with moisturizer. Soothing Fragrance.",
+        "price": 1200,
+        "brand": "The White Horse Pharmaceuticals Ltd."
+    },
+    {
+        "_id": "65103fe737d1d114421733cd",
+        "img": "https://i.ibb.co/FKqCWSf/bashundhara-paper-napkins-13-unscented-100-pcs.webp",
+        "title": "Bashundhara Paper Napkins 13",
+        "urlPath": "bashundhara-paper-napkins-13",
+        "quantity": "100 pcs",
+        "details": "Bashundhara paper napkin is a product of Bashundhara Group. Its too soft and easy to use. Bashundhara paper napkin has good absorption ability. 1 Packet Bashundhara paper napkin contain 13 X 1 PLY Pcs.",
+        "price": 70,
+        "brand": "Bashundhara Paper Mills"
+    }
+]
