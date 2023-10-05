@@ -20,6 +20,7 @@ import OrderList from "../Pages/UserDashboard/OrderList";
 import PaymentHistory from "../Pages/UserDashboard/PaymentHistory";
 import PrivateRoute from "./PrivateRoute";
 import SexualWellnessProductDetails from "../Pages/Home/SexualWellness/SexualWellnessProductDetails";
+import BirthControlProductDetails from "../Pages/Home/BirthControl/BirthControlProductDetails";
 
 export const router = createBrowserRouter([
     {
@@ -67,6 +68,11 @@ export const router = createBrowserRouter([
             {
                 path: "category/birthControl",
                 element: <BirthControl></BirthControl>
+            },
+            {
+                path: "category/birthControl/:id",
+                element: <BirthControlProductDetails></BirthControlProductDetails>,
+                loader: ({params}) => fetch(`http://localhost:5000/birthControl/${params.id}`)
             },
             {
                 path: "category/vitaminsAndSupplements",
