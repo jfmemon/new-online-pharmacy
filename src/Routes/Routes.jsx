@@ -26,6 +26,7 @@ import MedicalDevicesProductDetails from "../Pages/Home/MedicalDevices/MedicalDe
 import PersonalCareProductDetails from "../Pages/Home/PersonalCare/PersonalCareProductDetails";
 import HealthAndWellnessProductDetails from "../Pages/Home/HealthAndWellness/HealthAndWellnessProductDetails";
 import BabyCareProductDetails from "../Pages/Home/BabyCare/BabyCareProductDetails";
+import OrderConfirm from "../Pages/UserDashboard/OrderConfirm";
 
 export const router = createBrowserRouter([
     {
@@ -139,6 +140,10 @@ export const router = createBrowserRouter([
                     {
                         path: 'paymentHistory',
                         element: <PaymentHistory></PaymentHistory>
+                    },
+                    {
+                        path: 'orderConfirm',
+                        element: <OrderConfirm></OrderConfirm>
                     }
                 ]
             }

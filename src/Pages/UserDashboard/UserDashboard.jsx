@@ -3,7 +3,7 @@ import { NavLink, Outlet } from 'react-router-dom';
 import '../../index.css';
 import useCart from '../../Hooks/useCart';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars, faCross, faXmark } from '@fortawesome/free-solid-svg-icons';
+import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons';
 
 const UserDashboard = () => {
     const [cart] = useCart();

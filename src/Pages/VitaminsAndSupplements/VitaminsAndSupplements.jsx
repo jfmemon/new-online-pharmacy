@@ -78,7 +78,7 @@ const VitaminsAndSupplements = () => {
                                 <small className='text-gray-600 font-semibold'>{items.quantity}</small>
                                 <p className='font-semibold text-2xl' style={{ color: '#f57224' }}>{items.price} &#2547;</p>
                             </div>
-                            <Link to={`/category/birthControl/${items._id}`}>
+                            <Link to={`/category/vitaminsAndSupplements/${items._id}`}>
                                 <button className='text-center mb-1 border w-full md:py-1 py-1 border-accent font-semibold text-sm cursor-pointer text-accent hover:bg-accent hover:text-white uppercase'>See Details</button>
                             </Link>
                             <button onClick={() => handleAddToCart(items)} className='text-center border w-full md:py-1 py-1 border-warning font-semibold text-sm cursor-pointer text-warning hover:bg-warning hover:text-white uppercase'>ADD TO CART</button>

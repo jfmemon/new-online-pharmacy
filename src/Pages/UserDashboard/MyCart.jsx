@@ -3,6 +3,7 @@ import useCart from '../../Hooks/useCart';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTrashCan } from '@fortawesome/free-solid-svg-icons';
 import Swal from 'sweetalert2';
+import { Link, useNavigate } from 'react-router-dom';
 
 const MyCart = () => {
     const [cart, refetch] = useCart();
@@ -42,7 +43,9 @@ const MyCart = () => {
             <div className='flex justify-evenly md:gap-8 gap-2 md:text-xl font-semibold pt-8'>
                 <h3>Total items: <span className='text-indigo-500'>{cart?.length}</span></h3>
                 <h3>Total price: <span className='text-indigo-500'>{totalPrice} &#2547;</span></h3>
-                <button className='btn btn-warning btn-sm text-white'>Buy</button>
+                <Link to="/userDashboard/orderConfirm">
+                    <button className='btn btn-warning btn-sm text-white'>Buy</button>
+                </Link>
             </div>
 
             {/*This is a fully responsive table*/}
