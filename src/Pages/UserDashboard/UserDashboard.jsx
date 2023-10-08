@@ -15,7 +15,6 @@ const UserDashboard = () => {
                 {/* Page content here */}
                 <label htmlFor="my-drawer-2" className="drawer-button mr-auto pl-1 lg:hidden"><FontAwesomeIcon icon={faBars} /><span className='ml-1'>Menu</span></label>
                 <Outlet></Outlet>
-
             </div>
             <div className="drawer-side z-10">
                 <label htmlFor="my-drawer-2" className="drawer-overlay"></label>

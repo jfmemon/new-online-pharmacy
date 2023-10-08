@@ -106,7 +106,7 @@ const Header = () => {
                 }
                 <div className="dropdown dropdown-end flex justify-center">
                     <label className="btn btn-ghost text-white px-[15px] hover:border-zinc-50" title='See cart list' onClick={() => setOpen(!open)}>
-                        <Link to="/userDashboard" className="indicator">
+                        <Link to="/userDashboard/myCart" className="indicator">
                             <span className='text-xl'><FontAwesomeIcon icon={faCartShopping} /></span>
                             <span className="badge badge-sm indicator-item text-gray-600">{cart?.length}</span>
                         </Link>
