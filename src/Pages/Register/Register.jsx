@@ -60,7 +60,7 @@ const Register = () => {
                                 <label className="label">
                                     <span className="label-text">Name</span>
                                 </label>
-                                <input {...register("name", { required: true })} type="text" placeholder="Eg: John Wick" className="input input-bordered" />
+                                <input {...register("name", { required: true })} type="text" placeholder="Eg: Ayatollah Khomeini" className="input input-bordered" />
                                 {errors.name && <span className="text-red-500">*This field is required</span>}
                             </div>
                             <div className="form-control">
@@ -74,7 +74,7 @@ const Register = () => {
                                 <label className="label">
                                     <span className="label-text">Email</span>
                                 </label>
-                                <input {...register("email", { required: true })} type="email" placeholder="Eg: john@gmail.com" className="input input-bordered" />
+                                <input {...register("email", { required: true })} type="email" placeholder="Eg: ayatollah@gmail.com" className="input input-bordered" />
                                 {errors.email && <span className="text-red-500">*This field is required</span>}
                             </div>
                             <div className="form-control">
@@ -88,7 +88,7 @@ const Register = () => {
                                 <label className="label">
                                     <span className="label-text">Present address</span>
                                 </label>
-                                <input {...register("address", { required: true })} type="text" placeholder="Eg: New York, USA" className="input input-bordered" />
+                                <input {...register("address", { required: true })} type="text" placeholder="Eg: Tehran, Iran" className="input input-bordered" />
                                 {errors.address && <span className="text-red-500">*This field is required</span>}
                             </div>
                             <div className="form-control">
