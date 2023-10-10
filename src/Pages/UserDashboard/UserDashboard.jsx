@@ -4,9 +4,11 @@ import '../../index.css';
 import useCart from '../../Hooks/useCart';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons';
+import useOrders from '../../Hooks/useOrders';
 
 const UserDashboard = () => {
     const [cart] = useCart();
+    const [orders] = useOrders();
 
     return (
         <div className="drawer lg:drawer-open">
@@ -25,7 +27,7 @@ const UserDashboard = () => {
                         <label className='text-xl text-red-500 font-bold lg:invisible' htmlFor="my-drawer-2" ><FontAwesomeIcon icon={faXmark}/></label>
                     </div>
                     <li><NavLink to="/userDashboard/myCart">My cart<span className="badge badge-sm indicator-item text-gray-600 font-bold">{cart?.length}</span></NavLink></li>
-                    <li><NavLink to="/userDashboard/orderList">Order list</NavLink></li>
+                    <li><NavLink to="/userDashboard/orderList">Order list<span className="badge badge-sm indicator-item text-gray-600 font-bold">{orders?.length}</span></NavLink></li>
                     <li><NavLink to="/userDashboard/paymentHistory">Payment history</NavLink></li>
                 </ul>
             </div>

@@ -1,9 +1,13 @@
-import React from 'react';
+import useOrders from '../../Hooks/useOrders';
 
 const OrderList = () => {
+    const [orders] = useOrders();
+
+    console.log(orders.length);
+
     return (
         <div>
-            This is for order list.
+            <h3>You placed {orders.length} orders</h3>
         </div>
     );
 };
