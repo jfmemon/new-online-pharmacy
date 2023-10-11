@@ -15,7 +15,6 @@ const OrderConfirm = () => {
         const email = form.email.value;
         const phoneNumber = form.number.value;
         const presentAddress = form.address.value;
-        // console.log(fullName, email, phoneNumber, presentAddress, cart.length, totalPrice);
 
         if (user && user.email) {
             const orderedItem = { items: cart, name: fullName, email: email, phoneNumber: phoneNumber, address: presentAddress, itemQuantity: cart.length, cost: totalPrice, userEmail: user.email };
