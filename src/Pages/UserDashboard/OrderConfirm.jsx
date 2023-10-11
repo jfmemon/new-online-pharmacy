@@ -2,13 +2,15 @@ import React, { useContext } from 'react';
 import { AuthContext } from '../../Context/AuthProvider';
 import useCart from '../../Hooks/useCart';
 import Swal from 'sweetalert2';
+import useOrders from '../../Hooks/useOrders';
 
 const OrderConfirm = () => {
     const { user } = useContext(AuthContext);
     const [cart] = useCart();
+    const [,refetch] = useOrders();
     const totalPrice = cart.reduce((accumulator, currentValue) => currentValue.totalPrice + accumulator, 0);
 
-    const handleHotelBookings = (e) => {
+    const handlePlaceOrder = (e) => {
         e.preventDefault();
         const form = e.target;
         const fullName = form.name.value;
@@ -38,12 +40,13 @@ const OrderConfirm = () => {
                         .then(res => res.json())
                         .then(data => {
                             if (data.insertedId) {
-                                form.reset();
                                 Swal.fire(
                                     'Confirmed!',
                                     'Your order has been placed. You will get your medicine in 3 days. Thank you for buying from us.',
                                     'success'
                                 )
+                                refetch();
+                                form.reset();
                             }
                         })
                 }
@@ -58,7 +61,7 @@ const OrderConfirm = () => {
         <div className='mt-5 w-full'>
             <h3 className='text-2xl font-semibold text-center text-indigo-500 py-3'>Confirm your order</h3>
             <p className='text-center'>To place your order, please give us some information!</p>
-            <form onSubmit={handleHotelBookings} className="">
+            <form onSubmit={handlePlaceOrder} className="">
                 <div className='grid md:grid-cols-2 sm:grid-cols-1 p-5'>
                     <div className='flex flex-col gap-3'>
                         <div className="form-control px-3">

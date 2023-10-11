@@ -14,7 +14,7 @@ const OrderList = () => {
                 orders.length == 0 ? <div className='w-full flex flex-col gap-3 items-center p-5'>
                     <img className='w-96 py-3' src={emptyOrder} alt="" />
                     <p className='text-rose-600 text-2xl font-semibold py-3 text-center'>You have not placed any order yet!</p>
-                    <Link to="/" className='btn btn-primary py-3 text-white'>Order some product</Link>
+                    <Link to="/" className='btn btn-primary py-3 text-white'>Order some medicine</Link>
                 </div> :
                     <div className='w-full p-5'>
                         <h3 className='text-xl text-indigo-500 font-semibold lg:py-3 px-5'>You have {orders.length} orders</h3>
@@ -43,19 +43,19 @@ const OrderList = () => {
                                                 <tbody>
                                                     {
                                                         order.items?.map((item, idx) => <tr key={item._id} className='hover:bg-slate-200'>
-                                                            <td className='py-2 px-8 border-b border-blue-gray-50'>{idx + 1}</td>
-                                                            <td className='py-2 px-8 border-b border-blue-gray-50'>
+                                                            <td className='py-3 px-8 border-b border-blue-gray-50'>{idx + 1}</td>
+                                                            <td className='py-3 px-8 border-b border-blue-gray-50'>
                                                                 <img className='w-10' src={item.img} alt="" />
                                                             </td>
-                                                            <td className='py-2 px-8 border-b border-blue-gray-50'>{item.title}</td>
-                                                            <td className='py-2 px-8 border-b border-blue-gray-50 text-center'>{item.addedQuantity}</td>
-                                                            <td className='py-2 px-8 border-b border-blue-gray-50 text-center'>{item.totalPrice} &#2547;</td>
+                                                            <td className='py-3 px-8 border-b border-blue-gray-50'>{item.title}</td>
+                                                            <td className='py-3 px-8 border-b border-blue-gray-50 text-center'>{item.addedQuantity}</td>
+                                                            <td className='py-3 px-8 border-b border-blue-gray-50 text-center'>{item.totalPrice} &#2547;</td>
                                                         </tr>)
                                                     }
                                                 </tbody>
                                             </table>
                                         </div>
-                                    </div>;
+                                    </div>
                                 </div>)
                             }
                         </div>

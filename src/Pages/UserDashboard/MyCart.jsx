@@ -45,7 +45,7 @@ const MyCart = () => {
                 cart.length == 0 ? <div className='w-full flex flex-col gap-3 items-center p-5'>
                     <img className='w-96 py-3' src={emptyImage} alt="" />
                     <p className='text-rose-600 text-2xl font-semibold py-3 text-center'>You have not added any medicine to the cart yet!</p>
-                    <Link to="/" className='btn btn-primary py-3 text-white'>Add some product</Link>
+                    <Link to="/" className='btn btn-primary py-3 text-white'>Add some medicine</Link>
                 </div> :
                     <div className='relative'>
                         <div className='flex justify-evenly md:gap-8 gap-2 md:text-xl font-semibold pt-8'>
