@@ -17,7 +17,6 @@ import CardDetails from "../Pages/CardDetails/CardDetails";
 import UserDashboard from "../Pages/UserDashboard/UserDashboard";
 import MyCart from "../Pages/UserDashboard/MyCart";
 import OrderList from "../Pages/UserDashboard/OrderList";
-import PaymentHistory from "../Pages/UserDashboard/PaymentHistory";
 import PrivateRoute from "./PrivateRoute";
 import SexualWellnessProductDetails from "../Pages/Home/SexualWellness/SexualWellnessProductDetails";
 import BirthControlProductDetails from "../Pages/Home/BirthControl/BirthControlProductDetails";
@@ -27,6 +26,7 @@ import PersonalCareProductDetails from "../Pages/Home/PersonalCare/PersonalCareP
 import HealthAndWellnessProductDetails from "../Pages/Home/HealthAndWellness/HealthAndWellnessProductDetails";
 import BabyCareProductDetails from "../Pages/Home/BabyCare/BabyCareProductDetails";
 import OrderConfirm from "../Pages/UserDashboard/OrderConfirm";
+import Prescriptions from "../Pages/UserDashboard/Prescriptions";
 
 export const router = createBrowserRouter([
     {
@@ -138,8 +138,8 @@ export const router = createBrowserRouter([
                         element: <OrderList></OrderList>
                     },
                     {
-                        path: 'paymentHistory',
-                        element: <PaymentHistory></PaymentHistory>
+                        path: 'prescriptions',
+                        element: <Prescriptions></Prescriptions>
                     },
                     {
                         path: 'orderConfirm',

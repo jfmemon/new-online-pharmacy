@@ -5,10 +5,12 @@ import useCart from '../../Hooks/useCart';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons';
 import useOrders from '../../Hooks/useOrders';
+import usePrescription from '../../Hooks/usePrescription';
 
 const UserDashboard = () => {
     const [cart] = useCart();
     const [orders] = useOrders();
+    const [prescription] = usePrescription();
 
     return (
         <div className="drawer lg:drawer-open">
@@ -28,7 +30,7 @@ const UserDashboard = () => {
                     </div>
                     <li><NavLink to="/userDashboard/myCart">My cart<span className="badge badge-sm indicator-item text-gray-600 font-bold">{cart?.length}</span></NavLink></li>
                     <li><NavLink to="/userDashboard/orderList">Order list<span className="badge badge-sm indicator-item text-gray-600 font-bold">{orders?.length}</span></NavLink></li>
-                    <li><NavLink to="/userDashboard/paymentHistory">Payment history</NavLink></li>
+                    <li><NavLink to="/userDashboard/prescriptions">Prescriptions list<span className="badge badge-sm indicator-item text-gray-600 font-bold">{prescription?.length}</span></NavLink></li>
                 </ul>
             </div>
         </div>
