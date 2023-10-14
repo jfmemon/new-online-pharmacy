@@ -11,36 +11,47 @@ const Register = () => {
     const { register, handleSubmit, reset, formState: { errors } } = useForm();
     const navigate = useNavigate();
 
-    const onSubmit = async (data) => {
-        console.log(data);
-        try {
-            const result = await createUser(data.email, data.password);
-            const newUser = result.user;
+    const onSubmit = data => {
+        createUser(data.email, data.password)
+            .then(result => {
+                const loggedUser = result.user;
+                console.log(loggedUser);
 
-            await updateUserProfile(data.name, data.photoURL);
-            console.log('New user created done.');
-            reset();
-
-            Swal.fire({
-                title: 'Registration successful..!',
-                position: 'top',
-                showClass: {
-                    popup: 'animate__animated animate__fadeInDown'
-                },
-                hideClass: {
-                    popup: 'animate__animated animate__fadeOutUp'
-                }
-            });
-            navigate('/');
-        } catch (error) {
-            Swal.fire({
-                icon: 'error',
-                title: 'Oops...',
-                text: `${error}`,
-                position: 'top'
+                return updateUserProfile(data.name, data.photoURL);
             })
-        }
+            .then(() => {
+                const saveUser = { name: data.name, email: data.email, photoURL: data.photoURL, phone: data.phoneNumber, address: data.address, password: data.password };
+                return fetch('http://localhost:5000/users', {
+                    method: 'POST',
+                    headers: {
+                        'content-type': 'application/json'
+                    },
+                    body: JSON.stringify(saveUser)
+                });
+            })
+            .then(res => res.json())
+            .then(data => {
+                if (data.insertedId) {
+                    reset();
+                    Swal.fire(
+                        'Welcome to shefa!',
+                        'Registration done!',
+                        'success'
+                    )
+                    navigate('/');
+                }
+            })
+            .catch(error => {
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: `${error}`,
+                    position: 'top'
+                });
+            });
     };
+
+
 
 
     return (
@@ -86,7 +97,7 @@ const Register = () => {
                             </div>
                             <div className="form-control">
                                 <label className="label">
-                                    <span className="label-text">Present address</span>
+                                    <span className="label-text">Address</span>
                                 </label>
                                 <input {...register("address", { required: true })} type="text" placeholder="Eg: Tehran, Iran" className="input input-bordered" />
                                 {errors.address && <span className="text-red-500">*This field is required</span>}
