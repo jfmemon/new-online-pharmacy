@@ -9,7 +9,7 @@ const auth = getAuth(app);
 
 const AuthProvider = ({ children }) => {
     const [user, setUser] = useState(null);
-    const [loading, setLoading] = useState(true)
+    const [loading, setLoading] = useState(true);
 
     const createUser = (email, password) => {
         setLoading(true);
@@ -51,7 +51,6 @@ const AuthProvider = ({ children }) => {
             else {
                 localStorage.removeItem('access-token')
             }
-
 
         });
         return () => {

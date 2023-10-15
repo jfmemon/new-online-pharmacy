@@ -1,10 +1,9 @@
-import { useContext, useEffect, useState } from 'react';
+import { useState } from 'react';
 import { FaHandHoldingMedical } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
-import { AuthContext } from '../../../Context/AuthProvider';
 import Swal from 'sweetalert2';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCartShopping, faChartArea, faRightFromBracket, faRightToBracket, faUserPlus } from '@fortawesome/free-solid-svg-icons'
+import { faCartShopping, faChartArea, faRightFromBracket, faUserPlus } from '@fortawesome/free-solid-svg-icons'
 import useCart from '../../../Hooks/useCart';
 
 
@@ -17,17 +16,14 @@ import img6 from '../../../assets/Category-logos/personalCare.png';
 import img7 from '../../../assets/Category-logos/healthAndWellness.png';
 import img8 from '../../../assets/Category-logos/babyCare.png';
 import useAdmin from '../../../Hooks/useAdmin';
+import useAuth from '../../../Hooks/useAuth';
 
 
 const Header = () => {
-    const { user, logOut } = useContext(AuthContext);
+    const { user, logOut } = useAuth();
     const [open, setOpen] = useState(false);
     const [cart] = useCart();
     const [isAdmin] = useAdmin();
-
-
-
-    // const isAdmin = true;
 
     const closeDropdown = () => {
         setOpen(false);
@@ -114,7 +110,7 @@ const Header = () => {
                     isAdmin ? <>
                         <div className="dropdown dropdown-end flex justify-center">
                             <label className="btn btn-ghost text-white px-[15px] hover:border-zinc-50" title='See dashboard' onClick={() => setOpen(!open)}>
-                                <Link to="/adminDashboard/allUsers" className="indicator">
+                                <Link to="/adminDashboard/adminHome" className="indicator">
                                     <span className='text-xl'><FontAwesomeIcon icon={faChartArea} /></span>
                                 </Link>
                             </label>
@@ -122,7 +118,7 @@ const Header = () => {
                     </> :
                         <><div className="dropdown dropdown-end flex justify-center">
                             <label className="btn btn-ghost text-white px-[15px] hover:border-zinc-50" title='See cart list' onClick={() => setOpen(!open)}>
-                                <Link to="/userDashboard/myCart" className="indicator">
+                                <Link to="/userDashboard/userHome" className="indicator">
                                     <span className='text-xl'><FontAwesomeIcon icon={faCartShopping} /></span>
                                     <span className="badge badge-sm indicator-item text-gray-600">{cart?.length}</span>
                                 </Link>
