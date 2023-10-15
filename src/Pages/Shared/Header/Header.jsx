@@ -1,10 +1,10 @@
-import { useContext, useState } from 'react';
+import { useContext, useEffect, useState } from 'react';
 import { FaHandHoldingMedical } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import { AuthContext } from '../../../Context/AuthProvider';
 import Swal from 'sweetalert2';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCartShopping, faRightFromBracket, faRightToBracket, faUserPlus } from '@fortawesome/free-solid-svg-icons'
+import { faCartShopping, faChartArea, faRightFromBracket, faRightToBracket, faUserPlus } from '@fortawesome/free-solid-svg-icons'
 import useCart from '../../../Hooks/useCart';
 
 
@@ -16,12 +16,18 @@ import img5 from '../../../assets/Category-logos/medicalDevice.png';
 import img6 from '../../../assets/Category-logos/personalCare.png';
 import img7 from '../../../assets/Category-logos/healthAndWellness.png';
 import img8 from '../../../assets/Category-logos/babyCare.png';
+import useAdmin from '../../../Hooks/useAdmin';
 
 
 const Header = () => {
     const { user, logOut } = useContext(AuthContext);
     const [open, setOpen] = useState(false);
     const [cart] = useCart();
+    const [isAdmin] = useAdmin();
+
+
+
+    // const isAdmin = true;
 
     const closeDropdown = () => {
         setOpen(false);
@@ -95,7 +101,7 @@ const Header = () => {
                     user ?
                         <>
                             <div className='lg:w-24 w-[80px] md:w-96 md:h-9 h-7 rounded-full flex items-center justify-between lg:mr-0 md:mr-6 mr-6'>
-                                <img className=' md:h-7 lg:w-9 w-1/2 lg:h-9 h-7 rounded-full' src={user?.photoURL} alt='' />
+                                <img className=' md:h-7 lg:w-9 lg:h-9 h-7 rounded-full' src={user?.photoURL} alt='' />
                                 <small className='pl-2 md:pl-2 lg:pl-0 text-white w-1/2 font-semibold leading-none'>{user.displayName}</small>
                             </div>
                             <span className='text-white text-xl btn btn-ghost md:px-3 px-3 hover:border-zinc-50 lg:ml-4 ml-5' title='Logout' onClick={handleLogout}><FontAwesomeIcon icon={faRightFromBracket} /></span>
@@ -104,14 +110,26 @@ const Header = () => {
                             <Link to="/login"><span className='text-white text-xl mx-2 btn btn-ghost p-3 hover:border-zinc-50' title='Login/Sign Up'><FontAwesomeIcon icon={faUserPlus} /></span></Link>
                         </>
                 }
-                <div className="dropdown dropdown-end flex justify-center">
-                    <label className="btn btn-ghost text-white px-[15px] hover:border-zinc-50" title='See cart list' onClick={() => setOpen(!open)}>
-                        <Link to="/userDashboard/myCart" className="indicator">
-                            <span className='text-xl'><FontAwesomeIcon icon={faCartShopping} /></span>
-                            <span className="badge badge-sm indicator-item text-gray-600">{cart?.length}</span>
-                        </Link>
-                    </label>
-                </div>
+                {
+                    isAdmin ? <>
+                        <div className="dropdown dropdown-end flex justify-center">
+                            <label className="btn btn-ghost text-white px-[15px] hover:border-zinc-50" title='See dashboard' onClick={() => setOpen(!open)}>
+                                <Link to="/adminDashboard/allUsers" className="indicator">
+                                    <span className='text-xl'><FontAwesomeIcon icon={faChartArea} /></span>
+                                </Link>
+                            </label>
+                        </div>
+                    </> :
+                        <><div className="dropdown dropdown-end flex justify-center">
+                            <label className="btn btn-ghost text-white px-[15px] hover:border-zinc-50" title='See cart list' onClick={() => setOpen(!open)}>
+                                <Link to="/userDashboard/myCart" className="indicator">
+                                    <span className='text-xl'><FontAwesomeIcon icon={faCartShopping} /></span>
+                                    <span className="badge badge-sm indicator-item text-gray-600">{cart?.length}</span>
+                                </Link>
+                            </label>
+                        </div>
+                        </>
+                }
             </div>
         </div>
     );

@@ -27,6 +27,8 @@ import HealthAndWellnessProductDetails from "../Pages/Home/HealthAndWellness/Hea
 import BabyCareProductDetails from "../Pages/Home/BabyCare/BabyCareProductDetails";
 import OrderConfirm from "../Pages/UserDashboard/OrderConfirm";
 import Prescriptions from "../Pages/UserDashboard/Prescriptions";
+import AdminDashboard from "../Pages/AdminDashboard/AdminDashboard";
+import AllUsers from "../Pages/AdminDashboard/AllUsers";
 
 export const router = createBrowserRouter([
     {
@@ -56,7 +58,7 @@ export const router = createBrowserRouter([
             {
                 path: "category/shopByCondition/:id",
                 element: <ShowConditionalItems></ShowConditionalItems>,
-                loader: ({params}) => fetch(`http://localhost:5000/shopByCondition/${params.id}`)
+                loader: ({ params }) => fetch(`http://localhost:5000/shopByCondition/${params.id}`)
             },
             {
                 path: "medicineDetails/:content",
@@ -69,7 +71,7 @@ export const router = createBrowserRouter([
             {
                 path: "category/sexualWellness/:id",
                 element: <SexualWellnessProductDetails></SexualWellnessProductDetails>,
-                loader: ({params}) => fetch(`http://localhost:5000/sexualWellness/${params.id}`)
+                loader: ({ params }) => fetch(`http://localhost:5000/sexualWellness/${params.id}`)
             },
             {
                 path: "category/birthControl",
@@ -78,7 +80,7 @@ export const router = createBrowserRouter([
             {
                 path: "category/birthControl/:id",
                 element: <BirthControlProductDetails></BirthControlProductDetails>,
-                loader: ({params}) => fetch(`http://localhost:5000/birthControl/${params.id}`)
+                loader: ({ params }) => fetch(`http://localhost:5000/birthControl/${params.id}`)
             },
             {
                 path: "category/vitaminsAndSupplements",
@@ -87,7 +89,7 @@ export const router = createBrowserRouter([
             {
                 path: "category/vitaminsAndSupplements/:id",
                 element: <VitaminsAndSupplementsProductDetails></VitaminsAndSupplementsProductDetails>,
-                loader: ({params}) => fetch(`http://localhost:5000/vitaminsAndSupplements/${params.id}`)
+                loader: ({ params }) => fetch(`http://localhost:5000/vitaminsAndSupplements/${params.id}`)
             },
             {
                 path: "category/medicalDevices",
@@ -96,7 +98,7 @@ export const router = createBrowserRouter([
             {
                 path: "category/medicalDevices/:id",
                 element: <MedicalDevicesProductDetails></MedicalDevicesProductDetails>,
-                loader: ({params}) => fetch(`http://localhost:5000/medicalDevices/${params.id}`)
+                loader: ({ params }) => fetch(`http://localhost:5000/medicalDevices/${params.id}`)
             },
             {
                 path: "category/personalCare",
@@ -105,7 +107,7 @@ export const router = createBrowserRouter([
             {
                 path: "category/personalCare/:id",
                 element: <PersonalCareProductDetails></PersonalCareProductDetails>,
-                loader: ({params}) => fetch(`http://localhost:5000/personalCare/${params.id}`)
+                loader: ({ params }) => fetch(`http://localhost:5000/personalCare/${params.id}`)
             },
             {
                 path: "category/healthAndWellness",
@@ -114,7 +116,7 @@ export const router = createBrowserRouter([
             {
                 path: "category/healthAndWellness/:id",
                 element: <HealthAndWellnessProductDetails></HealthAndWellnessProductDetails>,
-                loader: ({params}) => fetch(`http://localhost:5000/healthAndWellness/${params.id}`)
+                loader: ({ params }) => fetch(`http://localhost:5000/healthAndWellness/${params.id}`)
             },
             {
                 path: "category/babyCare",
@@ -123,7 +125,7 @@ export const router = createBrowserRouter([
             {
                 path: "category/babyCare/:id",
                 element: <BabyCareProductDetails></BabyCareProductDetails>,
-                loader: ({params}) => fetch(`http://localhost:5000/babyCare/${params.id}`)
+                loader: ({ params }) => fetch(`http://localhost:5000/babyCare/${params.id}`)
             },
             {
                 path: "userDashboard",
@@ -144,6 +146,16 @@ export const router = createBrowserRouter([
                     {
                         path: 'orderConfirm',
                         element: <OrderConfirm></OrderConfirm>
+                    }
+                ]
+            },
+            {
+                path: 'adminDashboard',
+                element: <PrivateRoute><AdminDashboard></AdminDashboard></PrivateRoute>,
+                children: [
+                    {
+                        path: 'allUsers',
+                        element: <AllUsers></AllUsers>
                     }
                 ]
             }

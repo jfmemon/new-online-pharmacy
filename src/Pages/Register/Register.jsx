@@ -20,7 +20,7 @@ const Register = () => {
                 return updateUserProfile(data.name, data.photoURL);
             })
             .then(() => {
-                const saveUser = { name: data.name, email: data.email, photoURL: data.photoURL, phone: data.phoneNumber, address: data.address, password: data.password };
+                const saveUser = { name: data.name, email: data.email, photoURL: data.photoURL, phone: data.phoneNumber, address: data.address, password: data.password, role: 'user' };
                 return fetch('http://localhost:5000/users', {
                     method: 'POST',
                     headers: {
