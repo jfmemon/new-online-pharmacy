@@ -21,8 +21,8 @@ const AdminDashboard = () => {
                         <label className='text-xl text-red-500 font-bold lg:invisible' htmlFor="my-drawer-2" ><FontAwesomeIcon icon={faXmark} /></label>
                     </div>
                     <li><NavLink to="/adminDashboard/allUsers">All Users</NavLink></li>
-                    {/* <li><NavLink to="/userDashboard/myCart">My cart<span className="badge badge-sm indicator-item text-gray-600 font-bold">{cart?.length}</span></NavLink></li> */}
-                    
+                    <li><NavLink to="/adminDashboard/allOrders">All orders</NavLink></li>
+                    <li><NavLink to="/adminDashboard/allPrescriptions">All prescriptions</NavLink></li>
                 </ul>
             </div>
         </div>

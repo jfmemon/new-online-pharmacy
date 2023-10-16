@@ -32,6 +32,8 @@ import AllUsers from "../Pages/AdminDashboard/AllUsers";
 import AdminRoute from "./AdminRoute";
 import AdminHome from "../Pages/AdminDashboard/AdminHome";
 import UserHome from "../Pages/UserDashboard/UserHome";
+import AllOrders from "../Pages/AdminDashboard/AllOrders";
+import AllPrescriptions from "../Pages/AdminDashboard/AllPrescriptions";
 
 export const router = createBrowserRouter([
     {
@@ -167,7 +169,15 @@ export const router = createBrowserRouter([
                     {
                         path: 'allUsers',
                         element: <AdminRoute><AllUsers></AllUsers></AdminRoute>
-                    }
+                    },
+                    {
+                        path: 'allOrders',
+                        element: <AdminRoute><AllOrders></AllOrders></AdminRoute>
+                    },
+                    {
+                        path: 'allPrescriptions',
+                        element: <AdminRoute><AllPrescriptions></AllPrescriptions></AdminRoute>
+                    },
                 ]
             }
         ]
