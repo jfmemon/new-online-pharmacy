@@ -34,6 +34,13 @@ import AdminHome from "../Pages/AdminDashboard/AdminHome";
 import UserHome from "../Pages/UserDashboard/UserHome";
 import AllOrders from "../Pages/AdminDashboard/AllOrders";
 import AllPrescriptions from "../Pages/AdminDashboard/AllPrescriptions";
+import SexualWellnessItems from "../Pages/AdminDashboard/SexualWellnessItems";
+import BirthControlItems from "../Pages/AdminDashboard/BirthControlItems";
+import VitaminsAndSupplementsItems from "../Pages/AdminDashboard/VitaminsAndSupplementsItems";
+import MedicalDevicesItems from "../Pages/AdminDashboard/MedicalDevicesItems";
+import PersonalCareItems from "../Pages/AdminDashboard/PersonalCareItems";
+import HealthAndWellnessItems from "../Pages/AdminDashboard/HealthAndWellnessItems";
+import BabyCareItems from "../Pages/AdminDashboard/BabyCareItems";
 
 export const router = createBrowserRouter([
     {
@@ -177,6 +184,34 @@ export const router = createBrowserRouter([
                     {
                         path: 'allPrescriptions',
                         element: <AdminRoute><AllPrescriptions></AllPrescriptions></AdminRoute>
+                    },
+                    {
+                        path: 'sexualWellnessItems',
+                        element: <AdminRoute><SexualWellnessItems></SexualWellnessItems></AdminRoute>
+                    },
+                    {
+                        path: 'birthControlItems',
+                        element: <AdminRoute><BirthControlItems></BirthControlItems></AdminRoute>
+                    },
+                    {
+                        path: 'vitaminsAndSupplementsItems',
+                        element: <AdminRoute><VitaminsAndSupplementsItems></VitaminsAndSupplementsItems></AdminRoute>
+                    },
+                    {
+                        path: 'medicalDevicesItems',
+                        element: <AdminRoute><MedicalDevicesItems></MedicalDevicesItems></AdminRoute>
+                    },
+                    {
+                        path: 'personalCareItems',
+                        element: <AdminRoute><PersonalCareItems></PersonalCareItems></AdminRoute>
+                    },
+                    {
+                        path: 'healthAndWellnessItems',
+                        element: <AdminRoute><HealthAndWellnessItems></HealthAndWellnessItems></AdminRoute>
+                    },
+                    {
+                        path: 'babyCareItems',
+                        element: <AdminRoute><BabyCareItems></BabyCareItems></AdminRoute>
                     },
                 ]
             }

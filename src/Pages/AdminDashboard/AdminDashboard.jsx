@@ -20,9 +20,16 @@ const AdminDashboard = () => {
                         <h3 className='py-2 lg:mt-0 text-2xl text-indigo-500'>Admin dashboard</h3>
                         <label className='text-xl text-red-500 font-bold lg:invisible' htmlFor="my-drawer-2" ><FontAwesomeIcon icon={faXmark} /></label>
                     </div>
-                    <li><NavLink to="/adminDashboard/allUsers">All Users</NavLink></li>
+                    <li><NavLink to="/adminDashboard/allUsers">All users</NavLink></li>
                     <li><NavLink to="/adminDashboard/allOrders">All orders</NavLink></li>
                     <li><NavLink to="/adminDashboard/allPrescriptions">All prescriptions</NavLink></li>
+                    <li><NavLink to="/adminDashboard/sexualWellnessItems">Sexual wellness</NavLink></li>
+                    <li><NavLink to="/adminDashboard/birthControlItems">Birth control</NavLink></li>
+                    <li><NavLink to="/adminDashboard/vitaminsAndSupplementsItems">Vitamins and supplements</NavLink></li>
+                    <li><NavLink to="/adminDashboard/medicalDevicesItems">Medical devices</NavLink></li>
+                    <li><NavLink to="/adminDashboard/personalCareItems">Personal care</NavLink></li>
+                    <li><NavLink to="/adminDashboard/healthAndWellnessItems">Health And wellness</NavLink></li>
+                    <li><NavLink to="/adminDashboard/babyCareItems">Baby care</NavLink></li>
                 </ul>
             </div>
         </div>
