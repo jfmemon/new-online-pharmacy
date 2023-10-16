@@ -3,6 +3,7 @@ import useAxiosSecure from '../../Hooks/useAxiosSecure';
 import { useQuery } from '@tanstack/react-query';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTrashCan } from '@fortawesome/free-solid-svg-icons';
+import Swal from 'sweetalert2';
 
 const AllOrders = () => {
     const [axiosSecure] = useAxiosSecure();
@@ -11,8 +12,33 @@ const AllOrders = () => {
         return res.data;
     })
 
-    const handleDeleteOrder = (id) => {
-        
+    const handleDeleteOrder = (order) => {
+        Swal.fire({
+            title: 'Are you sure?',
+            text: "You want to delete this?",
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#3085d6',
+            cancelButtonColor: '#d33',
+            confirmButtonText: 'Yes, delete it!'
+        }).then((result) => {
+            if (result.isConfirmed) {
+                fetch(`http://localhost:5000/orders/${order._id}`, {
+                    method: 'DELETE'
+                })
+                    .then(res => res.json())
+                    .then(data => {
+                        if (data.deletedCount > 0) {
+                            refetch();
+                            Swal.fire(
+                                'Deleted!',
+                                'This item has been deleted.',
+                                'success'
+                            )
+                        }
+                    })
+            }
+        })
     }
 
     return (
@@ -59,7 +85,7 @@ const AllOrders = () => {
                             </table>
                         </div>
                     </div>
-                    <button className='absolute top-3 right-5' onClick={() => handleDeleteOrder(order._id)}>
+                    <button className='absolute top-3 right-5' onClick={() => handleDeleteOrder(order)}>
                         <span className='text-2xl hover:text-rose-500'><FontAwesomeIcon icon={faTrashCan} /></span>
                     </button>
 
