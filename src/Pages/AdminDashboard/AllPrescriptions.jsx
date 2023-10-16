@@ -46,7 +46,7 @@ const AllPrescriptions = () => {
     return (
         <div>
             <div className='w-full p-5'>
-                <h3 className='text-xl text-indigo-500 font-semibold lg:py-3 px-5'>You have {prescriptions.length} orders from prescriptions</h3>
+                <h3 className='text-2xl font-semibold lg:py-3 px-5'>Total prescriptions: <span className='text-rose-500'>{prescriptions.length}</span></h3>
                 <div className='flex flex-col gap-5 p-3'>
                     {
                         prescriptions.map((order, idx) => <div className='relative border-2 border-indigo-500 p-5 rounded-md bg-slate-100'>

@@ -66,8 +66,8 @@ const AllUsers = () => {
 
     return (
         <div>
-            <div className='px-6 pt-3'>
-                <h3 className='text-xl font-semibold'>Total users: <span className='text-rose-500'>{users.length}</span></h3>
+            <div className='px-6 py-4'>
+                <h3 className='text-2xl font-semibold'>Total users: <span className='text-rose-500'>{users.length}</span></h3>
             </div>
             <div className='grid min-h-[140px] w-full place-users-center overflow-x-scroll lg:overflow-hidden rounded-lg p-6'>
                 <div className='relative flex flex-col bg-clip-border rounded-xl bg-white text-gray-700 shadow-md h-full w-full lg:overflow-hidden overflow-scroll'>
