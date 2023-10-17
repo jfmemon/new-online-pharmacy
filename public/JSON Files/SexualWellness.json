@@ -1,6 +1,6 @@
 [
     {
-        "_id": "6501c8eb8e73829e465a0663",
+        "id": "6501c8eb8e73829e465a0663",
         "img": "https://i.ibb.co/MP4TJX0/ey-J_id-WNr-ZXQi-Oi-Jhcm9n-Z2-Ei-LCJr-ZXki-Oi-Jt-ZWRp-Y2lu-ZVwv-Mz-Fc-Lz-Mx-Nz-Iw-LUl-NRz-Iw-Mj-Mw-Nj.webp",
         "category": "Sexual Wellness",
         "categoryPath": "sexual-wellness",
@@ -12,7 +12,7 @@
         "brand": "The IBN SINA Pharmaceutical Industry Ltd, Bangladesh"
     },
     {
-        "_id": "6501c8ebda70363d1b7d5903",
+        "id": "6501c8ebda70363d1b7d5903",
         "img": "https://i.ibb.co/g9byMkz/ey-J_id-WNr-ZXQi-Oi-Jhcm9n-Z2-Ei-LCJr-ZXki-Oi-Jt-ZWRp-Y2lu-ZVwv-NDBc-Lz-Qw-MDg0-LVZp-Z29y-YS01-MDAt-Q.webp",
         "category": "Sexual Wellness",
         "categoryPath": "sexual-wellness",
@@ -24,7 +24,7 @@
         "brand": "Bego Pharmaceuticals(Ayurvedic)"
     },
     {
-        "_id": "6501c8ebf1808a5fc473c013",
+        "id": "6501c8ebf1808a5fc473c013",
         "img": "https://i.ibb.co/dJQH7kq/ey-J_id-WNr-ZXQi-Oi-Jhcm9n-Z2-Ei-LCJr-ZXki-Oi-Jt-ZWRp-Y2lu-ZVwv-Mz-Fc-Lz-Mx-OTE0-LUR1cm-V4-LUt-ZLUplb.webp",
         "category": "Sexual Wellness",
         "categoryPath": "sexual-wellness",
@@ -36,7 +36,7 @@
         "brand": "Reckitt Benckiser(India)Pvt.Ltd"
     },
     {
-        "_id": "6501c8eb35ac3f7ee0ac7475",
+        "id": "6501c8eb35ac3f7ee0ac7475",
         "img": "https://i.ibb.co/09cxkmN/ey-J_id-WNr-ZXQi-Oi-Jhcm9n-Z2-Ei-LCJr-ZXki-Oi-Jt-ZWRp-Y2lu-ZVwv-Mlwv-Mjc3-My1-JTUdf-Mj-Ay-Mz-A3-MDNf.webp",
         "category": "Sexual Wellness",
         "categoryPath": "sexual-wellness",
@@ -48,7 +48,7 @@
         "brand": "MM Ayurvedic"
     },
     {
-        "_id": "6501c8eb1d097831296a13f8",
+        "id": "6501c8eb1d097831296a13f8",
         "img": "https://i.ibb.co/LRcsjnm/ey-J_id-WNr-ZXQi-Oi-Jhcm9n-Z2-Ei-LCJr-ZXki-Oi-Jt-ZWRp-Y2lu-ZVwv-Mz-Fc-Lz-Mx-NDMz-LUR1cm-V4-LUV4d-HJh.webp",
         "category": "Sexual Wellness",
         "categoryPath": "sexual-wellness",
