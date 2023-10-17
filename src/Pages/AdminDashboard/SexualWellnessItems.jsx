@@ -34,22 +34,67 @@ const SexualWellnessItems = () => {
         })
     }
 
+    const handleAddNewItem = (e) => {
+        e.preventDefault();
+        const form = e.target;
+        const img = form.img.value;
+        const name = form.title.value;
+        const quantity = form.quantity.value;
+        const details = form.details.value;
+        const priceStr = form.price.value;
+        const price = parseInt(priceStr);
+        const brand = form.brand.value;
+
+        console.log(img);
+        console.log(name);
+        console.log(quantity);
+        console.log(details);
+        console.log(price);
+        console.log(brand);
+    }
+
     return (
         <div>
             <div>
                 <h3 className='py-4 pl-2 text-2xl font-semibold'>Total items: <span className='text-rose-500'>{sexualWellness.length}</span></h3>
             </div>
-            <button onClick={() => document.getElementById('my_modal_1').showModal()} className='ml-4 text-center border px-2 md:py-1 py-1 border-primary font-semibold text-sm cursor-pointer text-primary hover:bg-primary hover:text-white uppercase'>Add new</button>
+            <button onClick={() => document.getElementById('my_modal_1').showModal()} className='ml-4 text-center border px-2 md:py-1 py-1 border-primary font-semibold text-sm cursor-pointer text-primary hover:bg-primary hover:text-white uppercase'>Add new item</button>
             <dialog id="my_modal_1" className="modal">
-                <div className="modal-box">
+                <div className="modal-box w-10/12 max-w-5xl">
                     <form method="dialog">
                         {/* if there is a button in form, it will close the modal */}
                         <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
                     </form>
-                    <h3 className="font-bold text-lg">Add Item</h3>
+                    <h3 className="font-bold text-xl py-2 text-indigo-500 text-center pl-4">... Add new item ...</h3>
                     <div>
-                        <form>
-                            <input type="text" placeholder="Type here" className="input input-bordered input-secondary w-full max-w-xs" />
+                        <form className='flex flex-col justify-center' onSubmit={handleAddNewItem}>
+                            <div className='p-3 grid grid-cols-1 md:grid-cols-2 gap-2'>
+                                <div>
+                                    <label className="label">Medicine title</label>
+                                    <input type="text" name='title' placeholder="Medicine title" className="input input-bordered input-secondary w-full max-w-xs m-1 bg-slate-50" required />
+                                </div>
+                                <div>
+                                    <label className="label">Medicine quantity</label>
+                                    <input type="text" name='quantity' placeholder="Medicine quantity" className="input input-bordered input-secondary w-full max-w-xs m-1 bg-slate-50" required />
+                                </div>
+                                <div>
+                                    <label className="label">Medicine price</label>
+                                    <input type="number" name='price' placeholder="Price" className="input input-bordered input-secondary w-full max-w-xs m-1 bg-slate-50" required />
+                                </div>
+                                <div>
+                                    <label className="label">Brand name</label>
+                                    <input type="text" name='brand' placeholder="Brand name" className="input input-bordered input-secondary w-full max-w-xs m-1 bg-slate-50" required />
+                                </div>
+                                <div>
+                                    <label className="label">Medicine details</label>
+                                    <textarea type="text" name='details' placeholder="Medicine details" className="textarea textarea-bordered textarea-secondary textarea-md w-full max-w-xs m-1 bg-slate-50" required />
+                                </div>
+                                <div className='py-5 pl-2'>
+                                    <label className="label">Choose image</label>
+                                    <input type="file" name='img'/>
+                                </div>
+                            </div>
+                            <button type="submit" className='btn btn-outline btn-warning my-2 w-24 mx-auto hover:text-white'>Add</button>
                         </form>
                     </div>
                 </div>
