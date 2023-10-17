@@ -107,7 +107,7 @@ const Header = () => {
                         </>
                 }
                 {
-                    isAdmin ? <>
+                    user && isAdmin ? <>
                         <div className="dropdown dropdown-end flex justify-center">
                             <label className="btn btn-ghost text-white px-[15px] hover:border-zinc-50" title='See dashboard' onClick={() => setOpen(!open)}>
                                 <Link to="/adminDashboard/adminHome" className="indicator">
