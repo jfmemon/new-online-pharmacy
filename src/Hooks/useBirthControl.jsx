@@ -1,17 +1,14 @@
-import { useEffect, useState } from 'react';
+import { useQuery } from '@tanstack/react-query';
 
 const useBirthControl = () => {
-    const [birthControl, setBirthControl] = useState([]);
-    const [loading, setLoading] = useState(true);
-    useEffect(() => {
-        fetch("http://localhost:5000/birthControl")
-            .then(res => res.json())
-            .then(data => {
-                setBirthControl(data);
-                setLoading(false);
-            })
-    }, []);
-    return [birthControl, loading];
+    const { refetch, data: birthControl = [] } = useQuery({
+        queryKey: ['birthControl'],
+        queryFn: async () => {
+            const res = await fetch("http://localhost:5000/birthControl");
+            return res.json();
+        },
+    })
+    return [birthControl, refetch]
 };
 
 export default useBirthControl;

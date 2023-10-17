@@ -1,17 +1,14 @@
-import { useEffect, useState } from 'react';
+import { useQuery } from '@tanstack/react-query';
 
 const useSexualWellness = () => {
-    const [sexualWellness, setSexualWellness] = useState([]);
-    const [loading, setLoading] = useState(true);
-    useEffect(() => {
-        fetch("http://localhost:5000/sexualWellness")
-            .then(res => res.json())
-            .then(data => {
-                setSexualWellness(data);
-                setLoading(false);
-            })
-    }, []);
-    return [sexualWellness, loading];
+    const { refetch, data: sexualWellness = [] } = useQuery({
+        queryKey: ['sexualWellness'],
+        queryFn: async () => {
+            const res = await fetch("http://localhost:5000/sexualWellness");
+            return res.json();
+        }
+    })
+    return [sexualWellness, refetch];
 };
 
 export default useSexualWellness;
