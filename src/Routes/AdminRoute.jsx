@@ -8,15 +8,16 @@ const AdminRoute = ({ children }) => {
     const [isAdmin, isAdminLoading] = useAdmin();
     const location = useLocation();
 
-    if (loading || isAdminLoading) {
+    if (isAdmin) {
+        return children;
+    }
+
+    if (isAdminLoading || loading) {
         return <progress className="progress w-56"></progress>
     }
 
-    if (user && isAdmin) {
-        return children;
-    }
-    
-    return <Navigate to="/login" state={{ from: location }} replace></Navigate>
+    return <Navigate to="/login" state={{ from: location }} replace></Navigate>;
+
 };
 
 export default AdminRoute;
