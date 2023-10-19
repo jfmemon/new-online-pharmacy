@@ -1,17 +1,14 @@
-import { useEffect, useState } from 'react';
+import { useQuery } from '@tanstack/react-query';
 
 const useVitaminsAndSupplements = () => {
-    const [vitaminsAndSupplements, setVitaminsAndSupplements] = useState([]);
-    const [loading, setLoading] = useState(true);
-    useEffect(() => {
-        fetch("http://localhost:5000/vitaminsAndSupplements")
-            .then(res => res.json())
-            .then(data => {
-                setVitaminsAndSupplements(data);
-                setLoading(false);
-            })
-    }, []);
-    return [vitaminsAndSupplements, loading];
+    const { refetch, data: vitaminsAndSupplements = [] } = useQuery({
+        queryKey: ['vitaminsAndSupplements'],
+        queryFn: async () => {
+            const res = await fetch("http://localhost:5000/vitaminsAndSupplements");
+            return res.json();
+        },
+    })
+    return [vitaminsAndSupplements, refetch]
 };
 
 export default useVitaminsAndSupplements;

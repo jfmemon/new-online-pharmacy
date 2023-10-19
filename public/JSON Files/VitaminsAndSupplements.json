@@ -1,6 +1,6 @@
 [
     {
-        "_id": "65103efdcf5d0556265893c1",
+        "id": "65103efdcf5d0556265893c1",
         "img": "https://i.ibb.co/mtJhgYy/bicozin-syrup-100ml-1-pc.webp",
         "title": "Bicozin Syrup 100ml",
         "urlPath": "bicozin-syrup-100ml",
@@ -10,7 +10,7 @@
         "brand": "Square Pharmaceuticals LTD, Bangladesh"
     },
     {
-        "_id": "65103efdefa7e9c9ce9c9e23",
+        "id": "65103efdefa7e9c9ce9c9e23",
         "img": "https://i.ibb.co/g4VnjxS/ey-Jid-WNr-ZXQi-Oi-Jhcm9n-Z2-Ei-LCJr-ZXki-Oi-Jt-ZWRp-Y2lu-ZVwv-MTZc-Lz-E2-Mzk4-LVJle-C02b-Wct-Mj-Awb.webp",
         "title": "Rex Tablet 6mg+200mg+50mg",
         "urlPath": "rex-tablet-6mg+200mg+50mg",
@@ -20,7 +20,7 @@
         "brand": "Square Pharmaceuticals LTD, Bangladesh"
     },
     {
-        "_id": "65103efd058ff769ca1da77a",
+        "id": "65103efd058ff769ca1da77a",
         "img": "https://i.ibb.co/hL8BT5x/ey-Jid-WNr-ZXQi-Oi-Jhcm9n-Z2-Ei-LCJr-ZXki-Oi-Jt-ZWRp-Y2lu-ZVwv-Mz-Bc-Lz-Mw-OTcz-LVBy-ZWdua-WZvcn-Rl.webp",
         "title": "Pregniforte",
         "urlPath": "pregniforte",
@@ -30,7 +30,7 @@
         "brand": "Jupiter Healthcare"
     },
     {
-        "_id": "65103efdc2109a1ec8768148",
+        "id": "65103efdc2109a1ec8768148",
         "img": "https://i.ibb.co/v11mbsN/hemofix-fz-tablet-48mg05mg225mg-10-tablets.webp",
         "title": "Hemofix FZ Tablet 48mg+0.5mg+22.5mg",
         "urlPath": "hemofix-fz-tablet-48mg+0.5mg+22.5mg",
@@ -40,7 +40,7 @@
         "brand": "Beximco Pharmaceuticals Ltd."
     },
     {
-        "_id": "65103efd5d14c35826c5835c",
+        "id": "65103efd5d14c35826c5835c",
         "img": "https://i.ibb.co/m4r5cYT/Zif-CI-Capsule-Timed-Release-50-mg0-50-mg61-80-mg-Square.webp",
         "title": "Zif-CI Capsule 50mg+0.50mg+61.80mg",
         "urlPath": "zif-ci-capsule-50mg+0.5mg+61.80mg",
