@@ -1,17 +1,15 @@
+import { useQuery } from '@tanstack/react-query';
 import { useEffect, useState } from 'react';
 
 const useBabyCare = () => {
-    const [babyCare, setBabyCare] = useState([]);
-    const [loading, setLoading] = useState(true);
-    useEffect(() => {
-        fetch("http://localhost:5000/babyCare")
-            .then(res => res.json())
-            .then(data => {
-                setBabyCare(data);
-                setLoading(false);
-            })
-    }, []);
-    return [babyCare, loading];
+    const { refetch, data: babyCare = [] } = useQuery({
+        queryKey: ['babyCare'],
+        queryFn: async () => {
+            const res = await fetch('http://localhost:5000/babyCare');
+            return res.json();
+        }
+    })
+    return [babyCare, refetch];
 };
 
 export default useBabyCare;

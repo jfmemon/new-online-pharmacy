@@ -3,8 +3,6 @@ import useSexualWellness from '../../Hooks/useSexualWellness';
 import Swal from 'sweetalert2';
 import useAxiosSecure from '../../Hooks/useAxiosSecure';
 
-import '../../index.css';
-
 const imageHostingToken = import.meta.env.VITE_image_upload_token;
 
 const SexualWellnessItems = () => {
@@ -47,9 +45,6 @@ const SexualWellnessItems = () => {
                                     title: 'New item added successfully.',
                                     showConfirmButton: false,
                                     timer: 1500,
-                                    customClass: {
-                                        container: 'my-swal'
-                                    }
                                 })
                                 refetch();
                                 form.reset();

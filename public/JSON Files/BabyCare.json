@@ -1,6 +1,6 @@
 [
     {
-        "_id": "651040a1754de77a68e4286c",
+        "id": "651040a1754de77a68e4286c",
         "img": "https://i.ibb.co/n7NfxXr/neocare-premium-baby-diaper-belt-l-7-18-kg-50-pcs.webp",
         "title": "NeoCare Premium Baby Diaper Belt L (7-18 kg)",
         "urlPath": "neocare-premium-baby-diaper-belt-l-(7-18-kg)",
@@ -10,7 +10,7 @@
         "brand": "Incepta Hygiene And Hospicare LTD"
     },
     {
-        "_id": "651040a12e39b8d7b1d3e1af",
+        "id": "651040a12e39b8d7b1d3e1af",
         "img": "https://i.ibb.co/L8GJ2rS/neocare-premium-baby-diaper-belt-m-4-9-kg-50-pcs.webp",
         "title": "NeoCare Premium Baby Diaper Belt M (4-9 kg)",
         "urlPath": "neocare-premium-baby-diaper-belt-l-(4-9-kg)",
@@ -20,7 +20,7 @@
         "brand": "Incepta Hygiene And Hospicare LTD"
     },
     {
-        "_id": "651040a15f8b0d24d7af5604",
+        "id": "651040a15f8b0d24d7af5604",
         "img": "https://i.ibb.co/T1NFRjQ/johnsons-baby-soap-50-gm-buy-3-get-1-free-4-pcs.webp",
         "title": "Johnson's Baby Soap 50 gm (Buy 3 Get 1 Free)",
         "urlPath": "johnson's-baby-soap-50-gm-(buy-3-get-1-free)",
@@ -30,7 +30,7 @@
         "brand": "Johnson & Johnson"
     },
     {
-        "_id": "651040a123a2dc802c039611",
+        "id": "651040a123a2dc802c039611",
         "img": "https://i.ibb.co/tzDdj01/neocare-baby-wipes-120-pcs.webp",
         "title": "NeoCare Baby Wipes",
         "urlPath": "NeoCare Baby Wipes",
@@ -40,7 +40,7 @@
         "brand": "Incepta Hygiene And Hospicare LTD"
     },
     {
-        "_id": "651040a10ab45b14ef2a05b3",
+        "id": "651040a10ab45b14ef2a05b3",
         "img": "https://i.ibb.co/zs7fr0f/savlon-antibacterial-wet-wipes-20-pcs.webp",
         "title": "Savlon Antibacterial Wet Wipes",
         "urlPath": "savlon-antibacterial-wet-wipes",

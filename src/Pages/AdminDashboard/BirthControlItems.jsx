@@ -1,8 +1,6 @@
 import React from 'react';
 import Swal from 'sweetalert2';
 import useAxiosSecure from '../../Hooks/useAxiosSecure';
-
-import '../../index.css';
 import useBirthControl from '../../Hooks/useBirthControl';
 
 const imageHostingToken = import.meta.env.VITE_image_upload_token;
@@ -47,9 +45,6 @@ const BirthControlItems = () => {
                                     title: 'New item added successfully.',
                                     showConfirmButton: false,
                                     timer: 1500,
-                                    customClass: {
-                                        container: 'my-swal'
-                                    }
                                 })
                                 refetch();
                                 form.reset();
