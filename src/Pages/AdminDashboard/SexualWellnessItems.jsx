@@ -3,6 +3,8 @@ import useSexualWellness from '../../Hooks/useSexualWellness';
 import Swal from 'sweetalert2';
 import useAxiosSecure from '../../Hooks/useAxiosSecure';
 
+import '../../index.css';
+
 const imageHostingToken = import.meta.env.VITE_image_upload_token;
 
 const SexualWellnessItems = () => {
@@ -39,14 +41,19 @@ const SexualWellnessItems = () => {
                         .then(data => {
                             if (data.data.insertedId) {
                                 Swal.fire({
-                                    position: 'top',
+                                    target: document.getElementById('my_modal_1'),
+                                    position: 'center',
                                     icon: 'success',
                                     title: 'New item added successfully.',
                                     showConfirmButton: false,
-                                    timer: 1500
+                                    timer: 1500,
+                                    customClass: {
+                                        container: 'my-swal'
+                                    }
                                 })
+                                refetch();
+                                form.reset();
                             }
-                            form.reset();
                         })
                 }
             })
@@ -120,7 +127,7 @@ const SexualWellnessItems = () => {
                                 </div>
                                 <div className='py-5 pl-2'>
                                     <label className="label">Choose image</label>
-                                    <input type="file" name='img' accept="image/png, image/jpeg, image/jpg" required/>
+                                    <input type="file" name='img' accept="image/png, image/jpeg, image/jpg" required />
                                 </div>
                             </div>
                             <button type="submit" className='btn btn-outline btn-warning my-2 w-24 mx-auto hover:text-white'>Add</button>
