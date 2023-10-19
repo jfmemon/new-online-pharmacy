@@ -1,9 +1,57 @@
 import React from 'react';
 import useSexualWellness from '../../Hooks/useSexualWellness';
 import Swal from 'sweetalert2';
+import useAxiosSecure from '../../Hooks/useAxiosSecure';
+
+const imageHostingToken = import.meta.env.VITE_image_upload_token;
 
 const SexualWellnessItems = () => {
     const [sexualWellness, refetch] = useSexualWellness();
+    const imageHostingURL = `https://api.imgbb.com/1/upload?key=${imageHostingToken}`;
+    const [axiosSecure] = useAxiosSecure();
+
+    const handleAddNewItem = (e) => {
+        e.preventDefault();
+        const form = e.target;
+        const img = form.img;
+        const image = img.files;
+        const name = form.title.value;
+        const quantity = form.quantity.value;
+        const details = form.details.value;
+        const priceStr = form.price.value;
+        const price = parseFloat(priceStr);
+        const brand = form.brand.value;
+
+        const formData = new FormData();
+        formData.append('image', image[0]);
+
+        fetch(imageHostingURL, {
+            method: 'POST',
+            body: formData
+        })
+            .then(res => res.json())
+            .then(imageRes => {
+                if (imageRes.success) {
+                    const imgURL = imageRes.data.display_url;
+                    const data = { img: imgURL, title: name, quantity: quantity, details: details, price: price, brand: brand };
+                    console.log(data);
+                    axiosSecure.post('/sexualWellness', data)
+                        .then(data => {
+                            if (data.data.insertedId) {
+                                Swal.fire({
+                                    position: 'top',
+                                    icon: 'success',
+                                    title: 'New item added successfully.',
+                                    showConfirmButton: false,
+                                    timer: 1500
+                                })
+                            }
+                            form.reset();
+                        })
+                }
+            })
+
+    }
 
     const handleDeleteItem = item => {
         Swal.fire({
@@ -32,25 +80,6 @@ const SexualWellnessItems = () => {
                     })
             }
         })
-    }
-
-    const handleAddNewItem = (e) => {
-        e.preventDefault();
-        const form = e.target;
-        const img = form.img.value;
-        const name = form.title.value;
-        const quantity = form.quantity.value;
-        const details = form.details.value;
-        const priceStr = form.price.value;
-        const price = parseInt(priceStr);
-        const brand = form.brand.value;
-
-        console.log(img);
-        console.log(name);
-        console.log(quantity);
-        console.log(details);
-        console.log(price);
-        console.log(brand);
     }
 
     return (
@@ -91,7 +120,7 @@ const SexualWellnessItems = () => {
                                 </div>
                                 <div className='py-5 pl-2'>
                                     <label className="label">Choose image</label>
-                                    <input type="file" name='img'/>
+                                    <input type="file" name='img' accept="image/png, image/jpeg, image/jpg" required/>
                                 </div>
                             </div>
                             <button type="submit" className='btn btn-outline btn-warning my-2 w-24 mx-auto hover:text-white'>Add</button>
