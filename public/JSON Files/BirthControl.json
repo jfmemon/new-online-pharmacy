@@ -1,6 +1,6 @@
 [
     {
-        "_id": "65103e6086b54f8c6f60e245",
+        "id": "65103e6086b54f8c6f60e245",
         "img": "https://i.ibb.co/3CxTvPr/emcon-1-tablet-15mg-1-tablet.webp",
         "title": "Emcon 1 Tablet 1.5mg",
         "urlPath": "emcon-1-tablet-1.5mg",
@@ -10,7 +10,7 @@
         "brand": "Renata Limited"
     },
     {
-        "_id": "65103e604c1f9bd1cd204c23",
+        "id": "65103e604c1f9bd1cd204c23",
         "img": "https://i.ibb.co/SK4b5nF/norpill-1-tablet-15mg-1-tablet.webp",
         "title": "Norpill 1 Tablet 1.5mg",
         "urlPath": "norpill-1-tablet-1.5mg",
@@ -20,7 +20,7 @@
         "brand": "Square Pharmaceuticals LTD, Bangladesh"
     },
     {
-        "_id": "65103e600cdeb10edfc9ef63",
+        "id": "65103e600cdeb10edfc9ef63",
         "img": "https://i.ibb.co/tKm9PDg/novelon-lite-tablet-002mg3mg-28-tablets.webp",
         "title": "Novelon Lite Tablet 0.02mg+3mg",
         "urlPath": "novelon-lite-tablet-0.02mg+3mg",
@@ -30,7 +30,7 @@
         "brand": "Renata Limited"
     },
     {
-        "_id": "65103e60d3a903beeb23eba4",
+        "id": "65103e60d3a903beeb23eba4",
         "img": "https://i.ibb.co/g9gwYFL/novelon-tablet-003mg3mg-28-tablets.webp",
         "title": "Novelon Tablet 0.03mg+3mg",
         "urlPath": "novelon-tablet-0.02mg+3mg",
@@ -40,7 +40,7 @@
         "brand": "Renata Limited"
     },
     {
-        "_id": "65103e603301f0674b1c659a",
+        "id": "65103e603301f0674b1c659a",
         "img": "https://i.ibb.co/gRT42nb/peuli-tablet-30-mg-1-tablets.webp",
         "title": "Peuli Tablet 30 mg",
         "urlPath": "peuli-tablet-30mg",
