@@ -90,7 +90,7 @@ const SexualWellnessItems = () => {
     }
 
     return (
-        <div>
+        <div className='px-10'>
             <div>
                 <h3 className='py-4 pl-2 text-2xl font-semibold'>Total items: <span className='text-rose-500'>{sexualWellness.length}</span></h3>
             </div>
