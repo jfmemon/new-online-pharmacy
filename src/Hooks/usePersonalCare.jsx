@@ -1,17 +1,15 @@
-import { useEffect, useState } from "react";
+import { useQuery } from "@tanstack/react-query";
 
 const usePersonalCare = () => {
-    const [personalCare, setPersonalCare] = useState([]);
-    const [loading, setLoading] = useState(true);
-    useEffect(() => {
-        fetch("http://localhost:5000/personalCare")
-            .then(res => res.json())
-            .then(data => {
-                setPersonalCare(data);
-                setLoading(false);
-            })
-    }, []);
-    return [personalCare, loading];
+    const { refetch, data: personalCare = [] } = useQuery({
+        queryKey: ['personalCare'],
+        queryFn: async () => {
+            const res = await fetch('http://localhost:5000/personalCare');
+            return res.json();
+        }
+    })
+
+    return [personalCare, refetch];
 };
 
 export default usePersonalCare;

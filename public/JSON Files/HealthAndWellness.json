@@ -1,6 +1,6 @@
 [
     {
-        "_id": "651040555600b820a62206e5",
+        "id": "651040555600b820a62206e5",
         "img": "https://i.ibb.co/t8S193L/aci-savlon-liquid-antiseptic-500-ml.webp",
         "title": "ACI Savlon Liquid Antiseptic",
         "urlPath": "aci-savlon-liquid-antiseptic",
@@ -10,7 +10,7 @@
         "brand": "ACI Pharmaceuticals Limited"
     },
     {
-        "_id": "65104055537f1e9638ada15b",
+        "id": "65104055537f1e9638ada15b",
         "img": "https://i.ibb.co/F3d1rcL/smc-orsaline-n-25-pcs.webp",
         "title": "SMC Orsaline-N",
         "urlPath": "smc-orsaline-n",
@@ -20,7 +20,7 @@
         "brand": "Social Marketing Company (SMC)"
     },
     {
-        "_id": "651040554d393910e230f40f",
+        "id": "651040554d393910e230f40f",
         "img": "https://i.ibb.co/WV376h4/dettol-antiseptic-disinfectant-liquid-750-ml.webp",
         "title": "Dettol Antiseptic Disinfectant Liquid",
         "urlPath": "detol-antiseptic-disinfectant-liquid",
@@ -30,7 +30,7 @@
         "brand": "Reckitt Benckiser Healthcare (UK) Ltd"
     },
     {
-        "_id": "651040555a76fc1743639b1c",
+        "id": "651040555a76fc1743639b1c",
         "img": "https://i.ibb.co/FqnfbwW/hexisol-hand-rub-250-ml.webp",
         "title": "Hexisol Hand Rub",
         "urlPath": "hexisol-hand-rub",
@@ -40,7 +40,7 @@
         "brand": "ACI Pharmaceuticals Limited"
     },
     {
-        "_id": "65104055553a5e1777512439",
+        "id": "65104055553a5e1777512439",
         "img": "https://i.ibb.co/Y3GBgzY/horlicks-chocolate-flavour-jar-500-gm.webp",
         "title": "Horlicks Chocolate Flavour Jar",
         "urlPath": "horlicks-chocolate-flavour-jar",

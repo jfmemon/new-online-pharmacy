@@ -1,6 +1,6 @@
 [
     {
-        "_id": "65103fe75e2e952da6504d4a",
+        "id": "65103fe75e2e952da6504d4a",
         "img": "https://i.ibb.co/j4wt7q8/a8-aci-freedom-heavy-flow-wings-16-pads.webp",
         "title": "A8 ACI Freedom Heavy Flow Wings 16 pads",
         "urlPath": "a8-aci-freedom-heavy-flow-wings-16-pads",
@@ -10,7 +10,7 @@
         "brand": "ACI Pharmaceuticals Limited"
     },
     {
-        "_id": "65103fe76a950c3321ce1f4b",
+        "id": "65103fe76a950c3321ce1f4b",
         "img": "https://i.ibb.co/BZLNZMg/nivea-men-protect-care-after-shave-balm-100-ml.webp",
         "title": "Nivea Men Protect & Care After Shave Balm",
         "urlPath": "nivea-men-protect-&-care-after-shave-blam",
@@ -20,7 +20,7 @@
         "brand": "Nivea"
     },
     {
-        "_id": "65103fe7814de59f7a8078bc",
+        "id": "65103fe7814de59f7a8078bc",
         "img": "https://i.ibb.co/dJsRR8G/gillette-series-moisturizing-pre-shave-gel-195-gm.webp",
         "title": "Gillette Series Moisturizing Pre Shave Gel",
         "urlPath": "gillette-series-moisturizing-pre-shave-gel",
@@ -30,7 +30,7 @@
         "brand": "Gillette"
     },
     {
-        "_id": "65103fe7bec4dd58edb765d5",
+        "id": "65103fe7bec4dd58edb765d5",
         "img": "https://i.ibb.co/8bjjGRK/d-care-instant-hand-sanitizer-2-ltr.webp",
         "title": "D-Care Instant Hand Sanitizer",
         "urlPath": "d-care-instant-hand-sanitizer",
@@ -40,7 +40,7 @@
         "brand": "The White Horse Pharmaceuticals Ltd."
     },
     {
-        "_id": "65103fe737d1d114421733cd",
+        "id": "65103fe737d1d114421733cd",
         "img": "https://i.ibb.co/FKqCWSf/bashundhara-paper-napkins-13-unscented-100-pcs.webp",
         "title": "Bashundhara Paper Napkins 13",
         "urlPath": "bashundhara-paper-napkins-13",
