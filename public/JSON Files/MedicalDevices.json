@@ -1,6 +1,6 @@
 [
     {
-        "_id": "65103f5e401a596852f7ce9c",
+        "id": "65103f5e401a596852f7ce9c",
         "img": "https://i.ibb.co/WBhfxTJ/accu-chek-active.webp",
         "title": "ACCU-CHEK Active",
         "urlPath": "accu-chek-active",
@@ -10,7 +10,7 @@
         "brand": "ACCU-CHEK"
     },
     {
-        "_id": "65103f5e5ff55b26bd0f2170",
+        "id": "65103f5e5ff55b26bd0f2170",
         "img": "https://i.ibb.co/cD46s1v/novofine-pen-needle-1-pc.webp",
         "title": "Novofine Pen Needle",
         "urlPath": "novofine-pen-needle",
@@ -20,7 +20,7 @@
         "brand": "Novo Nordisk"
     },
     {
-        "_id": "65103f5e54103c1bd7dc6d1f",
+        "id": "65103f5e54103c1bd7dc6d1f",
         "img": "https://i.ibb.co/crmN6jX/rossmax-thermometer-1-pcs.webp",
         "title": "Rossmax Thermometer",
         "urlPath": "rossmax-thermometer",
@@ -30,7 +30,7 @@
         "brand": "Rossmax"
     },
     {
-        "_id": "65103f5e542f6bfa433c7fd0",
+        "id": "65103f5e542f6bfa433c7fd0",
         "img": "https://i.ibb.co/zXLYNMv/tens-therapy-machine-1-pc.webp",
         "title": "Tens Therapy Machine",
         "urlPath": "tens-therapy-machine",
@@ -40,7 +40,7 @@
         "brand": "Hong Qiangxing (shenzhen) Electronics Limited"
     },
     {
-        "_id": "65103f5e0699736c1f27fd81",
+        "id": "65103f5e0699736c1f27fd81",
         "img": "https://i.ibb.co/7r0VWJL/match-blood-glucose-50-test-strip.webp",
         "title": "Match Blood Glucose 50 Test Strip",
         "urlPath": "match-blood-glucose-50-test-strip",

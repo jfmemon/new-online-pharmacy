@@ -1,17 +1,15 @@
+import { useQuery } from '@tanstack/react-query';
 import { useEffect, useState } from 'react';
 
 const useMedicalDevices = () => {
-    const [medicalDevices, setMedicalDevices] = useState([]);
-    const [loading, setLoading] = useState(true);
-    useEffect(() => {
-        fetch("http://localhost:5000/medicalDevices")
-            .then(res => res.json())
-            .then(data => {
-                setMedicalDevices(data);
-                setLoading(false);
-            })
-    }, []);
-    return [medicalDevices, loading];
+    const { refetch, data: medicalDevices = [] } = useQuery({
+        queryKey: ['medicalDevices'],
+        queryFn: async () => {
+            const res = await fetch('http://localhost:5000/medicalDevices');
+            return res.json();
+        }
+    })
+    return [medicalDevices, refetch];
 };
 
 export default useMedicalDevices;
