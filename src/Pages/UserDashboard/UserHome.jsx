@@ -10,7 +10,7 @@ const UserHome = () => {
 
     return (
         <div className='lg:px-10 w-full'>
-            <h3 className='text-2xl pt-5 pl-5 font-semibold text-indigo-500'>Welcome to user home.</h3>
+            <h3 className='text-2xl pt-5 pl-5 font-semibold text-pink-400'>Welcome to user home</h3>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 p-5'>
                 <div className='w-full h-28 p-3 rounded-lg bg-emerald-200 relative'>
                     <h3 className='text-xl font-semibold text-white'>Total cart item</h3>

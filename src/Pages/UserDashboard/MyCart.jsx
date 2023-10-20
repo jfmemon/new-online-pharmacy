@@ -40,9 +40,10 @@ const MyCart = () => {
     }
 
     return (
-        <div>
+        <div className='mx-auto'>
+            <h3 className='text-xl font-bold text-indigo-500 px-5 pt-5 text-center'>... Cart list ...</h3>
             {
-                cart.length == 0 ? <div className='w-full flex flex-col gap-3 items-center p-5'>
+                cart.length == 0 ? <div className='w-full flex flex-col gap-3 justify-center items-center p-5'>
                     <img className='w-96 py-3' src={emptyImage} alt="" />
                     <p className='text-rose-600 text-2xl font-semibold py-3 text-center'>You have not added any medicine to the cart yet!</p>
                     <Link to="/" className='btn btn-primary py-3 text-white'>Add some medicine</Link>

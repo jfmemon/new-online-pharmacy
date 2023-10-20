@@ -9,7 +9,8 @@ const OrderList = () => {
     console.log(orders);
 
     return (
-        <div>
+        <div className='mx-auto'>
+            <h3 className='text-xl font-bold text-indigo-500 px-5 pt-5 text-center'>... Order list ...</h3>
             {
                 orders.length == 0 ? <div className='w-full flex flex-col gap-3 items-center p-5'>
                     <img className='w-96 py-3' src={emptyOrder} alt="" />
