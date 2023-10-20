@@ -78,7 +78,7 @@ const Register = () => {
                                 <label className="label">
                                     <span className="label-text">Photo URL</span>
                                 </label>
-                                <input {...register("photoURL", { required: true })} type="url" placeholder="Eg: photoURL.com (Public link)" className="input input-bordered" />
+                                <input {...register("photoURL", { required: false })} type="url" placeholder="Eg: photoURL.com (Public link)" className="input input-bordered" />
                                 {errors.photoURL && <span className="text-red-500">*This field is required</span>}
                             </div>
                             <div className="form-control">
@@ -99,7 +99,7 @@ const Register = () => {
                                 <label className="label">
                                     <span className="label-text">Address</span>
                                 </label>
-                                <input {...register("address", { required: true })} type="text" placeholder="Eg: Tehran, Iran" className="input input-bordered" />
+                                <input {...register("address", { required: false })} type="text" placeholder="Eg: Tehran, Iran" className="input input-bordered" />
                                 {errors.address && <span className="text-red-500">*This field is required</span>}
                             </div>
                             <div className="form-control">

@@ -5,6 +5,7 @@ import Swal from 'sweetalert2';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCartShopping, faChartArea, faRightFromBracket, faUserPlus } from '@fortawesome/free-solid-svg-icons'
 import useCart from '../../../Hooks/useCart';
+import profilePicture from '../../../assets/user.png'
 
 
 import img1 from '../../../assets/Category-logos/shopByCondition.png';
@@ -97,7 +98,12 @@ const Header = () => {
                     user ?
                         <>
                             <div className='lg:w-24 w-[80px] md:w-96 md:h-9 h-7 rounded-full flex items-center justify-between lg:mr-0 md:mr-6 mr-6'>
-                                <img className=' md:h-7 lg:w-9 lg:h-9 h-7 rounded-full' src={user?.photoURL} alt='' />
+                                {
+                                    user.photoURL ? <img className=' md:h-7 lg:w-9 lg:h-9 h-7 rounded-full' src={user?.photoURL} alt='' /> :
+                                        <img className='md:h-7 lg:w-9 lg:h-9 h-7 rounded-full' src={profilePicture} alt="" />
+                                    // <span className='text-2xl text-white'><FontAwesomeIcon icon={faUser} /></span>
+                                }
+
                                 <small className='pl-2 md:pl-2 lg:pl-0 text-white w-1/2 font-semibold leading-none'>{user.displayName}</small>
                             </div>
                             <span className='text-white text-xl btn btn-ghost md:px-3 px-3 hover:border-zinc-50 lg:ml-4 ml-5' title='Logout' onClick={handleLogout}><FontAwesomeIcon icon={faRightFromBracket} /></span>
