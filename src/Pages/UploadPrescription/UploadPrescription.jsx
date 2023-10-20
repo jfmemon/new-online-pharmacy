@@ -3,21 +3,12 @@ import { AuthContext } from "../../Context/AuthProvider";
 import imageUpload from "../../assets/image_upload.svg"
 import Swal from "sweetalert2";
 
+const imageHostingToken = import.meta.env.VITE_image_upload_token;
+
 const UploadPrescription = () => {
-    const [selectedImage, setSelectedImage] = useState(null);
     const { user } = useContext(AuthContext);
 
-    const handleShowImage = (event) => {
-        setSelectedImage(event.target.value);
-    }
-
-    const handleRemoveImage = () => {
-        setSelectedImage(null);
-        const inputField = document.querySelector('input[name="image"]');
-        if (inputField) {
-            inputField.value = '';
-        }
-    }
+    const imageHostingURL = `https://api.imgbb.com/1/upload?key=${imageHostingToken}`;
 
     const handleImageUpload = (event) => {
         event.preventDefault();
@@ -26,26 +17,46 @@ const UploadPrescription = () => {
         const email = form.email.value;
         const number = form.number.value;
         const address = form.address.value;
-        const image = form.image.value;
-        console.log(image);
-        const prescription = { fullName: name, email: email, phoneNumber: number, deliveryAddress: address, prescriptionImage: image, userEmail: user?.email }
+        const img = form.img;
+        const image = img.files;
 
-        fetch('http://localhost:5000/upload', {
-            method: "POST",
-            headers: {
-                "content-type": "application/json"
-            },
-            body: JSON.stringify(prescription)
+        const formData = new FormData();
+        formData.append('image', image[0])
+
+        fetch(imageHostingURL, {
+            method: 'POST',
+            body: formData
         })
             .then(res => res.json())
-            .then(data => {
-                if (data.insertedId) {
-                    Swal.fire(
-                        'Confirmed!',
-                        'Your order has been placed. We will contact with you for further information. Thank you for buying from us.',
-                        'success'
-                    )
-                    form.reset();
+            .then(imageRes => {
+                if (imageRes.success) {
+                    const imgURL = imageRes.data.display_url;
+                    const data = { fullName: name, email: email, phoneNumber: number, deliveryAddress: address, prescriptionImage: imgURL, userEmail: user?.email };
+
+                    fetch("http://localhost:5000/upload", {
+                        method: "POST",
+                        headers: {
+                            "content-type": "application/json"
+                        },
+                        body: JSON.stringify(data)
+                    })
+                        .then(res => res.json())
+                        .then(data => {
+                            if (data.insertedId) {
+                                Swal.fire({
+                                    icon: 'success',
+                                    position: 'top',
+                                    title: 'Your order has placed. We will contact with you soo. Thank you for ordering from us.',
+                                    showClass: {
+                                        popup: 'animate__animated animate__fadeInDown'
+                                    },
+                                    hideClass: {
+                                        popup: 'animate__animated animate__fadeOutUp'
+                                    }
+                                })
+                                form.reset();
+                            }
+                        })
                 }
             })
     };
@@ -85,17 +96,10 @@ const UploadPrescription = () => {
                         </div>
                         <div className="form-control px-3">
                             <label className="label">
-                                <span className="label-text">Prescription image URL</span>
+                                <span className="label-text">Choose image</span>
                             </label>
-                            <input onChange={handleShowImage} name='image' type="url" placeholder='https://www.google.com/ (public url)' className="input input-bordered w-[90%] bg-gray-200" required />
+                            <input type="file" name='img' accept="image/png, image/jpeg, image/jpg" required />
                         </div>
-                        {
-                            selectedImage && <div className="px-3">
-                                <img className="w-64" src={selectedImage} alt="" />
-                                <button className="btn btn-error my-2" onClick={handleRemoveImage}>Remove</button>
-                            </div>
-                        }
-                        {/* <input className="my-2" name="image" type="url" placeholder="public url" onChange={handleShowImage} required /> */}
                     </div>
                     <button className="btn btn-warning m-3" type="submit">Upload</button>
                 </form>
