@@ -15,7 +15,7 @@ const UserDashboard = () => {
     return (
         <div className="drawer lg:drawer-open">
             <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
-            <div className="drawer-content flex flex-col lg:flex-row md:justify-center">
+            <div className="drawer-content flex flex-col lg:flex-row">
                 {/* Page content here */}
                 <label htmlFor="my-drawer-2" className="drawer-button mr-auto pl-1 lg:hidden"><FontAwesomeIcon icon={faBars} /><span className='ml-1'>Menu</span></label>
                 <Outlet></Outlet>
