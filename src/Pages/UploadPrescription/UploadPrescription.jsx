@@ -33,7 +33,7 @@ const UploadPrescription = () => {
                     const imgURL = imageRes.data.display_url;
                     const data = { fullName: name, email: email, phoneNumber: number, deliveryAddress: address, prescriptionImage: imgURL, userEmail: user?.email };
 
-                    fetch("http://localhost:5000/upload", {
+                    fetch("https://online-pharmacy-server.vercel.app/upload", {
                         method: "POST",
                         headers: {
                             "content-type": "application/json"

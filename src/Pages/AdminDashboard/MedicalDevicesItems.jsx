@@ -66,7 +66,7 @@ const MedicalDevicesItems = () => {
             confirmButtonText: 'Yes, delete it!'
         }).then((result) => {
             if (result.isConfirmed) {
-                fetch(`http://localhost:5000/medicalDevices/${item._id}`, {
+                fetch(`https://online-pharmacy-server.vercel.app/medicalDevices/${item._id}`, {
                     method: 'DELETE'
                 })
                     .then(res => res.json())

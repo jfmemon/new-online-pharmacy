@@ -29,7 +29,7 @@ const MedicalDevicesProductDetails = () => {
         if (user && user.email) {
             const cartItem = { itemId: _id, img, title, quantity, price, details, brand, addedQuantity: addedQuantity, totalPrice: price * addedQuantity, userEmail: user.email };
 
-            fetch("http://localhost:5000/carts", {
+            fetch("https://online-pharmacy-server.vercel.app/carts", {
                 method: "POST",
                 headers: {
                     "content-type": "application/json"

@@ -18,7 +18,7 @@ const AllPrescriptions = () => {
             confirmButtonText: 'Yes, delete it!'
         }).then((result) => {
             if (result.isConfirmed) {
-                fetch(`http://localhost:5000/prescriptions/${order._id}`, {
+                fetch(`https://online-pharmacy-server.vercel.app/prescriptions/${order._id}`, {
                     method: 'DELETE'
                 })
                     .then(res => res.json())

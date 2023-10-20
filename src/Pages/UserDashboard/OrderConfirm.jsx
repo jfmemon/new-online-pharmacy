@@ -30,7 +30,7 @@ const OrderConfirm = () => {
                 confirmButtonText: 'Yes, place this order!'
             }).then((result) => {
                 if (result.isConfirmed) {
-                    fetch('http://localhost:5000/orders', {
+                    fetch('https://online-pharmacy-server.vercel.app/orders', {
                         method: "POST",
                         headers: {
                             "content-type": "application/json"

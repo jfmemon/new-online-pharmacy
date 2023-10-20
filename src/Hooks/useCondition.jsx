@@ -4,7 +4,7 @@ const useCondition = () => {
     const [condition, setCondition] = useState([]);
     const [loading, setLoading] = useState(true);
     useEffect(() => {
-        fetch("http://localhost:5000/shopByCondition")
+        fetch("https://online-pharmacy-server.vercel.app/shopByCondition")
             .then(res => res.json())
             .then(data => {
                 setCondition(data);

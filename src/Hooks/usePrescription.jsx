@@ -8,7 +8,7 @@ const usePrescription = () => {
     const { refetch, data: prescription = [] } = useQuery({
         queryKey: ['prescription', user?.email],
         queryFn: async () => {
-            const res = await fetch(`http://localhost:5000/upload?email=${user?.email}`)
+            const res = await fetch(`https://online-pharmacy-server.vercel.app/upload?email=${user?.email}`)
             return res.json();
         },
     })

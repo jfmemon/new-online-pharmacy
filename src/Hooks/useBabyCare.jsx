@@ -5,7 +5,7 @@ const useBabyCare = () => {
     const { refetch, data: babyCare = [] } = useQuery({
         queryKey: ['babyCare'],
         queryFn: async () => {
-            const res = await fetch('http://localhost:5000/babyCare');
+            const res = await fetch('https://online-pharmacy-server.vercel.app/babyCare');
             return res.json();
         }
     })

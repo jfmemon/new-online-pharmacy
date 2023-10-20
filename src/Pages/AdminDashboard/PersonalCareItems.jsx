@@ -66,7 +66,7 @@ const PersonalCareItems = () => {
             confirmButtonText: 'Yes, delete it!'
         }).then((result) => {
             if (result.isConfirmed) {
-                fetch(`http://localhost:5000/personalCare/${item._id}`, {
+                fetch(`https://online-pharmacy-server.vercel.app/personalCare/${item._id}`, {
                     method: 'DELETE'
                 })
                     .then(res => res.json())

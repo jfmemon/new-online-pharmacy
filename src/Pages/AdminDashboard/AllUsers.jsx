@@ -9,7 +9,7 @@ const AllUsers = () => {
     const [users, refetch] = useAllUsers();
 
     const handleMakeAdmin = user => {
-        fetch(`http://localhost:5000/users/admin/${user._id}`, {
+        fetch(`https://online-pharmacy-server.vercel.app/users/admin/${user._id}`, {
             method: 'PATCH'
         })
             .then(res => res.json())
@@ -31,7 +31,7 @@ const AllUsers = () => {
     const handleDeleteUser = (user) => {
         if (user.role !== 'admin') {
             // Only admin users can delete other users
-            fetch(`http://localhost:5000/users/delete/${user._id}`, {
+            fetch(`https://online-pharmacy-server.vercel.app/users/delete/${user._id}`, {
                 method: 'DELETE',
             })
                 .then((res) => res.json())

@@ -4,7 +4,7 @@ const useSexualWellness = () => {
     const { refetch, data: sexualWellness = [] } = useQuery({
         queryKey: ['sexualWellness'],
         queryFn: async () => {
-            const res = await fetch("http://localhost:5000/sexualWellness");
+            const res = await fetch("https://online-pharmacy-server.vercel.app/sexualWellness");
             return res.json();
         }
     })
