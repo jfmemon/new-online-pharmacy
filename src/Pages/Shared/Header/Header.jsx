@@ -99,7 +99,7 @@ const Header = () => {
                         <>
                             <div className='lg:w-24 w-[80px] md:w-96 md:h-9 h-7 rounded-full flex items-center justify-between lg:mr-0 md:mr-6 mr-6'>
                                 {
-                                    user.photoURL ? <img className=' md:h-7 lg:w-9 lg:h-9 h-7 rounded-full' src={user?.photoURL} alt='' /> :
+                                    user.photoURL ? <img className=' md:h-7 lg:w-9 lg:h-9 w-7 h-7 rounded-full' src={user?.photoURL} alt='' /> :
                                         <img className='md:h-7 lg:w-9 lg:h-9 h-7 rounded-full' src={profilePicture} alt="" />
                                     // <span className='text-2xl text-white'><FontAwesomeIcon icon={faUser} /></span>
                                 }
