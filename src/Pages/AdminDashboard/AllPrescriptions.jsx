@@ -1,8 +1,6 @@
 import React from 'react';
 import useAxiosSecure from '../../Hooks/useAxiosSecure';
 import { useQuery } from '@tanstack/react-query';
-import emptyOrder from '../../assets/empty_order.svg'
-import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTrashCan } from '@fortawesome/free-solid-svg-icons';
 import Swal from 'sweetalert2';
@@ -45,18 +43,18 @@ const AllPrescriptions = () => {
 
     return (
         <div>
+            <h3 className='text-2xl font-semibold pt-5 px-3'>Total prescriptions: <span className='text-rose-500'>{prescriptions.length}</span></h3>
             <div className='w-full p-5'>
-                <h3 className='text-2xl font-semibold lg:py-3 px-5'>Total prescriptions: <span className='text-rose-500'>{prescriptions.length}</span></h3>
-                <div className='flex flex-col gap-5 p-3'>
+                <div className='grid md:grid-cols-2 lg:grid-cols-3 grid-cols-1 gap-2 p-3'>
                     {
                         prescriptions.map((order, idx) => <div className='relative border-2 border-indigo-500 p-5 rounded-md bg-slate-100'>
-                            <img className='w-64 mx-auto p-3' src={order.prescriptionImage} alt="" />
+                            <img className='w-64 mx-auto pt-5' src={order.prescriptionImage} alt="" />
                             <p className='font-semibold py-1 text-center'>Order no: <span className='text-rose-600 font-bold'>{idx + 1}</span></p>
                             <p className='font-semibold py-1 text-center'>Customer name: <span className='text-rose-600 font-bold'>{order.fullName}</span></p>
                             <p className='font-semibold py-1 text-center'>Phone number: <span className='text-rose-600 font-bold'>{order.phoneNumber}</span></p>
                             <p className='font-semibold py-1 text-center'>Email: <span className='text-rose-600 font-bold'>{order.email}</span></p>
                             <p className='font-semibold py-1 text-center'>Delivery address: <span className='text-rose-600 font-bold'>{order.deliveryAddress}</span></p>
-                            <button className='absolute top-3 right-5' onClick={() => handleDeleteOrder(order)}>
+                            <button className='absolute top-2 right-3' onClick={() => handleDeleteOrder(order)}>
                                 <span className='text-2xl hover:text-rose-500'><FontAwesomeIcon icon={faTrashCan} /></span>
                             </button>
                         </div>)
