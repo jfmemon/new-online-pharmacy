@@ -15,8 +15,8 @@ const Prescriptions = () => {
                     <Link to="/" className='btn btn-primary py-3 text-white'>Order some medicine</Link>
                 </div> :
                     <div className='w-full p-5'>
-                        <h3 className='text-xl text-indigo-500 font-semibold lg:py-3 px-5'>You have {prescription.length} orders</h3>
-                        <div className='flex flex-col gap-5 p-3'>
+                        <h3 className='text-xl text-indigo-500 font-semibold lg:py-3 px-4'>You have {prescription.length} orders</h3>
+                        <div className='grid md:grid-cols-3 grid-cols-1 gap-3 p-3'>
                             {
                                 prescription.map((order, idx) => <div className='border-2 border-indigo-500 p-5 rounded-md bg-slate-100'>
                                     <img className='w-64 mx-auto p-3' src={order.prescriptionImage} alt="" />
