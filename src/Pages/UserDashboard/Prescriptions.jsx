@@ -14,7 +14,7 @@ const Prescriptions = () => {
                     <p className='text-rose-600 text-2xl font-semibold py-3 text-center'>You have not placed any order yet!</p>
                     <Link to="/" className='btn btn-primary py-3 text-white'>Order some medicine</Link>
                 </div> :
-                    <div className='w-full p-5'>
+                    <div className='w-full p-2'>
                         <h3 className='text-xl text-indigo-500 font-semibold lg:py-3 px-4'>You have {prescription.length} orders</h3>
                         <div className='grid md:grid-cols-3 grid-cols-1 gap-3 p-3'>
                             {
