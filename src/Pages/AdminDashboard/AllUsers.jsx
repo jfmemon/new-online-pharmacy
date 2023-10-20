@@ -1,16 +1,12 @@
 import { faTrashCan, faUserPlus } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { useQuery } from '@tanstack/react-query';
 import React from 'react';
 import Swal from 'sweetalert2';
-import useAxiosSecure from '../../Hooks/useAxiosSecure';
+import userImage from '../../assets/user.png'
+import useAllUsers from '../../Hooks/useAllUsers';
 
 const AllUsers = () => {
-    const [axiosSecure] = useAxiosSecure();
-    const { data: users = [], refetch } = useQuery(['users'], async () => {
-        const res = await axiosSecure.get('/users')
-        return res.data;
-    })
+    const [users, refetch] = useAllUsers();
 
     const handleMakeAdmin = user => {
         fetch(`http://localhost:5000/users/admin/${user._id}`, {
@@ -87,7 +83,10 @@ const AllUsers = () => {
                                 users.map((user, idx) => <tr key={user._id} className='hover:bg-slate-200'>
                                     <td className='py-2 px-8 border-b border-blue-gray-50'>{idx + 1}</td>
                                     <td className='py-2 px-8 border-b border-blue-gray-50'>
-                                        <img className='w-10 h-10 rounded-lg' src={user.photoURL} alt="" />
+                                        {
+                                            user.photoURL ? <img className='w-10 h-10 rounded-lg' src={user.photoURL} alt="" /> :
+                                                <img className='w-10 h-10 rounded-lg' src={userImage} alt="" />
+                                        }
                                     </td>
                                     <td className='py-2 px-8 border-b border-blue-gray-50'>{user.name}</td>
                                     <td className='py-2 px-8 border-b border-blue-gray-50 text-center'>{user.email}</td>

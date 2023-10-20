@@ -1,16 +1,11 @@
 import React from 'react';
-import useAxiosSecure from '../../Hooks/useAxiosSecure';
-import { useQuery } from '@tanstack/react-query';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTrashCan } from '@fortawesome/free-solid-svg-icons';
 import Swal from 'sweetalert2';
+import useAllPrescriptions from '../../Hooks/useAllPrescriptions';
 
 const AllPrescriptions = () => {
-    const [axiosSecure] = useAxiosSecure();
-    const { data: prescriptions = [], refetch } = useQuery(['prescriptions'], async () => {
-        const res = await axiosSecure.get("/prescriptions");
-        return res.data;
-    })
+    const [prescriptions, refetch] = useAllPrescriptions();
 
     const handleDeleteOrder = order => {
         Swal.fire({

@@ -22,6 +22,7 @@ const AdminDashboard = () => {
                     </div>
                     <li><NavLink to="/adminDashboard/adminHome">Admin home</NavLink></li>
                     <li><NavLink to="/adminDashboard/allUsers">All users</NavLink></li>
+                    <li><NavLink to="/adminDashboard/allOrders">All orders</NavLink></li>
                     <li><NavLink to="/adminDashboard/allPrescriptions">All prescriptions</NavLink></li>
                     <li><NavLink to="/adminDashboard/sexualWellnessItems">Sexual wellness</NavLink></li>
                     <li><NavLink to="/adminDashboard/birthControlItems">Birth control</NavLink></li>

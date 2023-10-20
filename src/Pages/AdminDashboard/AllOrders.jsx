@@ -1,16 +1,11 @@
 import React from 'react';
-import useAxiosSecure from '../../Hooks/useAxiosSecure';
-import { useQuery } from '@tanstack/react-query';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTrashCan } from '@fortawesome/free-solid-svg-icons';
 import Swal from 'sweetalert2';
+import useAllOrders from '../../Hooks/useAllOrders';
 
 const AllOrders = () => {
-    const [axiosSecure] = useAxiosSecure();
-    const { data: orders = [], refetch } = useQuery(['orders'], async () => {
-        const res = await axiosSecure.get("/allOrders");
-        return res.data;
-    })
+    const [orders, refetch] = useAllOrders();
 
     const handleDeleteOrder = (order) => {
         Swal.fire({
