@@ -71,7 +71,7 @@ const SexualWellnessProductDetails = () => {
     }
 
     return (
-        <div className='mt-20 '>
+        <div className='mt-16 '>
             <div className='grid md:grid-cols-2 grid-cols-1 gap-5 p-5 shadow-lg m-5 md:w-3/4 mx-auto text-gray-600'>
                 <div className='p-5'>
                     <img className='ml-auto' src={img} alt="" />
