@@ -70,7 +70,7 @@ const HealthAndWellness = () => {
                     healthAndWellness.map(items =>
                         <div
                             key={items._id}
-                            className="card card-compact bg-base-100 shadow-2xl p-2 rounded-none">
+                            className="card card-compact bg-white shadow-2xl p-2 rounded-none">
                             <figure><img className='md:w-40 md:h-40' src={items.img} alt="Shoes" /></figure>
                             <div className="card-body text-center">
                                 <h2 className='font-semibold text-sky-600'>{items.title}</h2>
