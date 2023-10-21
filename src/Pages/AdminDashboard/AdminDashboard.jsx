@@ -14,7 +14,7 @@ const AdminDashboard = () => {
             </div>
             <div className="drawer-side z-10">
                 <label htmlFor="my-drawer-2" className="drawer-overlay"></label>
-                <ul className="menu p-4 w-80 min-h-full bg-base-200 text-base-content">
+                <ul className="menu p-4 w-80 min-h-full bg-gray-200 text-base-content">
                     {/* Sidebar content here */}
                     <div className='mt-12 lg:mt-[-10px] flex justify-between items-center'>
                         <h3 className='py-2 lg:mt-0 text-2xl text-indigo-500'>Admin dashboard</h3>

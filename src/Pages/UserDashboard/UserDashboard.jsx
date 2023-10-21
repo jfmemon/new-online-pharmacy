@@ -22,16 +22,16 @@ const UserDashboard = () => {
             </div>
             <div className="drawer-side z-10">
                 <label htmlFor="my-drawer-2" className="drawer-overlay"></label>
-                <ul className="menu p-4 w-80 min-h-full bg-base-200 text-base-content">
+                <ul className="menu p-4 w-80 min-h-full bg-gray-200 text-base-content">
                     {/* Sidebar content here */}
                     <div className='mt-12 lg:mt-[-10px] flex justify-between items-center'>
                         <h3 className='py-2 lg:mt-0 text-2xl text-indigo-500'>User dashboard</h3>
                         <label className='text-xl text-red-500 font-bold lg:invisible' htmlFor="my-drawer-2" ><FontAwesomeIcon icon={faXmark} /></label>
                     </div>
                     <li><NavLink to="/userDashboard/userHome">User home</NavLink></li>
-                    <li><NavLink to="/userDashboard/myCart">My cart<span className="badge badge-sm indicator-item text-gray-600 font-bold">{cart?.length}</span></NavLink></li>
-                    <li><NavLink to="/userDashboard/orderList">Order list<span className="badge badge-sm indicator-item text-gray-600 font-bold">{orders?.length}</span></NavLink></li>
-                    <li><NavLink to="/userDashboard/prescriptions">Prescriptions list<span className="badge badge-sm indicator-item text-gray-600 font-bold">{prescription?.length}</span></NavLink></li>
+                    <li><NavLink to="/userDashboard/myCart">My cart<span className="badge badge-sm indicator-item text-gray-600 font-bold bg-white border-none">{cart?.length}</span></NavLink></li>
+                    <li><NavLink to="/userDashboard/orderList">Order list<span className="badge badge-sm indicator-item text-gray-600 font-bold bg-white border-none">{orders?.length}</span></NavLink></li>
+                    <li><NavLink to="/userDashboard/prescriptions">Prescriptions list<span className="badge badge-sm indicator-item text-gray-600 font-bold bg-white border-none">{prescription?.length}</span></NavLink></li>
                 </ul>
             </div>
         </div>

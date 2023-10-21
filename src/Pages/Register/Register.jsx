@@ -59,47 +59,47 @@ const Register = () => {
             <Helmet>
                 <title>SHEFA | Registration</title>
             </Helmet>
-            <div className="hero bg-base-200">
+            <div className="hero bg-gray-100">
                 <div className="hero-content md:flex md:flex-row flex-col">
                     <div className="text-center lg:text-center">
                         <img className="w-[500px] mr-20" src={signupImage} alt="" />
                     </div>
-                    <div className="card flex-shrink-0 md:w-96 shadow-2xl bg-base-100">
+                    <div className="card flex-shrink-0 md:w-96 shadow-2xl bg-white">
                         <h3 className="py-5 text-center font-semibold text-2xl text-[#76D7C4]">Sign Up</h3>
                         <form className="card-body pt-0" onSubmit={handleSubmit(onSubmit)}>
                             <div className="form-control">
                                 <label className="label">
                                     <span className="label-text">Name</span>
                                 </label>
-                                <input {...register("name", { required: true })} type="text" placeholder="Eg: Ayatollah Khomeini" className="input input-bordered" />
+                                <input {...register("name", { required: true })} type="text" placeholder="Eg: Ayatollah Khomeini" className="input input-bordered bg-gray-100" />
                                 {errors.name && <span className="text-red-500">*This field is required</span>}
                             </div>
                             <div className="form-control">
                                 <label className="label">
                                     <span className="label-text">Photo URL</span>
                                 </label>
-                                <input {...register("photoURL", { required: false })} type="url" placeholder="Eg: photoURL.com (Public link)" className="input input-bordered" />
+                                <input {...register("photoURL", { required: false })} type="url" placeholder="Eg: photoURL.com (Public link)" className="input input-bordered bg-gray-100" />
                                 {errors.photoURL && <span className="text-red-500">*This field is required</span>}
                             </div>
                             <div className="form-control">
                                 <label className="label">
                                     <span className="label-text">Email</span>
                                 </label>
-                                <input {...register("email", { required: true })} type="email" placeholder="Eg: ayatollah@gmail.com" className="input input-bordered" />
+                                <input {...register("email", { required: true })} type="email" placeholder="Eg: ayatollah@gmail.com" className="input input-bordered bg-gray-100" />
                                 {errors.email && <span className="text-red-500">*This field is required</span>}
                             </div>
                             <div className="form-control">
                                 <label className="label">
                                     <span className="label-text">Phone number</span>
                                 </label>
-                                <input {...register("phoneNumber", { required: true })} type="number" placeholder="+880" className="input input-bordered" />
+                                <input {...register("phoneNumber", { required: true })} type="number" placeholder="+880" className="input input-bordered bg-gray-100" />
                                 {errors.phoneNumber && <span className="text-red-500">*This field is required</span>}
                             </div>
                             <div className="form-control">
                                 <label className="label">
                                     <span className="label-text">Address</span>
                                 </label>
-                                <input {...register("address", { required: false })} type="text" placeholder="Eg: Tehran, Iran" className="input input-bordered" />
+                                <input {...register("address", { required: false })} type="text" placeholder="Eg: Tehran, Iran" className="input input-bordered bg-gray-100" />
                                 {errors.address && <span className="text-red-500">*This field is required</span>}
                             </div>
                             <div className="form-control">
@@ -111,7 +111,7 @@ const Register = () => {
                                     minLength: 8,
                                     maxLength: 20,
                                     pattern: /(?=.*[A-Z])(?=.*[!@#$&*])(?=.*[0-9])(?=.*[a-z])/
-                                })} type="password" placeholder="password" className="input input-bordered" />
+                                })} type="password" placeholder="password" className="input input-bordered bg-gray-100" />
                                 {errors.password?.type === "required" && <span className="text-red-500">*This field is required</span>}
                                 {errors.password?.type === "minLength" && <span className="text-red-500">*Password must have at least 8 character.</span>}
                                 {errors.password?.type === "maxLength" && <span className="text-red-500">*Password should not have more than 20 character.</span>}
@@ -121,7 +121,7 @@ const Register = () => {
                                 </label>
                             </div>
                             <div className="form-control mt-6">
-                                <input type="submit" value="Register" className="btn text-white" style={{ backgroundColor: "#76D7C4" }} />
+                                <input type="submit" value="Register" className="btn text-white border-none" style={{ backgroundColor: "#76D7C4" }} />
                             </div>
                         </form>
                     </div>

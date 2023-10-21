@@ -19,7 +19,7 @@ const Home = () => {
             <Helmet>
                 <title>SHEFA</title>
             </Helmet>
-            <div className="w-full mt-20 mb-4 lg:my-[-24px] visible lg:invisible">
+            <div className="w-full mt-16 mb-4 lg:my-[-24px] visible lg:invisible">
                 <div className="relative">
                     <input type="text" placeholder="Search for health products" className="input input-md input-bordered w-full py-4 rounded-none bg-slate-100" />
                     <div className='absolute right-0 top-3 px-2 py-1 bg-white mr-4 rounded-lg'>

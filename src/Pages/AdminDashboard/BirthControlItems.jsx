@@ -91,7 +91,7 @@ const BirthControlItems = () => {
             </div>
             <button onClick={() => document.getElementById('my_modal_1').showModal()} className='ml-4 text-center border px-2 md:py-1 py-1 border-primary font-semibold text-sm cursor-pointer text-primary hover:bg-primary hover:text-white uppercase'>Add new item</button>
             <dialog id="my_modal_1" className="modal">
-                <div className="modal-box w-10/12 max-w-5xl">
+                <div className="modal-box w-10/12 max-w-5xl bg-white">
                     <form method="dialog">
                         {/* if there is a button in form, it will close the modal */}
                         <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
@@ -135,7 +135,7 @@ const BirthControlItems = () => {
                     birthControl.map(items =>
                         <div
                             key={items._id}
-                            className="card card-compact bg-base-100 shadow-2xl p-2 rounded-none">
+                            className="card card-compact bg-white shadow-2xl p-2 rounded-none">
                             <figure><img className='md:w-40 md:h-40' src={items.img} alt="Shoes" /></figure>
                             <div className="card-body text-center">
                                 <h2 className='font-semibold text-sky-600'>{items.title}</h2>
