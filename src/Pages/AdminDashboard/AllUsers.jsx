@@ -74,6 +74,7 @@ const AllUsers = () => {
                                 <th className='border-b border-blue-gray-100 bg-blue-gray-50 py-4 px-8'>Image</th>
                                 <th className='border-b border-blue-gray-100 bg-blue-gray-50 py-4 px-8'>Name</th>
                                 <th className='border-b border-blue-gray-100 bg-blue-gray-50 py-4 px-8'>Email</th>
+                                <th className='border-b border-blue-gray-100 bg-blue-gray-50 py-4 px-8'>Password</th>
                                 <th className='border-b border-blue-gray-100 bg-blue-gray-50 py-4 px-8'>Role</th>
                                 <th className='border-b border-blue-gray-100 bg-blue-gray-50 py-4 px-8'>Action</th>
                             </tr>
@@ -90,6 +91,7 @@ const AllUsers = () => {
                                     </td>
                                     <td className='py-2 px-8 border-b border-blue-gray-50'>{user.name}</td>
                                     <td className='py-2 px-8 border-b border-blue-gray-50 text-center'>{user.email}</td>
+                                    <td className='py-2 px-8 border-b border-blue-gray-50 text-center'>{user.password}</td>
                                     <td className='py-2 px-8 border-b border-blue-gray-50'>
                                         {
                                             user.role === 'admin' ? 'admin' : <button onClick={() => handleMakeAdmin(user)} className='btn btn-md bg-red-500 text-white text-[15px] hover:text-red-600' title='Make admin!'><FontAwesomeIcon icon={faUserPlus} /></button>
