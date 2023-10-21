@@ -65,7 +65,7 @@ const ShowItemsByCard = ({ items }) => {
     }
 
     return (
-        <div className="card card-compact bg-base-100 shadow-2xl p-2 rounded-none">
+        <div className="card card-compact bg-white shadow-2xl p-2 rounded-none">
             <figure><img className='md:w-40 md:h-40' src={img} alt="Shoes" /></figure>
             <div className="card-body text-center">
                 <h2 className='font-semibold text-sky-600'>{title}</h2>
