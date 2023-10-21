@@ -87,7 +87,7 @@ const Header = () => {
             </div>
             <div className="navbar-center invisible lg:visible md:w-2/4 w-1/4">
                 <div className='relative'>
-                    <input type="text" placeholder="Search for health products" className="input input-sm input-bordered w-[680px] py-4 rounded-2xl" />
+                    <input type="text" placeholder="Search for health products" className="input input-sm input-bordered w-[640px] py-4 rounded-2xl bg-white" />
                     <div className='absolute right-0 top-1 px-2 py-1 bg-white mr-1 rounded-lg'>
                         <Link to='/' className='flex items-center text-cyan-500'><ion-icon name="search"></ion-icon></Link>
                     </div>
@@ -126,7 +126,7 @@ const Header = () => {
                             <label className="btn btn-ghost text-white px-[15px] hover:border-zinc-50" title='See cart list' onClick={() => setOpen(!open)}>
                                 <Link to="/userDashboard/userHome" className="indicator">
                                     <span className='text-xl'><FontAwesomeIcon icon={faCartShopping} /></span>
-                                    <span className="badge badge-sm indicator-item text-gray-600">{cart?.length}</span>
+                                    <span className="badge badge-sm indicator-item text-gray-600 bg-white border-none">{cart?.length}</span>
                                 </Link>
                             </label>
                         </div>
