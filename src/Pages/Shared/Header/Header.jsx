@@ -63,7 +63,7 @@ const Header = () => {
                     </label>
                     {
                         open && (
-                            <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 w-52 gap-3">
+                            <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-white w-52 gap-3">
                                 <li>
                                     <Link to='/uploadPrescription' className='rounded-none' onClick={closeDropdown}>
                                         <span className='text-teal-500 items-center mt-2'><ion-icon name="cloud-upload" size="small"></ion-icon></span>
