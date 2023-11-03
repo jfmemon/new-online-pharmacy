@@ -70,7 +70,7 @@ const SexualWellness = () => {
                     <div className="divider md:w-[300px] w-60 mb-5 text-indigo-500 font-semibold hover:font-bold">Sexual Wellness</div>
                 </Link>
             </div>
-            <Swiper
+            {/* <Swiper
                 slidesPerView={4}
                 spaceBetween={25}
                 pagination={{ el: '.swiper-pagination', clickable: true }}
@@ -130,7 +130,7 @@ const SexualWellness = () => {
                         <ion-icon name="arrow-forward-outline"></ion-icon>
                     </div>
                 </div>
-            </Swiper>
+            </Swiper> */}
         </div>
     );
 };

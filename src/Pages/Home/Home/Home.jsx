@@ -12,6 +12,7 @@ import MedicalDevices from "../MedicalDevices/MedicalDevices";
 import PersonalCare from "../PersonalCare/PersonalCare";
 import HealthAndWellness from "../HealthAndWellness/HealthAndWellness";
 import BabyCare from "../BabyCare/BabyCare";
+import Category from "../Category/Category";
 
 const Home = () => {
     return (
@@ -30,13 +31,14 @@ const Home = () => {
             <FirstGrid></FirstGrid>
             <Carousel></Carousel>
             <ShopByCondition></ShopByCondition>
-            <SexualWellness></SexualWellness>
+            {/* <SexualWellness></SexualWellness>
             <BirthControl></BirthControl>
             <VitaminsAndSupplements></VitaminsAndSupplements>
             <MedicalDevices></MedicalDevices>
             <PersonalCare></PersonalCare>
             <HealthAndWellness></HealthAndWellness>
-            <BabyCare></BabyCare>
+            <BabyCare></BabyCare> */}
+            <Category></Category>
         </div>
     );
 };
