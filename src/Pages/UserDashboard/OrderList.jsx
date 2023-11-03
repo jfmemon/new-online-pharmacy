@@ -5,8 +5,8 @@ import emptyOrder from '../../assets/empty_order.svg'
 const OrderList = () => {
     const [orders] = useOrders();
 
-    console.log(orders.length);
-    console.log(orders);
+    // console.log(orders.length);
+    // console.log(orders);
 
     return (
         <div className='mx-auto'>
@@ -27,6 +27,7 @@ const OrderList = () => {
                                     <p className='font-semibold py-1 text-center'>Phone number: <span className='text-rose-600 font-bold'>{order.phoneNumber}</span></p>
                                     <p className='font-semibold py-1 text-center'>Email: <span className='text-rose-600 font-bold'>{order.email}</span></p>
                                     <p className='font-semibold py-1 text-center'>Delivery address: <span className='text-rose-600 font-bold'>{order.address}</span></p>
+                                    <p className='font-semibold py-1 text-center'>Payment type: <span className='text-rose-600 font-bold'>{order.paymentType}</span></p>
                                     <p className='font-semibold py-1 text-center'>Item quantity: <span className='text-rose-600 font-bold'>{order.itemQuantity}</span></p>
                                     <p className='font-semibold py-1 text-center'>Total cost: <span className='text-rose-600 font-bold'>{order.cost}</span> tk</p>
                                     <div className='grid min-h-[140px] w-full place-items-center overflow-x-scroll lg:overflow-hidden rounded-lg p-6'>

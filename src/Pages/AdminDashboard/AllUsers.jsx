@@ -66,7 +66,7 @@ const AllUsers = () => {
                 <h3 className='text-2xl font-semibold'>Total users: <span className='text-rose-500'>{users.length}</span></h3>
             </div>
             <div className='grid min-h-[140px] w-full place-users-center overflow-x-scroll lg:overflow-hidden rounded-lg p-6'>
-                <div className='relative flex flex-col bg-clip-border rounded-xl bg-white text-gray-700 shadow-md h-full w-full lg:overflow-hidden overflow-scroll'>
+                <div className='relative flex flex-col bg-clip-border rounded-xl bg-white text-gray-700 shadow-md h-full w-full lg:overflow-x-scroll lg:overflow-hidden overflow-scroll'>
                     <table className='w-full min-w-max table-auto text-left'>
                         <thead>
                             <tr className='bg-gray-800 text-white'>
@@ -74,6 +74,7 @@ const AllUsers = () => {
                                 <th className='border-b border-blue-gray-100 bg-blue-gray-50 py-4 px-6'>Image</th>
                                 <th className='border-b border-blue-gray-100 bg-blue-gray-50 py-4 px-6'>Name</th>
                                 <th className='border-b border-blue-gray-100 bg-blue-gray-50 py-4 px-6'>Email</th>
+                                <th className='border-b border-blue-gray-100 bg-blue-gray-50 py-4 px-6'>Phone</th>
                                 <th className='border-b border-blue-gray-100 bg-blue-gray-50 py-4 px-6'>Password</th>
                                 <th className='border-b border-blue-gray-100 bg-blue-gray-50 py-4 px-6'>Role</th>
                                 <th className='border-b border-blue-gray-100 bg-blue-gray-50 py-4 px-6'>Action</th>
@@ -91,6 +92,7 @@ const AllUsers = () => {
                                     </td>
                                     <td className='py-2 px-6 border-b border-blue-gray-50'>{user.name}</td>
                                     <td className='py-2 px-6 border-b border-blue-gray-50'>{user.email}</td>
+                                    <td className='py-2 px-6 border-b border-blue-gray-50'>{user.phone}</td>
                                     <td className='py-2 px-6 border-b border-blue-gray-50'>{user.password}</td>
                                     <td className='py-2 px-6 border-b border-blue-gray-50'>
                                         {

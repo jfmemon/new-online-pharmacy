@@ -49,6 +49,7 @@ const AllOrders = () => {
                     <p className='font-semibold py-1 text-center'>User email: <span className='text-rose-600 font-bold'>{order.userEmail}</span></p>
                     <p className='font-semibold py-1 text-center'>Customer email: <span className='text-rose-600 font-bold'>{order.email}</span></p>
                     <p className='font-semibold py-1 text-center'>Delivery address: <span className='text-rose-600 font-bold'>{order.address}</span></p>
+                    <p className='font-semibold py-1 text-center'>Payment type: <span className='text-rose-600 font-bold'>{order.paymentType}</span></p>
                     <p className='font-semibold py-1 text-center'>Item quantity: <span className='text-rose-600 font-bold'>{order.itemQuantity}</span></p>
                     <p className='font-semibold py-1 text-center'>Total cost: <span className='text-rose-600 font-bold'>{order.cost}</span> tk</p>
                     <p className='pl-8 text-xl font-semibold'>Items-</p>

@@ -13,7 +13,7 @@ const Prescriptions = () => {
                 prescription.length == 0 ? <div className='w-full flex flex-col gap-3 items-center p-5'>
                     <img className='w-96 py-3' src={emptyOrder} alt="" />
                     <p className='text-rose-600 text-2xl font-semibold py-3 text-center'>You have not placed any order yet!</p>
-                    <Link to="/" className='btn btn-primary py-3 text-white'>Order some medicine</Link>
+                    <Link to="/uploadPrescription" className='btn btn-primary py-3 text-white'>Upload prescription</Link>
                 </div> :
                     <div className='w-full p-2'>
                         <h3 className='text-xl text-indigo-500 font-semibold lg:py-3 px-4'>You have {prescription.length} orders</h3>
@@ -26,6 +26,7 @@ const Prescriptions = () => {
                                     <p className='font-semibold py-1 text-center'>Phone number: <span className='text-rose-600 font-bold'>{order.phoneNumber}</span></p>
                                     <p className='font-semibold py-1 text-center'>Email: <span className='text-rose-600 font-bold'>{order.email}</span></p>
                                     <p className='font-semibold py-1 text-center'>Delivery address: <span className='text-rose-600 font-bold'>{order.deliveryAddress}</span></p>
+                                    <p className='font-semibold py-1 text-center'>Payment type: <span className='text-rose-600 font-bold'>{order.paymentType}</span></p>
                                 </div>)
                             }
                         </div>
