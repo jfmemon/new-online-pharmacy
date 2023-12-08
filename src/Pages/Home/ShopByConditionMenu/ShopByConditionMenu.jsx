@@ -2,8 +2,8 @@ import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 
 const ShopByConditionMenu = ({ menu }) => {
-    // console.log(menu);
     const { _id, name, image } = menu;
+    console.log(menu)
 
     return (
         <Link to={`/category/shopByCondition/${_id}`}>

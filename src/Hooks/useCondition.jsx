@@ -1,17 +1,17 @@
 import { useEffect, useState } from 'react';
 
 const useCondition = () => {
-    const [condition, setCondition] = useState([]);
+    const [conditionalItem, setConditionlItem] = useState([]);
     const [loading, setLoading] = useState(true);
     useEffect(() => {
         fetch("https://online-pharmacy-server.vercel.app/shopByCondition")
             .then(res => res.json())
             .then(data => {
-                setCondition(data);
+                setConditionlItem(data);
                 setLoading(false);
             })
     }, []);
-    return [condition, loading];
+    return [conditionalItem, loading];
 };
 
 export default useCondition;
