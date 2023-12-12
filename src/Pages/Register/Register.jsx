@@ -12,7 +12,7 @@ const Register = () => {
     const navigate = useNavigate();
 
     const onSubmit = data => {
-        createUser(data.email, data.password)
+        createUser(data?.email, data?.password)
             .then(result => {
                 const loggedUser = result.user;
                 console.log(loggedUser);
@@ -27,20 +27,21 @@ const Register = () => {
                         'content-type': 'application/json'
                     },
                     body: JSON.stringify(saveUser)
-                });
+                })
+                    .then(res => res.json())
+                    .then(data => {
+                        if (data.insertedId) {
+                            reset();
+                            Swal.fire(
+                                'Welcome to shefa!',
+                                'Registration done!',
+                                'success'
+                            )
+                            navigate('/');
+                        }
+                    })
             })
-            .then(res => res.json())
-            .then(data => {
-                if (data.insertedId) {
-                    reset();
-                    Swal.fire(
-                        'Welcome to shefa!',
-                        'Registration done!',
-                        'success'
-                    )
-                    navigate('/');
-                }
-            })
+
             .catch(error => {
                 Swal.fire({
                     icon: 'error',
