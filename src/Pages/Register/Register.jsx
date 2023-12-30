@@ -77,13 +77,6 @@ const Register = () => {
                             </div>
                             <div className="form-control">
                                 <label className="label">
-                                    <span className="label-text">Photo URL</span>
-                                </label>
-                                <input {...register("photoURL", { required: false })} type="url" placeholder="Eg: photoURL.com (Public link)" className="input input-bordered bg-gray-100" />
-                                {errors.photoURL && <span className="text-red-500">*This field is required</span>}
-                            </div>
-                            <div className="form-control">
-                                <label className="label">
                                     <span className="label-text">Email</span>
                                 </label>
                                 <input {...register("email", { required: true })} type="email" placeholder="Eg: ayatollah@gmail.com" className="input input-bordered bg-gray-100" />
