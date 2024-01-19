@@ -6,11 +6,15 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons';
 import useOrders from '../../Hooks/useOrders';
 import usePrescription from '../../Hooks/usePrescription';
+import useMessage from '../../Hooks/useMessage';
 
 const UserDashboard = () => {
     const [cart] = useCart();
     const [orders] = useOrders();
     const [prescription] = usePrescription();
+    const [messages] = useMessage();
+
+    // console.log("user dashboard message-----",messages);
 
     return (
         <div className="drawer lg:drawer-open">
@@ -32,6 +36,7 @@ const UserDashboard = () => {
                     <li><NavLink to="/userDashboard/myCart">My cart<span className="badge badge-sm indicator-item text-gray-600 font-bold bg-white border-none">{cart?.length}</span></NavLink></li>
                     <li><NavLink to="/userDashboard/orderList">Order list<span className="badge badge-sm indicator-item text-gray-600 font-bold bg-white border-none">{orders?.length}</span></NavLink></li>
                     <li><NavLink to="/userDashboard/prescriptions">Prescriptions list<span className="badge badge-sm indicator-item text-gray-600 font-bold bg-white border-none">{prescription?.length}</span></NavLink></li>
+                    <li><NavLink to="/userDashboard/messages">My messages<span className="badge badge-sm indicator-item text-gray-600 font-bold bg-white border-none">{messages?.length}</span></NavLink></li>
                 </ul>
             </div>
         </div>

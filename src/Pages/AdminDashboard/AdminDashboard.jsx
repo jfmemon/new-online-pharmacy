@@ -24,6 +24,7 @@ const AdminDashboard = () => {
                     <li><NavLink to="/adminDashboard/allUsers">All users</NavLink></li>
                     <li><NavLink to="/adminDashboard/allOrders">All orders</NavLink></li>
                     <li><NavLink to="/adminDashboard/allPrescriptions">All prescriptions</NavLink></li>
+                    <li><NavLink to="/adminDashboard/allMessages">All messages</NavLink></li>
                     <li><NavLink to="/adminDashboard/sexualWellnessItems">Sexual wellness</NavLink></li>
                     <li><NavLink to="/adminDashboard/birthControlItems">Birth control</NavLink></li>
                     <li><NavLink to="/adminDashboard/vitaminsAndSupplementsItems">Vitamins and supplements</NavLink></li>

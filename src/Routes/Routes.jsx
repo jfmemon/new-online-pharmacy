@@ -41,6 +41,8 @@ import MedicalDevicesItems from "../Pages/AdminDashboard/MedicalDevicesItems";
 import PersonalCareItems from "../Pages/AdminDashboard/PersonalCareItems";
 import HealthAndWellnessItems from "../Pages/AdminDashboard/HealthAndWellnessItems";
 import BabyCareItems from "../Pages/AdminDashboard/BabyCareItems";
+import MyMessages from "../Pages/UserDashboard/MyMessages";
+import AllMessages from "../Pages/AdminDashboard/AllMessages";
 
 export const router = createBrowserRouter([
     {
@@ -162,6 +164,10 @@ export const router = createBrowserRouter([
                     {
                         path: 'orderConfirm',
                         element: <OrderConfirm></OrderConfirm>
+                    },
+                    {
+                        path: 'messages',
+                        element: <MyMessages></MyMessages>
                     }
                 ]
             },
@@ -184,6 +190,10 @@ export const router = createBrowserRouter([
                     {
                         path: 'allPrescriptions',
                         element: <AdminRoute><AllPrescriptions></AllPrescriptions></AdminRoute>
+                    },
+                    {
+                        path: 'allMessages',
+                        element: <AdminRoute><AllMessages></AllMessages></AdminRoute>
                     },
                     {
                         path: 'sexualWellnessItems',

@@ -3,7 +3,7 @@ import useCondition from '../../Hooks/useCondition';
 import ShopByConditionMenu from '../Home/ShopByConditionMenu/ShopByConditionMenu';
 
 const ShopByCondition = () => {
-    const [condition] = useCondition();
+    const [conditionalItem] = useCondition();
     return (
         <div>
             <div className='flex justify-center'>
@@ -11,7 +11,7 @@ const ShopByCondition = () => {
             </div>
             <div className='flex justify-center flex-wrap gap-5 md:gap-2 mb-10'>
                 {
-                    condition.map(menu => <ShopByConditionMenu
+                    conditionalItem.map(menu => <ShopByConditionMenu
                         key={menu._id}
                         menu={menu}
                     ></ShopByConditionMenu>)
