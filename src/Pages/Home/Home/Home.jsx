@@ -23,7 +23,7 @@ const Home = () => {
             </div>
             <FirstGrid></FirstGrid>
             <Carousel></Carousel>
-            <ShopByCondition></ShopByCondition>
+            {/* <ShopByCondition></ShopByCondition> */}
             <Category></Category>
         </div>
     );

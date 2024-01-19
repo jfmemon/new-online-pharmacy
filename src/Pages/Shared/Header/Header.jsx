@@ -71,7 +71,7 @@ const Header = () => {
                                     </Link>
                                 </li>
                                 <div className="divider my-0 h-[1px]"></div>
-                                <li><Link onClick={closeDropdown} to="/category/shopByCondition" className='rounded-none'><img className='w-5' src={img1} alt="Shop by condition" /> Shop by condition</Link></li>
+                                {/* <li><Link onClick={closeDropdown} to="/category/shopByCondition" className='rounded-none'><img className='w-5' src={img1} alt="Shop by condition" /> Shop by condition</Link></li> */}
                                 <li><Link onClick={closeDropdown} to="/category/sexualWellness" className='rounded-none'><img className='w-5' src={img2} alt="Sexual wellness" /> Sexual wellness</Link></li>
                                 <li><Link onClick={closeDropdown} to="/category/birthControl" className='rounded-none'><img className='w-5' src={img3} alt="Birth control" /> Birth control</Link></li>
                                 <li><Link onClick={closeDropdown} to="/category/vitaminsAndSupplements" className='rounded-none'><img className='w-5' src={img4} alt="Vitamins and supplements" /> Vitamins and supplements</Link></li>

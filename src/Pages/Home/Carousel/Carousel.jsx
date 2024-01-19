@@ -69,12 +69,21 @@ const Carousel = () => {
                     }
                 }}
             >
-                <SwiperSlide>
+                {/* <SwiperSlide>
                     <div className="overlay">
                         <img className='w-full h-96 md:rounded-lg' src={img1} alt="slide_image" />
                         <div className="content">
                             <h3 className='text-3xl font-bold text-white mb-12 uppercase'>Shop By Condition</h3>
                             <Link to='/category/shopByCondition' className='btn btn-outline btn-warning uppercase'>See more</Link>
+                        </div>
+                    </div>
+                </SwiperSlide> */}
+                <SwiperSlide>
+                    <div className="overlay">
+                        <img className='w-full h-96 md:rounded-lg' src={img5} alt="slide_image" />
+                        <div className="content">
+                            <h3 className='text-3xl font-bold text-white mb-12 uppercase'>Medical devices</h3>
+                            <Link to='/category/medicalDevices' className='btn btn-outline btn-warning uppercase'>See more</Link>
                         </div>
                     </div>
                 </SwiperSlide>
@@ -102,15 +111,6 @@ const Carousel = () => {
                         <div className="content">
                             <h3 className='text-3xl font-bold text-white mb-12 uppercase'>Vitamins and supplements</h3>
                             <Link to='/category/vitaminsAndSupplements' className='btn btn-outline btn-warning uppercase'>See more</Link>
-                        </div>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className="overlay">
-                        <img className='w-full h-96 md:rounded-lg' src={img5} alt="slide_image" />
-                        <div className="content">
-                            <h3 className='text-3xl font-bold text-white mb-12 uppercase'>Medical devices</h3>
-                            <Link to='/category/medicalDevices' className='btn btn-outline btn-warning uppercase'>See more</Link>
                         </div>
                     </div>
                 </SwiperSlide>
